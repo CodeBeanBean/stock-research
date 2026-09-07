@@ -1,0 +1,19 @@
+Haidilao 06862.HK market snapshot
+Research cutoff: 2026-08-26 Asia/Shanghai
+
+Price:
+- 2026-08-25 close: HKD 11.41 per share
+- Approximate market capitalization reported: HKD 63.6 billion
+- Source: https://finance.sina.com.cn/jjxw/2026-08-25/doc-inippvuh9587221.shtml
+- Limitation: secondary market source; interim results were released after market close.
+
+FX:
+- 2026-08-25 RMB central parity: HKD 100 = RMB 86.587
+- Model conversion: HKD 1 = RMB 0.86587
+- Source: https://www3.xinhuanet.com/20260825/fe315eed4ea54f22a05585a8c897b451/c.html
+- Limitation: central parity, not executable exchange rate.
+
+Shares:
+- Issued shares at 2026-07-31: 5,574,000,000
+- Source: HKEX monthly return dated 2026-08-05
+- URL: https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0805/2026080501010.pdf

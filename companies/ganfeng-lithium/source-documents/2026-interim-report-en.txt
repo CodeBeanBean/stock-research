@@ -1,0 +1,3071 @@
+
+
+===== PAGE 1 =====
+– 1 –
+Hong Kong Exchanges and Clearing Limited and The Stock Exchange of Hong Kong Limited 
+take no responsibility for the contents of this announcement, make no representation as to 
+its accuracy or completeness and expressly disclaim any liability whatsoever for any loss 
+howsoever arising from or in reliance upon the whole or any part of the contents of this 
+announcement.
+ʮ̡
+(A joint stock company incorporated in the People’s Republic of China with limited liability)
+(Stock Code: 1772)
+INTERIM RESULTS ANNOUNCEMENT
+FOR THE SIX MONTHS ENDED 30 JUNE 2026
+The board (the “Board”) of directors (the “Directors”) of Ganfeng Lithium Group Co., Ltd. 
+(the “ Company ”) hereby announces the unaudited condensed consolidated interim results 
+of the Company and its subsidiaries (collectively, the “Group”) for the six months ended 30 
+June 2026 (the “Reporting Period”).
+
+===== PAGE 2 =====
+– 2 –
+FINANCIAL INFORMATION
+INTERIM CONDENSED CONSOLIDATED STATEMENT OF PROFIT OR LOSS
+For the six months ended 30 June 2026
+Notes 2026 2025
+(Unaudited) (Unaudited)
+RMB’000 RMB’000
+Revenue 4(a) 22,884,121 8,257,668
+Cost of sales (15,748,194) (7,367,394)
+  
+Gross profit 7,135,927 890,274
+Other income and gains 4(b) 969,082 983,607
+Selling and distribution expenses (108,589) (85,441)
+Administrative expenses (1,433,988) (1,072,342)
+Other expenses 5 (338,483) (710,750)
+Finance costs 6 (647,318) (703,881)
+Share of profits and losses of:
+Associates 51,440 (15,613)
+Joint ventures 574,078 (229,452)
+  
+Profit/(loss) before tax 7 6,202,149 (943,598)
+Income tax (expense)/credit 8 (1,769,910) 157,215
+  
+Profit/(loss) for the period 4,432,239 (786,383)
+  
+Attributable to:
+Owners of the parent 4,257,541 (536,213)
+Non-controlling interests 174,698 (250,170)
+  
+4,432,239 (786,383)
+  
+EARNINGS/(LOSS) PER SHARE 
+ATTRIBUTABLE TO ORDINARY EQUITY 
+HOLDERS OF THE PARENT
+Basic
+– For earnings/(loss) for the period 10 RMB2.04 RMB(0.27)
+  
+Diluted
+– For earnings/(loss) for the period 10 RMB2.03 RMB(0.27)
+  
+
+===== PAGE 3 =====
+– 3 –
+INTERIM CONDENSED CONSOLIDATED STATEMENT OF COMPREHENSIVE 
+INCOME
+For the six months ended 30 June 2026
+2026 2025
+(Unaudited) (Unaudited)
+RMB’000 RMB’000
+Profit/(loss) for the period 4,432,239 (786,383)
+  
+Other comprehensive income that may be  
+reclassified to profit or loss in subsequent periods:
+Debt investments at fair value through other  
+comprehensive income:
+Changes in fair value (333) 977
+Cash flow hedges:
+Effective portion of changes in fair value of  
+hedging instruments arising during the period 63,786 (56,998)
+Reclassification adjustments for gains included  
+in the consolidated statement of profit or loss (91,164) 24,016
+Income tax effect 1,640 4,947
+  
+(25,738) (28,035)
+Exchange differences on translation of foreign operations (1,150,170) (134,714)
+Share of other comprehensive income of associates  
+and joint ventures (11,317) 4,823
+  
+Other comprehensive income for the period, net of tax (1,187,558) (156,949)
+  
+Total comprehensive income for the period, net of tax 3,244,681 (943,332)
+  
+Attributable to:
+Owners of the parent 3,167,831 (672,807)
+Non-controlling interests 76,850 (270,525)
+  
+3,244,681 (943,332)
+  
+
+===== PAGE 4 =====
+– 4 –
+INTERIM CONDENSED CONSOLIDATED STATEMENT OF FINANCIAL POSITION
+30 June 2026
+June 30 December 31
+Notes 2026 2025
+(Unaudited) (Audited)
+RMB’000 RMB’000
+NON-CURRENT ASSETS
+Property, plant and equipment 37,560,493 36,867,781
+Investment properties 5,114 5,332
+Right-of-use assets 1,571,171 1,544,665
+Goodwill 182,011 182,011
+Other intangible assets 18,973,773 19,466,105
+Investments in joint ventures 3,562,112 2,763,865
+Investments in associates 8,943,338 8,809,848
+Financial assets at fair value through profit or loss 2,786,996 3,650,829
+Equity investments designated at fair value through 
+other comprehensive income 50,500 50,500
+Amounts due from related parties 1,149,617 2,020,994
+Deferred tax assets 1,114,095 1,154,861
+Pledged deposits 64,108 62,134
+Other non-current assets 1,566,022 1,520,802
+  
+Total non-current assets 77,529,350 78,099,727
+  
+CURRENT ASSETS
+Inventories 15,150,000 13,001,739
+Trade and bills receivables 11 10,559,102 7,143,998
+Debt investments at fair value through other 
+comprehensive income 12 1,662,332 1,548,922
+Amounts due from related parties 246,600 1,365,911
+Prepayments, other receivables and other assets 5,368,742 3,502,840
+Financial assets at fair value through profit or loss 458,965 140,306
+Derivative financial instruments 109,611 32,959
+Pledged deposits 215,588 553,443
+Cash and cash equivalents 10,960,094 7,868,247
+  
+Total current assets 44,731,034 35,158,365
+  
+
+===== PAGE 5 =====
+– 5 –
+June 30 December 31
+Notes 2026 2025
+(Unaudited) (Audited)
+RMB’000 RMB’000
+CURRENT LIABILITIES
+Trade and bills payables 13 14,603,194 12,309,624
+Other payables and accruals 7,248,429 7,293,151
+Bonds payables 504,382 1,212,468
+Derivative financial instruments 128,194 252,584
+Interest-bearing bank and other borrowings 15,556,585 15,824,253
+Amounts due to related parties 469,067 1,080,222
+Provision 60,548 60,745
+Income tax payable 1,412,898 240,663
+  
+Total current liabilities 39,983,297 38,273,710
+  
+NET CURRENT ASSETS/(LIABILITIES) 4,747,737 (3,115,345)
+  
+TOTAL ASSETS LESS CURRENT LIABILITIES 82,277,087 74,984,382
+  
+NON-CURRENT LIABILITIES
+Interest-bearing bank and other borrowings 19,975,361 16,921,462
+Bonds payables 940,361 1,145,011
+Deferred income 850,916 835,046
+Deferred tax liabilities 1,159,287 895,480
+Amounts due to related parties 2,281,218 2,167,210
+Provision 323,755 290,949
+Other non-current liabilities 1,874,537 891,648
+  
+Total non-current liabilities 27,405,435 23,146,806
+  
+Total liabilities 67,388,732 61,420,516
+  
+Net assets 54,871,652 51,837,576
+  
+
+===== PAGE 6 =====
+– 6 –
+June 30 December 31
+Notes 2026 2025
+(Unaudited) (Audited)
+RMB’000 RMB’000
+EQUITY
+Equity attributable to owners of the parent
+Share capital 2,096,694 2,096,694
+Treasury shares (426,637) (443,993)
+Reserves 46,528,660 43,492,774
+  
+48,198,717 45,145,475
+Non-controlling interests 6,672,935 6,692,101
+  
+Total equity 54,871,652 51,837,576
+  
+
+===== PAGE 7 =====
+– 7 –
+NOTES TO INTERIM CONDENSED CONSOLIDATED FINANCIAL INFORMATION
+30 JUNE 2026
+1. BASIS OF PREPARATION
+The interim condensed consolidated financial information for the six months ended 30 June 2026 has been 
+prepared in accordance with IAS 34 Interim Financial Reporting. The interim condensed consolidated 
+financial information does not include all the information and disclosures required in the annual financial 
+statements, and should be read in conjunction with the Group’s annual consolidated financial statements 
+for the year ended 31 December 2025.
+2. CHANGES IN ACCOUNTING POLICIES AND DISCLOSURES
+The accounting policies adopted in the preparation of the interim condensed consolidated financial 
+information are consistent with those applied in the preparation of the Group’s annual consolidated 
+financial statements for the year ended 31 December 2025, except for the adoption of the following 
+amended IFRS Accounting Standards for the first time for the current period’s financial information.
+Amendments to IFRS 9 and IFRS 7 Amendments to the Classification and Measurement of 
+Financial Instruments
+Amendments to IFRS 9 and IFRS 7 Contracts Referencing Nature-dependent Electricity
+Annual Improvements to IFRS Accounting 
+Standards – Volume 11
+Amendments to IFRS 1, IFRS 7, IFRS 9, IFRS 10 and 
+IAS 7
+The nature and impact of the amended IFRSs Accounting Standard are described below:
+(a) Amendments to IFRS 9 and IFRS 7 Amendments to the Classification and Measurement of Financial 
+Instruments clarify that a financial asset is derecognised when the entity’s rights to the contractual 
+cash flows expire or are transferred, while a financial liability is derecognised on the settlement 
+date. The amendments introduce an accounting policy option to derecognise a financial liability that 
+is settled through an electronic payment system before the settlement date if specified criteria are 
+met. The amendments clarify how to assess the contractual cash flow characteristics of financial 
+assets with environmental, social and governance and other similar contingent features. Moreover, 
+the amendments clarify the requirements for classifying financial assets with non-recourse features 
+and contractually linked instruments. The amendments also include additional disclosures for 
+investments in equity instruments designated at fair value through other comprehensive income 
+and financial instruments with contingent features. Since the Group’s accounting policy for the 
+derecognition of financial assets and liabilities in prior years aligned with the amendments and the 
+Group did not have the financial assets that were addressed by the amendments, the amendments 
+did not have any impact on the interim condensed consolidated financial information. The Group 
+will provide additional disclosures for its equity investments designated at fair value through other 
+comprehensive income in the Group’s consolidated financial statements for the year ending 31 
+December 2026.
+
+===== PAGE 8 =====
+– 8 –
+(b) Amendments to IFRS  9 and IFRS  7 Contracts Referencing Nature-dependent Electricity  clarify 
+the application of the “own-use” requirements for in-scope contracts and amend the designation 
+requirements for a hedged item in a cash flow hedging relationship for in-scope contracts. The 
+amendments also include additional disclosures that enable users of financial statements to 
+understand the effects these contracts have on an entity’s financial performance and future cash 
+flows. As the Group did not have any contracts that are in the scope of the amendments, the 
+amendments did not have any impact on the interim condensed consolidated financial information.
+(c) Annual Improvements to IFRS Accounting Standards – Volume 11  set out narrow scope 
+amendments to IFRS 1, IFRS 7 (and the accompanying Guidance on implementing IFRS 7), IFRS 9, 
+IFRS 10 and IAS 7. The amendments include clarifications, simplifications, corrections or changes 
+to improve consistency in the corresponding IAS Accounting Standards. The amendments did not 
+have any impact on the interim condensed consolidated financial information.
+3. OPERATING SEGMENT INFORMATION
+For management purposes, the Group is organised into business units based on their products and services 
+and has three reportable operating segments as follows:
+(a) Lithium metal and compound segment: manufacture and sale of lithium products, and rendering of 
+processing services;
+(b) Lithium battery segment: manufacture and sale of lithium batteries, and rendering of Storage at users’ 
+end services;
+(c) Lithium ore resource and others segment: exploration and sale of lithium ore , phosphate ore and 
+other lithium products.
+Management monitors the results of the Group’s operating segments separately for the purpose of making 
+decisions about resource allocation and performance assessment. Segment performance is evaluated based 
+on reportable segment profit/loss, which is a measure of adjusted profit/loss before tax. The adjusted 
+profit/loss before tax is measured consistently with the Group’s profit before tax except that interest 
+income and non-lease related finance costs are excluded from such measurement.
+
+===== PAGE 9 =====
+– 9 –
+Intersegment sales and transfers are transacted with reference to the selling prices used for sales made to 
+third parties at the then prevailing market prices.
+Six months ended 30 June 2026
+Lithium 
+metal and 
+compound
+Lithium 
+battery
+Lithium ore 
+resource 
+and others Total
+RMB’000 RMB’000 RMB’000 RMB’000
+(Unaudited) (Unaudited) (Unaudited) (Unaudited)
+Segment revenue (note 4)
+Sales to external customers 14,471,230 8,071,984 340,907 22,884,121
+Intersegment sales 231,178 35,731 5,355,049 5,621,958
+    
+Total segment revenue 14,702,408 8,107,715 5,695,956 28,506,079
+Reconciliation:
+Elimination of intersegment sales (5,621,958)
+ 
+Revenue 22,884,121
+ 
+Segment results 5,816,603 397,268 462,873 6,676,744
+Reconciliation:
+Interest income 167,566
+Finance costs (other than interest on 
+lease liabilities) (642,161)
+ 
+Profit before tax 6,202,149
+ 
+
+===== PAGE 10 =====
+– 10 –
+Six months ended 30 June 2025
+Lithium 
+metal and 
+compound
+Lithium 
+battery
+Lithium ore 
+resource 
+and others Total
+RMB’000 RMB’000 RMB’000 RMB’000
+(Unaudited) (Unaudited) (Unaudited) (Unaudited)
+Segment revenue (note 4)
+Sales to external customers 4,965,769 3,081,942 209,957 8,257,668
+Intersegment sales 229,381 37 483,957 713,375
+    
+Total segment revenue 5,195,150 3,081,979 693,914 8,971,043
+Reconciliation:
+Elimination of intersegment sales (713,375)
+ 
+Revenue 8,257,668
+ 
+Segment results 34,646 158,202 (587,630) (394,782)
+Reconciliation:
+Interest income 148,035
+Finance costs (other than interest on 
+lease liabilities) (696,851)
+ 
+Loss before tax (943,598)
+ 
+The following table presents the asset and liability information of the Group’s operating segments as at 30 
+June 2026 and 31 December 2025, respectively.
+Lithium 
+metal and 
+compound
+Lithium 
+battery
+Lithium ore 
+resource 
+and others Total
+RMB’000 RMB’000 RMB’000 RMB’000
+Segment assets
+30 June 2026 (Unaudited) 41,463,600 32,482,213 48,314,571 122,260,384
+    
+31 December 2025 (Audited) 30,649,813 30,298,608 52,309,671 113,258,092
+    
+Segment liabilities
+30 June 2026 (Unaudited) 35,317,914 23,601,873 8,468,945 67,388,732
+    
+31 December 2025 (Audited) 31,515,223 21,188,872 8,716,421 61,420,516
+    
+Seasonal factors have no significant impact on the Group’s segment revenue and segment results.
+
+===== PAGE 11 =====
+– 11 –
+4. REVENUE, OTHER INCOME AND GAINS
+An analysis of revenue, other income and gains is as follows:
+(a) Revenue
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Revenue from contracts with customers 22,883,728 8,257,612
+Revenue from other sources
+Gross rental income from investment property  
+operating leases: 393 56
+  
+Total revenue 22,884,121 8,257,668
+  
+For the six months ended 30 June 2026
+Segments
+Lithium 
+metal and 
+compound
+Lithium 
+battery
+Lithium ore 
+resource 
+and others Total
+RMB’000 RMB’000 RMB’000 RMB’000
+(Unaudited) (Unaudited) (Unaudited) (Unaudited)
+Types of goods or services
+Sale of industrial products 14,261,323 8,001,469 338,052 22,600,844
+Processing services 209,544 – 2,825 212,369
+Storage at users’ end services – 70,515 – 70,515
+    
+Total 14,470,867 8,071,984 340,877 22,883,728
+    
+Geographical markets
+Chinese mainland 14,076,627 7,755,885 205,732 22,038,244
+Other countries/regions 394,240 316,099 135,145 845,484
+    
+Total 14,470,867 8,071,984 340,877 22,883,728
+    
+Timing of revenue recognition
+At a point in time 14,470,867 8,001,469 340,877 22,813,213
+Revenue recognised over time – 70,515 – 70,515
+    
+Total revenue from contracts 
+with customers 14,470,867 8,071,984 340,877 22,883,728
+    
+
+===== PAGE 12 =====
+– 12 –
+For the six months ended 30 June 2025
+Segments
+Lithium 
+metal and 
+compound
+Lithium 
+battery
+Lithium ore 
+resource 
+and others Total
+RMB’000 RMB’000 RMB’000 RMB’000
+(Unaudited) (Unaudited) (Unaudited) (Unaudited)
+Types of goods or services
+Sale of industrial products 4,903,335 3,008,461 209,957 8,121,753
+Storage at users’ end services – 73,691 – 73,691
+Processing services 62,168 – – 62,168
+    
+Total 4,965,503 3,082,152 209,957 8,257,612
+    
+Geographical markets
+Chinese mainland 4,564,276 2,793,983 187,541 7,545,800
+Other countries/regions 401,227 288,169 22,416 711,812
+    
+Total 4,965,503 3,082,152 209,957 8,257,612
+    
+Timing of revenue recognition
+At a point in time 4,965,503 3,008,461 209,957 8,183,921
+Revenue recognised over time – 73,691 – 73,691
+    
+Total revenue from contracts 
+with customers 4,965,503 3,082,152 209,957 8,257,612
+    
+
+===== PAGE 13 =====
+– 13 –
+(b) Other income and gains
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Other income
+Government grants 145,299 193,634
+Sales of raw materials 69,334 64,159
+Bank interest income 110,739 85,093
+Interest income from other non-current assets 8,494 27,404
+Interest income from associates and a joint venture 48,333 35,538
+Dividends and interest income from financial assets at fair 
+value through profit or loss 12,402 755
+Others 11,938 18,296
+  
+Total other income 406,539 424,879
+  
+Gains
+Gain on partial disposal of equity in an associate 482 274,530
+Gain on disposal of subsidiaries – 224,446
+Gain on disposal of financial assets at fair value through 
+profit or loss 491,736 59,752
+Fair value change of financial assets at fair value through 
+profit or loss and derivative financial instruments, net 70,325 –
+  
+Total gains 562,543 558,728
+  
+Total other income and gains 969,082 983,607
+  
+
+===== PAGE 14 =====
+– 14 –
+5. OTHER EXPENSES
+The detailed breakdown of other expenses is as follows:
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Cost of raw materials sold 54,111 49,844
+Fair value losses, net: 
+Fair value losses on financial assets at fair value through  
+profit or loss and derivative financial instruments – 277,690
+Impairment of trade receivables, net 73,937 1,291
+Net loss on disposal of items of property, plant and equipment 37,136 776
+Write-down of inventories to net realisable value 33,049 194,644
+Exploration expenditure 16,053 30,917
+Foreign exchange differences, net 115,124 148,640
+Others 9,073 6,948
+  
+Total 338,483 710,750
+  
+6. FINANCE COSTS
+An analysis of finance costs is as follows:
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Interest on bank loans 445,682 443,809
+Interest on other borrowings 120,701 244,978
+Interest on lease liabilities 5,157 10,284
+Interest on discounted bank notes 40,263 18,029
+Interest expense on bond payables 44,299 26,906
+  
+Total interest expense on financial liabilities not at fair  
+value through profit or loss 656,102 744,006
+Interest capitalised (8,784) (40,125)
+  
+Total 647,318 703,881
+  
+
+===== PAGE 15 =====
+– 15 –
+7. PROFIT/( LOSS)  BEFORE TAX
+The Group’s profit/(loss)  before tax is arrived at after charging/(crediting):
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Cost of inventories sold and services* 15,748,194 7,367,394
+Cost of raw materials sold 54,111 49,844
+Depreciation of property, plant and equipment 1,065,280 841,769
+Depreciation of right-of-use assets 33,011 19,502
+Amortisation of intangible assets 131,795 70,245
+Depreciation of investment properties 218 340
+Research and development costs:
+Current year expenditure* 739,780 433,663
+Equity-settled share option expense 28,937 56,910
+Foreign exchange differences, net 115,124 148,640
+Impairment of financial assets, net:
+Impairment of trade receivables, net 73,937 1,291
+Write-down of inventories to net realisable value 33,049 194,644
+Fair value (gains)/losses, net:
+Fair value (gains)/losses on financial assets at fair value through 
+profit or loss and derivative financial instruments (70,325) 277,690
+Gain on partial disposal of equity in an associate (482) (274,530)
+Gain on disposal of subsidiaries – (224,446)
+Gain on disposal of financial assets at fair value through  
+profit or loss (491,736) (59,752)
+Bank interest income (110,739) (85,093)
+Net losses on disposal of items of property, plant and equipment 37,136 776
+  
+* The amounts include expenses relating to depreciation of property, plant and equipment, 
+depreciation of right-of-use assets, and amortisation of intangible assets, which are also included in 
+the respective total amounts disclosed separately above for each of these types of expenses.
+8. INCOME TAX
+The Group is subject to income tax on an entity basis on profits arising in or derived from the jurisdictions 
+in which members of the Group are domiciled and operate.
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Current corporate income tax 1,463,697 75,284
+Deferred tax 306,213 (232,499)
+  
+Total 1,769,910 (157,215)
+  
+
+===== PAGE 16 =====
+– 16 –
+The provision for Chinese mainland  current income tax was based on the statutory rate of 25% of the 
+assessable profits for the reporting period of the Group as determined in accordance with the PRC 
+Corporate Income Tax Law, which was approved and became effective on 1 January 2008, except for the 
+Company and certain subsidiaries of the Group in Chinese mainland , which were taxed at a preferential 
+rate of 15%. Overseas subsidiaries of the Group accrued and paid corporate income tax in accordance with 
+local tax regulations.
+The Company has been recognised as a High and New Technology Enterprise (“HNTE”), and such status 
+will expire on 27 October 2027. Based on the Enterprise Income Tax Law and related regulations, the 
+applicable tax rate for the Company is 15%, provided that the Company complies with the conditions 
+set out in the relevant requirements. Certain subsidiaries are also recognised as HNTEs and the effective 
+periods are as follows:
+Name Effective period
+Fengxin Ganfeng Lithium Co., Ltd. 2025/10/29-2028/10/28
+Yichun Ganfeng Lithium Co., Ltd. 2024/10/28-2027/10/27
+Ganfeng LiEnergy Technology Co., Ltd. 2024/10/28-2027/10/27
+Xinyu Ganfeng Electronics Co., Ltd. 2023/12/8-2026/12/7
+Jiangsu Ganfeng Power Technology Co., Ltd. 2023/12/13-2026/12/12
+Ganfeng LiEnergy (Dongguan) Technology Co., Ltd 2025/12/19-2028/12/18
+HuiZhou GanFeng LiEnergy Battery Technology Co., Ltd. 2024/11/19-2027/11/18
+Guangdong Huichuang New Energy Co., Ltd. 2025/12/19-2028/12/18
+Zhejiang FunLithium New Energy Technology Co., Ltd. 2023/12/8-2026/12/7
+Chongqing Ganfeng Power Technology Co., Ltd. 2025/12/18-2028/12/19
+Xinyu Ganfeng Lithium Co., Ltd. 2025/10/29-2028/10/28
+Jiangxi Ganfeng Recycling Technology Co., Ltd. 2024/10/28-2027/10/27
+Fengcheng Ganfeng Lithium Co., Ltd. 2024/11/19-2027/11/18
+Yunnan Hongfu Fertilizer Co., Ltd. 2024/11/1-2027/10/31
+Xinyu Ganfeng New Lithium Source Battery Co., Ltd. 2025/10/29-2028/10/28
+Also, according to the tax regulations related to the Western Region Development Policy, the applicable 
+income tax rate for Ningdu Ganfeng Lithium Co., Ltd., Western Resource Co., Ltd., Sichuan Ganfeng 
+Lithium Industry Co., Ltd., Qinghai Ganfeng Lithium Industry Co., Ltd., Ganzhou Ganfeng Renewable 
+Resources Co., Ltd., Qinghai China Aviation Resources Co., Ltd., Xianghuang Banner Meng Gold Mine 
+Industry Development Co., Ltd. and Inner Mongolia Ganfeng Lithium Industry Co., Ltd. is 15%, and such 
+tax concession will expire on 31 December 2030.
+9. DIVIDENDS
+The board of directors did not recommend the payment of an interim dividend in respect of the six months 
+ended 30 June 2026 (for the six months ended 30 June 2025: Nil).
+The proposed final dividend of RMB0.15 (tax included) per ordinary share for the year ended 31 
+December 2025 was approved by the shareholders at the annual general meeting of the Company on 20 
+May 2026.
+
+===== PAGE 17 =====
+– 17 –
+10. EARNINGS/(LOSS) PER SHARE ATTRIBUTABLE TO ORDINARY EQUITY HOLDERS OF 
+THE PARENT
+The calculation of the basic earnings/( loss) per share amount is based on the profit/( loss) for the period 
+attributable to ordinary equity holders of the parent, and the weighted average number of ordinary shares 
+of 2,086,661,203 (30 June 2025: 2,004,568,550) outstanding during the period, as adjusted to reflect the 
+rights issue during the period.
+The calculation of the diluted earnings/(loss)  per share amount is based on the profit/(loss)  for the period 
+attributable to ordinary equity holders of the parent. The weighted average number of ordinary shares 
+used in the calculation is the number of ordinary shares outstanding during the period, as used in the basic 
+earnings/(loss)  per share calculation, and the weighted average number of ordinary shares assumed to have 
+been issued at no consideration on the deemed exercise or conversion of all dilutive potential ordinary 
+shares into ordinary shares.
+The calculations of basic and diluted earnings/(loss)  per share are based on:
+For the six months ended 30 June
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Unaudited)
+Profit/(loss)
+Profit/(loss) attributable to ordinary equity holders of the parent, 
+used in the basic loss per share calculation:
+From continuing operations 4,257,541 (536,213)
+  
+Profit/(loss) attributable to ordinary equity holders of the parent 4,257,541 (536,213)
+  
+Attributable to:
+Continuing operations 4,257,541 (536,213)
+  
+Number of shares
+2026 2025
+Shares
+Weighted average number of ordinary shares outstanding  
+during the period used in the basic loss per share calculation 2,086,661,203 2,004,568,550
+Effect of dilution – weighted average number of  
+ordinary shares:
+– Share option scheme 7,022,111 –
+  
+Total 2,093,683,314 2,004,568,550
+  
+
+===== PAGE 18 =====
+– 18 –
+During the six months ended 30 June 2025, as the diluted earnings per share amount is increased when 
+taking the share option scheme into account, the share option scheme had an anti-dilutive effect on the 
+basic earnings per share during the six months ended 30 June 2025, and were ignored in the calculation of 
+diluted earnings per share. Therefore, the diluted earnings per share amounts are based on the loss for the 
+period and the loss attributable to continuing operations of RMB536,213,000 and the weighted average 
+number of ordinary shares of 2,004,568,550 outstanding during the six months ended 30 June 2025.
+11. TRADE AND BILLS RECEIVABLES
+30 June 31 December
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+Trade receivables 9,657,647 6,938,195
+Bills receivables 1,270,849 501,146
+Impairment (369,394) (295,343)
+  
+Total 10,559,102 7,143,998
+  
+An ageing analysis of the trade receivables as at the end of the reporting period, based on the invoice date 
+and net of loss allowance, is as follows:
+30 June 31 December
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+Within 6 months 8,859,083 6,208,814
+More than 6 months but less than 1 year 244,027 224,360
+1 to 2 years 161,050 202,465
+2 to 3 years 23,767 3,334
+Over 3 years 326 3,879
+  
+Total 9,288,253 6,642,852
+  
+12. DEBT INVESTMENTS AT FAIR VALUE THROUGH OTHER COMPREHENSIVE INCOME
+30 June 31 December
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+Debt investments at fair value through other  
+comprehensive income:
+Bills receivables 1,662,332 1,548,922
+  
+
+===== PAGE 19 =====
+– 19 –
+The Group’s business model for the management of bills receivables is aimed at both receiving contractual 
+cash flows and selling. As a result, they were classified and presented as debt investments at fair value 
+through other comprehensive income.
+As at 30 June 2026, the Group’s debt investments at fair value through other comprehensive income with 
+a carrying amount of RMB331,650,000 (31 December 2025: RMB191,830,000) were pledged to issue 
+banks’ acceptance bills and letters of credit.
+13. TRADE AND BILLS PAYABLES
+30 June 31 December
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+Trade payables 10,556,073 9,069,127
+Bills payables 4,047,121 3,240,497
+  
+Total 14,603,194 12,309,624
+  
+An aging analysis of the trade payables as at the end of the reporting period, based on the invoice date, is as 
+follows:
+30 June 31 December
+2026 2025
+RMB’000 RMB’000
+(Unaudited) (Audited)
+Within 3 months 4,282,535 4,499,763
+3 to 6 months 2,987,630 2,389,605
+6 to 12 months 2,778,123 1,912,308
+1 to 2 years 408,793 211,019
+2 to 3 years 98,992 56,432
+  
+Total 10,556,073 9,069,127
+  
+The trade payables are non-interest-bearing and are normally settled on terms within 0 to 360 days.
+14. EVENTS AFTER THE REPORTING PERIOD
+There were no significant events subsequent to 30 June 2026.
+
+===== PAGE 20 =====
+– 20 –
+MANAGEMENT DISCUSSION AND ANALYSIS
+Industry Review
+1. Analysis of the lithium resource market
+The majority of global lithium resources are sourced from salars and hard rock lithium 
+mines. Well-developed salars are mainly found in the South America Lithium Triangle 
+region (Chile, Argentina and Bolivia) and in China, while the majority of lithium mines 
+are concentrated in Australia. In recent years, stimulated by demand in the end-user 
+market, there has been an increased investment and development in lithium resources, 
+leading to a diversification of supply. According to data from Yangtze Securities 
+Research Institute, global lithium resource supply is expected to reach 1,975,000 tons 
+of LCE  (lithium carbonate equivalent)  in 2026, representing a year-on-year increase of 
+27%, among which 1,065,000 tons of LCE, 747,000 tons of LCE and 163,000 tons of 
+LCE are sourced from spodumene, salars and lepidolite, accounting for 54%, 38% and 
+8%, respectively.
+0.0
+50.0
+100.0
+150.0
+200.0
+250.0
+96.9
+2023 2024 2025 2026E
+129.4
+155.8
+197.5
+Global supply of lithium resource by sources
+Spodumene
+Lepidolite
+Salars
+Total
+(Unit: 0’000 tons of LCE)
+38%
+8%
+Global supply of
+lithium resource by sources in 2026
+Lepidolite
+Salars
+SalarsSpodumene Lepidolite
+54%
+Spodumene
+Source: Yangtze Securities Research Institute
+
+===== PAGE 21 =====
+– 21 –
+(1) Market of spodumene concentrate
+As one of the world’s largest producers of lithium ore, Australia continues to 
+consolidate its core position in the global spodumene supply chain by virtue of 
+its mature mining foundation, comprehensive laws and regulations, and sound 
+supporting facilities. According to the data from Fastmarkets, as of June 2026, the 
+domestic cost, insurance and freight (CIF) price of 5%-6% spodumene concentrate 
+was around USD2,150-2,270 per ton, representing an increase of 35%-45% from 
+the price of USD1,560-1,590 per ton at the beginning of 2026, reflecting an overall 
+upward trend in lithium prices in the first half of the year. Australia, an important 
+source of global lithium resources, has a relatively stable supply from major 
+lithium ore producers . In the first half of 2026, production at major Australian 
+mines saw a mix of increases and decreases, with overall supply remaining largely 
+stable. Some mines lowered their production forecasts due to declining ore grades 
+and fluctuations in recovery rates, while certain mines achieved record -high  
+quarterly output, and previously suspended projects resumed operations. Overall, 
+following the downturn in lithium prices in the early stages, Australian mines have 
+continued to pursue cost optimisation and operational efficiency improvements; 
+however, following significant  fluctuations in lithium  prices during the first  half 
+of the year, there  remains uncertainty  regarding the release of  supply from new 
+projects and projects slated to resume production in the second half of the year. At 
+the same time, African lithium resources are rising rapidly, progressively becoming 
+an important force in the global supply landscape. Lithium resources on  the 
+African continent are primarily distributed across countries such as the Democratic 
+Republic of the Congo, Mali and Zimbabwe, with small and medium-sized miners 
+accounting for a relatively high proportion of existing production capacity, in 
+contrast to the market structure in Australia, which is dominated by large-scale 
+miners. Although its total resources are not yet comparable to Australia’s, the 
+African region is home to multiple world-class lithium projects with superior ore 
+grades and strong resource endowments. However, constrained by factors such as 
+fragmented development entities, complex geopolitics and lagging infrastructure, 
+project progress has been relatively slow. In the first half of 2026, Africa’s lithium 
+ore exports were active, with spodumene concentrate dominating exports, and 
+several major projects achieved their first lithium concentrate exports. During 
+this period, certain countries introduced temporary export restrictions, causing 
+some disruption to short-term supply; however, enterprises remain confident in 
+the medium- to long-term market outlook. The Company’s Goulamina spodumene 
+project Phase I had ramped up to nearly full capacity utilisation in the first half of 
+2026, with resource supply capability continuing to strengthen, and the feasibility 
+study for the main part of Phase II of the project has been completed. This project 
+is an important reflection of the accelerated entry of African lithium resources into 
+the global market. With sustained growth in global lithium resource demand and 
+the further release of African lithium mine production capacity, Africa is expected 
+to occupy an increasingly important position in the global lithium resource supply 
+system.
+
+===== PAGE 22 =====
+– 22 –
+(2) Market of salar brines
+As the type of lithium resource with the lowest extraction cost globally, salar 
+brine-type lithium ore remains the focus of current development. Although their 
+construction cycles are generally longer than those of mining projects, the South 
+American “Lithium Triangle” region (Chile, Argentina and Bolivia) continues to 
+consolidate its strategic position on the supply side by virtue of its premium salar 
+resources. Although the salar resources in the region possess superior endowments, 
+their development is constrained by multiple factors such as environmental impact 
+assessment approvals, high altitude, freshwater resource shortages and insufficient 
+infrastructure, which impose relatively higher  requirements on capital strength, 
+technical expertise and project management capabilities. The leading parties of 
+Argentine salar projects are predominantly large enterprises with substantial capital 
+and strong execution efficiency. In practice, however, the overall development 
+progress remained slow in the first half of 2026, constrained by multiple challenges 
+such as harsh development environments (high altitude, remote locations and 
+underdeveloped infrastructure), difficulties in sustainable water resource utilization, 
+technical process bottlenecks and the maintenance of community relations. Against 
+the backdrop of significant fluctuations in global lithium prices, the aforementioned 
+constraints have been further amplified. Enterprises with breakthrough capabilities 
+in lithium extraction processes and advantages in resource endowment will be 
+the first to break through. The Company’s Cauchari-Olaroz Salar Project Phase I 
+commenced production earlier and is continuing its capacity ramp-up. In the first 
+half of 2026, the Phase II expansion plan for this project was successfully admitted 
+to Argentina’s RIGI programme. The Company’s Mariana Project Phase I has also 
+officially commenced production and is progressively ramping up capacity.
+
+===== PAGE 23 =====
+– 23 –
+(3) Market of lepidolite
+China possesses the world’s largest measured  reserves of lepidolite resources, 
+which are primarily concentrated in Jiangxi region, exhibiting a significant 
+industrial agglomeration effect. Compared with lithium extraction from spodumene 
+concentrate, lepidolite-based lithium extraction offers certain advantages in terms 
+of resource self-sufficiency and transportation cost, and is of great significance 
+for ensuring the security of the domestic lithium resource supply chain. However, 
+due to factors such as the complex composition of lepidolite, high impurity content 
+and the difficulty in continuous production, both mining and extracting costs for 
+lepidolite are relatively high compared with spodumene concentrate-based lithium 
+extraction and salar-based lithium  extraction. In the first half of 2026, China’s 
+lepidolite-based lithium extraction industry maintained production operations 
+driven by continued technological breakthroughs; however, due to factors such 
+as changes to  mining permits and environmental  compliance  requirements, some 
+mining  areas have experienced temporary  production halts or  reduced output,  
+resulting in overall supply in the  Yichun region falling short of  expectations.  In 
+recent years, several breakthroughs have been achieved in the field of lepidolite-
+based lithium extraction. However, capacity building still faces challenges such 
+as the low grade of ore, the large amount of waste residues from smelting, and 
+the difficulty of achieving efficient comprehensive utilisation  of other rare and 
+precious resources contained in lithium ores.
+
+===== PAGE 24 =====
+– 24 –
+2. Analysis of the lithium compound market
+In recent years, prices of major lithium compounds in the Chinese market have 
+experienced significant fluctuations. In the first half of 2026, prices for major lithium 
+compounds in China generally followed a pattern of rising first and then retreating. At 
+the beginning of the year, driven by downstream restocking demand and periodic supply 
+tightness, prices of products such as battery-grade lithium carbonate rose steadily, and 
+market sentiment was relatively optimistic. Entering the second quarter, the price uptrend 
+accelerated, and in May, prices reached their  first-half highs driven by a confluence 
+of multiple factors. Subsequently, as certain new production capacity came on stream, 
+imported ore supply increased and downstream procurement slowed, market supply-
+demand conditions gradually eased, and prices retreated rapidly from elevated levels, 
+with notable declines from highs  in May  by the end of the first half  of 2026. Overall, 
+lithium prices in the first half of 2026 underwent a full cycle from moderate increases 
+to rapid surges, followed by corrections. The core market tension continues to revolve 
+around the dynamic balance between supply and demand. The industry’s assessment 
+of the medium- to long-term supply-demand landscape has become more rational, and 
+the pace of market movements has become more dependent on actual consumption 
+realisation and the pace of new capacity deployment than in earlier periods.
+80,000
+100,000
+120,000
+140,000
+160,000
+180,000
+200,000
+220,000
+Spot prices of lithium carbonate and lithium hydroxide in China (Unit: RMB per ton)
+January 2026 February 2026 March 2026 April 2026 May 2026 June 2026
+Battery-grade lithium carbonate Battery-grade lithium hydroxide
+Source: Fastmarkets
+
+===== PAGE 25 =====
+– 25 –
+Meanwhile, the price movements of major lithium compounds in the international market 
+are shown in the following chart:
+10,000
+12,000
+14,000
+16,000
+18,000
+20,000
+22,000
+24,000
+26,000
+28,000
+CIF prices of lithium carbonate and lithium hydroxide in Asia (Unit: USD per ton)
+CIF price of lithium carbonate CIF price of lithium hydroxide
+January 2026 February 2026 March 2026 April 2026 May 2026 June 2026
+Source: Fastmarkets
+Global lithium industry demand is primarily driven by the new energy vehicle (NEV) 
+and energy storage sectors. In the first half of 2026, against the backdrop of the 
+deepening global energy transition and the continued pursuit of carbon neutrality targets 
+by major economies, the new energy industry maintained robust growth momentum, 
+lithium application scenarios continued to expand, and global lithium demand sustained 
+its growth under the twin drivers of new energy vehicles (NEVs)  and energy storage. 
+Power batteries remained the core pillar, but the growth momentum has shifted from 
+being domestically dominated to a balanced push across both domestic and international 
+markets; meanwhile, the energy storage sector has emerged as the strongest source of 
+incremental demand, with its share of total demand rising substantially, and together 
+with overseas markets, it has become a core pillar of industry growth. Continued 
+breakthroughs in new energy technologies and declining costs, combined with the 
+advancement of carbon neutrality targets in major economies and the emergence of 
+new incremental demand, provide a solid foundation for the industry’s long-term 
+development. As a leader in the deep processing of lithium compounds, the Company, 
+leveraging its first-mover advantages, is fully capitalising on a market landscape 
+driven by the dual engines of power batteries and energy storage and characterised by 
+accelerating demand structure restructuring, thereby further consolidating its industry-
+leading position. According to the data from Yangtze Securities Research Institute, 
+the global demand for lithium resources in 2026 is expected to reach 2,200,000 tons of 
+LCE, of which the share of NEVs is expected to decline to 56%, and the share of energy 
+storage is expected to rise to 31%.
+
+===== PAGE 26 =====
+– 26 –
+Global demand for lithium resources in 2026
+3%
+10%
+31% 56%
+NEVs Energy storage Compact batteries Others
+Source: Announcements from companies, Yangtze Securities Research Institute
+3. Analysis of the lithium battery market
+According to statistics from the China Automotive Power Battery Industry Innovation 
+Alliance, in the first half of  2026, China’s cumulative production of power and energy 
+storage batteries was 1,068.9 GWh, representing a cumulative year-on-year increase of 
+53.3%. Over the same period, China’s cumulative sales volume of power and energy 
+storage batteries was 979.4 GWh, representing a cumulative year-on-year increase of 
+48.6%. Of this, cumulative sales volume of power batteries was 661.3GWh, accounting 
+for 67.5% of total sales volume and representing a cumulative year-on-year increase of 
+36.2%; cumulative sales volume of energy storage batteries was 318.1GWh, accounting 
+for 32.5% of total sales volume and representing a cumulative year-on-year increase 
+of 83.4%. In the first half of  2026, China’s cumulative installed capacity of power 
+batteries was 335.6GWh, representing a cumulative year-on-year increase of 12.0%. Of 
+this, cumulative installed capacity of ternary batteries was 63.4 GWh, accounting for 
+18.9% of total installed capacity and representing a cumulative year-on-year increase of 
+14.2%; cumulative installed capacity of lithium iron phosphate batteries was 272.0GWh, 
+accounting for 81.0% of total installed capacity and representing a cumulative year-on-
+year increase of 11.5%. According to data from Gaogong Industry Research Institute 
+(GGII), global power battery installed capacity  reached 558.8 GWh in the first half of  
+2026, representing a year-on-year increase of 20%. While the growth rate has moderated 
+compared with previous years, it appears that the industry’s overall growth has 
+transitioned from a phase of comprehensive expansion to a new stage characterised by 
+“stabilising overall growth with internal structural differentiation”.
+
+===== PAGE 27 =====
+– 27 –
+4. Analysis of the electric vehicle market
+According to data from Gaogong Industry Research Institute (GGII), global sales of 
+NEVs  reached 9,256,000 units in the first half of 2026, representing a year-on-year 
+increase of 6%. While the growth rate has moderated compared with previous years, 
+the overall market has transitioned from rapid expansion to high-quality development  
+characterized by slower  growth . Faced with an increasingly differentiated regional 
+market landscape, mainstream automakers are accelerating their localisation strategies 
+and intensively launching NEV models tailored to regional consumer preferences. 
+On the technology front, the accelerated deployment of Level 3 autonomous driving 
+and AI large model-powered intelligent cockpits has shifted vehicle competition fully 
+into the intelligentisation phase, while the proliferation of charging infrastructure has 
+also effectively alleviated market concerns over driving  for NEVs. At the same time, 
+the industry faces cost pressures from rising  raw material prices and the  phasing out 
+of purchase tax incentives, while demand is  constrained by expectations of price  cuts 
+– e xpectations that have become  entrenched due to prolonged price wars. As  these 
+two forces ebb and flow, market  expectations are caught in a dynamic tug-of -war.  
+Driven by a combination of policy guidance, technological advances, charging network 
+improvements and growing consumer acceptance, global NEV sales are expected 
+to continue their growth trajectory, with the industry steadily advancing from a 
+policy-driven phase towards a market-driven phase of high-quality development.
+According to the latest data released by the China Association of Automobile 
+Manufacturers, in the first half of 2026, China’s NEV production and sales reached 
+7,438,000 and 7,446,000 units, representing year-on-year increases of 6.7% and 7.3%, 
+respectively, with NEV sales accounting for 49.6% of total new vehicle sales. In June  
+2026, China’s NEV production and sales reached 1,598,000 and 1,643,000 units, 
+respectively, both representing year-on-year growth of over 20%, with the proportion 
+of NEV sales to total new vehicle sales further increasing to 58.5%. In terms of exports, 
+NEV exports totalled 2,355,000 units, representing a year-on-year increase of 1.2 times. 
+In the first half of 2026, NEV exports became the core driver of automobile export 
+growth. The rapid growth in NEV exports is a clear reflection of the transformation 
+and upgrading of China’s automotive industry and the enhancement of its international 
+competitiveness.
+
+===== PAGE 28 =====
+– 28 –
+5. Analysis of the energy storage market
+Against the backdrop of accelerating global carbon neutrality efforts and the 
+implementation of binding mechanisms such as the Carbon Border Adjustment 
+Mechanism, the energy storage industry has evolved from a supporting role to become a 
+core hub of the new power system, exhibiting explosive growth. In the first half of 2026, 
+China’s energy storage industry formally moved beyond the policy-driven phase and 
+entered a new cycle driven primarily by market demand. The capacity pricing mechanism 
+was established for the first time, marking the industry’s entry into a new phase of 
+multi-dimensional revenue operations. Although the scale of new installed capacity 
+experienced some moderation due to the front-loading effects of prior rush installations, 
+the structure of installed capacity continued to improve, with energy storage shifting 
+from being “installed but not utilised” to being “built for utilisation”. The global market 
+is exhibiting a landscape of growth across multiple fronts, with the share of shipments 
+from non-China regions on the rise. Data centres for large-model training and inference 
+have rigid demand for backup power, and AI computing power has emerged as a new 
+rigid demand driver, with energy storage systems becoming a critical component of 
+the new computing infrastructure. Large-scale projects in emerging markets such as 
+Europe, the United States, the Middle East and Australia are being rolled out in batches. 
+The industrial and commercial sectors are shifting from reliance on fixed peak-to-
+off-peak price differentials to market-based revenue mechanisms, and the accelerated 
+implementation of diverse application scenarios – such as zero-carbon industrial parks 
+and the low-carbon transition of energy-intensive industries – is providing the necessary 
+conditions for the sustained rapid development of the energy storage industry. Overall, 
+the energy storage industry is comprehensively shifting from being policy-driven to a 
+market-driven phase of high-quality development. According to forecasts by Yangtze 
+Securities Research Institute, global demand for energy storage batteries in 2026 is 
+expected to be approximately 960 GWh, representing a year-on-year increase of 55%; 
+China’s energy storage battery shipments are expected to be approximately 505 GWh, 
+representing a year-on-year increase of 48%.
+
+===== PAGE 29 =====
+– 29 –
+6. Analysis of the power battery recycling market
+As the core component of electric vehicles, power batteries have achieved large-
+scale application along with the sustained rapid development of the NEV industry. As 
+the power batteries initially deployed in the market are set to enter a period of large-
+scale decommissioning, the establishment of a standardised and efficient recycling 
+system has become an urgent task concerning resource security and environmental 
+protection, attracting high-level attention from the state and society. In the first half 
+of 2026, the power battery recycling industry reached a critical turning point in terms 
+of both the policy framework and the industry landscape, formally transitioning from 
+capacity building to a new phase of institutionalised closed-loop management. On 
+the policy front, marked by the official implementation of the Interim Measures for 
+the Recycling and Comprehensive Utilisation of Waste Power Batteries from New 
+Energy Vehicles ( ), the 
+industry has established a national traceability information platform and a digital 
+battery identification system, instituted the vehicle-battery integrated end-of-life rules 
+and extended producer responsibility, thereby achieving a significant leap from macro-
+level planning to mandatory full-chain management. At the same time, the competent 
+authorities launched a special joint law enforcement campaign to further strengthen 
+coordinated oversight across the entire chain. On the industry front, the network of 
+prominent recycling enterprises has continued to expand, with leading enterprises 
+accelerating capacity expansion and capital deployment, and the repeal of the “cascade 
+utilisation” policy provisions and the substantial revision of the list of compliant 
+enterprises mark the industry’s formal transition from the dual-track model of “cascade 
+utilisation plus recycling and dismantling” to a new landscape dominated by recycling, 
+with further enhanced upstream-downstream synergies. Overall, the power battery 
+recycling industry is accelerating the development of a standardised, large-scale, full-
+lifecycle circular utilisation system centred on resource security and the objective of a 
+green closed loop.
+7. Analysis of the low-altitude economy market
+Since 2024, the low-altitude economy has been included in the government work report 
+for three consecutive years. The 2026 Government Work Report explicitly designated 
+it as a national “ emerging pillar industry ” for the first time, placing it alongside 
+integrated circuits, aerospace, and biopharmaceuticals within the core framework of 
+strategic emerging industries. This marks the industry’s accelerated transition from 
+conceptual exploration to large-scale development.
+
+===== PAGE 30 =====
+– 30 –
+In the first half of 2026, the policy and standards framework for the low-altitude 
+economy was rapidly strengthened. In February 2026, the State Administration 
+for Market Regulation, together with ten departments including the Central Air 
+Traffic Management Commission Office and the National Development and Reform 
+Commission, jointly issued the Guidelines for the Development of the Low-Altitude 
+Economy Standards System (2025 Edition) (یܸ2025ϋ
+و)), focusing on five core areas – low-altitude aircraft, low-altitude infrastructure, 
+low-altitude air traffic management, safety regulation and application scenarios – to 
+establish a “four-dimensional integrated” standards supply system, specifying the goal 
+of fundamentally establishing the low-altitude economy standards system by 2027 and 
+exceeding 300 sector-specific standards by 2030. The newly revised Civil Aviation Law 
+of the People’s Republic of China (), effective from 
+1 July 2026, calls for optimising the allocation of low-altitude airspace resources and 
+promoting the development of regulatory and service platforms related to civil low-
+altitude flight and applications. Concurrently, the Department of Low-Altitude Economy 
+Development under the National Development and Reform Commission was formally 
+unveiled, setting out the objective of achieving “ sound management, stable flight 
+operations and flexible utilisation” for the low-altitude economy during the 15th Five-
+Year Plan period. In May 2026, the “ Low-Altitude Safety Department ” of the Civil 
+Aviation Administration of China was formally established, marking the transition of the 
+national-level management framework for the low-altitude economy from a dual-track 
+approach of “development” and “safety” to an institutionalised closed loop.
+On the technology front, the maiden flight of large tiltrotor aircraft has been successful, 
+key technologies such as  hydrogen fuel cells have ranked among the world’s most 
+advanced, and the airworthiness standards system is being progressively refined. On the 
+commercial front, urban low-altitude logistics routes have entered routine operation, with 
+airworthiness certification and real-world application deployment becoming the core 
+focus of industry competition. On the international front, China, the United States and 
+Europe have made positive progress in the mutual recognition of airworthiness standards, 
+and exports by Chinese eVTOL enterprises have grown substantially, transforming from 
+followers into competitors and even leaders. With the market size projected to exceed 
+RMB1  trillion in 2026, the low-altitude economy is rapidly integrating into diverse 
+application scenarios such as logistics and distribution, urban governance and emergency 
+response, entering a new phase of comprehensive advancement from pilot exploration to 
+large-scale implementation.
+
+===== PAGE 31 =====
+– 31 –
+8. Analysis of the solid-state battery market
+Solid-state batteries represent a new type of energy storage technology, with operating 
+principles similar to those of liquid lithium-ion batteries. The main materials of 
+solid-state lithium-ion batteries include cathode materials, anode materials and solid 
+electrolytes. The core of this technology lies in replacing the liquid electrolyte and 
+separator of liquid batteries with solid-state electrolytes, thereby reducing or eliminating 
+the need for separators and liquid electrolytes. Compared with traditional lithium-ion 
+batteries, solid-state batteries offer higher energy density (storing more electric energy 
+per unit volume/weight), faster charging speeds, longer service life and increased safety 
+(mitigating risks of liquid electrolyte leakage and combustion). However, this technology 
+currently faces challenges including high electrolyte material costs, significant interface 
+impedance and immature large-scale production processes. Solid-state batteries are 
+considered a key direction for the next generation of battery technology development.
+BUSINESS REVIEW
+1. Products and Capacity
+In order to satisfy fast growing demands for lithium products in the market, the Company 
+further expanded its production capacity by conducting technical transformation of 
+the existing production lines and building new production lines. The expansion of 
+production capacity will help expand the Company’s global market share to meet the 
+growing demand of customers for the Company’s products. Major production bases of 
+the Company as at the date of this announcement are set forth below:
+Lithium Compound and Lithium Metal
+Production Base/
+Subsidiary Location Primary Products
+Year of 
+Production 
+Commencement
+Fengxin Ganfeng Fengxin, Jiangxi Lithium metal 2011
+Yichun Ganfeng Yichun, Jiangxi Lithium metal 2013
+10,000-ton Lithium Salt Xinyu, Jiangxi Lithium carbonate, lithium hydroxide, 
+lithium chloride, butyl lithium
+2014
+Ningdu Ganfeng Ningdu, Jiangxi Lithium carbonate 2018
+Xinyu Ganfeng Xinyu, Jiangxi High-purity lithium carbonate, lithium 
+fluoride, lithium perchlorate
+2020
+Fengcheng Ganfeng Fengcheng, Jiangxi Lithium hydroxide 2024
+Sichuan Ganfeng Dazhou, Sichuan Lithium carbonate, lithium hydroxide 2025
+Qinghai Ganfeng Haixi Prefecture, 
+Qinghai
+Lithium metal Trial production
+
+===== PAGE 32 =====
+– 32 –
+Lithium Batteries
+Production Base/
+Subsidiary Location Primary Products
+Year of 
+Production 
+Commencement
+Ganfeng LiEnergy Xinyu, Jiangxi Lithium-ion motive power batteries, 
+energy storage batteries
+2016
+Ganfeng Electronics, 
+Ganfeng New Lithium 
+Source
+Xinyu, Jiangxi Smart wearables, TWS headsets, 
+smart electronic lithium batteries
+2018
+Jiangsu Ganfeng Suzhou, Jiangsu PACK systems for construction 
+machinery power batteries
+2019
+Huichuang New Energy Dongguan, 
+Guangdong
+PACK systems for two-wheeled 
+vehicles, outdoor energy storage 
+and household energy storage
+2017
+Huizhou Ganfeng Huizhou, 
+Guangdong
+Lithium batteries for smartphones, 
+tablets, laptops and power banks
+2022
+Chongqing Ganfeng Power Chongqing Power battery PACK systems for 
+passenger vehicles and commercial 
+vehicles
+2023
+Nanchang Ganfeng 
+LiEnergy
+Nanchang, Jiangxi Energy storage batteries, battery 
+modules and PACK systems
+2025
+Lithium Battery Recycling
+Production Base/
+Subsidiary Location Primary Products
+Year of 
+Production 
+Commencement
+Ganfeng Recycling Xinyu, Jiangxi Lithium recycling solution, NCM 
+precursor, iron phosphate, 
+battery-grade lithium carbonate
+2017
+Ganzhou Renewable 
+Resources
+Ganzhou, Jiangxi Metal waste, cathode material powder 2022
+Sichuan Ganfeng Dazhou, Sichuan Metal waste, cathode material powder 2023
+2. Lithium Chemical Business
+As the world’s largest metal lithium producer and the largest lithium compounds supplier 
+in the PRC, the Company owns the industrialized technology of “lithium extracted 
+from brine”, “lithium extracted from ore” and “lithium extracted from decommissioned 
+batteries” at the same time. During the Reporting Period, Xinyu Ganfeng upgraded 
+
+===== PAGE 33 =====
+– 33 –
+its high-purity lithium carbonate capacity to 30,000 tons per annum and its lithium 
+fluoride capacity to 25,000 tons per annum, respectively, both of which are at the trial 
+production stage; Phase I of Qinghai Ganfeng’s 1,000 tons per annum lithium metal 
+project was at the trial production stage and is expected to be officially commissioned in 
+the third quarter of 2026. The Company will further implement lean production, energy 
+conservation and consumption reduction, proactively reduce costs in details, improve 
+the digital and intelligent level of factories, and accelerate the cultivation of new quality 
+productive forces.
+As of the date of this announcement, the distribution of the Company’s existing lithium 
+salt and lithium metal product capacity was as follows:
+No. Production Base Location Primary Products
+Designed 
+Production 
+Capacity
+1 10,000-ton Lithium Salt Xinyu, Jiangxi Lithium hydroxide 81,000 tons/year
+Lithium carbonate 12,000 tons/year
+Lithium chloride 12,000 tons/year
+Butyl lithium 2,000 tons/year
+2 Xinyu Ganfeng Xinyu, Jiangxi High-purity lithium 
+carbonate
+30,000 tons/year
+Lithium fluoride 25,000 tons/year
+3 Ningdu Ganfeng Ningdu, Jiangxi Lithium carbonate 17,500 tons/year
+4 Yichun Ganfeng Yichun, Jiangxi Lithium metal 1,600 tons/year
+5 Fengxin Ganfeng Fengxin, Jiangxi Lithium metal 1,230 tons/year
+6 Qinghai Ganfeng  
+(Phase I)
+Haixi Prefecture, 
+Qinghai
+Lithium metal 1,000 tons/year
+7 Fengcheng Ganfeng 
+(Phase I)
+Fengcheng, Jiangxi Lithium hydroxide 25,000 tons/year
+8 Argentina  
+Cauchari-Olaroz
+Jujuy, Argentina Lithium carbonate 40,000 tons/year
+9 Argentina Mariana Salta, Argentina Lithium chloride 20,000 tons/year
+10 Sichuan Ganfeng Dazhou, Sichuan Lithium carbonate 25,000 tons/year
+Lithium hydroxide 25,000 tons/year
+11 Ganfeng Recycling Xinyu, Jiangxi Battery-grade lithium 
+carbonate
+20,000 tons/year
+Battery-grade iron 
+phosphate
+40,000 tons/year
+Note: The designed production capacity of Argentina Cauchari-Olaroz  is calculated based on 100% 
+interest held.
+
+===== PAGE 34 =====
+– 34 –
+3. Lithium Resources
+The Company continuously monitored high-quality resources and supporting projects 
+worldwide, ensuring the capacity matching between resource projects and production 
+projects. Its commissioned resource locations covered Mali, Australia, Argentina, and 
+China, with resource types including spodumene, salars, and lepidolite. This diversified 
+resource supply system gradually enhanced the resilience of the Company’s raw material 
+supply chain.
+As of the date of this announcement, the Company’s direct or indirect interests in lithium 
+resources globally were as follows:
+No.
+Resource 
+type Project name
+Ownership 
+interest Note 1 Resources Note 2
+1 Spodumene Mount Marion spodumene project, 
+Australia
+50% 2.22 million tons of LCE
+2 Pilgangoora spodumene project, 
+Australia
+3.27%Note 3 11.67 million tons of LCE
+3 Goulamina spodumene project, 
+Mali
+65% 9.82 million tons of LCE
+4 Bombali lithium mine project, 
+Sierra Leone
+73% 1.16 million tons of LCE
+5 Avalonia spodumene project, 
+Ireland
+100% Under exploration
+6 Heyuan spodumene project in 
+Ningdu, China
+100% 0.10 million tons of LCE
+7 Lithium salar Cauchari-Olaroz lithium salar 
+project, Argentina
+46.67% 37.70 million tons of LCE
+8 Mariana lithium salar project, 
+Argentina
+100% 13.17 million tons of LCE
+9 PPGS lithium salar project, 
+Argentina
+67%Note 4 21.79 million tons of LCE
+10 Yiliping salar project, Qinghai, 
+China
+49% 1.65 million tons of LCE
+11 Dezongmahai lake project, China 100% Under exploration
+
+===== PAGE 35 =====
+– 35 –
+No.
+Resource 
+type Project name
+Ownership 
+interest Note 1 Resources Note 2
+12 Lepidolite Songshugang tantalum-niobium 
+mine project, Shangrao, China
+90% 1.49 million tons of LCE
+13 Vilasto lithium mine project, Inner 
+Mongolia, China
+12.5% 1.42 million tons of LCE
+14 Chenzhou Xianghuapu lepidolite 
+mine project, Hunan, China
+20% Under exploration
+15 Inner Mongolia Gabus niobium 
+tantalum mine project, China
+70% 0.881 million tons of LCE
+16 Lithium clay Sonora lithium clay project, 
+Mexico
+100% 8.82 million tons of LCE
+Notes: 1) The ownership interest is converted to the project shareholding based on the shareholding 
+ratio;
+2) The resources are calculated as lithium carbonate equivalent at the lithium oxide content 
+based on 100% interest held, with the relevant data from the public information of respective 
+projects;
+3) The Company’s ownership interest in Australia-based PLS Group Limited includes shares 
+pledged following the Company’s collar option transaction;
+4) In accordance with the announced integration plan, after the integration of the PPGS lithium 
+salar project  which is expected to be completed by the end of the third quarter of 2026 , 
+the Company will hold a 67% interest in the project. For further details, please refer to the 
+announcements of the Company dated 12 August 2025, 10 November 2025 and 24 August 
+2026 in relation to, among other things, the formation of joint venture.
+The development progress of some of the Company’s major mineral projects is  as 
+follows:
+The Mount Marion spodumene project, located approximately 40 kilometers from 
+Kalgoorlie, Western Australia, is currently one of the Company’s key sources of lithium 
+spodumene raw materials, in which the Company holds a 50% equity interest. In 2026, 
+Mount Marion is constructing  a flotation plant and undertaking  underground mining 
+works, upgrading the project from single open-pit mining to a combined “open-pit + 
+underground” mining model. The new flotation plant will significantly enhance the 
+beneficiation recovery rate, enabling the production of higher-quality lithium concentrate 
+across the entire production line; the underground mining works will effectively unlock 
+additional  high-grade mineral resources in the deep zones of the open pit, extending 
+the overall life of the mine. Upon completion of the upgrade, the annual capacity of the 
+Mount Marion spodumene project is expected to reach 600,000 tons, equivalent lithium 
+concentrate  at a 6% grade . The overall upgrade and transformation is expected to be 
+completed before  2028, at which point the project will contribute more high-quality, 
+low-cost lithium raw materials to the Company.
+
+===== PAGE 36 =====
+– 36 –
+Cauchari-Olaroz is a lithium salar located in Jujuy Province in Northwest Argentina. 
+The Company holds a 46.67% equity interest in the project and has the right of control 
+over the project. According to the latest resource report, the total lithium resources of 
+the Cauchari-Olaroz project are approximately 37.70 million tons of LCE, making it 
+one of the world’s largest lithium extraction projects from salars. The designed capacity 
+of Phase I of the project is 40,000 tons of LCE per annum. The Company entered 
+into an offtake agreement to obtain the offtake right for 76% of the planned annual 
+output of 40,000 tons of LCE from the Cauchari-Olaroz project. Currently, Phase I 
+of the project is operating and producing well, with continuously improving capacity 
+utilization. In the first half of 2026, the Cauchari-Olaroz project produced 19,000 tons 
+of lithium carbonate. Phase II of the Cauchari-Olaroz project targets an annual capacity 
+of 45,000 tons of LCE, and Phase II of the project has been successfully selected for 
+Argentina’s RIGI programme, and will fully enjoy the preferential policies under the 
+RIGI programme, providing a solid policy safeguard for the project’s subsequent stable 
+operation and cost optimization. The Company will continue to advance the capacity 
+construction of Phase II, further leveraging the low-cost advantages of salar resources.
+The Goulamina spodumene ore project is located in southern Mali, Africa, and the 
+Company holds a 65% equity interest in the project. The Goulamina spodumene ore 
+project covers a mining area of 100 square kilometers, with a total ore quantity of 299.32 
+million tons (measured + indicated + inferred resources), a metal oxide Li 2O quantity of 
+3.99 million tons, and an average lithium oxide grade of 1.33%. Phase I of the project, 
+with an annual capacity of 506,000 tons of lithium concentrate, commenced production 
+in 2025, providing an additional stable and high-quality lithium resource supply channel 
+for the Company. In the first half of 2026, Phase I of the project produced a total of 
+233,800 tons of lithium concentrate, with its resource supply capability continuing to 
+strengthen. The feasibility study for Phase II of the project has been completed, and 
+construction of Phase II is being progressively advanced. As capacity is gradually 
+released, the Goulamina project will become an important low-cost, high-quality supply 
+source within the Company’s lithium resource system.
+
+===== PAGE 37 =====
+– 37 –
+The Bombali lithium mine project is located in the Bombali District, Northern Province, 
+Sierra Leone, Africa, and the Company holds a 73% equity interest in the project. The 
+Bombali lithium mine project covers  a mining area of 80.43 square kilometers and 
+features a greisenized pegmatite vein-type lithium deposit. The main lithium-bearing 
+minerals are spodumene, lepidolite, and associated tantalum, and the project has obtained 
+local mining licenses and environmental impact assessment approvals. According to the 
+latest detailed investigation results, the estimated resource of the Bombali lithium mine 
+project covers an area of 1.31 square kilometers. Within the mining right, the indicated 
+and inferred ore quantity of lithium ore is 38.8206 million tons, the metal oxide (Li 2O) 
+quantity is 471,800 tons, and the average grade of Li 2O is 1.22%. The initial construction 
+target of the project is to achieve  a mining and beneficiation production scale of 2 
+million tons per annum, adopting open-pit mining. Currently, the project is in the 
+infrastructure construction stage  and production capacity is expected to begin ramping 
+up in 2027.
+The Gabus lithium tantalum mine project of Mengjin Mining is located in Xianghuangqi, 
+Inner Mongolia Autonomous Region, and the Company holds a 70% equity interest 
+in the project. According to the relevant exploration report filing, the total identified 
+resources of the project amounted to 72.443 million tons, comprising 66.775 million 
+tons of lithium oxide  ore at an average grade of 0.67% Li 2O (yielding 450,700 tons of 
+contained Li 2O); 69.402 million tons of tantalum oxide ore at an average grade of 0.014% 
+Ta2O5 (yielding 9,448 tons of contained Ta 2O5); and 63.067 million tons of niobium 
+oxide ore at an average grade of 0.008% Nb 2O5 (yielding 4,772 tons of contained Nb 2O5). 
+In the first half of 2026, Mengjin Mining maintained stable and orderly production 
+operations, with the quality indicators of the concentrate products consistently meeting 
+standards, the cumulative output of lepidolite concentrate with a Li 2O grade of 4.25% 
+was 42,300 tons, and the output of tantalum-niobium concentrate with a Ta 2O5 grade of 
+10% was 106.1 tons, with the quality indicators of the concentrate products remaining 
+stable.
+4. Lithium Battery Business
+Based on the advantages in upstream lithium resources supply and full industrial chain 
+of the Company, the Company’s lithium battery business has covered five categories 
+of solid-state lithium battery, motive power batteries, consumer batteries, energy 
+storage batteries and energy storage systems, covering more than 20 kinds of products, 
+including levels from milliampere-hours to 100 ampere-hours, and the application of 
+solid-state technology to continuously promote the global energy transition. At present, 
+the Company’s lithium battery business has set up production bases in places including 
+Xinyu, Nanchang, Dongguan, Huizhou, Suzhou and Chongqing of the PRC.
+
+===== PAGE 38 =====
+– 38 –
+1. Consumer batteries : The two major bases of Ganfeng Electronics and Huizhou 
+Ganfeng operate in synergy, with consumer lithium-ion batteries at the core, 
+achieving a production capacity of 1.5 million pieces per day. The Company 
+supports the customized demands of high-end customers and has built a diversified, 
+full-scenario product matrix, forming a dual service model of “standardized 
+products + customized solutions” to meet the differentiated needs of various 
+customers. Batteries for mobile phones, laptops , smart wearables  and portable 
+power banks, as the core products prioritized by the Company, are aligned with 
+the development trend of consumer electronics featuring “miniaturization, high 
+performance, long endurance and high safety”, and continuously empower the 
+upgrading of terminal products. With the core advantages of miniaturization, high 
+endurance and low power consumption, the Company has become a core supplier 
+of TWS button batteries to renowned brands.
+2. Motive power batteries:  The Company has built commercial vehicle power 
+battery and system solutions covering all scenarios, and its lithium iron phosphate 
+commercial vehicle battery matrix has been fully implemented. Among them, the 
+high-energy-density version of the high-safety products has exceeded 193Wh/
+kg, enabling rapid energy replenishment in a short period of time. The Company 
+features customised solutions for various application scenarios such as heavy-duty 
+trucks, light-duty trucks and mini-vans. The Company has also completed upgrades 
+to its high-rate, long-cycle batteries. The battery systems of high-performance 
+battery cells of the Company have capacities covering 10kWh-1,000kWh and can 
+be widely applied to various commercial vehicle models such as heavy-duty trucks, 
+mining trucks, light-duty trucks, light buses, public buses and sanitation vehicles, 
+offering advantages such as low cost, high reliability, high integration and 
+platform-based design. In terms of energy replenishment systems, the Company’s 
+supercharging battery technology and battery swapping technology have established 
+an efficient, dual-driven energy replenishment ecosystem of “fast charging + 
+battery swapping”, fully satisfying the high-intensity, high-efficiency and long-
+cycle operational requirements of commercial vehicles.
+Through market analysis of domestic and foreign application scenarios for 
+two-wheeled vehicles, the Company conducts precise design and research and 
+development in the field of motive power batteries for two-wheeled vehicles to 
+meet various market demands. Among them, B-end commercial battery swap 
+products, featuring comprehensive high power, high energy density, high safety 
+and long service life, are widely used in tower battery swap projects and hold 
+a leading position in the segmented battery swap market; C-end civil battery 
+cells have the advantages of low-temperature charging, low cost and high safety, 
+quickly opening up the market; 255Wh/kg high energy density C3 continuous rate 
+discharge battery cells are delivered in batches to meet the high-power, high-safety 
+and high-energy density demands of the electric motorcycle market.
+
+===== PAGE 39 =====
+– 39 –
+3. Energy storage cells:  Based on the core demands of the energy storage market, 
+the Company carries out product development centered on the technical directions 
+of high safety, long cycle life, high energy efficiency and large capacity for energy 
+storage cells, continuously reducing the levelized cost of electricity (LCOE) 
+throughout the entire life cycle of energy storage. In the first half of 2026, market 
+demand remained strong, with cell products in short supply, and the Company’s 
+energy storage cells continued to operate at full capacity, with capacity utilization 
+approaching 100%. Nanchang Ganfeng LiEnergy’s  self-developed 588Ah and 
+648Ah large-capacity cells are benchmark products in the industry, with energy 
+density significantly improved compared to conventional products, precisely 
+meeting the core needs of large-scale energy storage power stations. Among these, 
+the production line for 588Ah large-capacity cells has commenced commissioning 
+and trial production, with capacity ramp-up officially scheduled to commence in 
+the third quarter of 2026 and volumes to be gradually released before the end of 
+the year; the production line for 648Ah large-capacity cells  is being accelerated.  
+Going forward, the rollout of the Company’s large-capacity cell production line 
+projects will further consolidate the Company’s leading position in energy storage 
+technology and optimize its product structure.
+4. Energy storage systems: The 5MWh standard energy storage cabin has achieved 
+large-scale mass production, with products deployed across Inner Mongolia, 
+Guangdong, Xinjiang, Shanxi, Yunnan, Ningxia and other regions nationwide, 
+adapting to various regional environments. Among these, the 1GW/4GWh 
+energy storage power station in Arong Banner, Hulunbuir, Inner Mongolia, is  the 
+largest single-site grid-forming energy storage power station domestically and 
+internationally as of the date of this announcement.
+Ganfeng LiEnergy launched its 6.25MWh containerized energy storage system 
+in 2025, making it one of the first enterprises to launch this type of product. 
+The system adopts efficient liquid cooling technology, with a control system 
+temperature differential of ≤3ºC, an operating temperature range of -40ºC to 
+60ºC, and an energy density of 146Wh/L. This 6.26MWh energy storage product 
+is configured within a standard 20-foot container, meeting export requirements 
+simultaneously. Based on 588Ah cells with higher energy density, the 6.26MWh 
+containerized energy storage product is  expected to commence mass production 
+and delivery in the fourth quarter of 2026.
+
+===== PAGE 40 =====
+– 40 –
+As of the date of this announcement, the Company’s existing production bases for 
+consumer lithium batteries, motive power batteries, energy storage batteries, and PACK 
+systems are as follows:
+No. Production Base Location Primary Products
+Designed Production 
+Capacity
+1 Huizhou Ganfeng Huizhou, 
+Guangdong
+Lithium batteries for smartphones, 
+tablets, laptops and power banks
+150 million lithium 
+batteries per year
+2 Ganfeng 
+Electronics, 
+Ganfeng New 
+Lithium Source
+Xinyu, Jiangxi Smart wearables, TWS headsets, 
+smart electronic lithium 
+batteries
+390 million small 
+polymer lithium 
+batteries per year
+3 Ganfeng LiEnergy Xinyu, Jiangxi Lithium motive power battery, 
+energy storage battery, battery 
+module and PACK system
+40GWh/year of motive 
+power, energy storage, 
+and semi-solid-state 
+battery cells; 18GWh/
+year of energy storage 
+PACK systems
+4 Nanchang 
+Ganfeng
+Nanchang, 
+Jiangxi
+Energy storage batteries, battery 
+modules and PACK systems
+10GWh/year of energy 
+storage batteries; 
+12GWh/year of energy 
+storage PACK systems
+5 Jiangsu Ganfeng Suzhou, Jiangsu PACK systems for construction 
+machinery power batteries
+3.3GWh/year
+6 Huichuang  
+New Energy
+Dongguan, 
+Guangdong
+PACK systems for two-wheeled 
+vehicles, outdoor energy storage 
+and household energy storage
+2GWh/year of battery 
+PACK systems
+7 Chongqing 
+Ganfeng Power
+Chongqing Power battery PACK systems 
+for passenger vehicles and 
+commercial vehicles
+4.5GWh of motive 
+power battery systems 
+per year
+
+===== PAGE 41 =====
+– 41 –
+5. Upstream and Downstream Integration of Solid-State Batteries
+Leveraging its forward-looking technology deployment and full-chain collaborative 
+advantages, the Company focuses on research into the core technologies of solid-state 
+batteries, striving to possess integrated upstream and downstream capabilities in solid-
+state batteries, achieving simultaneous breakthroughs in technology and product matrix, 
+and accelerating the commercialization process of multi-scenario applications.
+1. In terms of technology research and development, the Company focuses on 
+the development of core solid-state battery electrolyte materials, electrolyte 
+membranes, and high-specific-energy, high-power batteries, achieving systematic 
+technological breakthroughs. The Company has simultaneously advanced the 
+industrialization threshold breakthrough of dual routes: silicon-carbon and lithium 
+metal anodes. With lithium metal anode technology as the core, it has promoted 
+the mass production process of high-specific-energy batteries. The cycle life 
+of 400Wh/kg batteries has exceeded 1,100 cycles and completed engineering 
+verification, with large-scale application potential; the world’s first 500Wh/kg 
+class 10Ah product has achieved small-batch mass production, establishing a 
+benchmark for the industrialization of lithium metal batteries. At the same time, 
+silicon-based anodes are being advanced, with the silicon-based system achieving 
+a gradient layout of 32 0–4 80Wh/kg products. Among them, the cycle life of 
+320Wh/kg battery cells has exceeded 1,000 cycles, and the 480Wh/kg technology 
+reserve has reached the industry’s top level, meeting the differentiated needs of 
+different scenarios for energy density and cycle performance.
+2. In terms of standard-setting leadership, the Company has participated in the 
+development of the solid-state battery standard system, including the formulation 
+of key material standards such as Battery-Grade Lithium Sulfide, Test Method for 
+Ion Conductivity of Sulfide Solid Electrolytes – AC Impedance Method, Inorganic 
+Oxide Solid-State Electrolyte – Lithium Aluminum Titanium Phosphate, Inorganic 
+Oxide Solid-State Electrolyte – Lithium Lanthanum Zirconium Oxide, and Lithium 
+and Lithium Alloy Anode Materials, covering core categories such as sulfide and 
+oxide electrolytes and metallic lithium-based anodes, building a full-chain standard 
+system from raw materials and test methods to product specifications.
+
+===== PAGE 42 =====
+– 42 –
+3. In terms of commercial application, leveraging its core advantages of high specific 
+energy, high rate capability and high safety, the Company has achieved phased 
+breakthroughs across multiple tracks, successfully completing technical validation, 
+scenario adaptation and order fulfillment. The Company has developed customized 
+battery solutions dedicated to low-altitude flight, adapted for drone and manned 
+aircraft scenarios, with multiple silicon-based and lithium metal batteries beginning 
+mass application in industrial and consumer drones, successfully entering the 
+high-end niche market; the Company has proactively deployed products adapted 
+to robotics operating conditions, having completed product adaptation testing and 
+small-batch supply with mainstream industry enterprises, deepening ties with core 
+market resources and consolidating its first-mover advantage; and with its ultra-
+high specific energy and wide-range high-rate discharge characteristics meeting the 
+stringent requirements of aerospace vehicles, the Company continues to advance 
+technical adaptation and strategic cooperation.
+The Company will continue to deepen its full industrial chain deployment and accelerate 
+the commercialization process across various tracks. It will focus on expanding its 
+coverage of the low-altitude economy market, driving the mass rollout of the electric 
+tools business, increasing the scale of supply in the robotics field, and pursuing high-
+end aerospace scenario cooperation. At the same time, the Company will strengthen 
+product performance optimization and capacity reserves, comprehensively accelerate 
+the industrialization and scale-up of solid-state batteries, and drive sustained business 
+growth with robust momentum.
+6. Integrated Energy Business
+With “green and low-carbon development” as its core strategy, the Company has built 
+an integrated energy service system covering the entire chain of “source, grid, load 
+and storage”, striving to develop an internationally first-class and domestically leading 
+ecosystem for the new-type power system. Its business layout covers multiple areas 
+including energy storage power stations, industrial and commercial energy storage, 
+direct green power connection, zero-carbon park construction and overseas microgrids.
+1. Energy storage power stations:  The Company adopts a dual-driven approach 
+of “user-side distributed energy storage + grid-side centralized energy storage”, 
+building an energy storage ecosystem covering the entire industrial chain. The 
+Company has actively participated in dozens of large-scale energy storage power 
+station projects and reached project cooperation with Électricité de France (EDF), 
+a global leading power enterprise, with its energy storage business gaining high 
+recognition in mainstream European markets. The 5MWh standard energy storage 
+cabin has achieved large-scale mass production, with products deployed across 
+Inner Mongolia, Guangdong, Xinjiang, Shanxi, Yunnan, Ningxia and other regions 
+
+===== PAGE 43 =====
+– 43 –
+nationwide, adapting to various complex environments; the 6.25MWh containerized 
+energy storage system was launched in the same period, providing strong support 
+for regional grid stability and energy transition. In 2026, the Company advanced 
+the commencement of construction of the 200MW/400MWh independent energy 
+storage pilot demonstration project in Wannian County, Jiangxi, and plans to apply 
+for the filing of five reserve projects, continuing to expand its business footprint.
+2. Industrial and commercial energy storage:  Leveraging technology research 
+and development and scaled deployment, the Company continues to promote the 
+structural transformation and upgrading of energy storage, providing efficient 
+and safe smart energy storage solutions for industrial and commercial customers, 
+helping enterprises reduce energy costs and improve energy utilization efficiency.
+3. Direct green power connection:  Through the deep integration of “wind power 
++ solar power + energy storage”, the Company provides traceable green power 
+for production bases in Xinyu, Nanchang and other locations, achieving ultra-low 
+emissions across the industrial chain from the source, and significantly enhancing 
+the green competitiveness of its products in overseas markets.
+4. Zero-carbon park construction: The Company has helped the Yichun Economic 
+Development Zone in Jiangxi, the Liangjiang New Area in Chongqing, and the 
+Fengcheng project in Jiangxi to be selected as national-level/provincial-level zero-
+carbon parks. Through process optimization to reduce carbon emissions at the 
+source, the substitution of coal-fired power and steam with green power/green 
+steam, and the replacement of conventional fuel-powered heavy trucks with electric 
+heavy trucks, the Company has achieved greening across production, operations 
+and logistics, establishing itself as a zero-carbon benchmark in the lithium battery 
+industry. In 2026, the Company successfully applied for the upgrade of the Fenyi 
+County Industrial Park to a zero-carbon park, and is actively promoting the mutual 
+recognition and alignment of domestic and overseas carbon footprint accounting 
+rules, helping its products expand into overseas markets.
+5. Overseas microgrids:  The Company is actively expanding its overseas off-grid 
+and microgrid business, supporting the integrated solar-storage construction of the 
+Goulamina lithium mine project in Mali and the lithium salar extraction projects 
+in Argentina, providing clean and stable energy assurance for the development of 
+overseas mineral resources, and driving global energy transition and sustainable 
+development.
+Leveraging the dual drivers of technology research and development and scaled 
+deployment, the Company will continue to deepen its integrated energy service 
+capabilities, actively expand its domestic and overseas energy storage investment and 
+operation, direct green power connection and zero-carbon solutions, continuously expand 
+its business footprint, and strive to become a global leading enterprise in the integrated 
+energy sector.
+
+===== PAGE 44 =====
+– 44 –
+7. Battery Recycling Business
+The Company has further enhanced its industrialization technology level and competitive 
+advantages by developing new processes and technologies for the comprehensive 
+recycling and utilization of retired batteries and expanding the capacity of its retired 
+lithium battery recycling business. Currently, the Company has established multiple 
+dismantling and regeneration bases in Xinyu, Ganzhou, Dazhou (Sichuan) and other 
+locations, achieving an organic combination of resource recycling and business growth. 
+At the technical level, the Company adopts internationally leading processes for the 
+recycling and treatment of spent batteries, achieving harmless treatment of exhaust gas 
+and zero wastewater discharge; at the lithium extraction process level, the Company 
+extracts valuable metals and lithium compounds from recycled spent materials, forming 
+a closed loop for the sustainable development of batteries and achieving resource 
+recycling; at the recycling network construction level, the Company has accelerated the 
+deployment of its recycling network, establishing standardized comprehensive recycling 
+and utilization bases for retired batteries in eight major cities nationwide. The green 
+recycling plants invested and constructed by the Company work closely with local 
+governments and public transport systems, ensuring a stable supply of raw materials 
+from spent batteries. Currently, the Company holds a leading market share in lithium 
+iron phosphate recycling in the industry, with a lithium comprehensive recovery rate 
+of up to 94% and a nickel-cobalt metal recovery rate of 99%. In 2025, the newly added 
+capacity of Ganfeng Recycling was completed and put into operation,  using dismantled 
+and pulverized lithium iron phosphate battery materials to produce iron phosphate and 
+battery-grade lithium carbonate, achieving an industry-leading level in recycling and 
+regeneration.
+8. Technology-Driven Ganfeng Strategy
+The Company adheres to the high-quality development path of “technology innovation-
+driven” growth, and possesses provincial-level and above scientific research innovation 
+platforms, including the “National Enterprise Technology Center”, the “National 
+Postdoctoral Research Station”, the “Jiangxi Province Engineering Center for Lithium-
+Based New Materials Industry Technology” and the “Jiangxi Provincial Key Laboratory 
+of Lithium Battery Materials and Applications”, together with a highly skilled 
+technology innovation team and a mature industry-university-research cooperation 
+mechanism. With technology innovation as its strategic engine, the Company has built 
+a full-chain high-quality development paradigm of “R&D leadership – achievement 
+transformation – industrial upgrading”.
+
+===== PAGE 45 =====
+– 45 –
+During the Reporting Period, 6 employees of the Company were selected for the Jiangxi 
+Province Ganpo Talent Program; the Company undertook one central government-
+guided local fund project and one Jiangxi Provincial Natural Science Foundation 
+general project. Ganfeng Recycling completed the acceptance inspection of a central 
+government-guided local science and technology development fund project and a Jiangxi 
+Provincial Key R&D Program project under the “open competition mechanism to 
+select the best candidates”; Fengcheng Ganfeng was recognized as a Yichun Municipal 
+Industrial Design Center and a Yichun Municipal Enterprise Technology Center, and was 
+selected for a Yichun Municipal Major Science and Technology Project in 2025. The 
+project “Development of Key Technologies for Solid-State Lithium-Ion Batteries and 
+Their Industrialized Application” submitted by Ganfeng LiEnergy has passed the public 
+announcement stage for the Jiangxi Province Science and Technology Progress Award 
+(First Class). Jiangsu Ganfeng was recognized as a Jiangsu Province Gazelle Enterprise, 
+a Jiangsu Province Private Technology Enterprise, and a Growth-Stage Enterprise 
+under the Suzhou Intellectual Property Strong Enterprise Cultivation Program; Ganfeng 
+Electronics won First Prize in the Jiangxi Xinyu-Yichun-Pingxiang Division of the 
+“MAKER IN CHINA” competition; Chongqing Ganfeng Power was recognized as a 
+Chongqing Municipal Advanced-Level Intelligent Factory and won the Third Prize of 
+the Chongqing Science and Technology Progress Award; and Guangdong Huichuang 
+was recognized as a National Specialized, Refined, Distinctive and Innovative Key 
+“Little Giant” Enterprise and obtained DCMM Level 3 certification. The Company led 
+or participated in the formulation of national standards, industry standards and group 
+standards covering a total of 92 products, and won 16 standard-related awards, among 
+which Fengxin Ganfeng won the First Prize of the Jiangxi Province Standard Project 
+Award.
+As of 30 June 2026, the Company had been granted a total of 1,486 patents, including 
+296 national invention patents in China, 23 international invention patents, 1,092 utility 
+model patents, and 75 design patents. In addition, the Company had applied for 35 
+software copyrights and had been granted 30 software copyrights.
+
+===== PAGE 46 =====
+– 46 –
+FINANCIAL REVIEW
+1. Overview
+During the Reporting Period, the Group’s revenue amounted to RMB22,884,121 
+thousand, representing an increase of RMB14,626,453 thousand as compared to 
+RMB8,257,668 thousand for the six months ended 30 June 2025. The Group’s gross 
+profit amounted to RMB7,135,927 thousand, representing an increase of RMB6,245,653 
+thousand as compared to RMB890,274 thousand for the six months ended 30 June 2025. 
+During the Reporting Period, the Group’s basic earnings per share were RMB2.04 (for 
+the six months ended 30 June 2025: basic loss per share of RMB0.27).
+The profit attributable to the owners of the parent company for the Reporting Period 
+amounted to RMB4,257,541 thousand, representing an increase of RMB4,793,754 
+thousand, or 894.0%, as compared to a loss attributable to the owner of the parent 
+company of RMB536,213 thousand for the six months ended 30 June 2025, which was 
+mainly attributable to the significant increase in the selling prices of lithium series 
+products and the sales volume of lithium battery series products during the Reporting 
+Period.
+2. Analysis of revenue and cost
+During the Reporting Period, the revenue of the Group was generated from the sales of 
+lithium compounds, lithium metals, lithium batteries and other products. Total revenue 
+increased by RMB14,626,453 thousand from RMB8,257,668 thousand for the six months 
+ended 30 June 2025 to RMB22,884,121 thousand for the six months ended 30 June 2026, 
+which was mainly attributable to the rapid development of the increase in the average  
+selling prices of  lithium series  products  during the Reporting Period , coupled  with 
+higher  production and sales volumes in the lithium battery segment  fueled by growing 
+energy storage demand, which together led to  a substantial rise  in both revenue and 
+profit  compared to the same period last year.
+
+===== PAGE 47 =====
+– 47 –
+1) Analysis of revenue by products and regions
+The following table sets forth analysis of revenue by products and by sales regions, 
+expressed in absolute amounts and as percentages of total revenue, respectively, 
+for the years and periods indicated.
+By products:
+For the six months 
+ended 30 June 2026
+For the six months 
+ended 30 June 2025
+RMB’000 % RMB’000 %
+Lithium metal and  
+lithium compound 14,094,767 61.6 4,726,322 57.2
+Lithium battery 7,786,464 34.0 2,939,751 35.6
+Others (Note) 1,002,890 4.4 591,595 7.2
+    
+Total 22,884,121 100.0 8,257,668 100.0
+    
+Note: Including phosphorus and potassium segments, NMC precursors, and other products.
+By sales regions:
+For the six months 
+ended 30 June 2026
+For the six months 
+ended 30 June 2025
+RMB’000 % RMB’000 %
+China 22,038,637 96.3 7,545,856 91.4
+Overseas 845,484 3.7 711,812 8.6
+    
+Total 22,884,121 100.0 8,257,668 100.0
+    
+
+===== PAGE 48 =====
+– 48 –
+2) Analysis of operating cost by products
+By products:
+For the six months 
+ended 30 June 2026
+For the six months 
+ended 30 June 2025
+RMB’000
+Percentage 
+of total 
+operating 
+cost (%) RMB’000
+Percentage 
+of total 
+operating 
+cost (%)
+Lithium metal and  
+lithium compound 8,171,680 51.9 4,331,508 58.8
+Lithium battery 6,857,384 43.5 2,531,069 34.4
+Others (Note) 719,130 4.6 504,817 6.8
+    
+Total 15,748,194 100.00 7,367,394 100.0
+    
+Note: Including phosphorus and potassium segments, NMC precursors, and other products.
+3. Gross profit and gross profit margin
+The gross profit margin of the Group for the Reporting Period was 31.2%, representing 
+an increase of 20.4 percentage points as compared with 10.8% for the six months ended 
+30 June 2025, which was primarily due to the significant increase in the selling prices of 
+lithium series products and the sales volume of lithium battery series products during the 
+Reporting Period.
+By products:
+For the six months 
+ended 30 June 2026
+For the six months 
+ended 30 June 2025
+RMB’000
+Gross Profit 
+Margin (%) RMB’000
+Gross Profit 
+Margin (%)
+Lithium metal and lithium 
+compound 5,923,087 42.0 394,814 8.4
+Lithium battery 929,080 11.9 408,682 13.9
+Others (Note) 283,760 28.3 86,778 14.7
+    
+Total 7,135,927 31.2 890,274 10.8
+    
+Note: Including phosphorus and potassium segments, NMC precursors, and other products.
+
+===== PAGE 49 =====
+– 49 –
+4. Other income and gains
+The other income and gains of the Group mainly comprised gain on government 
+grants, interest income from bank and other non-current assets, revenue from sales of 
+raw materials, interest income from associates and a joint venture,  gain on disposal 
+of financial assets at fair value through profit or loss  and fair value change gains on 
+financial assets at fair value through profit or loss and derivative financial instrument.
+During the Reporting Period, other income and gains of the Group amounted to 
+RMB969,082 thousand, representing a decrease of RMB14,525 thousand as compared 
+with RMB983,607 thousand for the six months ended 30 June 2025 . There  was no 
+significant change during the Reporting Period.
+5. Expenses
+For the
+six months 
+ended 
+30 June 
+2026
+For the
+six months 
+ended 
+30 June 
+2025 Change Reason of material change
+RMB’000 RMB’000 %
+Selling and distribution 
+expenses
+108,589 85,441 27.1 Selling and distribution expenses mainly include 
+employee welfare expenses, storage and port 
+fees, sales commissions, advertising and 
+promotion expenses, business entertainment 
+expenses, office and travel expenses, and other 
+expenses. The increase during the Reporting 
+Period was mainly due to the increase in 
+advertising and promotion expenses, and sales 
+commissions.
+Administrative expenses 1,433,988 1,072,342 33.7 Administrative expenses mainly include 
+employee welfare expenses, office and travel 
+expenses, rental expenses, consulting and 
+intermediary fees, business entertainment 
+expenses, research and development expenses, 
+banking services and other expenses, as well 
+as asset depreciation and amortization. The 
+increase during the Reporting Period was 
+mainly due to the increase in research and 
+development expenses, and banking services.
+
+===== PAGE 50 =====
+– 50 –
+For the
+six months 
+ended 
+30 June 
+2026
+For the
+six months 
+ended 
+30 June 
+2025 Change Reason of material change
+RMB’000 RMB’000 %
+Other expenses 338,483 710,750 (52.4) Other expenses mainly include costs of raw 
+material sold, impairment of trade receivables, 
+net, exploration expenses, foreign exchange 
+differences, net, write-down of inventories 
+to net realisable value, net loss on disposal 
+of property, plant and equipment, and others. 
+The decrease during the Reporting Period was 
+mainly due to the decrease in fair value losses 
+of financial assets at fair value through profit 
+or loss and derivative financial instruments.
+Finance costs 647,318 703,881 (8.0) Finance costs mainly include interest expenses 
+on bank and other loans, interest expenses on 
+discounted bills, interest expenses on payable 
+bonds, and lease liability expenses. There was 
+no significant change during the Reporting 
+Period.
+
+===== PAGE 51 =====
+– 51 –
+6. Other expenses
+Other expenses of the Group for the Reporting Period amounted to RMB338,483 
+thousand, representing a decrease of RMB372,267 thousand as compared to 
+RMB710,750 thousand for the six months ended 30 June 2025. The details are as 
+follows:
+For the 
+six months 
+ended 
+30 June 
+2026
+For the 
+six months 
+ended 
+30 June 
+2025
+RMB’000 RMB’000
+Cost of raw materials sold 54,111 49,844
+Impairment of trade receivables, net 73,937 1,291
+Write-down of inventories to net realisable value 33,049 194,644
+Fair value losses on disposal of financial assets at fair 
+value through profit or loss and derivative financial 
+instruments – 277,690
+Net loss on disposal of property, plant and equipment 37,136 776
+Exploration expenditure 16,053 30,917
+Foreign exchange differences, net 115,124 148,640
+Others 9,073 6,948
+  
+Total 338,483 710,750
+  
+7. R&D expenses
+During the Reporting Period, R&D  expenses of the Group amounted to RMB739,780 
+thousand, accounting for 3.2% of the Group’s revenue, representing an increase of 70.6% 
+as compared to RMB433,663 thousand for the six months ended 30 June 2025 , which 
+was mainly due to the significant increase in employee compensation resulting from the 
+expansion of the R&D team during the Reporting Period, as well as the heightened raw 
+material investment to advance cutting-edge technology research and development.
+
+===== PAGE 52 =====
+– 52 –
+8. Cash flows
+For the 
+six months 
+ended 
+30 June 
+2026
+For the 
+six months 
+ended 
+30 June 
+2025 Change Reason of material change
+RMB’000 RMB’000 %
+Net cash flows generated 
+from/(used in) operating 
+activities
+1,328,246 300,345 342.20 Mainly due to an increase in cash received from 
+sales of goods and rendering of services during 
+the Reporting Period.
+Net cash flows generated 
+from/(used in) investing 
+activities
+52,948 (2,181,045) 102.40 Mainly due to an increase in cash received from 
+disposal of investments and a decrease in 
+cash paid for the acquisition of fixed assets, 
+intangible assets and other long-term assets 
+during the Reporting Period.
+Net cash flows generated 
+from/(used in) financing 
+activities
+1,779,249 5,955,940 (70.10) Mainly due to an increase in cash paid for 
+repayment of borrowings during the Reporting 
+Period.
+9. Financial position
+Non-current assets decreased by RMB570,377 thousand from RMB78,099,727 thousand 
+as at 31 December 2025 to RMB77,529,350 thousand as at 30 June 2026, there was no 
+significant change during the Reporting Period.
+Current assets increased by RMB9,572,669 thousand from RMB35,158,365 thousand 
+as at 31 December 2025 to RMB44,731,034 thousand as at 30 June 2026, which was 
+mainly due to an increase in cash and cash equivalents, trade and bill receivables and 
+inventories during the Reporting Period.
+Current liabilities increased by RMB1,709,587 thousand from RMB38,273,710 thousand 
+as at 31 December 2025 to RMB39,983,297 thousand as at 30 June 2026, which was 
+mainly due to an increase in trade payables and tax payable during the Reporting Period.
+
+===== PAGE 53 =====
+– 53 –
+Non-current liabilities increased by RMB4,258,629 thousand from RMB23,146,806 
+thousand as at 31 December 2025 to RMB27,405,435 thousand as at 30 June 2026, 
+which was mainly due to an increase in interest-bearing bank and other loans, together 
+with an increase in derivative financial liabilities,  during the Reporting Period.
+As at 30 June 2026 and 31 December 2025, net current assets and net current liabilities 
+of the Group amounted to RMB4,747,737 thousand and RMB3,115,345 thousand, 
+respectively; net assets amounted to RMB54,871,652 thousand and RMB51,837,576 
+thousand, respectively.
+As at 30 June 2026 and 31 December 2025, cash and cash equivalents of the Group 
+amounted to RMB10,960,094 thousand and RMB7,868,247 thousand, respectively.
+10. Income tax expenses
+During the Reporting Period, income tax expense of the Group amounted to 
+RMB1,769,910 thousand, while the income tax credit of the Group amounted to 
+RMB157,215 thousand for the six months ended 30 June 2025, which was mainly due to 
+the increase in total profit during the Reporting Period, with a corresponding increase in 
+income tax expense.
+11. Capital expenditure
+During the Reporting Period, capital expenditure of the Group was RMB2,435,033  
+thousand, representing a decrease of RMB 2,240,405 thousand as compared to 
+RMB4,675,438 thousand for the six months ended 30 June 2025. The Group’s capital 
+expenditure mainly consists  of additions to property, plant and equipment, investment 
+properties, prepayment of leasehold land and intangible assets. The main sources of 
+funds for the Group’s capital expenditure were bank borrowings, issuance of bonds and 
+cash flows generated from operating activities of the Group.
+12. Interest-bearing bank and other borrowings
+As at 30 June 2026, bank and other borrowings of the Group amounted to 
+RMB35,531,946 thousand (31 December 2025: RMB32,745,715 thousand).
+Bank and other borrowings of the Group that would be due within one year 
+amounted to RMB15,556,585 thousand, and due within two to five years amounted 
+to RMB19,144,716 thousand, and more than five years amounted to RMB830,645  
+thousand , respectively. As at 30 June 2026, the Group’s outstanding loans included 
+Renminbi loans and foreign currency loans and approximately 56.87% (31 December 
+2025: 40.89%) of such outstanding loans were at fixed interest rates, with the remaining 
+at floating interest rates.
+
+===== PAGE 54 =====
+– 54 –
+In order to ensure the sustainable operation of the Group as a whole, support the healthy 
+development of business and ultimately achieve the purpose of maximizing shareholder 
+value, the Group takes appropriate financial control measures to reduce financing risks 
+and control the gearing ratio within a reasonable range.
+13. Restricted assets
+As at 30 June 2026, the Group had assets with a total carrying amount of RMB9,004,670 
+thousand (31 December 2025: RMB7,666,483 thousand) pledged as collateral 
+for securing bank borrowings and other banking facilities. These assets included 
+pledged cash and cash equivalents of RMB 215,588 thousand (31 December 2025: 
+RMB553,443 thousand), debt investments of RMB120,000 thousand (31 December 
+2025: RMB339,500 thousand), receivables financing of RMB331,650 thousand (31 
+December 2025: RMB191,830 thousand), non-current assets due within one year of 
+RMB320,000 thousand (31 December 2025: RMB115,000 thousand), other non-current 
+assets of RMB64,108 thousand (31 December 2025: RMB62,134 thousand), other non-
+current financial assets of RMB2,476,485 thousand (31 December 2025: RMB2,085,739 
+thousand), financial assets held for trading  of RMB94,116 thousand (31 December 
+2025: RMB74,426 thousand) , other current assets of RMB 1,053,641  thousand (31 
+December 2025: RMB426,826 thousand) , intangible assets of RMB1,749,626 thousand 
+(31 December 2025: RMB1,749,626 thousand),  construction in progress of RMB238,104 
+thousand (31  December 2025: RMB nil thousand)  and long-term equity investments of 
+RMB2,341,352 thousand (31 December 2025: RMB2,067,959 thousand). In addition, as 
+of 30 June 2026, property, plant and equipment amounting to RMB899,794 thousand (31 
+December 2025: RMB276,880 thousand) were pledged for finance lease arrangements, 
+ownership of intangible assets amounting to RMB1,143,017 thousand (31 December 
+2025: RMB1,179,585 thousand) were subject to restrictions.
+14. Gearing ratio
+As at 30 June 2026, the Group’s gearing ratio, defined as net debt divided by the sum of 
+capital and net debt, was 55%, which increased by 1 percentage point from 31 December 
+2025.
+
+===== PAGE 55 =====
+– 55 –
+15. Exposures to risks of exchange rate fluctuation and corresponding hedging 
+measures
+Our business is located in the Chinese mainland and all transactions are denominated in 
+RMB. Most of our assets and liabilities are denominated in RMB, except for certain bank 
+balances which were denominated in U. S. dollars and other foreign currencies. Our assets 
+and liabilities denominated in U. S. dollars were mainly held by certain subsidiaries 
+which were incorporated outside the Chinese mainland and adopted U. S. dollars as their 
+functional currency, and we did not conduct any material foreign exchange transactions 
+in the Chinese mainland during the Reporting Period. In view of the foregoing, we had 
+no material foreign exchange risks during the Reporting Period.
+To deal with the operation risks, the Group has prepared the Foreign Exchange Hedging 
+Management System (), prescribing that transactions on 
+financial derivatives shall not be conducted purely for profit and shall be carried out 
+with the Group’s self-owned funds only. The Board has set an annual cap for the scale 
+of such foreign exchange hedging business and some concrete transactions are made for 
+the moment involving ordinary forward business. The Group will closely monitor our 
+foreign exchange risks and will utilize appropriate financial instruments for hedging 
+purposes when necessary to help reduce foreign exchange risks.
+16. Contingent liabilities
+As of 30 June 2026, the Group has no significant contingent liabilities other than those 
+disclosed in the updated section on the Sonora project in Mexico during the Reporting 
+Period.
+17. Employees and remuneration system
+As of 30 June 2026, the Group had a total of 20,046 employees. The remuneration 
+package of the Group’s employees includes salaries, allowances, benefit in kind and 
+performance related bonuses.
+18. Capital commitments
+The Group had the following capital commitments as at 30 June 2026:
+As at 
+30 June 
+2026
+As at 
+31 December 
+2025
+RMB’000 RMB’000
+Contracted, but not provided for plant and machinery 3,315,222 2,574,449
+  
+Total 3,315,222 2,574,449
+  
+
+===== PAGE 56 =====
+– 56 –
+19. Share capital
+As of 30 June 2026, share capital of the Company is set out as follows:
+Number of 
+issued shares Percentage
+A Shares 1,613,593,699 77.0%
+H Shares 483,100,705 23.0%
+  
+Total 2,096,694,404 100.0%
+  
+20. Trade receivables
+Trade and bills receivables increased by RMB3,415,104 thousand from RMB7,143,998 
+thousand as at 31 December 2025 to RMB10,559,102 thousand as at 30 June 2026,  
+mainly due to the expansion of business scale during the Reporting Period, resulting in a 
+corresponding increase in trade receivables.
+21. Significant investments
+As at 30 June 2026, the Group did not have any significant investment which exceeded 
+5% of the Group’s total assets as at 30 June 2026.
+For details of other investments of the Group during the Reporting Period, please refer 
+to the section headed “Other Matters – Significant Equity Acquisitions during the 
+Reporting Period” below.
+OTHER MATTERS
+Significant Equity Acquisitions During the Reporting Period
+During the Reporting Period, the Group did not have any significant equity acquisitions.
+CONNECTED TRANSACTIONS
+During the Reporting Period, the Group did not have any connected transactions required to 
+be disclosed under the Hong Kong Listing Rules and was in compliance with the provisions of 
+Chapter 14A of the Hong Kong Listing Rules.
+
+===== PAGE 57 =====
+– 57 –
+Other Significant Events During the Reporting Period
+Updates on Sonora Project in Mexico
+In May 2024, Ganfeng International Trading (Shanghai) Co., Ltd., Bacanora Lithium Limited 
+and Sonora Lithium Ltd. (“Claimants”), the controlled subsidiaries of the Company, initiated 
+an arbitration proceeding against Mexico before the International Centre for Settlement 
+of Investment Disputes (“ ICSID ”) to challenge various measures that violated their rights 
+under investment treaties. These measures included a series of laws, regulations, and related 
+measures issued by Mexico, which effectively nationalized lithium resources, impacted the 
+operation of the Sonora Lithium Project (“Project”) and culminated with the cancellation of 
+the mineral concessions held by the Company’s Mexican subsidiaries on pretextual grounds.
+During the Reporting Period , the arbitration continued to proceed in accordance with the 
+arbitration rules of the ICSID. The Secretary-General of ICSID had previously formally 
+registered the arbitration, and the arbitral tribunal was formally constituted in January 2025. 
+In April 2025, the Claimants submitted the memorial, witness statements and expert reports to 
+the arbitral tribunal. The Claimants requested the arbitral tribunal to order Mexico to make full 
+reparation for the losses caused by its breach of relevant treaty obligations, which specifically 
+includes: (i) restoring the Claimants’ concessions and related rights to develop the Project 
+in Mexico, and compensating for the losses caused by the delay of the Project; or (ii) paying 
+compensation to the Claimants based on the fair market value of the entire Project. In July 
+2025, the Company’s Mexican subsidiaries withdrew the constitutional protection proceedings 
+and administrative lawsuits filed in Mexico. In May 2026, the case entered the document 
+production phase; as of 30 June 2026, both parties had respectively submitted requests for 
+document production, and the Company had submitted objections to the relevant document 
+production requests raised by the counterparty, with the relevant document production matters 
+to be further considered and determined by the arbitral tribunal. This withdrawal of lawsuits is 
+consistent with the Claimants’ claims seeking restitutionary relief in the ICSID arbitration, and 
+will not cause any material adverse impact on the Company and its subsidiaries. Currently, the 
+case has not yet entered the hearing stage, and the arbitral tribunal is coordinating with both 
+parties to complete the evidence gathering and fact-finding procedures.
+
+===== PAGE 58 =====
+– 58 –
+Share Schemes
+2022 Share Option Incentive Scheme
+According to the relevant regulations of the 2022 share option incentive scheme of the 
+Company (“ 2022 Share Option Incentive Scheme ”), during the fourth exercise period, the 
+Company did not meet the performance requirement, the share options during the fourth period 
+cannot be exercised and must be cancelled. 551.25 thousand units of 2022 Share Options that 
+cannot be exercised in the fourth period has been cancelled by the Company on 12 May 2026. 
+After this cancellation, there are no remaining options under the 2022 Share Option Incentive 
+Scheme. Please refer to the overseas regulatory announcements  of the Company dated 30 
+April 2026 and 12 May 2026 for further details.
+The vesting period for the 2022 Share Options shall commence on the date of grant of the 
+2022 Share Options and end on the first exercisable date of the 2022 Share Options. The 
+vesting periods of the 2022 Share Options are 12 months, 24 months, 36 months and 48 
+months, respectively.
+The exercise periods for the 2022 Share Options are set out below:
+Exercise arrangement Exercise time
+Exercise 
+proportion
+First Exercise Period Commencing from the first trading day upon the 
+expiry of 12 months from the date of grant 
+to the last trading day upon the expiry of 24 
+months from the date of grant
+25%
+Second Exercise Period Commencing from the first trading day upon the 
+expiry of 24 months from the date of grant 
+to the last trading day upon the expiry of 36 
+months from the date of grant
+25%
+Third Exercise Period Commencing from the first trading day upon the 
+expiry of 36 months from the date of grant 
+to the last trading day upon the expiry of 48 
+months from the date of grant
+25%
+Fourth Exercise Period Commencing from the first trading day upon the 
+expiry of 48 months from the date of grant 
+to the last trading day upon the expiry of 60 
+months from the date of grant
+25%
+
+===== PAGE 59 =====
+– 59 –
+Details of the movement in the 2022 Share Options of the 2022 Share Option Incentive 
+Scheme during the Reporting Period are set out in the table below:
+Position(s)
+As at 1 
+January 
+2026 
+Granted 
+during the 
+Reporting 
+Period 
+Exercised 
+during the 
+Reporting 
+Period 
+Cancelled 
+during the 
+Reporting 
+Period 
+Lapsed 
+during the 
+Reporting 
+Period 
+As at 30 
+June 
+2026
+(0’000 
+A Shares)
+(0’000 
+A Shares)
+(0’000 
+A Shares)
+(0’000 
+A Shares)
+(0’000 
+A Shares)
+(0’000 
+A Shares)
+Core management and 
+core technical or 
+business personnel 55.125 – – 55.125 – 0
+      
+Total 55.125 – – 55.125 – 0
+      
+Notes:
+1. The 2022 Share Options were granted on 5 September 2022 at an exercise price of RMB84.90 per unit. 
+The closing price of the A Shares immediately before the date of grant (being 2 September 2022) was 
+RMB82.86. For details of the vesting period and exercise period of the 2022 Share Options, please refer to 
+the disclosure above.
+2. No 2022 Share Options have been exercised during the Reporting Period.
+3. As at 30 June 2026, the Company had 0 outstanding 2022 Share Options.
+4. The exercise price of the cancelled 2022 Share Options is RMB84.90 per unit.
+5. Pursuant to the rules of the 2022 Share Option Incentive Scheme, no further share options would be 
+granted pursuant to the scheme mandate thereunder. As such, as of 1 January 2026 and 30 June 2026, the 
+number of options available for grant pursuant to the 2022 Share Option Incentive Scheme was 0.
+6. No 2022 Share Options have been granted during the Reporting Period.
+Restricted Share Unit Scheme (the “RSU Scheme”)
+References are made to the supplemental circular of the Company dated 26 May 2022 and the 
+poll results announcement of the Company dated 15 June 2022 in relation to the adoption of 
+the RSU Scheme, which was approved by the Shareholders at the annual general meeting of 
+the Company held on 15 June 2022.
+
+===== PAGE 60 =====
+– 60 –
+On 18 June 2026, RSUs with 20,000 underlying H Shares (the “ 2026 First Grant ”) were 
+granted to an eligible person of the RSU Scheme selected by the Board or its delegatee in 
+accordance with the rules of the RSU Scheme (the “ 2026 Selected Participant ”). The 2026 
+Selected Participant is an independent third party of the Company and its connected persons 
+with 20,000 underlying H Shares granted. The underlying H Shares under the 2026 First 
+Grant accounts for approximately 0.01% of the then total number of issued H Shares and 
+approximately 0.01% of the then total issued share capital of the Company as of the date of 
+the 2026 First Grant. The closing price of the H Shares immediately before the day on which 
+the 2026 First Grant was made (i.e. 17 June 2026) was HKD60.55.
+The vesting period of the granted awards during 2023 and 2024 are as follows (Note) :
+Vesting Arrangement Vesting Period
+Vesting 
+percentage
+First vesting period From the grant date to the first vesting date  
+(12 July 2024)
+25%
+Second vesting period From the grant date to the second vesting date  
+(12 July 2025)
+25%
+Third vesting period From the grant date to the third vesting date  
+(12 July 2026)
+25%
+Fourth vesting period From the grant date to the fourth vesting date  
+(12 July 2027)
+25%
+Note: If the vesting date is not a business day, the vesting date shall, subject to any trading halt or suspension in 
+trading of the H Shares, be the business day immediately thereafter.
+The vesting period of the granted awards during 2025 and 2026 First Grant are as follows (Note) :
+Vesting Arrangement Vesting Period
+Vesting 
+percentage
+First vesting period From the grant date to 12 July 2026 50%
+Second vesting period From the grant date to 12 July 2027 50%
+Note: If the vesting date is not a business day, the vesting date shall, subject to any trading halt or suspension in 
+trading of the H Shares, be the business day immediately thereafter.
+
+===== PAGE 61 =====
+– 61 –
+The exercise period of the granted awards during 2023 and 2024 are as follows:
+Exercise Arrangement Exercise Period
+Exercise 
+percentage
+First exercise period Within four years from the first vesting date  
+(12 July 2024)
+25%
+Second exercise period Within three years from the second vesting date  
+(12 July 2025)
+25%
+Third exercise period Within two years from the third vesting date  
+(12 July 2026)
+25%
+Fourth exercise period Within one year from the fourth vesting date  
+(12 July 2027)
+25%
+The exercise period of the granted awards during 2025 and 2026 First Grant are as follows:
+Exercise Arrangement Exercise Period
+Exercise 
+percentage
+First exercise period Within two years from 12 July 2026 50%
+Second exercise period Within one year from 12 July 2027 50%
+RSUs can be exercised after being vested. RSUs shall be exercisable after the first vesting 
+date within four years, in accordance with the vesting schedule specified in the relevant award 
+letter and in accordance with the applicable provisions of the RSU Scheme. If an RSU is not 
+exercised within four years after the first vesting date, the RSU shall lapse and shall not be 
+exercisable. In addition, the RSUs shall be subject to the provisions of section 19 of the RSU 
+Scheme with respect to the termination of the RSU Scheme.
+Selected participants under the RSU Scheme
+As of 30 June 2026, there were a total of 62 selected participants (the “ RSU Selected 
+Participants ”), which comprise 7 connected persons of the Company and 55 independent 
+third parties of the Company and its connected person (as defined under the Hong Kong 
+Listing Rules). Each grant of an award to a Director or connected person of the Company was 
+approved by all independent non-executive Directors and subject to the Hong Kong Listing 
+Rules and any applicable laws and regulations.
+
+===== PAGE 62 =====
+– 62 –
+Details of the granted awards comprising both vested and unvested awards are set out as 
+follows:
+Name Position
+As at 1 
+January 
+2026
+Granted 
+during the 
+Reporting 
+Period
+Exercised 
+during the 
+Reporting 
+Period
+Cancelled 
+during the 
+Reporting 
+Period
+Lapsed 
+during the 
+Reporting 
+Period
+As at 30 
+June 
+2026
+Directors of the Company
+Li Liangbin Executive Director 555,000 – – – – 555,000
+Wang Xiaoshen Executive Director 555,000 – – – – 555,000
+Li Chenglin Executive Director 142,500 – – – – 142,500
+      
+Sub-total 1,252,500 – – – – 1,252,500
+      
+Others
+Senior management, mid-level 
+managers, basic-level managers, 
+backbone members of technicians 
+and other technicians
+2,099,750 20,000 118,050 – – 2,001,700
+      
+Total 3,352,250 20,000 118,050 – – 3,254,200
+      
+Note:
+1. During the Reporting Period, RSUs were granted on 18 June 2026 at an exercise price of HKD25.95 
+per unit. The closing price of the H Shares immediately before the date of grant (17 June 2026) was 
+HKD60.55. For details of the vesting period and exercise period of RSUs granted on 18 June 2026, 
+please refer to the disclosure above. For details of the fair value of RSUs as at the date of grant and the 
+accounting standard and policy adopted, please refer to the section headed “Calculation of the Fair Value 
+of the Awards on 2026 First Grant date” below.  For details of the performance targets of the 2026 First 
+Grant, please refer to “Vesting conditions” below.
+2. During the Reporting Period, the weighted average closing price of the H Shares immediately before the 
+dates on which the RSUs were exercised was approximately HKD70.14 , with the exercise price being 
+HKD25.95 per unit (for the RSUs exercised by senior management, midlevel managers, basic-level 
+managers, backbone members of technicians and other technicians).
+
+===== PAGE 63 =====
+– 63 –
+3. The number of the relevant H Shares underlying the unexercised RSUs as at the beginning of the 
+Reporting Period was 3,352,250, including RSUs granted on 12 July 2023, 19 January 2024, 10 July 2024, 
+and 16 December 2025, with the exercise price of HKD25.95 per unit, of which:
+a. 555,625 units of RSUs could be vested and exercisable during the period commencing 12 July 2024 
+and ending on 11 July 2028;
+b. 535,375 units of RSUs shall be vested and exercisable during the period commencing 12 July 2025 
+and ending on 11 July 2028;
+c. 1,130,625 units of RSUs shall be vested and exercisable during the period commencing 12 July 
+2026 and ending on 11 July 2028; and
+d. 1,130,625 units of RSUs shall be vested and exercisable during the period commencing 12 July 
+2027 and ending on 11 July 2028.
+4. The number of the relevant H Shares underlying the unexercised RSUs as at the end of the Reporting 
+Period was 3,254,200, including RSUs granted on 12 July 2023, 19 January 2024, 10 July 2024, and 16 
+December 2025, with the exercise price of HKD25.95 per unit, of which:
+a. 513,375 units of RSUs could be vested and exercisable during the period commencing 12 July 2024 
+and ending on 11 July 2028;
+b. 459,575 units of RSUs could be vested and exercisable during the period commencing 12 July 2025 
+and ending on 11 July 2028;
+c. 1,140,625 units of RSUs could be vested and exercisable during the period commencing 12 July 
+2026 and ending on 11 July 2028;
+d. 1,140,625 units of RSUs could be vested and exercisable during the period commencing 12 July 
+2027 and ending on 11 July 2028.
+5. Since the adoption of the RSU Scheme, no RSUs have been granted to the five highest paid individuals 
+during the Reporting Period (other than the directors).
+6. No new Shares would be issued nor treasury shares would be transferred pursuant to the RSU Scheme.
+7. Pursuant to the rules of the RSU Scheme, as of 1 January 2026 and 30 June 2026, the number of awards 
+available for grant pursuant to the RSU Scheme was 901,450 units and 881,450 units respectively.
+
+===== PAGE 64 =====
+– 64 –
+Vesting conditions
+The vesting of the awards granted under the RSU Scheme is subject to the award letter, the 
+following condition and any other applicable vesting conditions as set out in the RSU Scheme. 
+If any selected participant fails to fulfil the vesting conditions applicable to the relevant 
+awards, all the RSUs underlying the relevant awards which may otherwise be vesting during 
+the respective vesting period shall not be vested and become immediately forfeited with 
+respect to such selected participant. The Trustee shall be notified of such forfeiture and such 
+forfeited shares shall be held by the Trustee as returned shares. The Board’s or its delegatee’s 
+decision on whether the vesting conditions are fulfilled and satisfied shall be conclusive and 
+final.
+The vesting conditions for the 2023 Grant, 2024 First Grant, 2024 Second Grant, 2025 Grant 
+and 2026 First Grant are set out below:
+According to the position(s) of a selected participant, select the completion status of the 
+company level performance goal in the financial year or the completion status of the team/
+subsidiary level performance goal to which the selected participant belongs in the financial 
+year as the basis for determining the actual vesting amount of the award of a selected 
+participant in the corresponding vesting period. The actual vesting amount of the award 
+vested to a selected participant for the respective vesting periods shall be equal to the standard 
+coefficient multiplied by the planned vesting amount for the respective vesting periods. The 
+calculation method of the standard coefficient of the company level performance goal is that 
+if the completion ratio of the company level performance goal in the financial year reaches 
+70% or above, the standard coefficient is 1.0; if the completion ratio is 50%-69%, the standard 
+coefficient is 0.8; and if the completion ratio does not reach 50%, the standard coefficient is 0. 
+The calculation method of the standard coefficient of the performance goal of team/subsidiary 
+level is that if the completion ratio of the team/subsidiary level performance goal in the 
+financial year reaches 80% or above, the standard coefficient for that financial year is the 
+corresponding completion ratio, and if the completion ratio does not reach 80%, the standard 
+coefficient is 0.
+If the 2023 Selected Participant of Chinese nationality working in Argentina returns to 
+China during their office period (including but not limited to reasons such as changes in job 
+position, resignation or cessation of employment), the 2023 Selected Participant will cease 
+to be an Eligible Person, all vested RSUs and any outstanding RSUs not yet vested shall be 
+immediately forfeited, unless the Board or its delegatee determines otherwise at their absolute 
+discretion.
+
+===== PAGE 65 =====
+– 65 –
+Calculation of the Fair Value of the Awards on 2026 First Grant date
+(1) Accounting Treatment
+In accordance with the requirements of the IFRS 2 – Share-based Payment, the Company 
+shall, on each balance sheet date during the vesting period, adjust the estimated number 
+of Shares as an award that may be exercised in accordance with the latest number 
+of the RSU Selected Participants who have fulfilled the exercise conditions and the 
+performance indicators, and recognize the services received during the period as the 
+relevant costs or expenses and capital reserve in accordance with the fair value of the 
+Shares as an award on the grant date.
+(2) Calculation of the Fair Value under RSU Scheme
+According to the relevant provisions on the determination of fair value in the IFRS 2 – 
+Share-based Payment, an appropriate valuation model is required to be selected to 
+calculate the fair value under RSU Scheme. The Company chooses Black-Scholes model 
+(B-S model) to calculate the fair value, and then uses the model to calculate the total fair 
+value to be HKD610,379 as at the grant date.
+The specific parameters were selected as below:
+(i) Price of the Underlying Shares: HKD56.00 per Share (the closing price was 
+HKD56.00 on the grant date)
+(ii) Exercise price: HKD25.95 per H Share
+(iii) Validity Period: 6 and 18 months, respectively (based on the period commencing 
+from Grant Date and ending on the first Exercisable Date for each respective 
+period)
+(iv) Historical volatility ratio: 13.9250%, 48.7767% (adopted the historical volatility 
+ratio of the H Shares of the Company in the latest one and two years)
+(v) Risk-free interest rate: 2.9445%, 3.3031% (adopted the HKD Overnight Interest 
+Settlement Rates of 1 month and 12 months on grant date)
+(vi) Dividend yield: 0.71% (adopted the dividend rate of the Company in one year prior 
+to the 2026 First Grant)
+The fair value is only an estimate made by the Company under the Black-Scholes 
+model and a number of assumptions. Therefore, the fair value estimated is subject to 
+uncertainty and the limitation of the model.
+
+===== PAGE 66 =====
+– 66 –
+(3) Impact on the operating performance of the Company
+The fair value of the Shares as an award on the grant date which is determined in 
+accordance with the relevant valuation method, and the costs of payment of Shares under 
+the RSU Scheme which is determined finally, will be amortized in accordance with the 
+percentage of Shares exercised during the implementation of the RSU Scheme. The 
+award costs incurred from the RSU Scheme will be charged to the recurring profit and 
+loss.
+The Company granted awards to the 2026 Selected Participant in June 2026, according 
+to the requirements of the PRC accounting standards, the impact of the awards granted 
+under the RSU Scheme on accounting costs of each period is shown in the following 
+table:
+Number of awards 
+granted
+Total costs to be 
+amortized 2026 2027
+(0’000) (HKD0’000) (HKD0’000) (HKD0’000)
+2 61.04 45.61 15.43
+Note: The above results do not represent the final accounting cost, in addition to the actual grant date, 
+grant price and grant number, the actual accounting cost also relates to the number of equity which 
+actually takes effect and lapses, and the final results of the impact of the above costs amortization 
+on the operation results of the Company is subject to the annual audit report to be issued by the 
+accountant firm.
+According to the preliminary evaluation by the Company based on the information 
+available, without taking into account the stimulus effects of the RSU Scheme on the 
+results of the Company, the amortization of the costs of RSU Scheme shall affect the 
+net profit of each year during the validity period, but the effect will not be substantial. 
+Taking into consideration the positive impact of the RSU Scheme on the development 
+of the Company, such as motivating the management team, increasing the operational 
+efficiency, and reducing agent costs, the benefits generated from the improvement in the 
+Company’s results due to the RSU Scheme shall far exceed the increase in expenses.
+Employee Stock Ownership Plan
+The adoption of the employee stock ownership plan of the Company (the “ Employee Stock 
+Ownership Plan ”) was approved by the Shareholders at the extraordinary general meeting 
+of the Company held on 30 November 2023. The source of A Shares of the Employee Stock 
+Ownership Plan is the A Shares purchased through the secondary market (including but 
+not limited to bidding transactions and block transactions) and other ways as permitted by 
+the relevant laws (the “ Target Shares ”). No new Shares would be issued pursuant to the 
+Employee Stock Ownership Plan.
+
+===== PAGE 67 =====
+– 67 –
+The term of the Employee Stock Ownership Plan is 72 months, starting from the date when 
+the Company announces the completion of the purchase of the shares of the Company under 
+the first grant of Employee Stock Ownership Plan. The Employee Stock Ownership Plan 
+will be automatically terminated if not extended upon expiry. Within ten days before the 
+expiry of the Employee Stock Ownership Plan, as agreed by the participants of the Employee 
+Stock Ownership Plan (the “ Holders ”) present at the highest internal management authority 
+of the Employee Stock Ownership Plan (the “ Holders’ Meeting ”) holding more than 2/3 
+of the total units and submitted to the Board for consideration and approval, the term of the 
+Employee Stock Ownership Plan can be extended. Provided that the shares of the Company 
+held by the Employee Stock Ownership Plan cannot be fully disposed of prior to the expiry of 
+the term due to suspension of trading or short window period, the duration of the Employee 
+Stock Ownership Plan may be extended, as agreed by the attending Holders with more than 
+two-thirds of the total units at the Holders’ Meeting, and as considered and approved by the 
+Board of the Company. The lock-up period of the Employee Stock Ownership Plan is 12 
+months, calculated from the date of completion of the purchase of the shares of the Company. 
+The first grant shall be vested in four batches as to 25% for each batch, provided that the 
+performance results and personal performance results are achieved in the four fiscal years 
+from 2023 to 2026. The reserved grant shall be vested in three batches as to 30%, 30%, and 
+40% respectively, provided that the performance results and personal performance results are 
+achieved in the three fiscal years from 2024 to 2026.
+(1) The vesting period of first grant part are as follow:
+The first batch: The number of vested shares shall be 25% of the total number of Target 
+Shares held under the Employee Stock Ownership Plan from the first trading day after 
+12 months following the date when the Company announces the completion of the 
+purchase of the shares of the Company under the first grant of the Employee Stock 
+Ownership Plan to the day of the last trading day within 24 months from the date when 
+the Company announces the completion of the purchase of the shares of the Company 
+under the first grant of the Employee Stock Ownership Plan.
+The second batch: The number of vested shares shall be 25% of the total number of 
+Target Shares held under the Employee Stock Ownership Plan from the first trading 
+day after 24 months following the date when the Company announces the completion of 
+the purchase of the shares of the Company under the first grant of the Employee Stock 
+Ownership Plan to the day of the last trading day within 36 months from the date when 
+the Company announces the completion of the purchase of the shares of the Company 
+under the first grant of the Employee Stock Ownership Plan.
+
+===== PAGE 68 =====
+– 68 –
+The third batch: The number of vested shares shall be 25% of the total number of 
+Target Shares held under the Employee Stock Ownership Plan from the first trading 
+day after 36 months following the date when the Company announces the completion of 
+the purchase of the shares of the first grant of the Company under the Employee Stock 
+Ownership Plan to the day of the last trading day within 48 months from the date when 
+the Company announces the completion of the purchase of the shares of the Company 
+under the first grant of the Employee Stock Ownership Plan.
+The fourth batch: The number of vested shares shall be 25% of the total number of 
+Target Shares held under the Employee Stock Ownership Plan from the first trading 
+day after 48 months following the date when the Company announces the completion of 
+the purchase of the shares of the Company under the first grant of the Employee Stock 
+Ownership Plan to the day of the last trading day within 60 months from the date when 
+the Company announces the completion of the purchase of the shares of the Company 
+under the first grant of the Employee Stock Ownership Plan.
+The vesting time of reserved grant are as follows:
+The first batch: The number of vested shares shall be 30% of the total number of Target 
+Shares held under the Employee Stock Ownership Plan from the first trading day after 
+12 months following the date when the Company announces the completion of the 
+purchase of the shares of the Company under the reserved grant of the Employee Stock 
+Ownership Plan to the day of the last trading day within 24 months from the date when 
+the Company announces the completion of the purchase of the shares of the Company 
+under the reserved grant part of the Employee Stock Ownership Plan.
+The second batch: The number of vested shares shall be 30% of the total number of 
+Target Shares held under the Employee Stock Ownership Plan from the first trading day 
+after 24 months following the date when the Company announces the completion of the 
+purchase of the shares of the Company under the reserved grant of the Employee Stock 
+Ownership Plan to the day of the last trading day within 36 months from the date when 
+the Company announces the completion of the purchase of the shares of the Company 
+under the reserved grant part of the Employee Stock Ownership Plan.
+The third batch: The number of vested shares shall be 40% of the total number of Target 
+Shares held under the Employee Stock Ownership Plan from the first trading day after 36 
+months following the date when the Company announces the completion of the purchase 
+of the shares of the reserved grant part of the Company under the Employee Stock 
+Ownership Plan to the day of the last trading day within 48 months from the date when 
+the Company announces the completion of the purchase of the shares of the Company 
+under the reserved grant part of the Employee Stock Ownership Plan.
+
+===== PAGE 69 =====
+– 69 –
+The Target Shares acquired by the Employee Stock Ownership Plan and the shares 
+derived from the distribution of dividends by the listed Company and the conversion of 
+capital reserves shall also comply with the above lock-up arrangement.
+(2) Performance assessment of the Employee Stock Ownership Plan
+a. Performance assessment at segment/subsidiary level
+The Employee Stock Ownership Plan sets performance assessment targets at the 
+sector/subsidiary level. The vesting assessment period of the first grant covers 
+four accounting years from 2023 to 2026, the vesting assessment period of the 
+reserved grant covers three accounting years from 2024 to 2026. The assessment 
+shall be conducted once an accounting year. Vesting is subject to the fulfillment of 
+the performance commitment to the Company made by the segment or subsidiary 
+to which the Holders belong. Detailed arrangements for vesting are shown in the 
+following table:
+Assessment 
+results
+Actual fulfillment 
+of performance 
+commitment Method for vesting
+Fulfilled P≥100% All the units which are to be vested by the 
+Holders in the segment/subsidiary for 
+the period can be vested
+80%≤P<100% “80% of the units which are to be vested 
+by the Holders in the segment/subsidiary 
+for the period” can be vested and 
+the remaining shall be recovered by 
+the management committee of the 
+Employee Stock Ownership Plan (the 
+“Management Committee”)
+Not fulfilled P<80% None of the units which are to be vested by 
+the Holders in the segment/subsidiary for 
+the period can be vested and all of them 
+shall be recovered by the Management 
+Committee
+
+===== PAGE 70 =====
+– 70 –
+The units which are to be vested by the Holders in the segment/subsidiary for the 
+period can only be vested fully or partially when the performance commitment has 
+been fulfilled in the assessment for the previous year; if the segment/subsidiary 
+fails to fulfill its performance commitment, the portion out of the units which have 
+been granted to and are to be vested by the Holders in the segment/subsidiary for 
+the period shall be recovered by the Management Committee according to the 
+requirements under the Employee Stock Ownership Plan. After the expiration of 
+the lock-up period, the Target Shares shall be sold, and the funds obtained from the 
+sale of such shares shall be vested in the Company.
+b. Performance assessment at individual level
+The performance assessment at the Holders’ level shall be implemented in 
+accordance with the current internal performance assessment regulation of 
+the Company, and the actual number of shares vested to the Holders shall be 
+determined based on the assessment results of the Holders. If the Company 
+achieves its performance target, the number of Stock Ownership Plan units a 
+Holder actually be vested for a particular year = Number of units the Holders plans 
+to be vested for the year ×  Personal vesting ratio (Referred to the table below):
+Assessment results(S) S≥80 80>S≥70 70>S≥60 S<60
+Personal vesting ratio 1.0 0.9 0.8 0
+If the individual performance assessment at the Holders level during the vesting 
+assessment period is “S≥ 80”, the Holder shall vest the corresponding equity 
+interests of the Target Shares for that period in accordance with the above rules. 
+If the performance assessment at the Holders’ level during the vesting assessment 
+period is “80>S ≥70”, “70>S≥60” and “S<60”, the Holder shall not vest the 
+corresponding proportion of the equity interests of the Target Shares for that 
+period, and the Management Committee shall withdraw the shares that have not 
+met the vesting conditions. The Management Committee has the right to decide 
+to grant the shares to other employees again, who should meet the criteria for 
+participating in the Employee Stock Ownership Plan, which would be determined 
+by the Management Committee. If the grant of the Shares is not completed during 
+the term of the Employee Stock Ownership Plan, the Management Committee shall 
+sell such portion of the Target Shares after the expiration of the lock-up period and 
+the funds obtained from the sale of such portion of the shares shall be vested in the 
+Company.
+
+===== PAGE 71 =====
+– 71 –
+The lock-up period and vesting arrangement of the Stock Ownership Plan reflect 
+the long-term nature of the Employee Stock Ownership Plan, and at the same 
+time established strict segment/subsidiary performance assessment and individual 
+performance assessment to prevent short-term interests and closely bundle the 
+interests of Shareholders with those of employees.
+The purchase of the shares of the Company under the Employee Stock Ownership Plan
+From 20 December 2023 to 15 January 2024, a total of 7,167,467 A Shares were purchased 
+under the first grant of the Employee Stock Ownership Plan via the Shenzhen Stock Exchange 
+trading system by way of trading through price bidding in the secondary market, representing 
+approximately 0.36% of the total share capital of the Company, with the highest price being 
+RMB45.60 per share, the lowest price being RMB38.22 per share, the average trading 
+price being RMB41.42 per share, and the total transaction amount being approximately 
+RMB296,850,700, which was financed by the special fund provided for the Employee Stock 
+Ownership Plan, and the actual purchases made by employees were in line with the relevant 
+contents of the Employee Stock Ownership Plan as considered and approved at the general 
+meeting, thus the purchase of the shares of the Company under the first grant of the Employee 
+Stock Ownership Plan was completed. The term of the Employee Stock Ownership Plan has 
+formally come into force on 15 January 2024.
+From 2 July 2024 to 18 July 2024, a total of 478,280 A Shares were purchased under the first 
+grant of the Employee Stock Ownership Plan via the Shenzhen Stock Exchange trading system 
+by way of trading through price bidding in the secondary market, representing approximately 
+0.02% of the total share capital of the Company, with the highest price being RMB29.65 per 
+share, the lowest price being RMB28.20 per share, the average trading price being RMB28.90 
+per share, and the total transaction amount being approximately RMB13,821.4 thousand, 
+which was financed by the special fund provided for the Employee Stock Ownership Plan, 
+and the actual purchases made by employees were in line with the relevant contents of the 
+Employee Stock Ownership Plan as considered and approved at the general meeting, thus 
+the purchase of the shares of the Company under the reserved part of the Employee Stock 
+Ownership Plan was completed.
+
+===== PAGE 72 =====
+– 72 –
+The total amount of fund for the Employee Stock Ownership Plan is subscribed in “units”, 
+each of which being RMB1.00. The units of the Employee Stock Ownership Plan shall not 
+exceed 320 million units, among which the reserved part of the Employee Stock Ownership 
+Plan shall not exceed 20 million units. All of participants in the reserved part are core 
+management and core employees of the Company, with no directors, supervisors and senior 
+management. The specific proportion of the grant part in the Employee Stock Ownership Plan is 
+as follows:
+Name of Holders Position
+Remaining 
+units as at 
+1 January 
+2026 
+Vested during 
+the Reporting 
+Period 
+Lapsed during 
+the Reporting 
+Period 
+Remaining 
+units as at 
+30 June 
+2026 
+(10,000 units) (10,000 units) (10,000 units) (10,000 units)
+Directors and senior management of the Company
+Shen Haibo Director 214.4798 0 71.4933 142.9865
+Huang Ting Director, financial director, 
+vice president
+160.8599 53.6200 0 107.2399
+Liao Cui Director 96.5159 32.1720 0 64.3439
+    
+Subtotal 471.8556 85.7920 71.4933 314.5703
+    
+Other employee participants
+Core management, core employees 21,793.8837 6,561.6582 774.4587 14,457.7668
+Reserved 967.498 0 0 967.498
+    
+Total 23,233.2373 6,647.4502 845.9520 16,054.4054
+    
+The final subscription unit of the Employee Stock Ownership Plan shall be subject to the 
+actual allocation of each participant. Where a holder waives the entitlement to participate, the 
+units proposed to be subscribed by him/her may be applied and subscribed by other eligible 
+participants. The Human Resources Department of the Company may make adjustment to the 
+list of participants and the number of units to be subscribed according to the actual situation of 
+the employees’ subscription. There is no circumstance where third parties provide incentives, 
+grants and subsidies, and make up the balance to participants for participation of the Employee 
+Stock Ownership Plan.
+
+===== PAGE 73 =====
+– 73 –
+Notes:
+1. The term of the first grant of Employee Stock Ownership Plan is formally effective on 15 January 2024 
+(grant date) with no exercise price. The closing price of the A Shares immediately before the effective 
+date (being 14 January 2024) was RMB43.48. The term of the reserved part of Employee Stock Ownership 
+Plan is formally effective on 18 July 2024 (grant date) with no exercise price. The closing price of the A 
+Shares immediately before the effective date (being 17 July 2024) was RMB28.71.
+2. During the Reporting Period, no units under the Employee Stock Ownership Plan have been cancelled.
+3. Given that 27 participants resigned due to personal reasons and the performance assessment results of 
+47 participants at the individual level under the Employee Stock Ownership Plan could not meet all 
+vesting conditions, the above-mentioned participants could not vest the corresponding proportion of the 
+equity interests of the Target Shares for that period, and the Management Committee withdrew the shares 
+that have not met the vesting conditions. The Company decided to lapse the qualification of the above-
+mentioned participants, representing 8,459.52 thousand units in total.
+4. The number of the relevant units underlying the unexercised first grant part of Employee Stock Ownership 
+Plan as at the beginning of the Reporting Period was 222,657,393, with grant date on 15 January 2024, of 
+which:
+a. 74,219,131 units could be vested during the period commencing 15 January 2026 and ending on 14 
+January 2027;
+b. 74,219,131 units could be vested during the period commencing 15 January 2027 and ending on 14 
+January 2028;
+c. 74,219,131 units could be vested during the period commencing 15 January 2028 and ending on 14 
+January 2029.
+5. The weighted average closing price of the A Shares immediately before the vesting date under the first 
+grant was approximately RMB69.86 (for share units vested to Ms. Huang Ting), approximately RMB69.86 
+(for share units vested to Ms. Liao Cui) and approximately RMB69.86 (for share units vested to core 
+management and core employees).  There is no exercise price for the said units.
+6. The number of the relevant units underlying the unexercised reserved part of Employee Stock Ownership 
+Plan as at the beginning of the Reporting Period was 9,674,980, with grant date on 18 July 2024, of which:
+a. 4,146,420 units could be vested during the period commencing 18 July 2025 and ending on 17 July 
+2026;
+b. 5,528,560 units could be vested during the period commencing 18 July 2026 and ending on 17 July 
+2027.
+
+===== PAGE 74 =====
+– 74 –
+7. The number of the relevant units underlying the unexercised first grant part of Employee Stock Ownership 
+Plan as at the end of the Reporting Period was 147,723,371, with grant date on 15 January 2024, of which:
+a. 73,861,685 units could be vested during the period commencing 15 January 2027 and ending on 14 
+January 2028;
+b. 73,861,686 units could be vested during the period commencing 15 January 2028 and ending on 14 
+January 2029.
+8. The number of the relevant units underlying the unexercised reserved part of Employee Stock Ownership 
+Plan as at the end of the Reporting Period was 9,674,980, with grant date on 18 July 2024, of which:
+a. 4,146,420 units could be vested during the period commencing 18 July 2025 and ending on 17 July 
+2026;
+b. 5,528,560 units could be vested during the period commencing 18 July 2026 and ending on 17 July 
+2027.
+9. Since the adoption of the Employee Stock Ownership Plan no units have been granted to the five highest 
+paid individuals during the Reporting Period (other than the directors).
+10. No new Shares would be issued nor treasury shares would be transferred pursuant to the Employee Stock 
+Ownership Plan.
+11. Pursuant to the rules of the Employee Stock Ownership Plan, no further awards would be granted pursuant 
+to the scheme mandate thereunder. As such, as of 1 January 2026 and 30 June 2026, the number of awards 
+available for grant pursuant to the Employee Stock Ownership Plan was 0.
+Number of Shares that may be issued in respect of options and awards granted during 
+the Reporting Period
+As no 2022 Share Options have been granted during the Reporting Period, and the RSU 
+Scheme and the Employee Stock Ownership Plan are satisfied by existing shares, the number 
+of shares that may be issued in respect of options and awards granted under all schemes of the 
+Company during the Reporting Period divided by the weighted average number of shares of 
+the relevant class in issue was nil.
+
+===== PAGE 75 =====
+– 75 –
+Significant Events after the Reporting Period
+Subscription for convertible debenture of LAR by GFL International
+On August 24, 2026, GFL International Co., Limited (“ GFL International ”) and Lithium 
+Argentina AG (“ Lithium Argentina ” or  “LAR ”) entered into the Convertible Debenture 
+Subscription Agreement, pursuant to which GFL International agreed to subscribe a 6-year term 
+unsecured convertible debenture issued by LAR with its self-owned funds of USD180 million 
+to support LAR’s funding needs, including the repayment of its prior debts. GFL International 
+holds 9.7% of equity interest in Lithium Argentina  (the “Subscription ”). Assuming the 
+Convertible Debenture is fully converted, GFL International will hold approximately 16.1% of 
+the equity interests in Lithium Argentina on a fully diluted basis.
+The principal amount under the Subscription was determined based on Lithium Argentina’s 
+funding needs, including the repayment of its prior debts. The Company has conducted a 
+credit assessment on Lithium Argentina with reference to its latest audited financial statements 
+published on the websites of the Toronto Stock Exchange and the New York Stock Exchange 
+(“NYSE ”). Lithium Argentina ended Q2 2026 with USD100 million in cash and equivalents 
+and received an additional USD27 million in distributions from Cauchari-Olaroz in Q3 2026. 
+With the proceeds of the strategic investment and cash available, Lithium Argentina expects to 
+fully repay the USD260 million convertible notes due January 2027. Based on the foregoing, 
+the Company is satisfied that the risk exposure of the Group under the subscription for 
+Convertible Debenture is acceptable and that the credit risk associated with the Convertible 
+Debenture is adequately addressed. When setting the interest rate of the subscription for 
+Convertible Debenture, the Company has considered, among other factors, the financing rates 
+of three comparable NYSE listed uranium and gold mining companies with similar credit 
+levels to Lithium Argentina, the Secured Overnight Finance Rate  (SOFR)  set by the Federal 
+Reserve Bank of New York, applicable local regulations and funding costs, prevailing bank 
+deposit interest rates, and recent interest rate trends. The initial conversion price takes into 
+account LAR’s volume-weighted average price (USD8.72) for the past 90 trading days as of 
+August 20, 2026 with a premium rate of 43%, which is in line with the premium rate level of 
+other comparable companies in the mining industry. The interest rate and conversion price 
+were finally determined after arm’s length negotiation between GFL International and Lithium 
+Argentina. GFL International will finance the Subscription for Convertible Debenture by self-
+owned fund. For the avoidance of doubt, no unutilized proceeds from the issuance of H Share 
+Convertible Bonds on September 2, 2025 will be utilized to finance the Subscription.
+For further details, please refer to the announcement of the Company dated 24 August 2026 
+in relation to, among other things, the subscription for convertible debenture of LAR by GFL 
+International.
+
+===== PAGE 76 =====
+– 76 –
+FUTURE PLANS AND USE OF PROCEEDS
+Proceeds from the issuance of H Share Convertible Bonds
+On 2 September 2025, the Company publicly issued HK$1,370.00 million in aggregate 
+principal amount of 1.50 per cent. convertible bonds due 2026 (the “ Bonds ”) with an initial 
+conversion price of HK$33.67 per H Share. Assuming full conversion of the Bonds at 
+the initial conversion price, the Bonds will be convertible into approximately 40,689,040 
+H Shares. The Bonds are issued in registered form in the specified denomination of 
+HK$2,000,000 each and integral multiples of HK$2,000,000 in excess thereof. The total 
+amount of the proceeds raised was HK$1,370,000,000. The net amount of the proceeds 
+raised was HK$1,346.14 million (equivalent to approximately RMB1,227.9706 million) after 
+deduction of various issuance cost. The proceeds from the issuance of the Bonds has been and 
+will be used for (i) the restructure the Company’s existing overseas borrowings to achieve 
+overall lower financing costs, optimize the Group’s capital structure, and reduce financial 
+expenses, (ii) to support capacity expansion and construction activities primarily associated 
+with the Company’s domestic and overseas lithium resources projects, the proceeds will be 
+applied toward the capital expenditures necessary for the development and enhancement of 
+these projects, enabling the Group to achieve its strategic growth objectives within the lithium 
+production sector, and (iii) replenishment of working capital and general corporate purpose. 
+Subsequent to the completion of the issue of Bonds dated September 2, 2025, bondholders 
+holding an aggregate principal amount of HK$1,330,000,000 have exercised their conversion 
+rights. The Company redeemed all the remaining outstanding Bonds with a principal amount 
+of HK$40,000,000 in full at 100% of their principal amount, together with accrued but unpaid 
+interest on December 18, 2025 (i.e., the redemption date). A total of 39,501,025 H shares were 
+issued pursuant to the exercise of conversion rights under the terms of the Bonds. For further 
+details, please refer to the announcements of the Company dated 26 August 2025, 2 September 
+2025, 6 November 2025 and 9 December 2025. As at 30 June 2026, the Company has utilized 
+proceeds of RMB1,228.9236 million in aggregate (the utilized proceeds in aggregate includes 
+interest income generated from proceeds deposited with the designated proceeds account) in 
+accordance with the intended uses disclosed in the announcement dated 26 August 2025 and 
+the expected timeframe as disclosed in the 2025 annual report of the Company, the balance of 
+unutilized proceeds is nil, and all outstanding convertible bonds which appear on the register 
+of bonds have been redeemed by the Company. Details of the use of proceeds from the issuance 
+of Bonds of the Company is as follows:
+
+===== PAGE 77 =====
+– 77 –
+Items
+Percentage 
+allocated
+Intended 
+use of 
+proceeds
+Unutilized 
+net proceeds 
+as of 
+December 31, 
+2025
+Actual usage 
+during the 
+six months 
+ended 
+30 June 2026
+Total 
+utilized 
+amount as 
+at 30 June 
+2026
+Total 
+unutilized 
+amount as 
+of 30 June 
+2026
+Expected 
+timeline of 
+full 
+utilization
+(RMB million) (RMB million) (RMB million) (RMB million) (RMB million)
+Restructure the Company’s existing overseas borrowings to 
+achieve overall lower financing costs, optimize the Group’s 
+capital structure, and reduce financial expenses 40% 491.1882 – – 491.4304 – –
+To support capacity expansion and construction activities 
+primarily associated with the Company’s domestic and overseas 
+lithium resources projects, the proceeds will be applied toward 
+the capital expenditures necessary for the development and 
+enhancement of these projects, enabling the Group to achieve 
+its strategic growth objectives within the lithium production 
+sector 30% 368.3912 132.9418 132.9418 368.6553 – –
+Replenishment of working capital and general corporate purpose 30% 368.3912 – – 368.8379 – –      
+Total 100% 1,227.9706 132.9418 132.9418 1,228.9236 –      
+COMPLIANCE WITH THE CORPORATE GOVERNANCE CODE
+The Company is firmly committed to achieving and maintaining high overall standards 
+of corporate governance through continuous effort in improving its corporate governance 
+practices and procedures. Through the establishment of a sound and effective corporate 
+governance framework, the Company strives to ensure completeness and transparency in 
+its information disclosure and enhance stable operation, so as to safeguard the interests 
+of the shareholders of the Company to the greatest extent. The Company has adopted all 
+code provisions and principles as set out in the Corporate Governance Code (“ CG Code ”) 
+contained in Appendix C1 to the Hong Kong Listing Rules as the basis of its corporate 
+governance practices.
+The Company has complied with the principles and code provisions of the Corporate 
+Governance Code as set out in Appendix C1 to the Hong Kong Listing Rules during the six 
+months ended 30 June 2026.
+
+===== PAGE 78 =====
+– 78 –
+MODEL CODE FOR SECURITIES TRANSACTIONS
+The Company has adopted the code of conduct regarding securities transactions by Directors  
+of the Company on the required standard as set out in the Model Code for Securities 
+Transactions by Directors of Listed Issuers (the “ Model Code ”) set out in Appendix C3 to 
+the Hong Kong Listing Rules. Having made specific enquiry to all Directors of the Company, 
+the Company confirms that the Directors  of the Company have complied with the standards 
+regarding the securities transactions by Directors of the Company as set out in the Model 
+Code for the Reporting Period.
+PURCHASE, SALE OR REDEMPTION OF SECURITIES
+Neither the Company nor any of its subsidiaries repurchased, sold or redeemed any listed 
+securities of the Company (including treasury shares as defined in the Hong Kong Listing 
+Rules) during the Reporting Period. As at 30 June 2026, the Company did not hold any 
+treasury shares as defined in the Hong Kong Listing Rules.
+INTERIM DIVIDENDS
+The Board proposed not to distribute any interim dividends for the Reporting Period (for the 
+six months ended 30 June 2025: Nil).
+REVIEW OF 2026 INTERIM RESULTS
+The audit committee of the Company (the “ Audit Committee ”) has been established by the 
+Board in compliance with Rules 3.21 and 3.22 of the Hong Kong Listing Rules and the terms 
+of reference of code provision D.3.3 as set out in the CG Code. The Audit Committee consists 
+of three independent non-executive Directors, namely Mr. Wang Jinben,  Mr. Wong Ho Kwan, 
+and Mr. Liu Chongliang. Mr. Wang Jinben serves as the chairman of the Audit Committee and 
+possesses the appropriate professional qualifications as required under Rule 3.10(2) and 3.21 
+of the Hong Kong Listing Rules. The Audit Committee has reviewed the Group’s unaudited 
+interim results for the six months ended 30 June 2026, and is of a view that the preparation 
+of such financial results complied with the applicable accounting standards, the requirements 
+under the Hong Kong Listing Rules and other applicable legal requirements, and that adequate 
+disclosures have been made.
+
+===== PAGE 79 =====
+– 79 –
+PUBLICATION OF THE INTERIM RESULTS ANNOUNCEMENT AND INTERIM 
+REPORT
+This announcement is published on the website of the Hong Kong Stock Exchange 
+(www.hkexnews.hk) and on the website of the Company (www.ganfenglithium.com). The 
+Company’s 2026 interim report containing the information as required by the Hong Kong 
+Listing Rules will be published on the website of the Hong Kong Stock Exchange and on the 
+website of the Company in due course.
+By Order of the Board
+Ganfeng Lithium Group Co., Ltd.
+Li Liangbin
+Chairman
+Jiangxi, the PRC
+28 August 2026
+As at the date of this announcement, the Board comprises Mr. LI Liangbin, Mr. WANG 
+Xiaoshen, Mr. SHEN Haibo, Ms. HUANG Ting and Mr. LI Chenglin as executive directors of 
+the Company; Ms. LUO Rong as non-executive director of the Company; Mr. WANG Jinben, 
+Mr. WONG Ho Kwan, Mr. XU Jianzhang and Mr. LIU Chongliang as independent non-
+executive directors of the Company; and Ms. LIAO Cui as employee director of the Company.

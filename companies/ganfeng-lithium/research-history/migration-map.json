@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-15T12:50:02.232504+00:00",
+  "reason": "规范命名并补录历史研究要点，未新增财务研究或估值",
+  "mapping": {
+    "20261015T122100097782Z-recovered-20260905-h1": "2026-09-05_v001_2026h1-initial",
+    "20261015T122100332818Z-2026q3-delivered": "2026-10-15_v002_2026q3-update"
+  },
+  "backup": "D:\\Research\\stock-research\\outputs\\research-history-v2-20261015\\history-before"
+}

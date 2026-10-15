@@ -160,6 +160,16 @@
       color: var(--accent);
     }
 
+    .btn:focus-visible,
+    .pill-btn:focus-visible,
+    .view-tab-btn:focus-visible,
+    .drawer-close:focus-visible,
+    .chart-row:focus-visible,
+    tr[role="button"]:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
     .btn-sync {
       background: rgba(16, 185, 129, 0.15);
       color: var(--positive);
@@ -1096,16 +1106,16 @@
     }
   </style>
 </head>
-<body>
+<body><div style="margin:12px 24px;padding:12px;border:1px solid #cbd5e1;border-radius:8px">2026-10-15晚间三季报核查：36家中仅赣锋已发布完整Q3且已更新；其他公司未检出。<a href="quarterly-disclosure-review.md">核查与经营增量分析</a>。各公司估值日期保持原研究时点。</div>
   <div class="container">
     <!-- Header -->
     <header class="header">
       <div class="header-title-wrap">
         <h1>
           股票研究估值总览
-          <span class="badge-date">最近更新：2026-09-08</span>
+          <span class="badge-date">最近更新：2026-10-15</span>
         </h1>
-        <p>全库 23 家 基本面估值快照 · 网页一键触发同步 · 动态多维排序 · 安全边际可视化</p>
+        <p>全库 36 家 基本面估值快照 · 网页一键触发同步 · 动态多维排序 · 安全边际可视化</p>
       </div>
       <div class="header-actions">
         <!-- 网页端一键同步按钮 -->
@@ -1118,6 +1128,9 @@
         <button class="btn btn-primary" id="exportCsvBtn" title="将当前排序/筛选数据导出为 Excel CSV">
           <span>📥</span> 导出 CSV
         </button>
+        <a href="market-monitor/market-dashboard.html" class="btn" title="进入收盘行情与估值偏差监控">
+          <span>📡</span> 行情监控
+        </a>
         <a href="stock-overview.md" class="btn" title="查看原始 Markdown 文件">
           <span>📄</span> Markdown
         </a>
@@ -1131,8 +1144,8 @@
           <span>覆盖标的总数</span>
           <span>🏢</span>
         </div>
-        <div class="kpi-value mono" id="kpiTotal">23</div>
-        <div class="kpi-subtext" id="kpiMarketSplit">A股 13 家 · 港股 10 家</div>
+        <div class="kpi-value mono" id="kpiTotal">36</div>
+        <div class="kpi-subtext" id="kpiMarketSplit">A股 22 家 · 港股 14 家</div>
       </div>
 
       <div class="kpi-card">
@@ -1140,8 +1153,8 @@
           <span>全库平均基准空间</span>
           <span>📈</span>
         </div>
-        <div class="kpi-value mono" id="kpiAvgUpside" style="color: var(--positive);">+8.5%</div>
-        <div class="kpi-subtext" id="kpiMedianUpside">中位数 +9.9% · Base 相对现价</div>
+        <div class="kpi-value mono" id="kpiAvgUpside" style="color: var(--positive);">+14.7%</div>
+        <div class="kpi-subtext" id="kpiMedianUpside">中位数 +18.2% · Base 相对研报基准价</div>
       </div>
 
       <div class="kpi-card">
@@ -1149,7 +1162,7 @@
           <span>高估值空间标的 (>20%)</span>
           <span>🎯</span>
         </div>
-        <div class="kpi-value mono" id="kpiHighUpside" style="color: var(--positive);">8</div>
+        <div class="kpi-value mono" id="kpiHighUpside" style="color: var(--positive);">17</div>
         <div class="kpi-subtext" id="kpiHighUpsideText">最高 +51.4%（威高股份）</div>
       </div>
 
@@ -1158,7 +1171,7 @@
           <span>估值承压/回避标的 (<0%)</span>
           <span>🛡️</span>
         </div>
-        <div class="kpi-value mono" id="kpiDownside" style="color: var(--negative);">7</div>
+        <div class="kpi-value mono" id="kpiDownside" style="color: var(--negative);">8</div>
         <div class="kpi-subtext" id="kpiDownsideText">最低 -50.5%（福寿园）</div>
       </div>
 
@@ -1167,7 +1180,7 @@
           <span>积极偏好评级标的</span>
           <span>⭐</span>
         </div>
-        <div class="kpi-value mono" id="kpiPositiveCount" style="color: var(--positive);">10</div>
+        <div class="kpi-value mono" id="kpiPositiveCount" style="color: var(--positive);">20</div>
         <div class="kpi-subtext">谨慎积极 / 吸引力偏高 / 偏积极</div>
       </div>
     </section>
@@ -1181,7 +1194,7 @@
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="text" id="searchInput" class="search-input" placeholder="搜索公司、代码、主要方法、争议核心词...">
+          <input type="text" id="searchInput" class="search-input" aria-label="搜索估值总览" placeholder="搜索公司、代码、主要方法、争议核心词...">
         </div>
 
         <!-- View Tabs -->
@@ -1234,7 +1247,7 @@
 
         <!-- Reset Button & Results Count -->
         <div style="display: flex; align-items: center; gap: 12px; margin-left: auto;">
-          <span class="active-filter-hint" id="filterCount">显示 23 / 23 家</span>
+          <span class="active-filter-hint" id="filterCount">显示 36 / 36 家</span>
           <button class="btn" id="resetBtn" style="padding: 4px 10px; font-size: 12px;">↺ 重置</button>
         </div>
       </div>
@@ -1294,7 +1307,7 @@
 
   <!-- Detail Slide-Over Drawer -->
   <div class="drawer-overlay" id="drawerOverlay"></div>
-  <div class="drawer" id="drawer">
+  <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerCompName" aria-hidden="true">
     <div class="drawer-header">
       <div>
         <div style="display: flex; align-items: center; gap: 8px;">
@@ -1396,8 +1409,8 @@
   </div>
 
   <!-- Sync Options Dialog -->
-  <div class="sync-modal" id="syncModal">
-    <h3><span>🔄</span> 数据同步机制</h3>
+  <div class="sync-modal" id="syncModal" role="dialog" aria-modal="true" aria-labelledby="syncModalTitle" aria-hidden="true">
+    <h3 id="syncModalTitle"><span>🔄</span> 数据同步机制</h3>
     <p>
       数据源为项目根目录的 <code>stock-overview.md</code> 与 <code>PROJECT_CONTEXT.md</code>。
       当您更新了 Markdown 报告或估值数据时，可以通过以下方式同步至本看板：
@@ -1426,21 +1439,398 @@
   <!-- Embedded Data & Application Script -->
   <script>
     let DATASET = {
-  "last_updated": "2026-09-08",
-  "coverage_str": "23 家",
+  "last_updated": "2026-10-15",
+  "coverage_str": "36 家",
   "kpis": {
-    "total_count": 23,
-    "a_count": 13,
-    "hk_count": 10,
-    "avg_upside_str": "+8.5%",
-    "median_upside_str": "+9.9%",
-    "high_upside_count": 8,
+    "total_count": 36,
+    "a_count": 22,
+    "hk_count": 14,
+    "avg_upside_str": "+14.7%",
+    "median_upside_str": "+18.2%",
+    "high_upside_count": 17,
     "max_upside_text": "最高 +51.4%（威高股份）",
-    "downside_count": 7,
+    "downside_count": 8,
     "min_upside_text": "最低 -50.5%（福寿园）",
-    "positive_ratings_count": 10
+    "positive_ratings_count": 20
   },
   "companies": [
+    {
+      "company": "赛轮轮胎",
+      "code": "601058.SH",
+      "market": "A股",
+      "price_val": 12.63,
+      "currency": "元",
+      "price_date": "2026-10-13",
+      "price_extra": "",
+      "price_raw": "12.63 元（2026-10-13收盘，已除息）",
+      "bear_val": 8.21,
+      "bear_raw": "8.21 元",
+      "base_val": 15.36,
+      "base_raw": "15.36 元",
+      "bull_val": 23.72,
+      "bull_raw": "23.72 元",
+      "upside_val": 21.6,
+      "upside_str": "+21.6%",
+      "stance": "中性偏积极",
+      "stance_type": "neutral_pos",
+      "method": "2027正常化扣非归母P/E，资本开支及股息约束",
+      "cutoff_date": "2026-10-14",
+      "report_link": "companies/sailun/research-report.md",
+      "comp_dir": "companies/sailun",
+      "thesis": "首次档案及2026H1/Q2、海外新厂与埃及投资；核心争议是利润恢复能否覆盖原料、关税、全球最低税及扩产和营运资金占用，形成每股现金回报。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "蜜雪集团",
+      "code": "02097.HK",
+      "market": "港股",
+      "price_val": 171.9,
+      "currency": "港元",
+      "price_date": "2026-10-09",
+      "price_extra": "",
+      "price_raw": "171.90 港元（2026-10-09收盘，已除息）",
+      "bear_val": 114.58,
+      "bear_raw": "114.58 港元",
+      "base_val": 199.99,
+      "base_raw": "199.99 港元",
+      "bull_val": 332.12,
+      "bull_raw": "332.12 港元",
+      "upside_val": 16.3,
+      "upside_str": "+16.3%",
+      "stance": "中性观察",
+      "stance_type": "neutral",
+      "method": "2027E计新增奖励费用归母P/E（潜在摊薄），股息校验",
+      "cutoff_date": "2026-10-12",
+      "report_link": "companies/mixue/research-report.md",
+      "comp_dir": "companies/mixue",
+      "thesis": "首次研究、2026H1与股权奖励更新；核心争议是门店增长与商品供货脱节、海外收缩及新增奖励费用能否在资金充裕条件下恢复每股回报。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "分众传媒",
+      "code": "002027.SZ",
+      "market": "A股",
+      "price_val": 4.91,
+      "currency": "元",
+      "price_date": "2026-10-09",
+      "price_extra": "",
+      "price_raw": "4.91 元（2026-10-09收盘）",
+      "bear_val": 3.86,
+      "bear_raw": "3.86 元",
+      "base_val": 6.14,
+      "base_raw": "6.14 元",
+      "bull_val": 9.16,
+      "bull_raw": "9.16 元",
+      "upside_val": 25.1,
+      "upside_str": "+25.1%",
+      "stance": "谨慎积极",
+      "stance_type": "positive",
+      "method": "2027E正常化归母P/E（拟收购摊薄股本），股息校验",
+      "cutoff_date": "2026-10-12",
+      "report_link": "companies/focus-media/research-report.md",
+      "comp_dir": "companies/focus-media",
+      "thesis": "首次档案及2026H1、新潮收购和10月反垄断分析；核心争议是消费品与互联网客户预算、租赁后现金和分红能否在定价/独家限制及股份摊薄后继续提升每股回报。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "朗姿股份",
+      "code": "002612.SZ",
+      "market": "A股",
+      "price_val": 17.28,
+      "currency": "元",
+      "price_date": "2026-10-09",
+      "price_extra": "",
+      "price_raw": "17.28 元（2026-10-09收盘）",
+      "bear_val": 7.91,
+      "bear_raw": "7.91 元",
+      "base_val": 17.18,
+      "base_raw": "17.18 元",
+      "bull_val": 30.56,
+      "bull_raw": "30.56 元",
+      "upside_val": -0.6,
+      "upside_str": "-0.6%",
+      "stance": "中性观察",
+      "stance_type": "neutral",
+      "method": "2027E正常化归母P/E",
+      "cutoff_date": "2026-10-12",
+      "report_link": "companies/lancy/research-report.md",
+      "comp_dir": "companies/lancy",
+      "thesis": "首次档案及2026H1分析；核心争议是医美采购议价与复购、女装线上增长能否在税务风险、金融损益、商誉及并购资金占用下转成持续归母利润和租赁后现金。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "春秋航空",
+      "code": "601021.SH",
+      "market": "A股",
+      "price_val": 41.94,
+      "currency": "元",
+      "price_date": "2026-09-23",
+      "price_extra": "",
+      "price_raw": "41.94 元（2026-09-23，除息前）",
+      "bear_val": 21.36,
+      "bear_raw": "21.36 元",
+      "base_val": 49.59,
+      "base_raw": "49.59 元",
+      "bull_val": 74.44,
+      "bull_raw": "74.44 元",
+      "upside_val": 18.2,
+      "upside_str": "+18.2%",
+      "stance": "中性偏积极",
+      "stance_type": "neutral_pos",
+      "method": "70% 2027E归母P/E + 30% 2027E P/B",
+      "cutoff_date": "2026-09-24",
+      "report_link": "companies/spring-airlines/research-report.md",
+      "comp_dir": "companies/spring-airlines",
+      "thesis": "首次档案及2026H1和2026年8月运营数据分析；核心争议是低成本、高客座率和高利用率优势能否持续覆盖航油上涨、票价竞争、飞机扩张与资本开支，并在补贴和库存股因素下形成每股自由现金流。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "美的集团",
+      "code": "000333.SZ / 00300.HK",
+      "market": "A+H",
+      "price_val": 84.4,
+      "currency": "元",
+      "price_date": "2026-09-18",
+      "price_extra": "",
+      "price_raw": "84.40 元（2026-09-18，A 股）",
+      "bear_val": 57.52,
+      "bear_raw": "57.52 元",
+      "base_val": 105.36,
+      "base_raw": "105.36 元",
+      "bull_val": 153.99,
+      "bull_raw": "153.99 元",
+      "upside_val": 24.8,
+      "upside_str": "+24.8%",
+      "stance": "谨慎积极",
+      "stance_type": "positive",
+      "method": "2027E 归母净利润 P/E",
+      "cutoff_date": "2026-09-21",
+      "report_link": "companies/midea-group/research-report.md",
+      "comp_dir": "companies/midea-group",
+      "thesis": "首次档案及2026H1分析；核心争议是海外OBM、楼宇科技和机器人增长能否抵消成熟家电与工业技术压力，并在大额金融资产、回购分红及可转债稀释并存时持续提升每股自由现金流。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "宁德时代",
+      "code": "300750.SZ / 03750.HK",
+      "market": "A+H",
+      "price_val": 337.11,
+      "currency": "元",
+      "price_date": "2026-09-14",
+      "price_extra": "",
+      "price_raw": "337.11 元（2026-09-14，A 股）",
+      "bear_val": 254.43,
+      "bear_raw": "254.43 元",
+      "base_val": 493.21,
+      "base_raw": "493.21 元",
+      "bull_val": 792.98,
+      "bull_raw": "792.98 元",
+      "upside_val": 46.3,
+      "upside_str": "+46.3%",
+      "stance": "中性偏积极",
+      "stance_type": "neutral_pos",
+      "method": "2027E 归母净利润 P/E",
+      "cutoff_date": "2026-09-15",
+      "report_link": "companies/catl/research-report.md",
+      "comp_dir": "companies/catl",
+      "thesis": "首次档案及2026H1分析；核心争议是全球份额和储能增长能否覆盖764GWh在建产能的资本投入，并在应收、库存和近千亿元售后及返利预计负债上升时维持现金转化与合理回报。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "思格新能",
+      "code": "06656.HK",
+      "market": "港股",
+      "price_val": 310.2,
+      "currency": "港元",
+      "price_date": "2026-09-11",
+      "price_extra": "",
+      "price_raw": "310.20 港元（2026-09-11）",
+      "bear_val": 169.17,
+      "bear_raw": "169.17 港元",
+      "base_val": 431.38,
+      "base_raw": "431.38 港元",
+      "bull_val": 832.22,
+      "bull_raw": "832.22 港元",
+      "upside_val": 39.1,
+      "upside_str": "+39.1%",
+      "stance": "中性偏积极",
+      "stance_type": "neutral_pos",
+      "method": "2027E 调整净利润 P/E",
+      "cutoff_date": "2026-09-14",
+      "report_link": "companies/sigenergy/research-report.md",
+      "comp_dir": "companies/sigenergy",
+      "thesis": "",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "龙湖集团",
+      "code": "00960.HK",
+      "market": "港股",
+      "price_val": 5.67,
+      "currency": "港元",
+      "price_date": "2026-09-11",
+      "price_extra": "",
+      "price_raw": "5.67 港元（2026-09-11）",
+      "bear_val": 4.35,
+      "bear_raw": "4.35 港元",
+      "base_val": 8.16,
+      "base_raw": "8.16 港元",
+      "bull_val": 12.24,
+      "bull_raw": "12.24 港元",
+      "upside_val": 43.9,
+      "upside_str": "+43.9%",
+      "stance": "中性观察",
+      "stance_type": "neutral",
+      "method": "2026H1归母净资产 P/B，运营与服务盈利校验",
+      "cutoff_date": "2026-09-14",
+      "report_link": "companies/longfor-group/research-report.md",
+      "comp_dir": "companies/longfor-group",
+      "thesis": "首次档案及2026H1分析；核心争议是商业运营与物业服务的稳定增长能否抵消住宅开发亏损、销售继续收缩、利息高度资本化和项目伙伴资金占用，并持续降低净债务。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "万华化学",
+      "code": "600309.SH",
+      "market": "A股",
+      "price_val": 77.15,
+      "currency": "元",
+      "price_date": "2026-09-10",
+      "price_extra": "",
+      "price_raw": "77.15 元（2026-09-10，含息）",
+      "bear_val": 51.99,
+      "bear_raw": "51.99 元",
+      "base_val": 95.46,
+      "base_raw": "95.46 元",
+      "bull_val": 148.51,
+      "bull_raw": "148.51 元",
+      "upside_val": 23.7,
+      "upside_str": "+23.7%",
+      "stance": "中性偏积极",
+      "stance_type": "neutral_pos",
+      "method": "70% 2027E扣非归母P/E + 30% 2027E P/B",
+      "cutoff_date": "2026-09-11",
+      "report_link": "companies/wanhua-chemical/research-report.md",
+      "comp_dir": "companies/wanhua-chemical",
+      "thesis": "首次档案及2026H1分析；核心争议是聚氨酯、石化和新材料的利润修复能否持续覆盖扩产折旧与近千亿元研究口径净负债，并转化为自由现金流。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "伊利股份",
+      "code": "600887.SH",
+      "market": "A股",
+      "price_val": 26.54,
+      "currency": "元",
+      "price_date": "2026-09-10",
+      "price_extra": "",
+      "price_raw": "26.54 元（2026-09-10）",
+      "bear_val": 21.58,
+      "bear_raw": "21.58 元",
+      "base_val": 33.59,
+      "base_raw": "33.59 元",
+      "bull_val": 46.48,
+      "bull_raw": "46.48 元",
+      "upside_val": 26.6,
+      "upside_str": "+26.6%",
+      "stance": "中性偏积极",
+      "stance_type": "neutral_pos",
+      "method": "2027E 正常化归母 P/E，股息率交叉验证",
+      "cutoff_date": "2026-09-11",
+      "report_link": "companies/yili/research-report.md",
+      "comp_dir": "companies/yili",
+      "thesis": "首次档案及2026H1分析；核心争议是液态奶毛利率和费用效率改善能否抵消成熟需求，以及澳优商誉基本出清后渠道库存和真实盈利是否同步见底。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "恒隆地产",
+      "code": "00101.HK",
+      "market": "港股",
+      "price_val": 6.93,
+      "currency": "港元",
+      "price_date": "2026-09-10",
+      "price_extra": "",
+      "price_raw": "6.93 港元（2026-09-10）",
+      "bear_val": 4.84,
+      "bear_raw": "4.84 港元",
+      "base_val": 7.8,
+      "base_raw": "7.80 港元",
+      "bull_val": 11.63,
+      "bull_raw": "11.63 港元",
+      "upside_val": 12.6,
+      "upside_str": "+12.6%",
+      "stance": "中性观察",
+      "stance_type": "neutral",
+      "method": "60% 折价NAV + 40% 正常化基础P/E",
+      "cutoff_date": "2026-09-11",
+      "report_link": "companies/hang-lung-properties/research-report.md",
+      "comp_dir": "companies/hang-lung-properties",
+      "thesis": "首次档案及2026H1分析；核心争议是内地商场销售增长能否转成租金和每股现金流，并抵消内地写字楼下滑、470.53亿港元净债务、以股代息和期权稀释。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
+    {
+      "company": "珀莱雅",
+      "code": "603605.SH",
+      "market": "A股",
+      "price_val": 60.3,
+      "currency": "元",
+      "price_date": "2026-09-09",
+      "price_extra": "",
+      "price_raw": "60.30 元（2026-09-09）",
+      "bear_val": 48.52,
+      "bear_raw": "48.52 元",
+      "base_val": 75.84,
+      "base_raw": "75.84 元",
+      "bull_val": 113.5,
+      "bull_raw": "113.50 元",
+      "upside_val": 25.8,
+      "upside_str": "+25.8%",
+      "stance": "中性偏积极",
+      "stance_type": "neutral_pos",
+      "method": "2027E 正常化归母 P/E",
+      "cutoff_date": "2026-09-10",
+      "report_link": "companies/proya/research-report.md",
+      "comp_dir": "companies/proya",
+      "thesis": "首次档案及2026H1分析；核心争议是主品牌和彩棠能否在降低投流依赖的同时企稳，以及花知晓并表能否在扣除49%少数股东权益后形成可持续归母利润和现金流。",
+      "has_profile": true,
+      "has_model": true,
+      "has_sources": true,
+      "has_logs": true
+    },
     {
       "company": "宝钢股份",
       "code": "600019.SH",
@@ -1706,26 +2096,26 @@
       "company": "赣锋锂业",
       "code": "002460.SZ / 01772.HK",
       "market": "A+H",
-      "price_val": 50.52,
+      "price_val": 40.01,
       "currency": "元",
-      "price_date": "2026-09-04",
+      "price_date": "2026-10-15",
       "price_extra": "",
-      "price_raw": "50.52 元（2026-09-04）",
-      "bear_val": 20.39,
-      "bear_raw": "20.39 元",
-      "base_val": 45.27,
-      "base_raw": "45.27 元",
-      "bull_val": 74.35,
-      "bull_raw": "74.35 元",
-      "upside_val": -10.4,
-      "upside_str": "-10.4%",
-      "stance": "中性偏谨慎",
-      "stance_type": "cautious",
-      "method": "60% 正常化 P/E + 40% P/B",
-      "cutoff_date": "2026-09-05",
+      "price_raw": "40.01 元（2026-10-15收盘，A股）",
+      "bear_val": 16.38,
+      "bear_raw": "16.38 元",
+      "base_val": 38.12,
+      "base_raw": "38.12 元",
+      "bull_val": 63.75,
+      "bull_raw": "63.75 元",
+      "upside_val": -4.7,
+      "upside_str": "-4.7%",
+      "stance": "中性观察",
+      "stance_type": "neutral",
+      "method": "60% 2027正常化扣非P/E + 40% Q3净资产P/B",
+      "cutoff_date": "2026-10-15晚间",
       "report_link": "companies/ganfeng-lithium/research-report.md",
       "comp_dir": "companies/ganfeng-lithium",
-      "thesis": "首次档案及 2026H1 分析；核心争议是多项目选择权能否转化为自由现金流并降低净债务。",
+      "thesis": "2026三季报增量更新；核心争议是Q3利润率回落、投资现金流与融资负担能否改善，现金购建与资本新增已分开。",
       "has_profile": true,
       "has_model": true,
       "has_sources": true,
@@ -1820,28 +2210,28 @@
     },
     {
       "company": "兆易创新",
-      "code": "603986.SH",
-      "market": "A股",
-      "price_val": 393.0,
+      "code": "603986.SH / 03986.HK",
+      "market": "A+H",
+      "price_val": 326.46,
       "currency": "元",
-      "price_date": "2026-09-01",
+      "price_date": "2026-10-09",
       "price_extra": "",
-      "price_raw": "393.00 元（2026-09-01）",
-      "bear_val": 249.18,
-      "bear_raw": "249.18 元",
-      "base_val": 447.1,
-      "base_raw": "447.10 元",
-      "bull_val": 645.02,
-      "bull_raw": "645.02 元",
-      "upside_val": 13.8,
-      "upside_str": "+13.8%",
-      "stance": "中性观察",
-      "stance_type": "neutral",
-      "method": "正常化扣非 P/E + 折价金融投资",
-      "cutoff_date": "2026-09-02",
+      "price_raw": "326.46 元（2026-10-09，A股）",
+      "bear_val": 201.29,
+      "bear_raw": "201.29 元",
+      "base_val": 381.31,
+      "base_raw": "381.31 元",
+      "bull_val": 642.13,
+      "bull_raw": "642.13 元",
+      "upside_val": 16.8,
+      "upside_str": "+16.8%",
+      "stance": "中性偏积极",
+      "stance_type": "neutral_pos",
+      "method": "2027正常化扣非P/E + 折价金融投资（奖励压力股本）",
+      "cutoff_date": "2026-10-12",
       "report_link": "companies/gigadevice/research-report.md",
       "comp_dir": "companies/gigadevice",
-      "thesis": "首次档案及 2026H1 分析；核心争议是存储高毛利和公允价值收益的可持续性。",
+      "thesis": "2026H1基础上的10月增量更新；核心争议是存储价差能否覆盖长鑫代工涨价、渠道库存、金融投资波动和H股奖励稀释，并保持每股现金回报。",
       "has_profile": true,
       "has_model": true,
       "has_sources": true,
@@ -2141,6 +2531,7 @@
     };
 
     let activeView = 'table';
+    let lastFocusedElement = null;
 
     // DOM Elements
     const tableBody = document.getElementById('tableBody');
@@ -2291,7 +2682,17 @@
 
       data.forEach(item => {
         const tr = document.createElement('tr');
+        tr.tabIndex = 0;
+        tr.setAttribute('role', 'button');
+        tr.setAttribute('aria-label', `查看 ${item.company} 详情`);
         tr.addEventListener('click', () => openDrawer(item));
+        tr.addEventListener('keydown', (event) => {
+          if (event.target.closest('a, button')) return;
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openDrawer(item);
+          }
+        });
 
         const isPos = item.upside_val >= 0;
         const upsideClass = isPos ? 'upside-positive' : 'upside-negative';
@@ -2309,7 +2710,7 @@
             <div style="font-size: 11px; color: var(--text-dim);">${item.price_date} ${item.price_extra ? `<span style="color: var(--cautious);">(${item.price_extra})</span>` : ''}</div>
           </td>
           <td style="text-align: right;" class="mono">${item.bear_val.toFixed(2)}</td>
-          <td style="text-align: right;" class="mono" style="font-weight: 600;">${item.base_val.toFixed(2)}</td>
+          <td style="text-align: right; font-weight: 600;" class="mono">${item.base_val.toFixed(2)}</td>
           <td style="text-align: right;" class="mono">${item.bull_val.toFixed(2)}</td>
           <td>${renderRangeBar(item)}</td>
           <td style="text-align: right;">
@@ -2343,7 +2744,16 @@
       sorted.forEach(item => {
         const row = document.createElement('div');
         row.className = 'chart-row';
+        row.tabIndex = 0;
+        row.setAttribute('role', 'button');
+        row.setAttribute('aria-label', `查看 ${item.company} 详情`);
         row.addEventListener('click', () => openDrawer(item));
+        row.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openDrawer(item);
+          }
+        });
 
         const isPos = item.upside_val >= 0;
         const widthPct = (Math.abs(item.upside_val) / maxAbs) * 50;
@@ -2470,15 +2880,19 @@
       const headers = document.querySelectorAll('th[data-sort]');
       headers.forEach(th => {
         th.classList.remove('sorted-asc', 'sorted-desc');
+        th.setAttribute('aria-sort', 'none');
         if (th.dataset.sort === currentSort.key) {
           th.classList.add(currentSort.direction === 'asc' ? 'sorted-asc' : 'sorted-desc');
+          th.setAttribute('aria-sort', currentSort.direction === 'asc' ? 'ascending' : 'descending');
         }
       });
     }
 
     // Table Header Click Sort
     document.querySelectorAll('th[data-sort]').forEach(th => {
-      th.addEventListener('click', () => {
+      th.tabIndex = 0;
+      th.setAttribute('role', 'button');
+      const applySort = () => {
         const key = th.dataset.sort;
         if (currentSort.key === key) {
           currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
@@ -2487,6 +2901,13 @@
           currentSort.direction = ['upside_val', 'price_val', 'base_val', 'bull_val', 'bear_val', 'cutoff_date'].includes(key) ? 'desc' : 'asc';
         }
         render();
+      };
+      th.addEventListener('click', applySort);
+      th.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          applySort();
+        }
       });
     });
 
@@ -2548,6 +2969,7 @@
 
     // Drawer Logic
     function openDrawer(item) {
+      lastFocusedElement = document.activeElement;
       document.getElementById('drawerCompName').textContent = item.company;
       document.getElementById('drawerCode').textContent = item.code;
       document.getElementById('drawerMarket').textContent = item.market;
@@ -2595,11 +3017,15 @@
 
       drawerOverlay.classList.add('active');
       drawer.classList.add('active');
+      drawer.setAttribute('aria-hidden', 'false');
+      drawerCloseBtn.focus();
     }
 
     function closeDrawer() {
       drawerOverlay.classList.remove('active');
       drawer.classList.remove('active');
+      drawer.setAttribute('aria-hidden', 'true');
+      if (lastFocusedElement) lastFocusedElement.focus();
     }
 
     drawerCloseBtn.addEventListener('click', closeDrawer);
@@ -2705,7 +3131,7 @@
       document.getElementById('kpiTotal').textContent = k.total_count;
       document.getElementById('kpiMarketSplit').textContent = `A股 ${k.a_count} 家 · 港股 ${k.hk_count} 家`;
       document.getElementById('kpiAvgUpside').textContent = k.avg_upside_str;
-      document.getElementById('kpiMedianUpside').textContent = `中位数 ${k.median_upside_str} · Base 相对现价`;
+      document.getElementById('kpiMedianUpside').textContent = `中位数 ${k.median_upside_str} · Base 相对研报基准价`;
       document.getElementById('kpiHighUpside').textContent = k.high_upside_count;
       document.getElementById('kpiHighUpsideText').textContent = k.max_upside_text;
       document.getElementById('kpiDownside').textContent = k.downside_count;
@@ -2714,15 +3140,20 @@
     }
 
     function openSyncModal() {
+      lastFocusedElement = document.activeElement;
       syncModal.classList.add('active');
+      syncModal.setAttribute('aria-hidden', 'false');
       drawerOverlay.classList.add('active');
+      closeSyncModalBtn.focus();
     }
 
     function closeSyncModal() {
       syncModal.classList.remove('active');
+      syncModal.setAttribute('aria-hidden', 'true');
       if (!drawer.classList.contains('active')) {
         drawerOverlay.classList.remove('active');
       }
+      if (lastFocusedElement) lastFocusedElement.focus();
     }
 
     closeSyncModalBtn.addEventListener('click', closeSyncModal);

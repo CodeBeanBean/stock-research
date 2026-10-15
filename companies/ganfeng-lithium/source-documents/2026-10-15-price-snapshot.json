@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-15",
+  "security": "002460.SZ",
+  "currency": "CNY",
+  "close": 40.01,
+  "status": "closed",
+  "timing": "before quarterly earnings release",
+  "sources": [
+    "https://cn.investing.com/equities/ganfeng-lithium-a-historical-data",
+    "https://www.lvzen.top/stock/002460.html"
+  ]
+}

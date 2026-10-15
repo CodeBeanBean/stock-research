@@ -1,0 +1,36 @@
+{
+  "classifiedAnnouncements": null,
+  "totalSecurities": 0,
+  "totalAnnouncement": 1,
+  "totalRecordNum": 1,
+  "announcements": [
+    {
+      "id": null,
+      "secCode": "601058",
+      "secName": "<em>赛轮轮胎</em>",
+      "orgId": "9900009410",
+      "announcementId": "1225590008",
+      "announcementTitle": "<em>赛轮轮胎</em>关于实际控制人之一致行动人无偿捐赠股份的公告",
+      "announcementTime": 1790784000000,
+      "adjunctUrl": "finalpage/2026-10-01/1225590008.PDF",
+      "adjunctSize": 164,
+      "adjunctType": "PDF",
+      "storageTime": null,
+      "columnId": "250401||251302",
+      "pageColumn": "SHZB",
+      "announcementType": "01010503||010113||011715",
+      "associateAnnouncement": null,
+      "important": null,
+      "batchNum": null,
+      "announcementContent": "",
+      "orgName": null,
+      "tileSecName": "<em>赛轮轮胎</em>",
+      "shortTitle": "<em>赛轮轮胎</em>关于实际控制人之一致行动人无偿捐赠股份的公告",
+      "announcementTypeName": null,
+      "secNameList": null
+    }
+  ],
+  "categoryList": null,
+  "hasMore": false,
+  "totalpages": 0
+}

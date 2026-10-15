@@ -1,0 +1,17 @@
+{
+  "id": "S11",
+  "title": "赛轮轮胎历史收盘价格",
+  "publisher": "Investing.com；打板客交叉核对",
+  "date": "2026-10-13",
+  "retrieved": "2026-10-14",
+  "url": "https://cn.investing.com/equities/sailun-historical-data",
+  "crosscheck": "https://www.dabanke.com/gupiao-601058.html",
+  "currency": "CNY",
+  "close": 12.63,
+  "open": 12.55,
+  "high": 12.83,
+  "low": 12.45,
+  "volume": "29.42M",
+  "file": "S11-price-snapshot.json",
+  "note": "已结束交易日，10月14日盘中不作收盘价。网页仍可能显示旧简称赛轮金宇。"
+}

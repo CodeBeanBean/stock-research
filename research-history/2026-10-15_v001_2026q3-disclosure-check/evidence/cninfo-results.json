@@ -1,0 +1,811 @@
+[
+  {
+    "name": "赛轮轮胎",
+    "codes": "601058.SH",
+    "slug": "sailun",
+    "items": [
+      {
+        "code": "601058",
+        "name": "<em>赛轮轮胎</em>",
+        "title": "赛轮轮胎关于实际控制人之一致行动人无偿捐赠股份的公告",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590008.PDF",
+        "id": "1225590008"
+      }
+    ],
+    "totals": [
+      1
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:46.910117+00:00"
+  },
+  {
+    "name": "分众传媒",
+    "codes": "002027.SZ",
+    "slug": "focus-media",
+    "items": [
+      {
+        "code": "002027",
+        "name": "<em>分众传媒</em>",
+        "title": "公司关于收到国家市场监督管理总局附加限制性条件批准公司收购成都新潮传媒集团股份有限公司股权案反垄断审查决定的公告",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600446.PDF",
+        "id": "1225600446"
+      },
+      {
+        "code": "002027",
+        "name": "<em>分众传媒</em>",
+        "title": "公司关于为境外子公司提供担保的公告",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599292.PDF",
+        "id": "1225599292"
+      }
+    ],
+    "totals": [
+      2
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:46.899121+00:00"
+  },
+  {
+    "name": "朗姿股份",
+    "codes": "002612.SZ",
+    "slug": "lancy",
+    "items": [
+      {
+        "code": "002612",
+        "name": "<em>朗姿股份</em>",
+        "title": "关于全资子公司为公司提供担保并接受关联方担保的公告",
+        "time": 1791993600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225605568.PDF",
+        "id": "1225605568"
+      },
+      {
+        "code": "002612",
+        "name": "<em>朗姿股份</em>",
+        "title": "关于接受关联方担保的公告",
+        "time": 1791820800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225602094.PDF",
+        "id": "1225602094"
+      }
+    ],
+    "totals": [
+      2
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:46.884842+00:00"
+  },
+  {
+    "name": "春秋航空",
+    "codes": "601021.SH",
+    "slug": "spring-airlines",
+    "items": [
+      {
+        "code": "601021",
+        "name": "<em>春秋航空</em>",
+        "title": "春秋航空2026年9月份主要运营数据公告",
+        "time": 1792080000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225605993.PDF",
+        "id": "1225605993"
+      },
+      {
+        "code": "601021",
+        "name": "<em>春秋航空</em>",
+        "title": "北京市嘉源律师事务所关于春秋航空股份有限公司2026年员工持股计划相关事项的法律意见书",
+        "time": 1791907200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603109.PDF",
+        "id": "1225603109"
+      },
+      {
+        "code": "601021",
+        "name": "<em>春秋航空</em>",
+        "title": "春秋航空2026年第一次临时股东会会议材料",
+        "time": 1791907200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603145.PDF",
+        "id": "1225603145"
+      }
+    ],
+    "totals": [
+      3
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:46.943471+00:00"
+  },
+  {
+    "name": "美的集团",
+    "codes": "000333.SZ / 00300.HK",
+    "slug": "midea-group",
+    "items": [
+      {
+        "code": "000333",
+        "name": "<em>美的集团</em>",
+        "title": "关于回购注销部分限制性股票减资暨通知债权人的公告",
+        "time": 1791907200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603534.PDF",
+        "id": "1225603534"
+      },
+      {
+        "code": "000333",
+        "name": "<em>美的集团</em>",
+        "title": "2026年第一次临时股东会决议公告",
+        "time": 1791907200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603532.PDF",
+        "id": "1225603532"
+      },
+      {
+        "code": "000333",
+        "name": "<em>美的集团</em>",
+        "title": "北京市嘉源律师事务所关于美的集团2026年第一次临时股东会的法律意见书",
+        "time": 1791907200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603533.PDF",
+        "id": "1225603533"
+      },
+      {
+        "code": "000333",
+        "name": "<em>美的集团</em>",
+        "title": "关于以集中竞价交易方式回购A股股份进展情况的公告",
+        "time": 1791475200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596587.PDF",
+        "id": "1225596587"
+      }
+    ],
+    "totals": [
+      4
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.025695+00:00"
+  },
+  {
+    "name": "宁德时代",
+    "codes": "300750.SZ / 03750.HK",
+    "slug": "catl",
+    "items": [
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "H股公告（翌日披露报表）",
+        "time": 1792065371000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225607499.PDF",
+        "id": "1225607499"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "关于参与投资的基金完成私募投资基金备案的公告",
+        "time": 1791972510000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225605239.PDF",
+        "id": "1225605239"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "关于参与投资上海时代宸远创业投资合伙企业（有限合伙）的公告",
+        "time": 1791887189000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225603557.PDF",
+        "id": "1225603557"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "关于参与投资的基金完成私募投资基金备案的公告",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600435.PDF",
+        "id": "1225600435"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "关于回购公司A股股份的进展公告",
+        "time": 1791456610000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225597751.PDF",
+        "id": "1225597751"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "H股公告（翌日披露报表）",
+        "time": 1791456507000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225597755.PDF",
+        "id": "1225597755"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "H股公告（截至2026年9月30日止股份发行人的证券变动月报表)",
+        "time": 1791388800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595385.PDF",
+        "id": "1225595385"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "H股公告（董事会会议召开日期）",
+        "time": 1791388800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595386.PDF",
+        "id": "1225595386"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "第四届董事会第二十次会议决议公告",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225592059.PDF",
+        "id": "1225592059"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "关于向控股子公司提供财务资助的公告",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225592061.PDF",
+        "id": "1225592061"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "关于日常关联采购的公告",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225592062.PDF",
+        "id": "1225592062"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "关于接受关联方担保的公告",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225592063.PDF",
+        "id": "1225592063"
+      },
+      {
+        "code": "300750",
+        "name": "<em>宁德时代</em>",
+        "title": "关于召开2026年第二次临时股东会的通知",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225592060.PDF",
+        "id": "1225592060"
+      }
+    ],
+    "totals": [
+      13
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.019983+00:00"
+  },
+  {
+    "name": "万华化学",
+    "codes": "600309.SH",
+    "slug": "wanhua-chemical",
+    "items": [
+      {
+        "code": "600309",
+        "name": "<em>万华化学</em>",
+        "title": "万华化学烟台产业园乙烯二期装置停产检修公告",
+        "time": 1791475200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225597087.PDF",
+        "id": "1225597087"
+      }
+    ],
+    "totals": [
+      1
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.019983+00:00"
+  },
+  {
+    "name": "伊利股份",
+    "codes": "600887.SH",
+    "slug": "yili",
+    "items": [
+      {
+        "code": "600887",
+        "name": "<em>伊利股份</em>",
+        "title": "内蒙古伊利实业集团股份有限公司关于2026年度第十五、十六、十七、十八、十九期超短期融资券发行结果的公告",
+        "time": 1791907200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-14/1225603138.PDF",
+        "id": "1225603138"
+      },
+      {
+        "code": "600887",
+        "name": "<em>伊利股份</em>",
+        "title": "内蒙古伊利实业集团股份有限公司关于全资子公司内蒙古惠商融资担保有限公司2026年第三季度对外担保情况公告",
+        "time": 1791820800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225600810.PDF",
+        "id": "1225600810"
+      },
+      {
+        "code": "600887",
+        "name": "<em>伊利股份</em>",
+        "title": "内蒙古伊利实业集团股份有限公司关于股份回购进展公告",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225598746.PDF",
+        "id": "1225598746"
+      },
+      {
+        "code": "600887",
+        "name": "<em>伊利股份</em>",
+        "title": "内蒙古伊利实业集团股份有限公司关于出资设立风险投资基金相关事项变更的公告",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225598739.PDF",
+        "id": "1225598739"
+      },
+      {
+        "code": "600887",
+        "name": "<em>伊利股份</em>",
+        "title": "内蒙古伊利实业集团股份有限公司关于为全资子公司提供担保的进展公告",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225591147.PDF",
+        "id": "1225591147"
+      },
+      {
+        "code": "600887",
+        "name": "<em>伊利股份</em>",
+        "title": "内蒙古伊利实业集团股份有限公司关于2026年度第十、十一期超短期融资券兑付完成的公告",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225591152.PDF",
+        "id": "1225591152"
+      }
+    ],
+    "totals": [
+      6
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.096803+00:00"
+  },
+  {
+    "name": "珀莱雅",
+    "codes": "603605.SH",
+    "slug": "proya",
+    "items": [
+      {
+        "code": "603605",
+        "name": "<em>珀莱雅</em>",
+        "title": "珀莱雅化妆品股份有限公司关于实施2026年半年度权益分派后调整回购价格上限的公告",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600392.PDF",
+        "id": "1225600392"
+      },
+      {
+        "code": "603605",
+        "name": "<em>珀莱雅</em>",
+        "title": "珀莱雅化妆品股份有限公司关于调整2026年半年度利润分配现金分红总额的公告",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600401.PDF",
+        "id": "1225600401"
+      },
+      {
+        "code": "603605",
+        "name": "<em>珀莱雅</em>",
+        "title": "珀莱雅化妆品股份有限公司2026年半年度权益分派实施公告",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600426.PDF",
+        "id": "1225600426"
+      },
+      {
+        "code": "603605",
+        "name": "<em>珀莱雅</em>",
+        "title": "珀莱雅化妆品股份有限公司关于2026年半年度权益分派调整可转债转股价格的公告",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600383.PDF",
+        "id": "1225600383"
+      },
+      {
+        "code": "603605",
+        "name": "<em>珀莱雅</em>",
+        "title": "国浩律师（杭州）事务所关于珀莱雅化妆品股份有限公司2026年半年度差异化分红事项之法律意见书",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600430.PDF",
+        "id": "1225600430"
+      },
+      {
+        "code": "603605",
+        "name": "<em>珀莱雅</em>",
+        "title": "珀莱雅化妆品股份有限公司可转债转股结果暨股份变动公告",
+        "time": 1791475200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596218.PDF",
+        "id": "1225596218"
+      },
+      {
+        "code": "603605",
+        "name": "<em>珀莱雅</em>",
+        "title": "珀莱雅化妆品股份有限公司关于股份回购进展公告",
+        "time": 1791475200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596221.PDF",
+        "id": "1225596221"
+      }
+    ],
+    "totals": [
+      7
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.131171+00:00"
+  },
+  {
+    "name": "宝钢股份",
+    "codes": "600019.SH",
+    "slug": "baosteel",
+    "items": [],
+    "totals": [
+      0
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.159645+00:00"
+  },
+  {
+    "name": "梦百合",
+    "codes": "603313.SH",
+    "slug": "mlily",
+    "items": [],
+    "totals": [
+      0
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.131171+00:00"
+  },
+  {
+    "name": "信维通信",
+    "codes": "300136.SZ",
+    "slug": "sunway-communication",
+    "items": [],
+    "totals": [
+      0
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.221906+00:00"
+  },
+  {
+    "name": "天齐锂业",
+    "codes": "002466.SZ / 09696.HK",
+    "slug": "tianqi-lithium",
+    "items": [
+      {
+        "code": "002466",
+        "name": "<em>天齐锂业</em>",
+        "title": "H股公告：董事会会议通告",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599203.PDF",
+        "id": "1225599203"
+      },
+      {
+        "code": "002466",
+        "name": "<em>天齐锂业</em>",
+        "title": "H股公告：证券变动月报表",
+        "time": 1791388800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225589957.PDF",
+        "id": "1225589957"
+      }
+    ],
+    "totals": [
+      2
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.238183+00:00"
+  },
+  {
+    "name": "赣锋锂业",
+    "codes": "002460.SZ / 01772.HK",
+    "slug": "ganfeng-lithium",
+    "items": [
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "关于为控股子公司提供担保的进展公告",
+        "time": 1792080000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607213.PDF",
+        "id": "1225607213"
+      },
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "第六届董事会第二十二次会议决议公告",
+        "time": 1792080000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607212.PDF",
+        "id": "1225607212"
+      },
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "关于增加担保额度及担保对象暨关联交易的公告",
+        "time": 1792080000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607214.PDF",
+        "id": "1225607214"
+      },
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "2026年三季度报告",
+        "time": 1792080000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607211.PDF",
+        "id": "1225607211"
+      },
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "关于为控股子公司提供担保的进展公告",
+        "time": 1791820800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225600890.PDF",
+        "id": "1225600890"
+      },
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "关于为控股子公司提供担保的进展公告",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600464.PDF",
+        "id": "1225600464"
+      },
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "关于赣锋锂电参与投资有限合伙企业涉及关联交易的进展公告",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599560.PDF",
+        "id": "1225599560"
+      },
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "第六届董事会第二十一次会议决议公告",
+        "time": 1791475200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225597519.PDF",
+        "id": "1225597519"
+      },
+      {
+        "code": "002460",
+        "name": "<em>赣锋锂业</em>",
+        "title": "H股公告",
+        "time": 1791388800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225590578.PDF",
+        "id": "1225590578"
+      }
+    ],
+    "totals": [
+      9
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.509373+00:00"
+  },
+  {
+    "name": "云铝股份",
+    "codes": "000807.SZ",
+    "slug": "yunnan-aluminum",
+    "items": [],
+    "totals": [
+      0
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.274417+00:00"
+  },
+  {
+    "name": "牧原股份",
+    "codes": "002714.SZ / 02714.HK",
+    "slug": "muyuan",
+    "items": [
+      {
+        "code": "002714",
+        "name": "<em>牧原</em><em>股份</em>",
+        "title": "H股公告（董事会会议通告）",
+        "time": 1792080000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225607190.PDF",
+        "id": "1225607190"
+      },
+      {
+        "code": "002714",
+        "name": "<em>牧原股份</em>",
+        "title": "2026年9月份销售简报",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600460.PDF",
+        "id": "1225600460"
+      },
+      {
+        "code": "002714",
+        "name": "<em>牧原股份</em>",
+        "title": "关于2026年第三季度可转换公司债券转股情况的公告",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599471.PDF",
+        "id": "1225599471"
+      },
+      {
+        "code": "002714",
+        "name": "<em>牧原股份</em>",
+        "title": "H股公告（证券变动月报表）",
+        "time": 1791475200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225596909.PDF",
+        "id": "1225596909"
+      }
+    ],
+    "totals": [
+      4
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.374146+00:00"
+  },
+  {
+    "name": "宝丰能源",
+    "codes": "600989.SH",
+    "slug": "baofeng-energy",
+    "items": [],
+    "totals": [
+      0
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.358092+00:00"
+  },
+  {
+    "name": "兆易创新",
+    "codes": "603986.SH / 03986.HK",
+    "slug": "gigadevice",
+    "items": [
+      {
+        "code": "603986",
+        "name": "<em>兆易创新</em>",
+        "title": "H股公告-翌日披露报表",
+        "time": 1792080000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225606671.PDF",
+        "id": "1225606671"
+      },
+      {
+        "code": "603986",
+        "name": "<em>兆易创新</em>",
+        "title": "H股公告-翌日披露报表",
+        "time": 1791820800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601334.PDF",
+        "id": "1225601334"
+      },
+      {
+        "code": "603986",
+        "name": "<em>兆易创新</em>",
+        "title": "兆易创新关于以集中竞价交易方式回购A股股份的进展公告",
+        "time": 1791820800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601328.PDF",
+        "id": "1225601328"
+      },
+      {
+        "code": "603986",
+        "name": "<em>兆易创新</em>",
+        "title": "兆易创新关于以集中竞价交易方式回购A股股份的进展公告",
+        "time": 1791475200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225597072.PDF",
+        "id": "1225597072"
+      },
+      {
+        "code": "603986",
+        "name": "<em>兆易创新</em>",
+        "title": "H股公告-翌日披露报表",
+        "time": 1791475200000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225597503.PDF",
+        "id": "1225597503"
+      }
+    ],
+    "totals": [
+      5
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.424597+00:00"
+  },
+  {
+    "name": "阳光电源",
+    "codes": "300274.SZ",
+    "slug": "sungrow",
+    "items": [
+      {
+        "code": "300274",
+        "name": "<em>阳光</em><em>电源</em>",
+        "title": "关于控股股东部分股份解除质押的公告",
+        "time": 1792051229000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-15/1225606033.PDF",
+        "id": "1225606033"
+      },
+      {
+        "code": "300274",
+        "name": "<em>阳光电源</em>",
+        "title": "关于回购公司股份的进展公告",
+        "time": 1791540010000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-09/1225599315.PDF",
+        "id": "1225599315"
+      },
+      {
+        "code": "300274",
+        "name": "<em>阳光电源</em>",
+        "title": "关于2023年限制性股票激励计划预留授予部分第二个归属期归属结果暨股份上市公告",
+        "time": 1790784000000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-01/1225590078.PDF",
+        "id": "1225590078"
+      }
+    ],
+    "totals": [
+      3
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.479442+00:00"
+  },
+  {
+    "name": "晋亿实业",
+    "codes": "601002.SH",
+    "slug": "jinyi-industrial",
+    "items": [],
+    "totals": [
+      0
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.513373+00:00"
+  },
+  {
+    "name": "百联股份",
+    "codes": "600827.SH",
+    "slug": "bailian",
+    "items": [
+      {
+        "code": "600827",
+        "name": "<em>百联股份</em>",
+        "title": "百联股份重大资产终止受托管理暨关联交易实施情况报告书",
+        "time": 1791820800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601504.PDF",
+        "id": "1225601504"
+      },
+      {
+        "code": "600827",
+        "name": "<em>百联股份</em>",
+        "title": "国浩律师（上海）事务所关于上海百联集团股份有限公司重大资产终止受托管理暨关联交易实施情况之法律意见书",
+        "time": 1791820800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601518.PDF",
+        "id": "1225601518"
+      },
+      {
+        "code": "600827",
+        "name": "<em>百联股份</em>",
+        "title": "国泰海通证券股份有限公司关于上海百联集团股份有限公司重大资产终止受托管理暨关联交易实施情况之独立财务顾问核查意见",
+        "time": 1791820800000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-13/1225601521.PDF",
+        "id": "1225601521"
+      },
+      {
+        "code": "688506",
+        "name": "<em>百</em>利天恒",
+        "title": "四川百利天恒药业股份有限公司自愿披露关于宜泽康?",
+        "time": 1791734400000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-12/1225600431.PDF",
+        "id": "1225600431"
+      },
+      {
+        "code": "600827",
+        "name": "<em>百联股份</em>",
+        "title": "百联股份关于股份回购进展公告",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225600148.PDF",
+        "id": "1225600148"
+      },
+      {
+        "code": "600827",
+        "name": "<em>百联股份</em>",
+        "title": "国浩律师（上海）事务所关于上海百联集团股份有限公司2026年第一次临时股东会的法律意见书",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225600149.PDF",
+        "id": "1225600149"
+      },
+      {
+        "code": "600827",
+        "name": "<em>百联股份</em>",
+        "title": "百联股份2026年第一次临时股东会决议公告",
+        "time": 1791561600000,
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225600150.PDF",
+        "id": "1225600150"
+      }
+    ],
+    "totals": [
+      7
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.604644+00:00"
+  },
+  {
+    "name": "宋城演艺",
+    "codes": "300144.SZ",
+    "slug": "songcheng-performance",
+    "items": [],
+    "totals": [
+      0
+    ],
+    "status": "ok",
+    "retrieved_utc": "2026-10-15T13:06:47.590878+00:00"
+  }
+]

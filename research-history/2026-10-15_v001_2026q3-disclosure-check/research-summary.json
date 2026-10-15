@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "type": "library-disclosure-review",
+  "research_date": "2026-10-15",
+  "source_cutoff": "2026-10-15 21:14 Asia/Shanghai",
+  "coverage_count": 36,
+  "a_share_issuer_count": 22,
+  "hk_only_issuer_count": 14,
+  "full_q3_published": [
+    "ganfeng-lithium"
+  ],
+  "new_full_q3_updates_required": [],
+  "company_valuations_refreshed": false,
+  "headline": "除已完成更新的赣锋外，35家公司未检出完整三季报；补充达势、龙湖、春秋经营及福寿园治理跟踪",
+  "changes": [
+    {
+      "company": "达势股份",
+      "before": "H1门店1550家，SSSG-4.8%，ATP承压",
+      "after": "Q3末1634家，ATP环比小升，SSSG仍负；不披露具体值",
+      "impact": "经营温和改善，利润率和租赁后现金尚未验证，不上调预测"
+    },
+    {
+      "company": "龙湖集团",
+      "before": "H1合同销售165.5亿元；8个月累计208.4亿元",
+      "after": "9个月合同销售231.4亿元，Q3计算65.9亿元；运营服务204.4亿元",
+      "impact": "开发仍承压；经营收入不等于利润或降债"
+    },
+    {
+      "company": "春秋航空",
+      "before": "8个月ASK/RPK+13.3%/+15.5%，客座率92.99%",
+      "after": "9个月ASK/RPK+12.98%/+15.12%，客座率93.00%",
+      "impact": "量和装载率优势继续，利润须验证票价、航油和资本投入"
+    },
+    {
+      "company": "福寿园",
+      "before": "初步47笔1970万元，调查未完成",
+      "after": "独立报告完成；69笔2341.26万元，扣重复后64笔2276.74万元，存在调查限制",
+      "impact": "程序前进，财报与复牌仍未恢复；存疑金额不是最终损失"
+    }
+  ],
+  "valuation_reference": {
+    "company": "ganfeng-lithium",
+    "security": "002460.SZ",
+    "currency": "CNY",
+    "price": 40.01,
+    "price_date": "2026-10-15",
+    "bear": 16.38,
+    "base": 38.12,
+    "bull": 63.75,
+    "conclusion": "中性观察",
+    "note": "已完成三季报研究的复核引用，本轮未重估"
+  },
+  "next_checks": [
+    {
+      "company": "宁德时代",
+      "board_date": "2026-10-20"
+    },
+    {
+      "company": "天齐锂业",
+      "board_date": "2026-10-23"
+    },
+    {
+      "company": "腾讯控股",
+      "board_date": "2026-11-18"
+    }
+  ],
+  "companies": [
+    {
+      "name": "赛轮轮胎",
+      "codes": "601058.SH",
+      "slug": "sailun",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/sailun-cninfo-page1.json",
+      "query_record_count": 1
+    },
+    {
+      "name": "蜜雪集团",
+      "codes": "02097.HK",
+      "slug": "mixue",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/mixue-hkex.json",
+      "query_record_count": 10
+    },
+    {
+      "name": "分众传媒",
+      "codes": "002027.SZ",
+      "slug": "focus-media",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/focus-media-cninfo-page1.json",
+      "query_record_count": 2
+    },
+    {
+      "name": "朗姿股份",
+      "codes": "002612.SZ",
+      "slug": "lancy",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/lancy-cninfo-page1.json",
+      "query_record_count": 2
+    },
+    {
+      "name": "春秋航空",
+      "codes": "601021.SH",
+      "slug": "spring-airlines",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "九月运营数据，16日落款/15日晚可得；本报告补充分析",
+      "official_result_file": "evidence/spring-airlines-cninfo-page1.json",
+      "query_record_count": 3
+    },
+    {
+      "name": "美的集团",
+      "codes": "000333.SZ / 00300.HK",
+      "slug": "midea-group",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/midea-group-cninfo-page1.json",
+      "query_record_count": 4
+    },
+    {
+      "name": "宁德时代",
+      "codes": "300750.SZ / 03750.HK",
+      "slug": "catl",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "10月20日拟审议Q3",
+      "official_result_file": "evidence/catl-cninfo-page1.json",
+      "query_record_count": 13
+    },
+    {
+      "name": "思格新能",
+      "codes": "06656.HK",
+      "slug": "sigenergy",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/sigenergy-hkex.json",
+      "query_record_count": 4
+    },
+    {
+      "name": "龙湖集团",
+      "codes": "00960.HK",
+      "slug": "longfor-group",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "10月12日九月经营数据；本报告补充分析",
+      "official_result_file": "evidence/longfor-group-hkex.json",
+      "query_record_count": 11
+    },
+    {
+      "name": "万华化学",
+      "codes": "600309.SH",
+      "slug": "wanhua-chemical",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/wanhua-chemical-cninfo-page1.json",
+      "query_record_count": 1
+    },
+    {
+      "name": "伊利股份",
+      "codes": "600887.SH",
+      "slug": "yili",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "第三季度子公司担保公告，非财报",
+      "official_result_file": "evidence/yili-cninfo-page1.json",
+      "query_record_count": 6
+    },
+    {
+      "name": "恒隆地产",
+      "codes": "00101.HK",
+      "slug": "hang-lung-properties",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/hang-lung-properties-hkex.json",
+      "query_record_count": 10
+    },
+    {
+      "name": "珀莱雅",
+      "codes": "603605.SH",
+      "slug": "proya",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/proya-cninfo-page1.json",
+      "query_record_count": 7
+    },
+    {
+      "name": "宝钢股份",
+      "codes": "600019.SH",
+      "slug": "baosteel",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/baosteel-cninfo-page1.json",
+      "query_record_count": 0
+    },
+    {
+      "name": "威高股份",
+      "codes": "01066.HK",
+      "slug": "weigao-group",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/weigao-group-hkex.json",
+      "query_record_count": 35
+    },
+    {
+      "name": "梦百合",
+      "codes": "603313.SH",
+      "slug": "mlily",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/mlily-cninfo-page1.json",
+      "query_record_count": 0
+    },
+    {
+      "name": "福寿园",
+      "codes": "01448.HK",
+      "slug": "fu-shou-yuan",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2025H1；后续财报延迟",
+      "note": "9月16日复牌进度季度更新，非财务季报",
+      "official_result_file": "evidence/fu-shou-yuan-hkex.json",
+      "query_record_count": 16
+    },
+    {
+      "name": "信维通信",
+      "codes": "300136.SZ",
+      "slug": "sunway-communication",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/sunway-communication-cninfo-page1.json",
+      "query_record_count": 0
+    },
+    {
+      "name": "达势股份",
+      "codes": "01405.HK",
+      "slug": "dpc-dash",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "10月12日Q3经营简报；本报告补充分析",
+      "official_result_file": "evidence/dpc-dash-hkex.json",
+      "query_record_count": 4
+    },
+    {
+      "name": "保利物业",
+      "codes": "06049.HK",
+      "slug": "poly-property-services",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/poly-property-services-hkex.json",
+      "query_record_count": 3
+    },
+    {
+      "name": "中海物业",
+      "codes": "02669.HK",
+      "slug": "china-overseas-property",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/china-overseas-property-hkex.json",
+      "query_record_count": 3
+    },
+    {
+      "name": "天齐锂业",
+      "codes": "002466.SZ / 09696.HK",
+      "slug": "tianqi-lithium",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "10月23日拟审议Q3",
+      "official_result_file": "evidence/tianqi-lithium-cninfo-page1.json",
+      "query_record_count": 2
+    },
+    {
+      "name": "赣锋锂业",
+      "codes": "002460.SZ / 01772.HK",
+      "slug": "ganfeng-lithium",
+      "financial_q3_status": "已发布，已更新",
+      "latest_researched_financial_period": "2026Q3",
+      "note": "已发布；此前更新已完成",
+      "official_result_file": "evidence/ganfeng-lithium-cninfo-page1.json",
+      "query_record_count": 9
+    },
+    {
+      "name": "云铝股份",
+      "codes": "000807.SZ",
+      "slug": "yunnan-aluminum",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/yunnan-aluminum-cninfo-page1.json",
+      "query_record_count": 0
+    },
+    {
+      "name": "牧原股份",
+      "codes": "002714.SZ / 02714.HK",
+      "slug": "muyuan",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "第三季度可转债转股公告，非财报",
+      "official_result_file": "evidence/muyuan-cninfo-page1.json",
+      "query_record_count": 4
+    },
+    {
+      "name": "宝丰能源",
+      "codes": "600989.SH",
+      "slug": "baofeng-energy",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/baofeng-energy-cninfo-page1.json",
+      "query_record_count": 0
+    },
+    {
+      "name": "兆易创新",
+      "codes": "603986.SH / 03986.HK",
+      "slug": "gigadevice",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/gigadevice-cninfo-page1.json",
+      "query_record_count": 5
+    },
+    {
+      "name": "阳光电源",
+      "codes": "300274.SZ",
+      "slug": "sungrow",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/sungrow-cninfo-page1.json",
+      "query_record_count": 3
+    },
+    {
+      "name": "晋亿实业",
+      "codes": "601002.SH",
+      "slug": "jinyi-industrial",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/jinyi-industrial-cninfo-page1.json",
+      "query_record_count": 0
+    },
+    {
+      "name": "百联股份",
+      "codes": "600827.SH",
+      "slug": "bailian",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/bailian-cninfo-page1.json",
+      "query_record_count": 7
+    },
+    {
+      "name": "宋城演艺",
+      "codes": "300144.SZ",
+      "slug": "songcheng-performance",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/songcheng-performance-cninfo-page1.json",
+      "query_record_count": 0
+    },
+    {
+      "name": "腾讯控股",
+      "codes": "0700.HK",
+      "slug": "tencent",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "11月18日拟审议Q3",
+      "official_result_file": "evidence/tencent-hkex.json",
+      "query_record_count": 37
+    },
+    {
+      "name": "三生制药",
+      "codes": "01530.HK",
+      "slug": "3sbio",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/3sbio-hkex.json",
+      "query_record_count": 16
+    },
+    {
+      "name": "海吉亚医疗",
+      "codes": "06078.HK",
+      "slug": "hygeia-healthcare",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/hygeia-healthcare-hkex.json",
+      "query_record_count": 21
+    },
+    {
+      "name": "海底捞",
+      "codes": "06862.HK",
+      "slug": "haidilao",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/haidilao-hkex.json",
+      "query_record_count": 5
+    },
+    {
+      "name": "中国民航信息网络",
+      "codes": "00696.HK",
+      "slug": "travelsky",
+      "financial_q3_status": "未检出",
+      "latest_researched_financial_period": "2026H1 / Q2",
+      "note": "本轮无完整三季报可更新",
+      "official_result_file": "evidence/travelsky-hkex.json",
+      "query_record_count": 2
+    }
+  ],
+  "prepared_utc": "2026-10-15T13:17:15.785725+00:00",
+  "model_scope": "No company workbook changed; this is a disclosure and operating follow-up."
+}

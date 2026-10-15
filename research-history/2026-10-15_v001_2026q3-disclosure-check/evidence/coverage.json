@@ -1,0 +1,182 @@
+[
+  {
+    "name": "赛轮轮胎",
+    "codes": "601058.SH",
+    "slug": "sailun"
+  },
+  {
+    "name": "蜜雪集团",
+    "codes": "02097.HK",
+    "slug": "mixue"
+  },
+  {
+    "name": "分众传媒",
+    "codes": "002027.SZ",
+    "slug": "focus-media"
+  },
+  {
+    "name": "朗姿股份",
+    "codes": "002612.SZ",
+    "slug": "lancy"
+  },
+  {
+    "name": "春秋航空",
+    "codes": "601021.SH",
+    "slug": "spring-airlines"
+  },
+  {
+    "name": "美的集团",
+    "codes": "000333.SZ / 00300.HK",
+    "slug": "midea-group"
+  },
+  {
+    "name": "宁德时代",
+    "codes": "300750.SZ / 03750.HK",
+    "slug": "catl"
+  },
+  {
+    "name": "思格新能",
+    "codes": "06656.HK",
+    "slug": "sigenergy"
+  },
+  {
+    "name": "龙湖集团",
+    "codes": "00960.HK",
+    "slug": "longfor-group"
+  },
+  {
+    "name": "万华化学",
+    "codes": "600309.SH",
+    "slug": "wanhua-chemical"
+  },
+  {
+    "name": "伊利股份",
+    "codes": "600887.SH",
+    "slug": "yili"
+  },
+  {
+    "name": "恒隆地产",
+    "codes": "00101.HK",
+    "slug": "hang-lung-properties"
+  },
+  {
+    "name": "珀莱雅",
+    "codes": "603605.SH",
+    "slug": "proya"
+  },
+  {
+    "name": "宝钢股份",
+    "codes": "600019.SH",
+    "slug": "baosteel"
+  },
+  {
+    "name": "威高股份",
+    "codes": "01066.HK",
+    "slug": "weigao-group"
+  },
+  {
+    "name": "梦百合",
+    "codes": "603313.SH",
+    "slug": "mlily"
+  },
+  {
+    "name": "福寿园",
+    "codes": "01448.HK",
+    "slug": "fu-shou-yuan"
+  },
+  {
+    "name": "信维通信",
+    "codes": "300136.SZ",
+    "slug": "sunway-communication"
+  },
+  {
+    "name": "达势股份",
+    "codes": "01405.HK",
+    "slug": "dpc-dash"
+  },
+  {
+    "name": "保利物业",
+    "codes": "06049.HK",
+    "slug": "poly-property-services"
+  },
+  {
+    "name": "中海物业",
+    "codes": "02669.HK",
+    "slug": "china-overseas-property"
+  },
+  {
+    "name": "天齐锂业",
+    "codes": "002466.SZ / 09696.HK",
+    "slug": "tianqi-lithium"
+  },
+  {
+    "name": "赣锋锂业",
+    "codes": "002460.SZ / 01772.HK",
+    "slug": "ganfeng-lithium"
+  },
+  {
+    "name": "云铝股份",
+    "codes": "000807.SZ",
+    "slug": "yunnan-aluminum"
+  },
+  {
+    "name": "牧原股份",
+    "codes": "002714.SZ / 02714.HK",
+    "slug": "muyuan"
+  },
+  {
+    "name": "宝丰能源",
+    "codes": "600989.SH",
+    "slug": "baofeng-energy"
+  },
+  {
+    "name": "兆易创新",
+    "codes": "603986.SH / 03986.HK",
+    "slug": "gigadevice"
+  },
+  {
+    "name": "阳光电源",
+    "codes": "300274.SZ",
+    "slug": "sungrow"
+  },
+  {
+    "name": "晋亿实业",
+    "codes": "601002.SH",
+    "slug": "jinyi-industrial"
+  },
+  {
+    "name": "百联股份",
+    "codes": "600827.SH",
+    "slug": "bailian"
+  },
+  {
+    "name": "宋城演艺",
+    "codes": "300144.SZ",
+    "slug": "songcheng-performance"
+  },
+  {
+    "name": "腾讯控股",
+    "codes": "0700.HK",
+    "slug": "tencent"
+  },
+  {
+    "name": "三生制药",
+    "codes": "01530.HK",
+    "slug": "3sbio"
+  },
+  {
+    "name": "海吉亚医疗",
+    "codes": "06078.HK",
+    "slug": "hygeia-healthcare"
+  },
+  {
+    "name": "海底捞",
+    "codes": "06862.HK",
+    "slug": "haidilao"
+  },
+  {
+    "name": "中国民航信息网络",
+    "codes": "00696.HK",
+    "slug": "travelsky"
+  }
+]

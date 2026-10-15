@@ -377,6 +377,16 @@ def build_html_content(dataset):
       color: var(--accent);
     }}
 
+    .btn:focus-visible,
+    .pill-btn:focus-visible,
+    .view-tab-btn:focus-visible,
+    .drawer-close:focus-visible,
+    .chart-row:focus-visible,
+    tr[role="button"]:focus-visible {{
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }}
+
     .btn-sync {{
       background: rgba(16, 185, 129, 0.15);
       color: var(--positive);
@@ -1335,6 +1345,9 @@ def build_html_content(dataset):
         <button class="btn btn-primary" id="exportCsvBtn" title="将当前排序/筛选数据导出为 Excel CSV">
           <span>📥</span> 导出 CSV
         </button>
+        <a href="market-monitor/market-dashboard.html" class="btn" title="进入收盘行情与估值偏差监控">
+          <span>📡</span> 行情监控
+        </a>
         <a href="stock-overview.md" class="btn" title="查看原始 Markdown 文件">
           <span>📄</span> Markdown
         </a>
@@ -1358,7 +1371,7 @@ def build_html_content(dataset):
           <span>📈</span>
         </div>
         <div class="kpi-value mono" id="kpiAvgUpside" style="color: var(--positive);">{k["avg_upside_str"]}</div>
-        <div class="kpi-subtext" id="kpiMedianUpside">中位数 {k["median_upside_str"]} · Base 相对现价</div>
+        <div class="kpi-subtext" id="kpiMedianUpside">中位数 {k["median_upside_str"]} · Base 相对研报基准价</div>
       </div>
 
       <div class="kpi-card">
@@ -1398,7 +1411,7 @@ def build_html_content(dataset):
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="text" id="searchInput" class="search-input" placeholder="搜索公司、代码、主要方法、争议核心词...">
+          <input type="text" id="searchInput" class="search-input" aria-label="搜索估值总览" placeholder="搜索公司、代码、主要方法、争议核心词...">
         </div>
 
         <!-- View Tabs -->
@@ -1511,7 +1524,7 @@ def build_html_content(dataset):
 
   <!-- Detail Slide-Over Drawer -->
   <div class="drawer-overlay" id="drawerOverlay"></div>
-  <div class="drawer" id="drawer">
+  <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerCompName" aria-hidden="true">
     <div class="drawer-header">
       <div>
         <div style="display: flex; align-items: center; gap: 8px;">
@@ -1613,8 +1626,8 @@ def build_html_content(dataset):
   </div>
 
   <!-- Sync Options Dialog -->
-  <div class="sync-modal" id="syncModal">
-    <h3><span>🔄</span> 数据同步机制</h3>
+  <div class="sync-modal" id="syncModal" role="dialog" aria-modal="true" aria-labelledby="syncModalTitle" aria-hidden="true">
+    <h3 id="syncModalTitle"><span>🔄</span> 数据同步机制</h3>
     <p>
       数据源为项目根目录的 <code>stock-overview.md</code> 与 <code>PROJECT_CONTEXT.md</code>。
       当您更新了 Markdown 报告或估值数据时，可以通过以下方式同步至本看板：
@@ -1674,6 +1687,7 @@ def build_html_content(dataset):
     }};
 
     let activeView = 'table';
+    let lastFocusedElement = null;
 
     // DOM Elements
     const tableBody = document.getElementById('tableBody');
@@ -1824,7 +1838,17 @@ def build_html_content(dataset):
 
       data.forEach(item => {{
         const tr = document.createElement('tr');
+        tr.tabIndex = 0;
+        tr.setAttribute('role', 'button');
+        tr.setAttribute('aria-label', `查看 ${{item.company}} 详情`);
         tr.addEventListener('click', () => openDrawer(item));
+        tr.addEventListener('keydown', (event) => {{
+          if (event.target.closest('a, button')) return;
+          if (event.key === 'Enter' || event.key === ' ') {{
+            event.preventDefault();
+            openDrawer(item);
+          }}
+        }});
 
         const isPos = item.upside_val >= 0;
         const upsideClass = isPos ? 'upside-positive' : 'upside-negative';
@@ -1842,7 +1866,7 @@ def build_html_content(dataset):
             <div style="font-size: 11px; color: var(--text-dim);">${{item.price_date}} ${{item.price_extra ? `<span style="color: var(--cautious);">(${{item.price_extra}})</span>` : ''}}</div>
           </td>
           <td style="text-align: right;" class="mono">${{item.bear_val.toFixed(2)}}</td>
-          <td style="text-align: right;" class="mono" style="font-weight: 600;">${{item.base_val.toFixed(2)}}</td>
+          <td style="text-align: right; font-weight: 600;" class="mono">${{item.base_val.toFixed(2)}}</td>
           <td style="text-align: right;" class="mono">${{item.bull_val.toFixed(2)}}</td>
           <td>${{renderRangeBar(item)}}</td>
           <td style="text-align: right;">
@@ -1876,7 +1900,16 @@ def build_html_content(dataset):
       sorted.forEach(item => {{
         const row = document.createElement('div');
         row.className = 'chart-row';
+        row.tabIndex = 0;
+        row.setAttribute('role', 'button');
+        row.setAttribute('aria-label', `查看 ${{item.company}} 详情`);
         row.addEventListener('click', () => openDrawer(item));
+        row.addEventListener('keydown', (event) => {{
+          if (event.key === 'Enter' || event.key === ' ') {{
+            event.preventDefault();
+            openDrawer(item);
+          }}
+        }});
 
         const isPos = item.upside_val >= 0;
         const widthPct = (Math.abs(item.upside_val) / maxAbs) * 50;
@@ -2003,15 +2036,19 @@ def build_html_content(dataset):
       const headers = document.querySelectorAll('th[data-sort]');
       headers.forEach(th => {{
         th.classList.remove('sorted-asc', 'sorted-desc');
+        th.setAttribute('aria-sort', 'none');
         if (th.dataset.sort === currentSort.key) {{
           th.classList.add(currentSort.direction === 'asc' ? 'sorted-asc' : 'sorted-desc');
+          th.setAttribute('aria-sort', currentSort.direction === 'asc' ? 'ascending' : 'descending');
         }}
       }});
     }}
 
     // Table Header Click Sort
     document.querySelectorAll('th[data-sort]').forEach(th => {{
-      th.addEventListener('click', () => {{
+      th.tabIndex = 0;
+      th.setAttribute('role', 'button');
+      const applySort = () => {{
         const key = th.dataset.sort;
         if (currentSort.key === key) {{
           currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
@@ -2020,6 +2057,13 @@ def build_html_content(dataset):
           currentSort.direction = ['upside_val', 'price_val', 'base_val', 'bull_val', 'bear_val', 'cutoff_date'].includes(key) ? 'desc' : 'asc';
         }}
         render();
+      }};
+      th.addEventListener('click', applySort);
+      th.addEventListener('keydown', (event) => {{
+        if (event.key === 'Enter' || event.key === ' ') {{
+          event.preventDefault();
+          applySort();
+        }}
       }});
     }});
 
@@ -2081,6 +2125,7 @@ def build_html_content(dataset):
 
     // Drawer Logic
     function openDrawer(item) {{
+      lastFocusedElement = document.activeElement;
       document.getElementById('drawerCompName').textContent = item.company;
       document.getElementById('drawerCode').textContent = item.code;
       document.getElementById('drawerMarket').textContent = item.market;
@@ -2128,11 +2173,15 @@ def build_html_content(dataset):
 
       drawerOverlay.classList.add('active');
       drawer.classList.add('active');
+      drawer.setAttribute('aria-hidden', 'false');
+      drawerCloseBtn.focus();
     }}
 
     function closeDrawer() {{
       drawerOverlay.classList.remove('active');
       drawer.classList.remove('active');
+      drawer.setAttribute('aria-hidden', 'true');
+      if (lastFocusedElement) lastFocusedElement.focus();
     }}
 
     drawerCloseBtn.addEventListener('click', closeDrawer);
@@ -2238,7 +2287,7 @@ def build_html_content(dataset):
       document.getElementById('kpiTotal').textContent = k.total_count;
       document.getElementById('kpiMarketSplit').textContent = `A股 ${{k.a_count}} 家 · 港股 ${{k.hk_count}} 家`;
       document.getElementById('kpiAvgUpside').textContent = k.avg_upside_str;
-      document.getElementById('kpiMedianUpside').textContent = `中位数 ${{k.median_upside_str}} · Base 相对现价`;
+      document.getElementById('kpiMedianUpside').textContent = `中位数 ${{k.median_upside_str}} · Base 相对研报基准价`;
       document.getElementById('kpiHighUpside').textContent = k.high_upside_count;
       document.getElementById('kpiHighUpsideText').textContent = k.max_upside_text;
       document.getElementById('kpiDownside').textContent = k.downside_count;
@@ -2247,15 +2296,20 @@ def build_html_content(dataset):
     }}
 
     function openSyncModal() {{
+      lastFocusedElement = document.activeElement;
       syncModal.classList.add('active');
+      syncModal.setAttribute('aria-hidden', 'false');
       drawerOverlay.classList.add('active');
+      closeSyncModalBtn.focus();
     }}
 
     function closeSyncModal() {{
       syncModal.classList.remove('active');
+      syncModal.setAttribute('aria-hidden', 'true');
       if (!drawer.classList.contains('active')) {{
         drawerOverlay.classList.remove('active');
       }}
+      if (lastFocusedElement) lastFocusedElement.focus();
     }}
 
     closeSyncModalBtn.addEventListener('click', closeSyncModal);

@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-05_v001_2026h1-initial",
+  "company": "ganfeng-lithium",
+  "kind": "recovered",
+  "label": "2026H1首次研究",
+  "reason": "启用留档制度，保留上次更新前的真实旧稿",
+  "created_at_utc": "2026-10-15T12:21:00.097782+00:00",
+  "reported_research_date": "2026-09-05",
+  "source_cutoff": "2026-09-05",
+  "price_date": "2026-09-04",
+  "provenance": "outputs/ganfeng-20261015/prior中的原报告、模型、档案、来源索引及日志；本次仅恢复存留文件，未重构旧分析",
+  "source_directory": "D:\\Research\\stock-research\\outputs\\ganfeng-20261015\\prior",
+  "context_directory": "D:\\Research\\stock-research\\companies\\ganfeng-lithium",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "a61a48e7e9a013a34ac50b39a0f1101282eb7802103b95c0f1885ae231141e2c",
+      "archive_sha256": "a61a48e7e9a013a34ac50b39a0f1101282eb7802103b95c0f1885ae231141e2c",
+      "bytes": 6051
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "8341a77025dbd4d99fae071d4641746cadc88b746bd559f0d01a1eb7aa5f20ab",
+      "archive_sha256": "8341a77025dbd4d99fae071d4641746cadc88b746bd559f0d01a1eb7aa5f20ab",
+      "bytes": 25061
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "17b21910c59eb8dc2ddb7af90803925a33a7553ddac0ef050f1ad4ceac5da670",
+      "archive_sha256": "17b21910c59eb8dc2ddb7af90803925a33a7553ddac0ef050f1ad4ceac5da670",
+      "bytes": 3172
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "32d4e0e7383245e5b251355dd92acaa6da1594011f9d0df26f32e579edf37118",
+      "archive_sha256": "32d4e0e7383245e5b251355dd92acaa6da1594011f9d0df26f32e579edf37118",
+      "bytes": 1781
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "dd5d27bda4942dc51bf3cfd9ce9c86c69cfaf11db52cfa8cc3327ea9935f9c1b",
+      "archive_sha256": "dd5d27bda4942dc51bf3cfd9ce9c86c69cfaf11db52cfa8cc3327ea9935f9c1b",
+      "bytes": 736
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "2056e5efef16c3774aa85b6ad235282d6ba91f3588fc993bf27a3998b7438598",
+      "archive_sha256": "2056e5efef16c3774aa85b6ad235282d6ba91f3588fc993bf27a3998b7438598",
+      "bytes": 1979
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": [],
+  "version_number": 1,
+  "directory_date_basis": "reported_research_date",
+  "layout_migrations": [
+    {
+      "at_utc": "2026-10-15T12:50:02.232504+00:00",
+      "previous_run_id": "20261015T122100097782Z-recovered-20260905-h1",
+      "original_manifest_sha256": "1db254f6f37aa7b3a73dbcf7728b1039412c39c0321cc43634a0f2424841e681",
+      "original_tree_backup": "D:\\Research\\stock-research\\outputs\\research-history-v2-20261015\\history-before",
+      "reason": "用户要求规范目录命名及增加研究要点、估值变化；仅修正历史链接并补录摘要",
+      "previous_label": "2026H1旧版（从原备份恢复）"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "ticker": "603986.SH",
+  "currency": "CNY",
+  "close": 326.46,
+  "price_date": "2026-10-09",
+  "retrieved": "2026-10-12午间",
+  "url": "https://cn.investing.com/equities/gigadevice-semiconductor-beijing-historical-data",
+  "type": "打开网页历史表核对后保存的研究快照",
+  "scope": "非行情API原始导出；未使用10月12日盘中值为收盘"
+}

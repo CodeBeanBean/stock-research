@@ -1,0 +1,112 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-15_v002_2026q3-update",
+  "company": "ganfeng-lithium",
+  "kind": "baseline",
+  "label": "2026Q3财报与估值更新",
+  "reason": "封存已交付三季报版，建立当前版本基线",
+  "created_at_utc": "2026-10-15T12:21:00.332818+00:00",
+  "reported_research_date": "2026-10-15",
+  "source_cutoff": "2026-10-15晚间",
+  "price_date": "2026-10-15",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\ganfeng-lithium",
+  "context_directory": "D:\\Research\\stock-research\\companies\\ganfeng-lithium",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "0f7c56ffe4a48c2888e092681cac26303a9c364981d644a697f8ae0f67130702",
+      "archive_sha256": "a330a1c816d4f1e990c394ebf1ec6b448a1817a1c25f384f66766cdb71150ddf",
+      "bytes": 15408
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "76e163468c8a698ffde4174eb578e11a19ecf89c87af380d471b6d4bea5d2946",
+      "archive_sha256": "76e163468c8a698ffde4174eb578e11a19ecf89c87af380d471b6d4bea5d2946",
+      "bytes": 33145
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "ac074722cedb26b2bbf9acf3dec361ca197e26cccc833a77e77ae5eda69034fa",
+      "archive_sha256": "3cec5f9807f9dcf40bbe1f590a243fc109d10bbe22df95f5d01a351b1f410480",
+      "bytes": 3981
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "109e3a9e3c0a10e63bb9aed92b61f80016a55b2eda756fc54bc86b94f2beed86",
+      "archive_sha256": "49fa11af8e5277d775e3f09973ca21b13636117d183ca06a628323bb1530f342",
+      "bytes": 6077
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "de8e480e1fb164b4ae6bf45da58d0f7f6576af058737bfa5e528ca5f0025d8ef",
+      "archive_sha256": "b487aeba808cdb660d2a4477c5c558fd85ed25cccb36be36886e64fbe9c7ca47",
+      "bytes": 3679
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "e1f221b3b7ff1bc56bcc20c2068459f0f8430e6155ecf67b9c885fbe8a7b8890",
+      "archive_sha256": "e1f221b3b7ff1bc56bcc20c2068459f0f8430e6155ecf67b9c885fbe8a7b8890",
+      "bytes": 4504
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025-annual-cas.pdf",
+      "sha256": "21b8d5020c9a706a591eaa89345e40ef1853c0af630c75adb809cf743fde6025"
+    },
+    {
+      "path": "../../source-documents/2026-09-share-monthly.pdf",
+      "sha256": "f3311cc7baf5c8838019366e43cd44289e696140d2b6f10f42b5465002db60d4"
+    },
+    {
+      "path": "../../source-documents/2026-10-board.pdf",
+      "sha256": "0a1800ee229f9463944611a34326968a2d6a415f90b044b18c55b0e91a9563c9"
+    },
+    {
+      "path": "../../source-documents/2026-10-guarantees.pdf",
+      "sha256": "7137ce5762fff4d438503d41f50e4ba765d776ab8cb6705f904ab021722b0d8a"
+    },
+    {
+      "path": "../../source-documents/2026-10-related-limits.pdf",
+      "sha256": "ea565a5f2f97f6edd7d328522b113cfe40135b4be325810476c07aab534f058a"
+    },
+    {
+      "path": "../../source-documents/2026-h1-cas.pdf",
+      "sha256": "8fe5155801db0392e208feb15ea228a025d25396c1c160c57519ac91b18897d8"
+    },
+    {
+      "path": "../../source-documents/2026-interim-report-en.pdf",
+      "sha256": "a68cb462a62b5283ea6b30ce635df7ff358ff76a893f88b956f53b82a11ee6bf"
+    },
+    {
+      "path": "../../source-documents/2026-q1-cas.pdf",
+      "sha256": "ab3e33e5893ae03c5a38cba790230b0e71243f3ef3a88ceeeff0037bffb4b100"
+    },
+    {
+      "path": "../../source-documents/2026-q3-report.pdf",
+      "sha256": "9e1e087ba558b8ba27f1249710fb7bf2e154c9a06b2928fc5566d0e7800c85f2"
+    },
+    {
+      "path": "../2026-09-05_v001_2026h1-initial/research-report.md",
+      "sha256": "a61a48e7e9a013a34ac50b39a0f1101282eb7802103b95c0f1885ae231141e2c"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ],
+  "version_number": 2,
+  "directory_date_basis": "reported_research_date",
+  "layout_migrations": [
+    {
+      "at_utc": "2026-10-15T12:50:02.232504+00:00",
+      "previous_run_id": "20261015T122100332818Z-2026q3-delivered",
+      "original_manifest_sha256": "95fe77fbc503cb8aaa90d0e0fbbd4f99ed2d5f5541eb06cb9f8af359ace5ff23",
+      "original_tree_backup": "D:\\Research\\stock-research\\outputs\\research-history-v2-20261015\\history-before",
+      "reason": "用户要求规范目录命名及增加研究要点、估值变化；仅修正历史链接并补录摘要",
+      "previous_label": "2026Q3已交付版（留档制度启用基线）"
+    }
+  ]
+}

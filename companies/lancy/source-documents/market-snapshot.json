@@ -1,0 +1,10 @@
+{
+  "ticker": "002612.SZ",
+  "currency": "CNY",
+  "price_date": "2026-10-09",
+  "close": 17.28,
+  "retrieved": "2026-10-12",
+  "url": "https://cn.investing.com/equities/lancy-a-historical-data",
+  "evidence": "历史表2026年10月09日：收盘17.28，开盘16.53，最高17.40，最低16.21",
+  "type": "人工核对网页后的行情快照，不是原始行情API导出"
+}

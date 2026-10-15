@@ -1,0 +1,16 @@
+{
+  "id": "S7",
+  "title": "蜜雪集团历史股价",
+  "publisher": "Investing.com",
+  "date": "2026-10-09",
+  "retrieved": "2026-10-12",
+  "url": "https://cn.investing.com/equities/mixue-historical-data",
+  "currency": "HKD",
+  "close": 171.9,
+  "open": 171.5,
+  "high": 173.2,
+  "low": 169.1,
+  "volume": "138.55K",
+  "scope": "已结束交易日的收盘价，10月12日盘中不当作收盘",
+  "file": "S7-price-snapshot.json"
+}

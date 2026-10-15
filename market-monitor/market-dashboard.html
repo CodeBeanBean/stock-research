@@ -1,0 +1,2178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>标的行情与估值基准偏差监控 · Market Monitor</title>
+  <style>
+    :root {
+      --bg-main: #0b0f19;
+      --bg-surface: #111827;
+      --bg-card: #182234;
+      --bg-card-hover: #1f2d44;
+      --border-color: #273549;
+      --border-subtle: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --accent: #38bdf8;
+      --accent-rgb: 56, 189, 248;
+      --positive: #10b981;
+      --positive-bg: rgba(16, 185, 129, 0.12);
+      --positive-border: rgba(16, 185, 129, 0.3);
+      --negative: #f43f5e;
+      --negative-bg: rgba(244, 63, 94, 0.12);
+      --negative-border: rgba(244, 63, 94, 0.3);
+      --cautious: #f59e0b;
+      --cautious-bg: rgba(245, 158, 11, 0.12);
+      --cautious-border: rgba(245, 158, 11, 0.3);
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    }
+
+    html.light {
+      --bg-main: #f1f5f9;
+      --bg-surface: #ffffff;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f8fafc;
+      --border-color: #cbd5e1;
+      --border-subtle: #e2e8f0;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-dim: #94a3b8;
+      --accent: #0284c7;
+      --accent-rgb: 2, 132, 199;
+      --positive: #059669;
+      --positive-bg: #ecfdf5;
+      --positive-border: #a7f3d0;
+      --negative: #e11d48;
+      --negative-bg: #fff1f2;
+      --negative-border: #fecdd3;
+      --cautious: #d97706;
+      --cautious-bg: #fffbeb;
+      --cautious-border: #fde68a;
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 24px;
+      min-height: 100vh;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .mono {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    }
+
+    .container {
+      max-width: 1720px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .header-title-wrap h1 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .header-title-wrap p {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 4px;
+    }
+
+    .date-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: var(--accent);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .date-badge.stale {
+      color: var(--cautious);
+      background: var(--cautious-bg);
+      border-color: var(--cautious-border);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      color: var(--text-main);
+      transition: all 0.15s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn:focus-visible,
+    .pill-btn:focus-visible,
+    .chart-tab-btn:focus-visible,
+    .modal-tab-btn:focus-visible,
+    .drawer-close:focus-visible,
+    .dev-row:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .btn-manage {
+      background: rgba(245, 158, 11, 0.12);
+      border-color: rgba(245, 158, 11, 0.4);
+      color: var(--cautious);
+      font-weight: 600;
+    }
+    .btn-manage:hover {
+      background: var(--cautious);
+      color: #0b0f19;
+    }
+    html.light .btn-manage:hover {
+      color: #ffffff;
+    }
+
+    .btn-refresh {
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent);
+      border-color: rgba(56, 189, 248, 0.4);
+      font-weight: 600;
+    }
+
+    .btn-refresh:hover {
+      background: var(--accent);
+      color: #0b0f19;
+    }
+
+    html.light .btn-refresh:hover {
+      color: #ffffff;
+    }
+
+    .btn-refresh.loading span#refreshIcon {
+      display: inline-block;
+      animation: spin 1s infinite linear;
+    }
+
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+
+    .btn-danger-sm {
+      padding: 2px 8px;
+      font-size: 11px;
+      color: var(--negative);
+      border-color: var(--negative-border);
+      background: var(--negative-bg);
+      border-radius: 6px;
+      cursor: pointer;
+      border: 1px solid var(--negative-border);
+      transition: all 0.15s ease;
+    }
+    .btn-danger-sm:hover {
+      background: var(--negative);
+      color: #ffffff;
+    }
+
+    .btn-restore-sm {
+      padding: 2px 8px;
+      font-size: 11px;
+      color: var(--positive);
+      border-color: var(--positive-border);
+      background: var(--positive-bg);
+      border-radius: 6px;
+      cursor: pointer;
+      border: 1px solid var(--positive-border);
+      transition: all 0.15s ease;
+    }
+    .btn-restore-sm:hover {
+      background: var(--positive);
+      color: #ffffff;
+    }
+
+    /* KPI Summary Cards */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .kpi-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .kpi-card:hover {
+      border-color: var(--border-color);
+      transform: translateY(-2px);
+    }
+
+    .kpi-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .kpi-value {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .kpi-subtext {
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-top: 4px;
+    }
+
+    /* Compact ranking lists */
+    .chart-section {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 24px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .chart-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .chart-header h3 {
+      font-size: 15px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .chart-view-tabs {
+      display: inline-flex;
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 3px;
+      gap: 3px;
+    }
+
+    .chart-tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .chart-tab-btn:hover {
+      color: var(--text-main);
+    }
+
+    .chart-tab-btn.active {
+      background: var(--bg-card);
+      color: var(--text-main);
+      font-weight: 600;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .deviation-bars-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+      gap: 8px;
+    }
+
+    .chart-footer {
+      display: flex;
+      justify-content: center;
+      padding-top: 14px;
+    }
+
+    .dev-row {
+      display: grid;
+      grid-template-columns: 28px minmax(0, 1fr) auto;
+      grid-template-rows: auto auto;
+      align-items: center;
+      gap: 5px 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.15s ease, border-color 0.15s ease;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .dev-row > * {
+      min-width: 0;
+    }
+
+    .dev-row:hover {
+      background-color: var(--bg-card-hover);
+      border-color: var(--accent);
+    }
+
+    .dev-rank {
+      grid-row: 1 / 3;
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-dim);
+    }
+
+    .dev-rank.top {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .dev-name {
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .dev-name strong {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .dev-name .badge-market {
+      flex-shrink: 0;
+    }
+
+    .dev-prices {
+      grid-column: 2 / 4;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 6px 12px;
+      flex-wrap: wrap;
+      font-size: 11px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .dev-metric-main {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-end;
+      gap: 4px;
+      font-size: 16px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .dev-metric-unit {
+      font-size: 11px;
+      font-weight: 400;
+    }
+
+    .dev-metric-note {
+      font-size: 11px;
+      line-height: 1.4;
+      font-weight: 400;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    /* Toolbar */
+    .toolbar {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .toolbar-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .search-box {
+      position: relative;
+      flex: 1;
+      min-width: 260px;
+      max-width: 440px;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 9px 12px 9px 36px;
+      font-size: 13px;
+      color: var(--text-main);
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(var(--accent-rgb), 0.2);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      pointer-events: none;
+    }
+
+    .pill-group {
+      display: inline-flex;
+      background: var(--bg-main);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 3px;
+      gap: 2px;
+      flex-wrap: wrap;
+    }
+
+    .pill-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .pill-btn:hover {
+      color: var(--text-main);
+    }
+
+    .pill-btn.active {
+      background: var(--bg-card);
+      color: var(--text-main);
+      box-shadow: var(--shadow-sm);
+      font-weight: 600;
+      border: 1px solid var(--border-color);
+    }
+
+    /* Table */
+    .table-container {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      overflow-x: auto;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      text-align: left;
+    }
+
+    thead {
+      background: var(--bg-card);
+      border-bottom: 2px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    th {
+      padding: 12px 14px;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+      user-select: none;
+      cursor: pointer;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    th:hover {
+      background-color: var(--bg-card-hover);
+      color: var(--text-main);
+    }
+
+    th.sorted-asc, th.sorted-desc {
+      color: var(--accent);
+    }
+
+    th.sorted-asc::after {
+      content: " ▲";
+      font-size: 10px;
+    }
+
+    th.sorted-desc::after {
+      content: " ▼";
+      font-size: 10px;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border-subtle);
+      cursor: pointer;
+      transition: background-color 0.15s ease;
+    }
+
+    tbody tr:hover {
+      background-color: var(--bg-card-hover);
+    }
+
+    tbody tr.is-excluded-row {
+      opacity: 0.6;
+      background: rgba(100, 116, 139, 0.06);
+    }
+
+    td {
+      padding: 12px 14px;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    .badge-market {
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .badge-market.a {
+      background: rgba(59, 130, 246, 0.15);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+
+    .badge-market.hk {
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .badge-alert {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    .alert-warn {
+      background: rgba(244, 63, 94, 0.15);
+      color: var(--negative);
+      border: 1px solid var(--negative-border);
+    }
+
+    .alert-positive {
+      background: var(--positive-bg);
+      color: var(--positive);
+      border: 1px solid var(--positive-border);
+    }
+
+    .alert-cautious {
+      background: var(--cautious-bg);
+      color: var(--cautious);
+      border: 1px solid var(--cautious-border);
+    }
+
+    .alert-highlight {
+      background: rgba(147, 51, 234, 0.15);
+      color: #c084fc;
+      border: 1px solid rgba(147, 51, 234, 0.3);
+    }
+
+    .alert-normal {
+      background: rgba(100, 116, 139, 0.12);
+      color: var(--text-dim);
+      border: 1px solid var(--border-color);
+    }
+
+    .alert-excluded {
+      background: rgba(148, 163, 184, 0.15);
+      color: var(--text-muted);
+      border: 1px solid var(--border-color);
+    }
+
+    .val-positive {
+      color: var(--positive);
+    }
+
+    .val-negative {
+      color: var(--negative);
+    }
+
+    .val-pill {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+    .val-pill.pos {
+      background: var(--positive-bg);
+      color: var(--positive);
+      border: 1px solid var(--positive-border);
+    }
+    .val-pill.neg {
+      background: var(--negative-bg);
+      color: var(--negative);
+      border: 1px solid var(--negative-border);
+    }
+
+    .tri-upside-box {
+      font-size: 11px;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      line-height: 1.2;
+    }
+    .tri-upside-item {
+      display: flex;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    /* Modal (标的池管理弹窗) */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(4px);
+      z-index: 200;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-box {
+      width: 100%;
+      max-width: 680px;
+      max-height: 85vh;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transform: scale(0.95);
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .modal-overlay.active .modal-box {
+      transform: scale(1);
+    }
+
+    .modal-header {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--bg-card);
+    }
+
+    .modal-header h3 {
+      font-size: 17px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .modal-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border-color);
+      background: var(--bg-main);
+      padding: 0 16px;
+      gap: 8px;
+    }
+
+    .modal-tab-btn {
+      background: transparent;
+      border: none;
+      padding: 12px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s ease;
+    }
+
+    .modal-tab-btn:hover {
+      color: var(--text-main);
+    }
+
+    .modal-tab-btn.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .modal-body {
+      padding: 20px 24px;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .exclusion-list-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 14px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      margin-bottom: 8px;
+      transition: border-color 0.15s ease;
+    }
+    .exclusion-list-item:hover {
+      border-color: var(--border-color);
+    }
+
+    /* Drawer */
+    .drawer-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(4px);
+      z-index: 100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .drawer-overlay.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      max-width: 520px;
+      background: var(--bg-surface);
+      border-left: 1px solid var(--border-color);
+      box-shadow: var(--shadow-lg);
+      z-index: 101;
+      transform: translateX(100%);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .drawer.active {
+      transform: translateX(0);
+    }
+
+    .drawer-header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .drawer-header h2 {
+      font-size: 20px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .drawer-close {
+      background: transparent;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: var(--text-muted);
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+    .drawer-close:hover {
+      background: var(--bg-card);
+      color: var(--text-main);
+    }
+
+    .drawer-body {
+      padding: 24px;
+      overflow-y: auto;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .drawer-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .drawer-card-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .drawer-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .drawer-stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .drawer-stat-label {
+      font-size: 11px;
+      color: var(--text-dim);
+    }
+
+    .drawer-stat-val {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--accent);
+      color: var(--text-main);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      box-shadow: var(--shadow-lg);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.25s ease;
+      z-index: 1000;
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    @media (max-width: 1024px) {
+      .kpi-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-title-wrap">
+        <h1>
+          标的行情与估值基准偏差监控
+          <span class="date-badge" id="dataDateBadge">
+            <span>📅</span>
+            <span>数据日期：<strong id="badgeDateText">--</strong> (<span id="badgePriceType">行情价</span>)</span>
+          </span>
+        </h1>
+        <p id="headerSubtitle">股票池跟随估值总览同步 · 可剔除/加回 · 相对研报基准价格偏离度与三档估值空间推演</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-manage" id="openManageBtn" title="管理被剔除与活跃标的池">
+          <span>⚙️</span> 标的池管理
+          <span id="manageExclusionsCount" class="badge-market hk" style="display:none; margin-left: 4px;">已剔除 0</span>
+        </button>
+
+        <button class="btn btn-refresh" id="refreshBtn" title="点击重新核验最新行情数据">
+          <span id="refreshIcon">🔄</span> 刷新行情
+        </button>
+
+        <button class="btn" id="themeToggleBtn" title="切换深色/浅色模式">
+          <span id="themeIcon">☀️</span> 主题
+        </button>
+
+        <button class="btn" id="exportCsvBtn" title="导出全量行情与多维偏离数据">
+          <span>📥</span> 导出 CSV
+        </button>
+
+        <a href="../stock-overview.html" class="btn" title="返回股票估值总览看板">
+          <span>📋</span> 返回总览看板
+        </a>
+      </div>
+    </header>
+
+    <!-- KPI Cards -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>数据日期与标的</span>
+          <span>📅</span>
+        </div>
+        <div class="kpi-value mono" id="kpiDate">2026-09-09</div>
+        <div class="kpi-subtext" id="kpiMarketSplit">正在载入标的池…</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>全库活跃平均偏离</span>
+          <span>📊</span>
+        </div>
+        <div class="kpi-value mono" id="kpiAvgDiff">-0.87%</div>
+        <div class="kpi-subtext">较研报基准日价格平均偏离幅度</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>活跃最大上涨偏离</span>
+          <span>🚀</span>
+        </div>
+        <div class="kpi-value mono" id="kpiMaxGain" style="color: var(--positive);">--</div>
+        <div class="kpi-subtext" id="kpiMaxGainText">较基准价格涨幅最大</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>活跃最大回调偏离</span>
+          <span>📉</span>
+        </div>
+        <div class="kpi-value mono" id="kpiMaxDrop" style="color: var(--negative);">--</div>
+        <div class="kpi-subtext" id="kpiMaxDropText">较基准价格回调最深</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>安全边际增厚标的</span>
+          <span>🛡️</span>
+        </div>
+        <div class="kpi-value mono" id="kpiExpanded" style="color: var(--positive);">14 家</div>
+        <div class="kpi-subtext" id="kpiExpandedSub">股价回调促使 Base 上涨空间扩大</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-label">
+          <span>估值目标位置分布</span>
+          <span>🎯</span>
+        </div>
+        <div class="kpi-value mono" id="kpiDistribution" style="font-size: 18px; line-height: 1.4;">高于Base 7 · 区间内 15</div>
+        <div class="kpi-subtext" id="kpiBelowBear">跌破悲观估值: 1 家</div>
+      </div>
+    </section>
+
+    <!-- Compact metric rankings -->
+    <section class="chart-section">
+      <div class="chart-header">
+        <h3>
+          <span>📊</span>
+          <span id="chartTitle">活跃标的排行</span>
+        </h3>
+        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+          <div class="chart-view-tabs" id="chartTabs">
+            <button class="chart-tab-btn active" data-chart="price_diff">基准价偏离率 (ΔP%)</button>
+            <button class="chart-tab-btn" data-chart="dynamic_base">动态Base空间排行</button>
+            <button class="chart-tab-btn" data-chart="delta_upside">Base空间变化排行 (Δ)</button>
+          </div>
+          <span style="font-size: 12px; color: var(--text-dim);" id="lastUpdatedLabel">正在载入行情快照…</span>
+        </div>
+      </div>
+      <div class="deviation-bars-container" id="devBarsContainer">
+        <!-- Ranking entries injected by JS -->
+      </div>
+      <div class="chart-footer">
+        <button class="btn" id="chartToggleBtn" type="button">展开全部标的</button>
+      </div>
+    </section>
+
+    <!-- Filter Toolbar -->
+    <section class="toolbar">
+      <div class="toolbar-row">
+        <div class="search-box">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="searchInput" class="search-input" aria-label="搜索行情监控标的" placeholder="搜索公司名称、证券代码、评级...">
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <span style="font-size: 12px; color: var(--text-dim);">状态分类:</span>
+          <div class="pill-group" id="statusFilters">
+            <button class="pill-btn active" data-status="active">活跃标的 (<span id="filterActiveCount">23</span>)</button>
+            <button class="pill-btn" data-status="all">全部标的 (<span id="filterTotalCount">23</span>)</button>
+            <button class="pill-btn" data-status="excluded">已剔除 (<span id="filterExcludedCount">0</span>)</button>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <span style="font-size: 12px; color: var(--text-dim);">偏离分类:</span>
+          <div class="pill-group" id="devFilters">
+            <button class="pill-btn active" data-filter="all">全部</button>
+            <button class="pill-btn" data-filter="gain">价格上涨 (>0%)</button>
+            <button class="pill-btn" data-filter="drop">价格回调 (<0%)</button>
+            <button class="pill-btn" data-filter="expanded">空间增厚 (Δ>0)</button>
+            <button class="pill-btn" data-filter="above_base">高于Base</button>
+            <button class="pill-btn" data-filter="below_bear">破Bear</button>
+          </div>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <span style="font-size: 12px; color: var(--text-dim);">市场:</span>
+          <div class="pill-group" id="marketFilters">
+            <button class="pill-btn active" data-filter="all">全部</button>
+            <button class="pill-btn" data-filter="A股">A股</button>
+            <button class="pill-btn" data-filter="港股">港股</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Table -->
+    <section class="table-container">
+      <table id="monitorTable">
+        <thead>
+          <tr>
+            <th data-sort="company">公司</th>
+            <th data-sort="code">代码</th>
+            <th data-sort="close_price" style="text-align: right;">最新行情价</th>
+            <th data-sort="today_change_pct" style="text-align: right;">当日涨跌</th>
+            <th data-sort="base_price" style="text-align: right;">研报基准价</th>
+            <th data-sort="price_diff" style="text-align: right;">偏差绝对额</th>
+            <th data-sort="price_diff_pct" style="text-align: right;">基准偏离比例 (ΔP%)</th>
+            <th data-sort="report_upside" style="text-align: right;" title="(Base估值目标 ÷ 研报基准价 − 1) × 100%">报告Base空间</th>
+            <th data-sort="dynamic_base_upside" style="text-align: right;" title="(Base估值目标 ÷ 最新行情价 − 1) × 100%，使用Base情景">动态Base空间</th>
+            <th data-sort="delta_upside" style="text-align: right;" title="动态Base空间 − 报告Base空间，单位为百分点">空间变化(百分点)</th>
+            <th style="text-align: center;">三档估值动态空间</th>
+            <th data-sort="alert_status" style="text-align: center;">状态预警</th>
+            <th style="text-align: center;">操作</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Injected by JS -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <!-- Detail Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="drawer" id="detailDrawer" role="dialog" aria-modal="true" aria-labelledby="drawerCompany" aria-hidden="true">
+    <div class="drawer-header">
+      <h2>
+        <span id="drawerCompany">公司名称</span>
+        <span class="badge-market" id="drawerMarket">A股</span>
+      </h2>
+      <button class="drawer-close" id="drawerCloseBtn" title="关闭抽屉">&times;</button>
+    </div>
+    <div class="drawer-body" id="drawerBody">
+      <!-- Injected by JS -->
+    </div>
+  </aside>
+
+  <!-- Management Modal (标的池管理弹窗) -->
+  <div class="modal-overlay" id="exclusionsModalOverlay" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="poolManagerTitle">
+      <div class="modal-header">
+        <h3>
+          <span>⚙️</span>
+          <span id="poolManagerTitle">标的池管理 · 剔除与加回标的</span>
+        </h3>
+        <button class="drawer-close" id="closeExclusionsModalBtn" title="关闭弹窗">&times;</button>
+      </div>
+
+      <div class="modal-tabs">
+        <button class="modal-tab-btn active" id="modalTabExcluded">已剔除标的 (<span id="modalTabExCount">0</span>)</button>
+        <button class="modal-tab-btn" id="modalTabActive">活跃监控标的 (<span id="modalTabActCount">23</span>)</button>
+      </div>
+
+      <div class="modal-body" id="modalBody">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">最新行情数据核验成功！</div>
+
+  <script>
+    const INITIAL_SNAPSHOT = {"kpis": {"total_count": 35, "active_count": 35, "excluded_count": 0, "live_count": 35, "data_date": "2026-10-13", "price_type": "盘中价", "avg_diff_pct_str": "-6.48%", "gain_count": 6, "drop_count": 28, "flat_count": 1, "expanded_count": 28, "compressed_count": 6, "above_base_count": 6, "below_bear_count": 1, "between_range_count": 28, "max_gain_text": "威高股份 (+5.26%)", "max_drop_text": "思格新能 (-28.30%)", "excluded_codes": [], "excluded_items": [], "updated_at": "2026-10-13 14:09:51"}, "items": [{"company": "蜜雪集团", "code": "02097.HK", "quote_sym": "hk02097", "market": "港股", "currency": "港元", "base_price": 171.9, "base_date": "2026-10-09", "latest_price": 168.4, "close_price": 168.4, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -2.21, "price_diff": -3.5, "price_diff_pct": -2.036067481093659, "price_diff_str": "-3.500", "price_diff_pct_str": "-2.04%", "bear": 114.58, "base": 199.99, "bull": 332.12, "report_upside": 16.340895869691682, "report_upside_str": "+16.3%", "dynamic_base_upside": 18.75890736342043, "dynamic_base_upside_str": "+18.8%", "dynamic_bear_upside": -31.959619952494066, "dynamic_bear_upside_str": "-32.0%", "dynamic_bull_upside": 97.22090261282659, "dynamic_bull_upside_str": "+97.2%", "delta_upside": 2.4180114937287485, "delta_upside_str": "+2.4 个百分点", "range_pos": 0.24740277650087342, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性观察", "method": "2027E计新增奖励费用归母P/E（潜在摊薄），股息校验", "comp_dir": "companies/mixue", "report_link": "companies/mixue/research-report.md", "quote_time": "2026/10/13 13:54:46", "has_live": true, "is_excluded": false}, {"company": "分众传媒", "code": "002027.SZ", "quote_sym": "sz002027", "market": "A股", "currency": "元", "base_price": 4.91, "base_date": "2026-10-09", "latest_price": 5.11, "close_price": 5.11, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 0.2, "price_diff": 0.20000000000000018, "price_diff_pct": 4.073319755600818, "price_diff_str": "+0.200", "price_diff_pct_str": "+4.07%", "bear": 3.86, "base": 6.14, "bull": 9.16, "report_upside": 25.050916496945003, "report_upside_str": "+25.1%", "dynamic_base_upside": 20.156555772994114, "dynamic_base_upside_str": "+20.2%", "dynamic_bear_upside": -24.46183953033269, "dynamic_bear_upside_str": "-24.5%", "dynamic_bull_upside": 79.25636007827788, "dynamic_bull_upside_str": "+79.3%", "delta_upside": -4.894360723950889, "delta_upside_str": "-4.9 个百分点", "range_pos": 0.23584905660377364, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "谨慎积极", "method": "2027E正常化归母P/E（拟收购摊薄股本），股息校验", "comp_dir": "companies/focus-media", "report_link": "companies/focus-media/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "朗姿股份", "code": "002612.SZ", "quote_sym": "sz002612", "market": "A股", "currency": "元", "base_price": 17.28, "base_date": "2026-10-09", "latest_price": 16.67, "close_price": 16.67, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 2.71, "price_diff": -0.6099999999999994, "price_diff_pct": -3.530092592592589, "price_diff_str": "-0.610", "price_diff_pct_str": "-3.53%", "bear": 7.91, "base": 17.18, "bull": 30.56, "report_upside": -0.5787037037037119, "report_upside_str": "-0.6%", "dynamic_base_upside": 3.0593881223755126, "dynamic_base_upside_str": "+3.1%", "dynamic_bear_upside": -52.549490101979615, "dynamic_bear_upside_str": "-52.5%", "dynamic_bull_upside": 83.3233353329334, "dynamic_bull_upside_str": "+83.3%", "delta_upside": 3.6380918260792248, "delta_upside_str": "+3.6 个百分点", "range_pos": 0.3867549668874173, "alert_status": "基准窄幅震荡", "alert_level": "normal", "stance": "中性观察", "method": "2027E正常化归母P/E", "comp_dir": "companies/lancy", "report_link": "companies/lancy/research-report.md", "quote_time": "20261013140948", "has_live": true, "is_excluded": false}, {"company": "春秋航空", "code": "601021.SH", "quote_sym": "sh601021", "market": "A股", "currency": "元", "base_price": 41.94, "base_date": "2026-09-23", "latest_price": 38.55, "close_price": 38.55, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -2.48, "price_diff": -3.3900000000000006, "price_diff_pct": -8.082975679542205, "price_diff_str": "-3.390", "price_diff_pct_str": "-8.08%", "bear": 21.36, "base": 49.59, "bull": 74.44, "report_upside": 18.2403433476395, "report_upside_str": "+18.2%", "dynamic_base_upside": 28.638132295719863, "dynamic_base_upside_str": "+28.6%", "dynamic_bear_upside": -44.59143968871595, "dynamic_bear_upside_str": "-44.6%", "dynamic_bull_upside": 93.09987029831389, "dynamic_bull_upside_str": "+93.1%", "delta_upside": 10.397788948080365, "delta_upside_str": "+10.4 个百分点", "range_pos": 0.3238507912584777, "alert_status": "安全边际增厚", "alert_level": "positive", "stance": "中性偏积极", "method": "70% 2027E归母P/E + 30% 2027E P/B", "comp_dir": "companies/spring-airlines", "report_link": "companies/spring-airlines/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "美的集团", "code": "000333.SZ", "quote_sym": "sz000333", "market": "A股", "currency": "元", "base_price": 84.4, "base_date": "2026-09-18", "latest_price": 82.69, "close_price": 82.69, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -0.97, "price_diff": -1.710000000000008, "price_diff_pct": -2.02606635071091, "price_diff_str": "-1.710", "price_diff_pct_str": "-2.03%", "bear": 57.52, "base": 105.36, "bull": 153.99, "report_upside": 24.834123222748804, "report_upside_str": "+24.8%", "dynamic_base_upside": 27.415648808803972, "dynamic_base_upside_str": "+27.4%", "dynamic_bear_upside": -30.438988995041715, "dynamic_bear_upside_str": "-30.4%", "dynamic_bull_upside": 86.2256621115008, "dynamic_bull_upside_str": "+86.2%", "delta_upside": 2.581525586055168, "delta_upside_str": "+2.6 个百分点", "range_pos": 0.2609101275007774, "alert_status": "基准窄幅震荡", "alert_level": "normal", "stance": "谨慎积极", "method": "2027E 归母净利润 P/E", "comp_dir": "companies/midea-group", "report_link": "companies/midea-group/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "宁德时代", "code": "300750.SZ", "quote_sym": "sz300750", "market": "A股", "currency": "元", "base_price": 337.11, "base_date": "2026-09-14", "latest_price": 291.05, "close_price": 291.05, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -2.46, "price_diff": -46.06, "price_diff_pct": -13.66319598943965, "price_diff_str": "-46.060", "price_diff_pct_str": "-13.66%", "bear": 254.43, "base": 493.21, "bull": 792.98, "report_upside": 46.305360268161714, "report_upside_str": "+46.3%", "dynamic_base_upside": 69.45885586668956, "dynamic_base_upside_str": "+69.5%", "dynamic_bear_upside": -12.582030578938328, "dynamic_bear_upside_str": "-12.6%", "dynamic_bull_upside": 172.45490465555747, "dynamic_bull_upside_str": "+172.5%", "delta_upside": 23.153495598527847, "delta_upside_str": "+23.2 个百分点", "range_pos": 0.06799740042707271, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性偏积极", "method": "2027E 归母净利润 P/E", "comp_dir": "companies/catl", "report_link": "companies/catl/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "思格新能", "code": "06656.HK", "quote_sym": "hk06656", "market": "港股", "currency": "港元", "base_price": 310.2, "base_date": "2026-09-11", "latest_price": 222.4, "close_price": 222.4, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 2.58, "price_diff": -87.79999999999998, "price_diff_pct": -28.304319793681493, "price_diff_str": "-87.800", "price_diff_pct_str": "-28.30%", "bear": 169.17, "base": 431.38, "bull": 832.22, "report_upside": 39.06511927788524, "report_upside_str": "+39.1%", "dynamic_base_upside": 93.96582733812949, "dynamic_base_upside_str": "+94.0%", "dynamic_bear_upside": -23.93435251798562, "dynamic_bear_upside_str": "-23.9%", "dynamic_bull_upside": 274.1996402877698, "dynamic_bull_upside_str": "+274.2%", "delta_upside": 54.90070806024425, "delta_upside_str": "+54.9 个百分点", "range_pos": 0.08028052183093283, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性偏积极", "method": "2027E 调整净利润 P/E", "comp_dir": "companies/sigenergy", "report_link": "companies/sigenergy/research-report.md", "quote_time": "2026/10/13 13:51:11", "has_live": true, "is_excluded": false}, {"company": "龙湖集团", "code": "00960.HK", "quote_sym": "hk00960", "market": "港股", "currency": "港元", "base_price": 5.67, "base_date": "2026-09-11", "latest_price": 5.085, "close_price": 5.085, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -0.97, "price_diff": -0.585, "price_diff_pct": -10.317460317460316, "price_diff_str": "-0.585", "price_diff_pct_str": "-10.32%", "bear": 4.35, "base": 8.16, "bull": 12.24, "report_upside": 43.91534391534392, "report_upside_str": "+43.9%", "dynamic_base_upside": 60.47197640117995, "dynamic_base_upside_str": "+60.5%", "dynamic_bear_upside": -14.4542772861357, "dynamic_bear_upside_str": "-14.5%", "dynamic_bull_upside": 140.7079646017699, "dynamic_bull_upside_str": "+140.7%", "delta_upside": 16.556632485836033, "delta_upside_str": "+16.6 个百分点", "range_pos": 0.0931558935361217, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性观察", "method": "2026H1归母净资产 P/B，运营与服务盈利校验", "comp_dir": "companies/longfor-group", "report_link": "companies/longfor-group/research-report.md", "quote_time": "2026/10/13 13:54:50", "has_live": true, "is_excluded": false}, {"company": "万华化学", "code": "600309.SH", "quote_sym": "sh600309", "market": "A股", "currency": "元", "base_price": 77.15, "base_date": "2026-09-10", "latest_price": 66.81, "close_price": 66.81, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -3.45, "price_diff": -10.340000000000003, "price_diff_pct": -13.402462734931955, "price_diff_str": "-10.340", "price_diff_pct_str": "-13.40%", "bear": 51.99, "base": 95.46, "bull": 148.51, "report_upside": 23.732987686325323, "report_upside_str": "+23.7%", "dynamic_base_upside": 42.882801975752116, "dynamic_base_upside_str": "+42.9%", "dynamic_bear_upside": -22.182308037718904, "dynamic_bear_upside_str": "-22.2%", "dynamic_bull_upside": 122.2870827720401, "dynamic_bull_upside_str": "+122.3%", "delta_upside": 19.149814289426793, "delta_upside_str": "+19.1 个百分点", "range_pos": 0.1535433070866142, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性偏积极", "method": "70% 2027E扣非归母P/E + 30% 2027E P/B", "comp_dir": "companies/wanhua-chemical", "report_link": "companies/wanhua-chemical/research-report.md", "quote_time": "20261013140950", "has_live": true, "is_excluded": false}, {"company": "伊利股份", "code": "600887.SH", "quote_sym": "sh600887", "market": "A股", "currency": "元", "base_price": 26.54, "base_date": "2026-09-10", "latest_price": 27.69, "close_price": 27.69, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -0.97, "price_diff": 1.1500000000000021, "price_diff_pct": 4.3330821401657955, "price_diff_str": "+1.150", "price_diff_pct_str": "+4.33%", "bear": 21.58, "base": 33.59, "bull": 46.48, "report_upside": 26.56367746797289, "report_upside_str": "+26.6%", "dynamic_base_upside": 21.3073311664861, "dynamic_base_upside_str": "+21.3%", "dynamic_bear_upside": -22.065727699530527, "dynamic_bear_upside_str": "-22.1%", "dynamic_bull_upside": 67.85843264716502, "dynamic_bull_upside_str": "+67.9%", "delta_upside": -5.25634630148679, "delta_upside_str": "-5.3 个百分点", "range_pos": 0.2453815261044178, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性偏积极", "method": "2027E 正常化归母 P/E，股息率交叉验证", "comp_dir": "companies/yili", "report_link": "companies/yili/research-report.md", "quote_time": "20261013140952", "has_live": true, "is_excluded": false}, {"company": "恒隆地产", "code": "00101.HK", "quote_sym": "hk00101", "market": "港股", "currency": "港元", "base_price": 6.93, "base_date": "2026-09-10", "latest_price": 6.54, "close_price": 6.54, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 0.31, "price_diff": -0.3899999999999997, "price_diff_pct": -5.627705627705623, "price_diff_str": "-0.390", "price_diff_pct_str": "-5.63%", "bear": 4.84, "base": 7.8, "bull": 11.63, "report_upside": 12.554112554112557, "report_upside_str": "+12.6%", "dynamic_base_upside": 19.266055045871553, "dynamic_base_upside_str": "+19.3%", "dynamic_bear_upside": -25.993883792048933, "dynamic_bear_upside_str": "-26.0%", "dynamic_bull_upside": 77.82874617737005, "dynamic_bull_upside_str": "+77.8%", "delta_upside": 6.711942491758997, "delta_upside_str": "+6.7 个百分点", "range_pos": 0.2503681885125184, "alert_status": "安全边际增厚", "alert_level": "positive", "stance": "中性观察", "method": "60% 折价NAV + 40% 正常化基础P/E", "comp_dir": "companies/hang-lung-properties", "report_link": "companies/hang-lung-properties/research-report.md", "quote_time": "2026/10/13 13:54:28", "has_live": true, "is_excluded": false}, {"company": "珀莱雅", "code": "603605.SH", "quote_sym": "sh603605", "market": "A股", "currency": "元", "base_price": 60.3, "base_date": "2026-09-09", "latest_price": 55.51, "close_price": 55.51, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -1.54, "price_diff": -4.789999999999999, "price_diff_pct": -7.9436152570480925, "price_diff_str": "-4.790", "price_diff_pct_str": "-7.94%", "bear": 48.52, "base": 75.84, "bull": 113.5, "report_upside": 25.77114427860698, "report_upside_str": "+25.8%", "dynamic_base_upside": 36.62403170599893, "dynamic_base_upside_str": "+36.6%", "dynamic_bear_upside": -12.592325707079796, "dynamic_bear_upside_str": "-12.6%", "dynamic_bull_upside": 104.46766348405694, "dynamic_bull_upside_str": "+104.5%", "delta_upside": 10.852887427391952, "delta_upside_str": "+10.9 个百分点", "range_pos": 0.10757156048014768, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性偏积极", "method": "2027E 正常化归母 P/E", "comp_dir": "companies/proya", "report_link": "companies/proya/research-report.md", "quote_time": "20261013140950", "has_live": true, "is_excluded": false}, {"company": "宝钢股份", "code": "600019.SH", "quote_sym": "sh600019", "market": "A股", "currency": "元", "base_price": 5.75, "base_date": "2026-09-07", "latest_price": 5.9, "close_price": 5.9, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 0.0, "price_diff": 0.15000000000000036, "price_diff_pct": 2.6086956521739193, "price_diff_str": "+0.150", "price_diff_pct_str": "+2.61%", "bear": 3.59, "base": 6.21, "bull": 9.55, "report_upside": 7.999999999999999, "report_upside_str": "+8.0%", "dynamic_base_upside": 5.254237288135586, "dynamic_base_upside_str": "+5.3%", "dynamic_bear_upside": -39.15254237288136, "dynamic_bear_upside_str": "-39.2%", "dynamic_bull_upside": 61.86440677966102, "dynamic_bull_upside_str": "+61.9%", "delta_upside": -2.745762711864413, "delta_upside_str": "-2.7 个百分点", "range_pos": 0.3875838926174497, "alert_status": "基准窄幅震荡", "alert_level": "normal", "stance": "中性观察", "method": "60% P/B + 40% 正常化归母 P/E", "comp_dir": "companies/baosteel", "report_link": "companies/baosteel/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "威高股份", "code": "01066.HK", "quote_sym": "hk01066", "market": "港股", "currency": "港元", "base_price": 3.23, "base_date": "2026-09-07", "latest_price": 3.4, "close_price": 3.4, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 2.41, "price_diff": 0.16999999999999993, "price_diff_pct": 5.26315789473684, "price_diff_str": "+0.170", "price_diff_pct_str": "+5.26%", "bear": 2.4, "base": 4.89, "bull": 7.55, "report_upside": 51.39318885448916, "report_upside_str": "+51.4%", "dynamic_base_upside": 43.8235294117647, "dynamic_base_upside_str": "+43.8%", "dynamic_bear_upside": -29.411764705882355, "dynamic_bear_upside_str": "-29.4%", "dynamic_bull_upside": 122.05882352941177, "dynamic_bull_upside_str": "+122.1%", "delta_upside": -7.569659442724458, "delta_upside_str": "-7.6 个百分点", "range_pos": 0.1941747572815534, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "谨慎积极", "method": "正常化归母 P/E + 折价净现金", "comp_dir": "companies/weigao-group", "report_link": "companies/weigao-group/research-report.md", "quote_time": "2026/10/13 13:54:45", "has_live": true, "is_excluded": false}, {"company": "梦百合", "code": "603313.SH", "quote_sym": "sh603313", "market": "A股", "currency": "元", "base_price": 6.43, "base_date": "2026-09-04", "latest_price": 6.38, "close_price": 6.38, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 2.08, "price_diff": -0.04999999999999982, "price_diff_pct": -0.7776049766718479, "price_diff_str": "-0.050", "price_diff_pct_str": "-0.78%", "bear": 1.98, "base": 5.39, "bull": 9.83, "report_upside": -16.174183514774494, "report_upside_str": "-16.2%", "dynamic_base_upside": -15.517241379310349, "dynamic_base_upside_str": "-15.5%", "dynamic_bear_upside": -68.96551724137932, "dynamic_bear_upside_str": "-69.0%", "dynamic_bull_upside": 54.075235109717866, "dynamic_bull_upside_str": "+54.1%", "delta_upside": 0.6569421354641456, "delta_upside_str": "+0.7 个百分点", "range_pos": 0.5605095541401275, "alert_status": "现价高于Base", "alert_level": "warn", "stance": "中性偏谨慎", "method": "60% 正常化 P/E + 40% P/B", "comp_dir": "companies/mlily", "report_link": "companies/mlily/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "福寿园", "code": "01448.HK", "quote_sym": "hk01448", "market": "港股", "currency": "港元", "base_price": 2.64, "base_date": "2026-03-19", "latest_price": 2.64, "close_price": 2.64, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 0.0, "price_diff": 0.0, "price_diff_pct": 0.0, "price_diff_str": "+0.000", "price_diff_pct_str": "+0.00%", "bear": 0.76, "base": 1.31, "bull": 1.85, "report_upside": -50.378787878787875, "report_upside_str": "-50.4%", "dynamic_base_upside": -50.378787878787875, "dynamic_base_upside_str": "-50.4%", "dynamic_bear_upside": -71.21212121212122, "dynamic_bear_upside_str": "-71.2%", "dynamic_bull_upside": -29.924242424242426, "dynamic_bull_upside_str": "-29.9%", "delta_upside": 0.0, "delta_upside_str": "+0.0 个百分点", "range_pos": 1.7247706422018347, "alert_status": "现价高于Base", "alert_level": "warn", "stance": "回避", "method": "2025H1 NAV治理与流动性压力折价，正常化P/E校验", "comp_dir": "companies/fu-shou-yuan", "report_link": "companies/fu-shou-yuan/research-report.md", "quote_time": "2026/10/13 09:20:11", "has_live": true, "is_excluded": false}, {"company": "信维通信", "code": "300136.SZ", "quote_sym": "sz300136", "market": "A股", "currency": "元", "base_price": 56.18, "base_date": "2026-09-04", "latest_price": 47.51, "close_price": 47.51, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 0.42, "price_diff": -8.670000000000002, "price_diff_pct": -15.432538269846924, "price_diff_str": "-8.670", "price_diff_pct_str": "-15.43%", "bear": 15.18, "base": 43.64, "bull": 81.63, "report_upside": -22.321110715557136, "report_upside_str": "-22.3%", "dynamic_base_upside": -8.145653546621759, "dynamic_base_upside_str": "-8.1%", "dynamic_bear_upside": -68.04883182487897, "dynamic_bear_upside_str": "-68.0%", "dynamic_bull_upside": 71.81645969269627, "dynamic_bull_upside_str": "+71.8%", "delta_upside": 14.175457168935377, "delta_upside_str": "+14.2 个百分点", "range_pos": 0.4865312264860798, "alert_status": "现价高于Base", "alert_level": "warn", "stance": "中性偏谨慎", "method": "2028E扣非 P/E + 市场隐含预期校验", "comp_dir": "companies/sunway-communication", "report_link": "companies/sunway-communication/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "达势股份", "code": "01405.HK", "quote_sym": "hk01405", "market": "港股", "currency": "港元", "base_price": 30.5, "base_date": "2026-09-04", "latest_price": 30.08, "close_price": 30.08, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 1.48, "price_diff": -0.4200000000000017, "price_diff_pct": -1.3770491803278744, "price_diff_str": "-0.420", "price_diff_pct_str": "-1.38%", "bear": 17.19, "base": 40.67, "bull": 67.57, "report_upside": 33.344262295081975, "report_upside_str": "+33.3%", "dynamic_base_upside": 35.20611702127661, "dynamic_base_upside_str": "+35.2%", "dynamic_bear_upside": -42.852393617021264, "dynamic_bear_upside_str": "-42.9%", "dynamic_bull_upside": 124.63430851063828, "dynamic_bull_upside_str": "+124.6%", "delta_upside": 1.861854726194636, "delta_upside_str": "+1.9 个百分点", "range_pos": 0.2558554982135768, "alert_status": "基准窄幅震荡", "alert_level": "normal", "stance": "中性偏积极", "method": "70% 调整 P/E + 30%租赁调整 EV/EBITDA", "comp_dir": "companies/dpc-dash", "report_link": "companies/dpc-dash/research-report.md", "quote_time": "2026/10/13 13:50:18", "has_live": true, "is_excluded": false}, {"company": "保利物业", "code": "06049.HK", "quote_sym": "hk06049", "market": "港股", "currency": "港元", "base_price": 28.76, "base_date": "2026-09-04", "latest_price": 27.6, "close_price": 27.6, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 0.36, "price_diff": -1.1600000000000001, "price_diff_pct": -4.033379694019472, "price_diff_str": "-1.160", "price_diff_pct_str": "-4.03%", "bear": 18.81, "base": 36.73, "bull": 57.89, "report_upside": 27.71210013908204, "report_upside_str": "+27.7%", "dynamic_base_upside": 33.07971014492752, "dynamic_base_upside_str": "+33.1%", "dynamic_bear_upside": -31.84782608695653, "dynamic_bear_upside_str": "-31.8%", "dynamic_bull_upside": 109.7463768115942, "dynamic_bull_upside_str": "+109.7%", "delta_upside": 5.367610005845478, "delta_upside_str": "+5.4 个百分点", "range_pos": 0.2249232343909929, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "谨慎积极", "method": "正常化 P/E + 折价可分配现金", "comp_dir": "companies/poly-property-services", "report_link": "companies/poly-property-services/research-report.md", "quote_time": "2026/10/13 13:54:24", "has_live": true, "is_excluded": false}, {"company": "中海物业", "code": "02669.HK", "quote_sym": "hk02669", "market": "港股", "currency": "港元", "base_price": 3.575, "base_date": "2026-09-04", "latest_price": 3.355, "close_price": 3.355, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 0.15, "price_diff": -0.2200000000000002, "price_diff_pct": -6.153846153846159, "price_diff_str": "-0.220", "price_diff_pct_str": "-6.15%", "bear": 2.52, "base": 4.33, "bull": 6.21, "report_upside": 21.118881118881113, "report_upside_str": "+21.1%", "dynamic_base_upside": 29.06110283159464, "dynamic_base_upside_str": "+29.1%", "dynamic_bear_upside": -24.88822652757079, "dynamic_bear_upside_str": "-24.9%", "dynamic_bull_upside": 85.09687034277198, "dynamic_bull_upside_str": "+85.1%", "delta_upside": 7.9422217127135255, "delta_upside_str": "+7.9 个百分点", "range_pos": 0.2262872628726287, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性观察", "method": "70% 正常化 P/E + 30% 股息资本化", "comp_dir": "companies/china-overseas-property", "report_link": "companies/china-overseas-property/research-report.md", "quote_time": "2026/10/13 13:54:30", "has_live": true, "is_excluded": false}, {"company": "天齐锂业", "code": "002466.SZ", "quote_sym": "sz002466", "market": "A股", "currency": "元", "base_price": 45.35, "base_date": "2026-09-04", "latest_price": 38.52, "close_price": 38.52, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -1.81, "price_diff": -6.829999999999998, "price_diff_pct": -15.060639470782796, "price_diff_str": "-6.830", "price_diff_pct_str": "-15.06%", "bear": 23.18, "base": 48.97, "bull": 76.0, "report_upside": 7.982359426681361, "report_upside_str": "+8.0%", "dynamic_base_upside": 27.128764278296973, "dynamic_base_upside_str": "+27.1%", "dynamic_bear_upside": -39.82346832814123, "dynamic_bear_upside_str": "-39.8%", "dynamic_bull_upside": 97.3001038421599, "dynamic_bull_upside_str": "+97.3%", "delta_upside": 19.146404851615614, "delta_upside_str": "+19.1 个百分点", "range_pos": 0.2904202953426733, "alert_status": "安全边际增厚", "alert_level": "positive", "stance": "中性观察", "method": "60% 正常化 P/E + 40% P/B", "comp_dir": "companies/tianqi-lithium", "report_link": "companies/tianqi-lithium/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "赣锋锂业", "code": "002460.SZ", "quote_sym": "sz002460", "market": "A股", "currency": "元", "base_price": 50.52, "base_date": "2026-09-04", "latest_price": 42.01, "close_price": 42.01, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -3.82, "price_diff": -8.510000000000005, "price_diff_pct": -16.844813935075226, "price_diff_str": "-8.510", "price_diff_pct_str": "-16.84%", "bear": 20.39, "base": 45.27, "bull": 74.35, "report_upside": -10.391923990498812, "report_upside_str": "-10.4%", "dynamic_base_upside": 7.760057129254952, "dynamic_base_upside_str": "+7.8%", "dynamic_bear_upside": -51.46393715781956, "dynamic_bear_upside_str": "-51.5%", "dynamic_bull_upside": 76.98167103070696, "dynamic_bull_upside_str": "+77.0%", "delta_upside": 18.151981119753763, "delta_upside_str": "+18.2 个百分点", "range_pos": 0.40066716085989623, "alert_status": "安全边际增厚", "alert_level": "positive", "stance": "中性偏谨慎", "method": "60% 正常化 P/E + 40% P/B", "comp_dir": "companies/ganfeng-lithium", "report_link": "companies/ganfeng-lithium/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "云铝股份", "code": "000807.SZ", "quote_sym": "sz000807", "market": "A股", "currency": "元", "base_price": 26.95, "base_date": "2026-09-04", "latest_price": 26.54, "close_price": 26.54, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 2.27, "price_diff": -0.41000000000000014, "price_diff_pct": -1.5213358070500933, "price_diff_str": "-0.410", "price_diff_pct_str": "-1.52%", "bear": 13.13, "base": 24.1, "bull": 39.06, "report_upside": -10.575139146567711, "report_upside_str": "-10.6%", "dynamic_base_upside": -9.193669932177837, "dynamic_base_upside_str": "-9.2%", "dynamic_bear_upside": -50.52750565184626, "dynamic_bear_upside_str": "-50.5%", "dynamic_bull_upside": 47.174076865109285, "dynamic_bull_upside_str": "+47.2%", "delta_upside": 1.381469214389874, "delta_upside_str": "+1.4 个百分点", "range_pos": 0.5171615888931739, "alert_status": "现价高于Base", "alert_level": "warn", "stance": "中性观察", "method": "70% 正常化 P/E + 30% P/B", "comp_dir": "companies/yunnan-aluminum", "report_link": "companies/yunnan-aluminum/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "牧原股份", "code": "002714.SZ", "quote_sym": "sz002714", "market": "A股", "currency": "元", "base_price": 43.97, "base_date": "2026-09-04", "latest_price": 41.12, "close_price": 41.12, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -1.58, "price_diff": -2.8500000000000014, "price_diff_pct": -6.481692062770074, "price_diff_str": "-2.850", "price_diff_pct_str": "-6.48%", "bear": 18.22, "base": 48.71, "bull": 81.26, "report_upside": 10.780077325449176, "report_upside_str": "+10.8%", "dynamic_base_upside": 18.45817120622569, "dynamic_base_upside_str": "+18.5%", "dynamic_bear_upside": -55.690661478599225, "dynamic_bear_upside_str": "-55.7%", "dynamic_bull_upside": 97.61673151750975, "dynamic_bull_upside_str": "+97.6%", "delta_upside": 7.678093880776514, "delta_upside_str": "+7.7 个百分点", "range_pos": 0.3632614213197969, "alert_status": "安全边际增厚", "alert_level": "positive", "stance": "中性观察", "method": "60% 正常化 P/E + 40% P/B", "comp_dir": "companies/muyuan", "report_link": "companies/muyuan/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "宝丰能源", "code": "600989.SH", "quote_sym": "sh600989", "market": "A股", "currency": "元", "base_price": 24.37, "base_date": "2026-09-01", "latest_price": 22.31, "close_price": 22.31, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -1.15, "price_diff": -2.0600000000000023, "price_diff_pct": -8.453016003282734, "price_diff_str": "-2.060", "price_diff_pct_str": "-8.45%", "bear": 19.5, "base": 29.55, "bull": 41.41, "report_upside": 21.255642183011897, "report_upside_str": "+21.3%", "dynamic_base_upside": 32.45181532944869, "dynamic_base_upside_str": "+32.5%", "dynamic_bear_upside": -12.595248767368888, "dynamic_bear_upside_str": "-12.6%", "dynamic_bull_upside": 85.61183325862841, "dynamic_bull_upside_str": "+85.6%", "delta_upside": 11.196173146436795, "delta_upside_str": "+11.2 个百分点", "range_pos": 0.12825193975353716, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "谨慎积极", "method": "70% 正常化扣非 P/E + 30% EV/EBITDA", "comp_dir": "companies/baofeng-energy", "report_link": "companies/baofeng-energy/research-report.md", "quote_time": "20261013140952", "has_live": true, "is_excluded": false}, {"company": "兆易创新", "code": "603986.SH", "quote_sym": "sh603986", "market": "A股", "currency": "元", "base_price": 326.46, "base_date": "2026-10-09", "latest_price": 307.63, "close_price": 307.63, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -1.03, "price_diff": -18.829999999999984, "price_diff_pct": -5.767934815903935, "price_diff_str": "-18.830", "price_diff_pct_str": "-5.77%", "bear": 201.29, "base": 381.31, "bull": 642.13, "report_upside": 16.801445812656997, "report_upside_str": "+16.8%", "dynamic_base_upside": 23.950850047134548, "dynamic_base_upside_str": "+24.0%", "dynamic_bear_upside": -34.567499918733546, "dynamic_bear_upside_str": "-34.6%", "dynamic_bull_upside": 108.73451874004485, "dynamic_bull_upside_str": "+108.7%", "delta_upside": 7.149404234477551, "delta_upside_str": "+7.1 个百分点", "range_pos": 0.24122130478178022, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性偏积极", "method": "2027正常化扣非P/E + 折价金融投资（奖励压力股本）", "comp_dir": "companies/gigadevice", "report_link": "companies/gigadevice/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "阳光电源", "code": "300274.SZ", "quote_sym": "sz300274", "market": "A股", "currency": "元", "base_price": 91.5, "base_date": "2026-08-31", "latest_price": 80.36, "close_price": 80.36, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -2.42, "price_diff": -11.14, "price_diff_pct": -12.174863387978142, "price_diff_str": "-11.140", "price_diff_pct_str": "-12.17%", "bear": 61.24, "base": 100.6, "bull": 144.35, "report_upside": 9.945355191256825, "report_upside_str": "+9.9%", "dynamic_base_upside": 25.1866600298656, "dynamic_base_upside_str": "+25.2%", "dynamic_bear_upside": -23.792931806869085, "dynamic_bear_upside_str": "-23.8%", "dynamic_bull_upside": 79.62916874066698, "dynamic_bull_upside_str": "+79.6%", "delta_upside": 15.241304838608775, "delta_upside_str": "+15.2 个百分点", "range_pos": 0.23005655155817592, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性偏积极", "method": "正常化 P/E，DCF 交叉验证", "comp_dir": "companies/sungrow", "report_link": "companies/sungrow/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "晋亿实业", "code": "601002.SH", "quote_sym": "sh601002", "market": "A股", "currency": "元", "base_price": 5.24, "base_date": "2026-08-27", "latest_price": 5.22, "close_price": 5.22, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 1.75, "price_diff": -0.020000000000000462, "price_diff_pct": -0.3816793893129859, "price_diff_str": "-0.020", "price_diff_pct_str": "-0.38%", "bear": 3.54, "base": 5.61, "bull": 7.89, "report_upside": 7.061068702290078, "report_upside_str": "+7.1%", "dynamic_base_upside": 7.4712643678161035, "dynamic_base_upside_str": "+7.5%", "dynamic_bear_upside": -32.183908045977006, "dynamic_bear_upside_str": "-32.2%", "dynamic_bull_upside": 51.14942528735632, "dynamic_bull_upside_str": "+51.1%", "delta_upside": 0.41019566552602527, "delta_upside_str": "+0.4 个百分点", "range_pos": 0.3862068965517241, "alert_status": "基准窄幅震荡", "alert_level": "normal", "stance": "中性偏积极", "method": "70% P/E + 30% P/B", "comp_dir": "companies/jinyi-industrial", "report_link": "companies/jinyi-industrial/research-report.md", "quote_time": "20261013140949", "has_live": true, "is_excluded": false}, {"company": "百联股份", "code": "600827.SH", "quote_sym": "sh600827", "market": "A股", "currency": "元", "base_price": 7.78, "base_date": "2026-08-28", "latest_price": 8.0, "close_price": 8.0, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -0.62, "price_diff": 0.21999999999999975, "price_diff_pct": 2.8277634961439557, "price_diff_str": "+0.220", "price_diff_pct_str": "+2.83%", "bear": 4.59, "base": 7.35, "bull": 10.1, "report_upside": -5.5269922879177455, "report_upside_str": "-5.5%", "dynamic_base_upside": -8.125000000000004, "dynamic_base_upside_str": "-8.1%", "dynamic_bear_upside": -42.625, "dynamic_bear_upside_str": "-42.6%", "dynamic_bull_upside": 26.249999999999996, "dynamic_bull_upside_str": "+26.2%", "delta_upside": -2.598007712082258, "delta_upside_str": "-2.6 个百分点", "range_pos": 0.6188747731397459, "alert_status": "现价高于Base", "alert_level": "warn", "stance": "中性", "method": "60% P/B + 40% P/E", "comp_dir": "companies/bailian", "report_link": "companies/bailian/research-report.md", "quote_time": "20261013140944", "has_live": true, "is_excluded": false}, {"company": "宋城演艺", "code": "300144.SZ", "quote_sym": "sz300144", "market": "A股", "currency": "元", "base_price": 5.97, "base_date": "2026-08-21", "latest_price": 5.57, "close_price": 5.57, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 0.72, "price_diff": -0.39999999999999947, "price_diff_pct": -6.700167504187596, "price_diff_str": "-0.400", "price_diff_pct_str": "-6.70%", "bear": 3.42, "base": 5.36, "bull": 7.74, "report_upside": -10.217755443886087, "report_upside_str": "-10.2%", "dynamic_base_upside": -3.7701974865350083, "dynamic_base_upside_str": "-3.8%", "dynamic_bear_upside": -38.599640933572715, "dynamic_bear_upside_str": "-38.6%", "dynamic_bull_upside": 38.95870736086175, "dynamic_bull_upside_str": "+39.0%", "delta_upside": 6.447557957351079, "delta_upside_str": "+6.4 个百分点", "range_pos": 0.49768518518518523, "alert_status": "现价高于Base", "alert_level": "warn", "stance": "中性偏谨慎", "method": "70% P/E + 30% P/B", "comp_dir": "companies/songcheng-performance", "report_link": "companies/songcheng-performance/research-report.md", "quote_time": "20261013140951", "has_live": true, "is_excluded": false}, {"company": "腾讯控股", "code": "0700.HK", "quote_sym": "hk00700", "market": "港股", "currency": "港元", "base_price": 461.6, "base_date": "2026-08-12", "latest_price": 424.4, "close_price": 424.4, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -0.33, "price_diff": -37.200000000000045, "price_diff_pct": -8.058925476603129, "price_diff_str": "-37.200", "price_diff_pct_str": "-8.06%", "bear": 478.0, "base": 629.0, "bull": 771.0, "report_upside": 36.265164644714034, "report_upside_str": "+36.3%", "dynamic_base_upside": 48.209236569274275, "dynamic_base_upside_str": "+48.2%", "dynamic_bear_upside": 12.629594721960421, "dynamic_bear_upside_str": "+12.6%", "dynamic_bull_upside": 81.66823751178136, "dynamic_bull_upside_str": "+81.7%", "delta_upside": 11.944071924560241, "delta_upside_str": "+11.9 个百分点", "range_pos": -0.18293515358361784, "alert_status": "跌破悲观估值", "alert_level": "highlight", "stance": "估值吸引力中等偏高", "method": "SOTP，DCF 交叉验证", "comp_dir": "companies/tencent", "report_link": "companies/tencent/research-report.md", "quote_time": "2026/10/13 13:54:49", "has_live": true, "is_excluded": false}, {"company": "三生制药", "code": "01530.HK", "quote_sym": "hk01530", "market": "港股", "currency": "港元", "base_price": 16.96, "base_date": "2026-08-28", "latest_price": 14.64, "close_price": 14.64, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -0.61, "price_diff": -2.3200000000000003, "price_diff_pct": -13.679245283018867, "price_diff_str": "-2.320", "price_diff_pct_str": "-13.68%", "bear": 14.34, "base": 21.19, "bull": 30.97, "report_upside": 24.941037735849058, "report_upside_str": "+24.9%", "dynamic_base_upside": 44.740437158469945, "dynamic_base_upside_str": "+44.7%", "dynamic_bear_upside": -2.049180327868857, "dynamic_bear_upside_str": "-2.0%", "dynamic_bull_upside": 111.54371584699452, "dynamic_bull_upside_str": "+111.5%", "delta_upside": 19.799399422620887, "delta_upside_str": "+19.8 个百分点", "range_pos": 0.018039687312086633, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "谨慎积极", "method": "核心业务 P/E + 净现金 + 707 rNPV", "comp_dir": "companies/3sbio", "report_link": "companies/3sbio/research-report.md", "quote_time": "2026/10/13 13:54:48", "has_live": true, "is_excluded": false}, {"company": "海吉亚医疗", "code": "06078.HK", "quote_sym": "hk06078", "market": "港股", "currency": "港元", "base_price": 10.58, "base_date": "2026-08-28", "latest_price": 9.46, "close_price": 9.46, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -0.16, "price_diff": -1.1199999999999992, "price_diff_pct": -10.586011342155002, "price_diff_str": "-1.120", "price_diff_pct_str": "-10.59%", "bear": 8.69, "base": 13.57, "bull": 17.83, "report_upside": 28.260869565217394, "report_upside_str": "+28.3%", "dynamic_base_upside": 43.446088794926, "dynamic_base_upside_str": "+43.4%", "dynamic_bear_upside": -8.139534883720943, "dynamic_bear_upside_str": "-8.1%", "dynamic_bull_upside": 88.47780126849891, "dynamic_bull_upside_str": "+88.5%", "delta_upside": 15.185219229708604, "delta_upside_str": "+15.2 个百分点", "range_pos": 0.08424507658643342, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "谨慎积极", "method": "正常化 P/E", "comp_dir": "companies/hygeia-healthcare", "report_link": "companies/hygeia-healthcare/research-report.md", "quote_time": "2026/10/13 13:54:25", "has_live": true, "is_excluded": false}, {"company": "海底捞", "code": "06862.HK", "quote_sym": "hk06862", "market": "港股", "currency": "港元", "base_price": 11.41, "base_date": "2026-08-25", "latest_price": 9.165, "close_price": 9.165, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": -4.43, "price_diff": -2.245000000000001, "price_diff_pct": -19.675723049956186, "price_diff_str": "-2.245", "price_diff_pct_str": "-19.68%", "bear": 8.32, "base": 12.52, "bull": 17.63, "report_upside": 9.72830850131463, "report_upside_str": "+9.7%", "dynamic_base_upside": 36.60665575559193, "dynamic_base_upside_str": "+36.6%", "dynamic_bear_upside": -9.219858156028357, "dynamic_bear_upside_str": "-9.2%", "dynamic_bull_upside": 92.36224768139662, "dynamic_bull_upside_str": "+92.4%", "delta_upside": 26.8783472542773, "delta_upside_str": "+26.9 个百分点", "range_pos": 0.0907626208378087, "alert_status": "逼近悲观估值", "alert_level": "highlight", "stance": "中性观察", "method": "70% P/E + 30% 股息资本化", "comp_dir": "companies/haidilao", "report_link": "companies/haidilao/research-report.md", "quote_time": "2026/10/13 13:54:48", "has_live": true, "is_excluded": false}, {"company": "中国民航信息网络", "code": "00696.HK", "quote_sym": "hk00696", "market": "港股", "currency": "港元", "base_price": 8.935, "base_date": "2026-08-25", "latest_price": 9.145, "close_price": 9.145, "close_date": "2026-10-13", "data_date": "2026-10-13", "today_change_pct": 3.22, "price_diff": 0.20999999999999908, "price_diff_pct": 2.3503077783995416, "price_diff_str": "+0.210", "price_diff_pct_str": "+2.35%", "bear": 6.72, "base": 9.87, "bull": 13.17, "report_upside": 10.464465584778944, "report_upside_str": "+10.5%", "dynamic_base_upside": 7.927829414980861, "dynamic_base_upside_str": "+7.9%", "dynamic_bear_upside": -26.517222525970475, "dynamic_bear_upside_str": "-26.5%", "dynamic_bull_upside": 44.01312192454894, "dynamic_bull_upside_str": "+44.0%", "delta_upside": -2.536636169798083, "delta_upside_str": "-2.5 个百分点", "range_pos": 0.37596899224806196, "alert_status": "基准窄幅震荡", "alert_level": "normal", "stance": "中性偏积极", "method": "70% P/E + 30% P/B", "comp_dir": "companies/travelsky", "report_link": "companies/travelsky/research-report.md", "quote_time": "2026/10/13 13:50:57", "has_live": true, "is_excluded": false}]};
+    let currentData = INITIAL_SNAPSHOT;
+
+    // 已剔除标的代码集合（支持离线 localStorage 与联机 API 双向同步）
+    let excludedCodes = [];
+
+    // 初始化已剔除标的代码
+    function initExclusions() {
+      const localEx = localStorage.getItem('market_excluded_codes');
+      if (localEx) {
+        try {
+          excludedCodes = JSON.parse(localEx);
+        } catch (e) {
+          excludedCodes = [];
+        }
+      } else if (currentData && currentData.kpis && currentData.kpis.excluded_codes) {
+        excludedCodes = [...currentData.kpis.excluded_codes];
+      }
+    }
+
+    let currentSort = {
+      key: 'price_diff_pct',
+      direction: 'desc'
+    };
+    let currentChartMode = 'price_diff';
+    let chartExpanded = false;
+    let lastFocusedElement = null;
+    let filters = {
+      search: '',
+      status: 'active', // 'active' | 'all' | 'excluded'
+      dev: 'all',
+      market: 'all'
+    };
+
+    // Theme toggle
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    const themeIcon = document.getElementById('themeIcon');
+    function initTheme() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'light' || (!saved && window.matchMedia('(prefers-color-scheme: light)').matches)) {
+        document.documentElement.classList.add('light');
+        themeIcon.textContent = '🌙';
+      } else {
+        document.documentElement.classList.remove('light');
+        themeIcon.textContent = '☀️';
+      }
+    }
+    themeToggleBtn.addEventListener('click', () => {
+      const isLight = document.documentElement.classList.toggle('light');
+      localStorage.setItem('theme', isLight ? 'light' : 'dark');
+      themeIcon.textContent = isLight ? '🌙' : '☀️';
+    });
+
+    // Badges
+    function getAlertBadge(status, level) {
+      return `<span class="badge-alert alert-${level}">${status}</span>`;
+    }
+    function getMarketBadge(m) {
+      return `<span class="badge-market ${m === 'A股' ? 'a' : 'hk'}">${m}</span>`;
+    }
+
+    function formatPrice(value) {
+      // 保留港股半分价及研报中三位小数基准，避免展示价格与空间公式不一致。
+      const number = Number(value);
+      const digits = Math.abs(number * 100 - Math.round(number * 100)) > 1e-7 ? 3 : 2;
+      return number.toFixed(digits);
+    }
+
+    function formatSigned(value, digits = 1, unit = '%') {
+      const rounded = Number(value.toFixed(digits));
+      return `${rounded >= 0 ? '+' : ''}${rounded.toFixed(digits)}${unit}`;
+    }
+
+    function spaceFormula(d, scenario) {
+      return `(${scenario.toUpperCase()}目标 ${formatPrice(d[scenario])} ÷ 最新价 ${formatPrice(d.latest_price)} − 1) × 100%`;
+    }
+
+    function recomputeValuationMetrics(d) {
+      const latest = Number(d.latest_price ?? d.close_price);
+      const reference = Number(d.base_price);
+      if (!(latest > 0 && reference > 0)) throw new Error(`${d.company} 的价格无效`);
+      d.latest_price = d.close_price = latest;
+      d.price_diff = latest - reference;
+      d.price_diff_pct = d.price_diff / reference * 100;
+      d.price_diff_str = formatSigned(d.price_diff, 3, '');
+      d.price_diff_pct_str = formatSigned(d.price_diff_pct, 2);
+      // 所有入口（内嵌快照、缓存、API）均从对应情景目标重新计算，不信任旧派生字段。
+      for (const scenario of ['bear', 'base', 'bull']) {
+        const target = Number(d[scenario]);
+        if (!Number.isFinite(target) || target < 0) throw new Error(`${d.company} 的 ${scenario} 目标无效`);
+        d[scenario] = target;
+        const key = `dynamic_${scenario}_upside`;
+        d[key] = (target - latest) / latest * 100;
+        d[`${key}_str`] = formatSigned(d[key]);
+      }
+      d.report_upside = (d.base - reference) / reference * 100;
+      d.report_upside_str = formatSigned(d.report_upside);
+      d.delta_upside = d.dynamic_base_upside - d.report_upside;
+      if (Math.abs(d.delta_upside) < 1e-10) d.delta_upside = 0;
+      d.delta_upside_str = formatSigned(d.delta_upside, 1, ' 个百分点');
+    }
+
+    // 持久化剔除清单
+    async function persistExclusions() {
+      localStorage.setItem('market_excluded_codes', JSON.stringify(excludedCodes));
+      try {
+        await fetch('/api/exclusions', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action: 'set', codes: excludedCodes })
+        });
+      } catch (e) {
+        // 离线模式正常忽略
+      }
+    }
+
+    // 剔除 / 加回切换
+    window.toggleStockExclusion = async function(code) {
+      const idx = excludedCodes.indexOf(code);
+      const isExcluding = (idx === -1);
+
+      if (isExcluding) {
+        excludedCodes.push(code);
+      } else {
+        excludedCodes.splice(idx, 1);
+      }
+
+      await persistExclusions();
+      updateDashboard();
+
+      const item = currentData.items.find(i => i.code === code);
+      const name = item ? item.company : code;
+      showToast(isExcluding ? `🚫 已剔除: ${name}，不再参与全库均值统计` : `↩️ 已加回: ${name} 至活跃监控池`);
+
+      // 若抽屉打开着，更新抽屉
+      if (detailDrawer.classList.contains('active') && item) {
+        openDrawer(item);
+      }
+    };
+
+    // 全部加回
+    window.restoreAllStocks = async function() {
+      if (excludedCodes.length === 0) return;
+      excludedCodes = [];
+      await persistExclusions();
+      updateDashboard();
+      renderExclusionsModalContent();
+      showToast('🔄 已成功将全部标的加回活跃监控池！');
+    };
+
+    // Fetch Quotes on demand
+    async function fetchQuotes({ silent = false } = {}) {
+      const refreshBtn = document.getElementById('refreshBtn');
+      refreshBtn.classList.add('loading');
+
+      try {
+        const resp = await fetch('/api/quotes?t=' + Date.now());
+        if (resp.ok) {
+          const json = await resp.json();
+          currentData = json;
+          if (json.kpis && json.kpis.excluded_codes) {
+            // 合并已有
+            const merged = Array.from(new Set([...excludedCodes, ...json.kpis.excluded_codes]));
+            excludedCodes = merged;
+            localStorage.setItem('market_excluded_codes', JSON.stringify(excludedCodes));
+          }
+          updateDashboard();
+          if (!silent) showToast('✅ 行情价与偏差核验成功！');
+        } else {
+          throw new Error('API 返回错误 ' + resp.status);
+        }
+      } catch (err) {
+        console.warn('API 拉取失败，尝试从本地缓存读取:', err);
+        try {
+          const cacheResp = await fetch('cache/quotes_latest.json?t=' + Date.now());
+          if (cacheResp.ok) {
+            currentData = await cacheResp.json();
+            updateDashboard();
+            if (!silent) showToast('⚠️ 已加载最近行情快照');
+          }
+        } catch (e) {
+          if (!silent) showToast('ℹ️ 已使用内嵌最新行情快照呈现');
+        }
+      } finally {
+        refreshBtn.classList.remove('loading');
+      }
+    }
+
+    // 动态重算活跃 KPI
+    function computeActiveKPIs() {
+      if (!currentData || !currentData.items) return;
+
+      currentData.items.forEach(d => {
+        d.is_excluded = excludedCodes.includes(d.code);
+      });
+
+      const activeItems = currentData.items.filter(i => !i.is_excluded);
+      const excludedItems = currentData.items.filter(i => i.is_excluded);
+
+      const activeLive = activeItems.filter(i => i.has_live);
+      const activeValidCount = activeLive.length;
+      const activeTotalDiff = activeLive.reduce((acc, cur) => acc + cur.price_diff_pct, 0);
+      const avgDiff = activeValidCount ? (activeTotalDiff / activeValidCount) : 0.0;
+
+      const expanded = activeItems.filter(i => i.delta_upside > 0);
+      const compressed = activeItems.filter(i => i.delta_upside < 0);
+
+      const aboveBase = activeItems.filter(i => i.latest_price >= i.base);
+      const belowBear = activeItems.filter(i => i.latest_price <= i.bear);
+      const inRange = activeItems.filter(i => i.latest_price > i.bear && i.latest_price < i.base);
+
+      let maxGain = null;
+      let maxDrop = null;
+      if (activeItems.length > 0) {
+        maxGain = activeItems.reduce((prev, cur) => (cur.price_diff_pct > prev.price_diff_pct ? cur : prev), activeItems[0]);
+        maxDrop = activeItems.reduce((prev, cur) => (cur.price_diff_pct < prev.price_diff_pct ? cur : prev), activeItems[0]);
+      }
+
+      return {
+        total_count: currentData.items.length,
+        active_count: activeItems.length,
+        excluded_count: excludedItems.length,
+        data_date: currentData.kpis.data_date || '2026-09-09',
+        price_type: currentData.kpis.price_type || '收盘价',
+        avg_diff_pct_str: `${avgDiff >= 0 ? '+' : ''}${avgDiff.toFixed(2)}%`,
+        max_gain_text: maxGain ? `${maxGain.company} (${maxGain.price_diff_pct_str})` : '--',
+        max_drop_text: maxDrop ? `${maxDrop.company} (${maxDrop.price_diff_pct_str})` : '--',
+        expanded_count: expanded.length,
+        compressed_count: compressed.length,
+        above_base_count: aboveBase.length,
+        below_bear_count: belowBear.length,
+        in_range_count: inRange.length,
+        updated_at: currentData.kpis.updated_at
+      };
+    }
+
+    // Update Dashboard UI
+    function updateDashboard() {
+      if (!currentData || !currentData.items) return;
+
+      currentData.items.forEach(recomputeValuationMetrics);
+      const kpis = computeActiveKPIs();
+      const dataDate = kpis.data_date;
+      document.getElementById('badgeDateText').textContent = dataDate;
+      document.getElementById('badgePriceType').textContent = kpis.price_type;
+      const dataDateObj = new Date(`${dataDate}T00:00:00`);
+      const ageDays = Number.isNaN(dataDateObj.getTime()) ? 0 : Math.max(0, Math.floor((Date.now() - dataDateObj.getTime()) / 86400000));
+      const dataDateBadge = document.getElementById('dataDateBadge');
+      dataDateBadge.classList.toggle('stale', ageDays > 3);
+      dataDateBadge.title = ageDays > 3 ? `行情快照已滞后 ${ageDays} 天，请刷新` : '行情快照日期';
+      document.getElementById('headerSubtitle').textContent = `总览同步 ${kpis.total_count} 家 · 活跃 ${kpis.active_count} 家 · 可在标的池管理中剔除或加回`;
+      document.getElementById('kpiDate').textContent = dataDate;
+      document.getElementById('kpiMarketSplit').textContent = `活跃监控 ${kpis.active_count} 家 · 已剔除 ${kpis.excluded_count} 家`;
+      document.getElementById('kpiAvgDiff').textContent = kpis.avg_diff_pct_str;
+      
+      const gainPart = kpis.max_gain_text.split(' ');
+      document.getElementById('kpiMaxGain').textContent = gainPart[1] || '--';
+      document.getElementById('kpiMaxGainText').textContent = (gainPart[0] || '') + ' 领涨基准';
+
+      const dropPart = kpis.max_drop_text.split(' ');
+      document.getElementById('kpiMaxDrop').textContent = dropPart[1] || '--';
+      document.getElementById('kpiMaxDropText').textContent = (dropPart[0] || '') + ' 回调最深';
+
+      document.getElementById('kpiExpanded').textContent = `${kpis.expanded_count} 家`;
+      document.getElementById('kpiExpandedSub').textContent = `回调增厚 ${kpis.expanded_count} 家 · 冲高收窄 ${kpis.compressed_count} 家`;
+      
+      document.getElementById('kpiDistribution').textContent = `高于Base ${kpis.above_base_count} · 区间内 ${kpis.in_range_count}`;
+      const belowBearNames = currentData.items.filter(i => !i.is_excluded && i.latest_price <= i.bear).map(i => i.company);
+      document.getElementById('kpiBelowBear').textContent = `跌破悲观估值: ${kpis.below_bear_count} 家${belowBearNames.length ? ` (${belowBearNames.join('、')})` : ''}`;
+      document.getElementById('lastUpdatedLabel').textContent = `${kpis.price_type}日期: ${dataDate} (${(kpis.updated_at || '').split(' ')[1] || ''})`;
+
+      // 顶部管理按钮徽章
+      const manageBadge = document.getElementById('manageExclusionsCount');
+      if (kpis.excluded_count > 0) {
+        manageBadge.style.display = 'inline-block';
+        manageBadge.textContent = `已剔除 ${kpis.excluded_count}`;
+      } else {
+        manageBadge.style.display = 'none';
+      }
+
+      // 过滤栏数字
+      document.getElementById('filterActiveCount').textContent = kpis.active_count;
+      document.getElementById('filterTotalCount').textContent = kpis.total_count;
+      document.getElementById('filterExcludedCount').textContent = kpis.excluded_count;
+      document.getElementById('modalTabActCount').textContent = kpis.active_count;
+
+      renderDeviationChart();
+      renderTable();
+    }
+
+    // Render compact rankings (仅对活跃监控标的排行)
+    function renderDeviationChart() {
+      const container = document.getElementById('devBarsContainer');
+      container.innerHTML = '';
+
+      // 默认排除已剔除标的
+      let items = currentData.items.filter(i => !i.is_excluded);
+      let sortKey = 'price_diff_pct';
+      let titleText = '基准价偏离排行';
+      let metricDescription = '最新价相对研报基准价的涨跌幅，按数值从高到低排列';
+
+      if (currentChartMode === 'dynamic_base') {
+        sortKey = 'dynamic_base_upside';
+        titleText = '动态Base空间排行';
+        metricDescription = '(Base目标 ÷ 最新价 − 1) × 100%，按数值从高到低排列';
+      } else if (currentChartMode === 'delta_upside') {
+        sortKey = 'delta_upside';
+        titleText = 'Base空间变化排行';
+        metricDescription = '动态Base空间 − 报告Base空间，单位为百分点，按数值从高到低排列';
+      }
+
+      items.sort((a, b) => b[sortKey] - a[sortKey]);
+
+      const visibleItems = chartExpanded ? items : items.slice(0, 8);
+      const chartToggleBtn = document.getElementById('chartToggleBtn');
+      chartToggleBtn.style.display = items.length > 8 ? 'inline-flex' : 'none';
+      chartToggleBtn.textContent = chartExpanded ? '收起排行' : `展开全部 ${items.length} 家`;
+      document.getElementById('chartTitle').textContent = chartExpanded ? titleText : `${titleText} · 前 ${visibleItems.length} 家`;
+      document.getElementById('chartTitle').title = metricDescription;
+
+      visibleItems.forEach((d, index) => {
+        const val = d[sortKey];
+        const isPos = val >= 0;
+        let valStr = '';
+        let extraStr = '';
+        const metricUnit = currentChartMode === 'delta_upside' ? '百分点' : '%';
+        let comparison = `基准 ${formatPrice(d.base_price)} → 最新 ${formatPrice(d.latest_price)} ${d.currency}`;
+        let comparisonTitle = '研报基准价 → 最新行情价';
+
+        if (currentChartMode === 'price_diff') {
+          valStr = d.price_diff_pct_str;
+          extraStr = `Base空间 ${d.dynamic_base_upside_str}`;
+        } else if (currentChartMode === 'dynamic_base') {
+          valStr = d.dynamic_base_upside_str;
+          extraStr = `变化 ${formatSigned(d.delta_upside, 1, '')} 百分点`;
+          comparison = `最新 ${formatPrice(d.latest_price)} → Base ${formatPrice(d.base)} ${d.currency}`;
+          comparisonTitle = '最新行情价 → Base估值目标；' + spaceFormula(d, 'base');
+        } else {
+          valStr = d.delta_upside_str;
+          extraStr = val === 0 ? '与报告持平' : isPos ? '较报告扩大' : '较报告收窄';
+          comparison = `报告 ${d.report_upside_str} → 当前 ${d.dynamic_base_upside_str}`;
+          comparisonTitle = '报告Base空间 → 动态Base空间，变化单位为百分点';
+        }
+
+        const metricNumber = currentChartMode === 'delta_upside' ? formatSigned(val, 1, '') : valStr.replace('%', '');
+
+        const row = document.createElement('div');
+        row.className = 'dev-row';
+        row.tabIndex = 0;
+        row.setAttribute('role', 'button');
+        row.setAttribute('aria-label', `${d.company}，${valStr}；${comparisonTitle}：${comparison}，查看详情`);
+        row.onclick = () => openDrawer(d);
+        row.onkeydown = (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openDrawer(d);
+          }
+        };
+
+        row.innerHTML = `
+          <span class="dev-rank mono ${index < 3 ? 'top' : ''}">${index + 1}</span>
+          <div class="dev-name" title="${d.company}">
+            <strong>${d.company}</strong>
+            ${getMarketBadge(d.market)}
+          </div>
+          <div class="dev-metric-main mono ${isPos ? 'val-positive' : 'val-negative'}" title="${valStr}">
+            <span>${metricNumber}</span><span class="dev-metric-unit">${metricUnit}</span>
+          </div>
+          <div class="dev-prices mono" title="${comparisonTitle}">
+            <span>${comparison}</span>
+            <span class="dev-metric-note">${extraStr}</span>
+          </div>
+        `;
+        container.appendChild(row);
+      });
+    }
+
+    // Chart mode switch
+    document.querySelectorAll('.chart-tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.chart-tab-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentChartMode = btn.dataset.chart;
+        renderDeviationChart();
+      });
+    });
+
+    document.getElementById('chartToggleBtn').addEventListener('click', () => {
+      chartExpanded = !chartExpanded;
+      renderDeviationChart();
+    });
+
+    // Filter
+    function getFilteredItems() {
+      if (!currentData) return [];
+      const q = filters.search.toLowerCase().trim();
+
+      return currentData.items.filter(item => {
+        // 状态过滤
+        if (filters.status === 'active' && item.is_excluded) return false;
+        if (filters.status === 'excluded' && !item.is_excluded) return false;
+
+        if (q) {
+          const matchC = item.company.toLowerCase().includes(q);
+          const matchK = item.code.toLowerCase().includes(q);
+          const matchS = item.stance.toLowerCase().includes(q);
+          if (!matchC && !matchK && !matchS) return false;
+        }
+
+        if (filters.market !== 'all') {
+          if (filters.market === 'A股' && item.market !== 'A股') return false;
+          if (filters.market === '港股' && item.market !== '港股') return false;
+        }
+
+        if (filters.dev === 'gain' && item.price_diff_pct <= 0) return false;
+        if (filters.dev === 'drop' && item.price_diff_pct >= 0) return false;
+        if (filters.dev === 'expanded' && item.delta_upside <= 0) return false;
+        if (filters.dev === 'above_base' && item.latest_price < item.base) return false;
+        if (filters.dev === 'below_bear' && item.latest_price > item.bear) return false;
+
+        return true;
+      });
+    }
+
+    // Sort
+    function getSortedItems(list) {
+      if (!currentSort.key) return list;
+
+      return [...list].sort((a, b) => {
+        let aV = a[currentSort.key];
+        let bV = b[currentSort.key];
+
+        if (typeof aV === 'string') {
+          const cmp = aV.localeCompare(bV, 'zh-CN');
+          return currentSort.direction === 'asc' ? cmp : -cmp;
+        }
+        return currentSort.direction === 'asc' ? (aV - bV) : (bV - aV);
+      });
+    }
+
+    // Render Table
+    function renderTable() {
+      const tbody = document.getElementById('tableBody');
+      tbody.innerHTML = '';
+
+      const filtered = getFilteredItems();
+      const sorted = getSortedItems(filtered);
+
+      if (sorted.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="13" style="text-align: center; padding: 36px; color: var(--text-dim);">没有符合条件的标的记录</td></tr>`;
+        return;
+      }
+
+      sorted.forEach(d => {
+        const tr = document.createElement('tr');
+        tr.tabIndex = 0;
+        tr.setAttribute('role', 'button');
+        tr.setAttribute('aria-label', `查看 ${d.company} 行情详情`);
+        if (d.is_excluded) tr.classList.add('is-excluded-row');
+
+        tr.onclick = (e) => {
+          if (!e.target.closest('a') && !e.target.closest('button')) openDrawer(d);
+        };
+        tr.onkeydown = (event) => {
+          if ((event.key === 'Enter' || event.key === ' ') && !event.target.closest('a') && !event.target.closest('button')) {
+            event.preventDefault();
+            openDrawer(d);
+          }
+        };
+
+        const isPos = d.price_diff_pct >= 0;
+        const diffClass = isPos ? 'val-positive' : 'val-negative';
+
+        const todayPos = d.today_change_pct >= 0;
+        const todayClass = todayPos ? 'val-positive' : 'val-negative';
+
+        const deltaPos = d.delta_upside >= 0;
+        const deltaClass = deltaPos ? 'val-positive' : 'val-negative';
+
+        const statusBadge = d.is_excluded ? `<span class="badge-alert alert-excluded">[已剔除]</span>` : getAlertBadge(d.alert_status, d.alert_level);
+
+        tr.innerHTML = `
+          <td>
+            <strong>${d.company}</strong>
+            ${d.is_excluded ? '<span style="font-size:10px; color:var(--negative); margin-left:4px;">(已移出)</span>' : ''}
+          </td>
+          <td>
+            <span class="mono" style="color: var(--text-dim);">${d.code}</span>
+            ${getMarketBadge(d.market)}
+          </td>
+          <td style="text-align: right;" class="mono">
+            <strong>${formatPrice(d.close_price)} ${d.currency}</strong>
+            <div style="font-size: 11px; color: var(--accent);">${d.close_date}</div>
+          </td>
+          <td style="text-align: right;" class="mono ${todayClass}">
+            <strong>${d.today_change_pct > 0 ? '+' : ''}${d.today_change_pct.toFixed(2)}%</strong>
+          </td>
+          <td style="text-align: right;" class="mono">
+            ${formatPrice(d.base_price)} ${d.currency}
+            <div style="font-size: 11px; color: var(--text-dim);">${d.base_date}</div>
+          </td>
+          <td style="text-align: right;" class="mono ${diffClass}">
+            ${d.price_diff_str}
+          </td>
+          <td style="text-align: right;">
+            <span class="mono val-pill ${isPos ? 'pos' : 'neg'}">
+              ${d.price_diff_pct_str}
+            </span>
+          </td>
+          <td style="text-align: right;" class="mono">
+            ${d.report_upside_str}
+          </td>
+          <td style="text-align: right;" class="mono" title="${spaceFormula(d, 'base')}">
+            <strong class="${d.dynamic_base_upside >= 0 ? 'val-positive' : 'val-negative'}">${d.dynamic_base_upside_str}</strong>
+            <div style="font-size: 11px; color: var(--text-dim);">Base目标 ${formatPrice(d.base)} ${d.currency}</div>
+          </td>
+          <td style="text-align: right;" class="mono ${deltaClass}">
+            <strong>${d.delta_upside_str}</strong>
+          </td>
+          <td>
+            <div class="tri-upside-box mono">
+              <div class="tri-upside-item" title="${spaceFormula(d, 'bear')}"><span>Bear ${formatPrice(d.bear)}:</span> <span class="${d.dynamic_bear_upside >= 0 ? 'val-positive' : 'val-negative'}">${d.dynamic_bear_upside_str}</span></div>
+              <div class="tri-upside-item" title="${spaceFormula(d, 'base')}"><span>Base ${formatPrice(d.base)}:</span> <span class="${d.dynamic_base_upside >= 0 ? 'val-positive' : 'val-negative'}" style="font-weight: 700;">${d.dynamic_base_upside_str}</span></div>
+              <div class="tri-upside-item" title="${spaceFormula(d, 'bull')}"><span>Bull ${formatPrice(d.bull)}:</span> <span class="${d.dynamic_bull_upside >= 0 ? 'val-positive' : 'val-negative'}">${d.dynamic_bull_upside_str}</span></div>
+            </div>
+          </td>
+          <td style="text-align: center;">
+            ${statusBadge}
+          </td>
+          <td style="text-align: center;">
+            <div style="display: inline-flex; gap: 4px;">
+              <button class="btn" style="padding: 2px 7px; font-size: 11px;" onclick="openDrawerFromEvent(event, '${d.code}')">详情</button>
+              ${d.is_excluded 
+                ? `<button class="btn-restore-sm" onclick="event.stopPropagation(); toggleStockExclusion('${d.code}');" title="加回标的池">↩️ 加回</button>`
+                : `<button class="btn-danger-sm" onclick="event.stopPropagation(); toggleStockExclusion('${d.code}');" title="从活跃监控池剔除">🚫 剔除</button>`
+              }
+            </div>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+
+      updateHeaderSortClasses();
+    }
+
+    function updateHeaderSortClasses() {
+      document.querySelectorAll('th[data-sort]').forEach(th => {
+        th.classList.remove('sorted-asc', 'sorted-desc');
+        th.setAttribute('aria-sort', 'none');
+        if (th.dataset.sort === currentSort.key) {
+          th.classList.add(currentSort.direction === 'asc' ? 'sorted-asc' : 'sorted-desc');
+          th.setAttribute('aria-sort', currentSort.direction === 'asc' ? 'ascending' : 'descending');
+        }
+      });
+    }
+
+    // Sort Click
+    document.querySelectorAll('th[data-sort]').forEach(th => {
+      th.tabIndex = 0;
+      th.setAttribute('role', 'button');
+      const applySort = () => {
+        const k = th.dataset.sort;
+        if (currentSort.key === k) {
+          currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+        } else {
+          currentSort.key = k;
+          currentSort.direction = 'desc';
+        }
+        renderTable();
+      };
+      th.addEventListener('click', applySort);
+      th.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          applySort();
+        }
+      });
+    });
+
+    // Search Input
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      filters.search = e.target.value;
+      renderTable();
+    });
+
+    function setupPillGroup(containerId, filterKey) {
+      const container = document.getElementById(containerId);
+      container.querySelectorAll('.pill-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          container.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          filters[filterKey] = btn.dataset[filterKey];
+          renderTable();
+        });
+      });
+    }
+    setupPillGroup('statusFilters', 'status');
+    setupPillGroup('devFilters', 'dev');
+    setupPillGroup('marketFilters', 'market');
+
+    // Refresh control
+    document.getElementById('refreshBtn').addEventListener('click', () => fetchQuotes());
+
+    // Detail Drawer
+    const drawerOverlay = document.getElementById('drawerOverlay');
+    const detailDrawer = document.getElementById('detailDrawer');
+    const drawerCloseBtn = document.getElementById('drawerCloseBtn');
+
+    function closeDrawer() {
+      drawerOverlay.classList.remove('active');
+      detailDrawer.classList.remove('active');
+      detailDrawer.setAttribute('aria-hidden', 'true');
+      if (lastFocusedElement) lastFocusedElement.focus();
+    }
+    drawerOverlay.addEventListener('click', closeDrawer);
+    drawerCloseBtn.addEventListener('click', closeDrawer);
+
+    window.openDrawerFromEvent = function(e, code) {
+      e.stopPropagation();
+      const item = currentData.items.find(i => i.code === code);
+      if (item) openDrawer(item);
+    };
+
+    function openDrawer(d) {
+      lastFocusedElement = document.activeElement;
+      document.getElementById('drawerCompany').textContent = d.company;
+      const marketBadge = document.getElementById('drawerMarket');
+      marketBadge.textContent = d.market;
+      marketBadge.className = `badge-market ${d.market === 'A股' ? 'a' : 'hk'}`;
+
+      const isPos = d.price_diff_pct >= 0;
+      const body = document.getElementById('drawerBody');
+
+      body.innerHTML = `
+        <div class="drawer-card">
+          <div class="drawer-card-title">
+            <span>📌 标的与行情价格概要</span>
+            ${d.is_excluded ? '<span class="badge-alert alert-excluded">[已剔除]</span>' : ''}
+          </div>
+          <div class="drawer-grid">
+            <div class="drawer-stat-item">
+              <span class="drawer-stat-label">证券代码</span>
+              <span class="drawer-stat-val mono">${d.code}</span>
+            </div>
+            <div class="drawer-stat-item">
+              <span class="drawer-stat-label">最新行情价</span>
+              <span class="drawer-stat-val mono" style="color: var(--accent);">
+                ${formatPrice(d.close_price)} ${d.currency}
+              </span>
+            </div>
+            <div class="drawer-stat-item">
+              <span class="drawer-stat-label">行情数据日期</span>
+              <span class="drawer-stat-val mono">${d.close_date}</span>
+            </div>
+            <div class="drawer-stat-item">
+              <span class="drawer-stat-label">当日涨跌幅</span>
+              <span class="drawer-stat-val mono ${d.today_change_pct >= 0 ? 'val-positive' : 'val-negative'}">
+                ${d.today_change_pct > 0 ? '+' : ''}${d.today_change_pct.toFixed(2)}%
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="drawer-card">
+          <div class="drawer-card-title">
+            <span>📊 相对研报基准偏离分析</span>
+          </div>
+          <div class="drawer-grid">
+            <div class="drawer-stat-item">
+              <span class="drawer-stat-label">研报基准价格</span>
+              <span class="drawer-stat-val mono">${formatPrice(d.base_price)} ${d.currency}</span>
+            </div>
+            <div class="drawer-stat-item">
+              <span class="drawer-stat-label">研报发布日期</span>
+              <span class="drawer-stat-val mono">${d.base_date}</span>
+            </div>
+            <div class="drawer-stat-item">
+              <span class="drawer-stat-label">价格偏差绝对额</span>
+              <span class="drawer-stat-val mono ${isPos ? 'val-positive' : 'val-negative'}">${d.price_diff_str} ${d.currency}</span>
+            </div>
+            <div class="drawer-stat-item">
+              <span class="drawer-stat-label">基准偏离比例 (ΔP%)</span>
+              <span class="drawer-stat-val mono ${isPos ? 'val-positive' : 'val-negative'}">${d.price_diff_pct_str}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="drawer-card">
+          <div class="drawer-card-title">
+            <span>🎯 三档估值目标与动态偏离空间</span>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: var(--bg-main); border-radius: 6px;">
+              <div>
+                <div style="font-size: 11px; color: var(--text-dim);">Bear (悲观估值)</div>
+                <strong class="mono" style="font-size: 14px;">${formatPrice(d.bear)} ${d.currency}</strong>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-size: 11px; color: var(--text-dim);">距Bear空间</div>
+                <strong class="mono ${d.dynamic_bear_upside >= 0 ? 'val-positive' : 'val-negative'}">${d.dynamic_bear_upside_str}</strong>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: var(--bg-main); border-radius: 6px; border: 1px solid rgba(var(--accent-rgb), 0.4);">
+              <div>
+                <div style="font-size: 11px; color: var(--accent);">Base (基准估值目标)</div>
+                <strong class="mono" style="font-size: 15px; color: var(--accent);">${formatPrice(d.base)} ${d.currency}</strong>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-size: 11px; color: var(--accent);">最新动态Base空间</div>
+                <strong class="mono ${d.dynamic_base_upside >= 0 ? 'val-positive' : 'val-negative'}" style="font-size: 15px;" title="${spaceFormula(d, 'base')}">${d.dynamic_base_upside_str}</strong>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: var(--bg-main); border-radius: 6px;">
+              <div>
+                <div style="font-size: 11px; color: var(--text-dim);">Bull (乐观估值)</div>
+                <strong class="mono" style="font-size: 14px;">${formatPrice(d.bull)} ${d.currency}</strong>
+              </div>
+              <div style="text-align: right;">
+                <div style="font-size: 11px; color: var(--text-dim);">距Bull空间</div>
+                <strong class="mono ${d.dynamic_bull_upside >= 0 ? 'val-positive' : 'val-negative'}">${d.dynamic_bull_upside_str}</strong>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 12px; font-size: 12px; color: var(--text-muted);">三档空间 = (对应情景目标 ÷ 最新行情价 − 1) × 100%；动态Base使用Base目标。</div>
+          <div style="margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; font-size: 12px;">
+            <span style="color: var(--text-muted);">报告静态Base空间: <strong>${d.report_upside_str}</strong></span>
+            <span style="color: var(--text-muted);">空间变化度: <strong class="${d.delta_upside >= 0 ? 'val-positive' : 'val-negative'}">${d.delta_upside_str}</strong></span>
+          </div>
+        </div>
+
+        <div class="drawer-card">
+          <div class="drawer-card-title">
+            <span>⚙️ 标的池状态与管理</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 13px; color: var(--text-muted);">
+              当前监控状态: <strong>${d.is_excluded ? '🚫 已从活跃池剔除' : '🟢 活跃监控中'}</strong>
+            </span>
+            ${d.is_excluded
+              ? `<button class="btn-restore-sm" style="padding: 6px 14px; font-size: 13px;" onclick="toggleStockExclusion('${d.code}');">↩️ 加回监控池</button>`
+              : `<button class="btn-danger-sm" style="padding: 6px 14px; font-size: 13px;" onclick="toggleStockExclusion('${d.code}');">🚫 剔除此标的</button>`
+            }
+          </div>
+        </div>
+
+        <div class="drawer-card">
+          <div class="drawer-card-title">
+            <span>📑 基本面研究与档案直达</span>
+          </div>
+          <div style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+            <div><strong>当前立场：</strong> ${d.stance}</div>
+            <div style="margin-top: 4px;"><strong>估值方法：</strong> ${d.method}</div>
+            <div style="margin-top: 4px;"><strong>预警状态：</strong> ${getAlertBadge(d.alert_status, d.alert_level)}</div>
+          </div>
+          <div style="margin-top: 14px; display: flex; gap: 8px;">
+            <a href="../${d.report_link || (d.comp_dir + '/research-report.md')}" class="btn" style="flex: 1; justify-content: center;">📖 深度研报</a>
+            <a href="../${d.comp_dir}/company-profile.md" class="btn" style="flex: 1; justify-content: center;">🏢 公司档案</a>
+            <a href="../stock-overview.html" class="btn" style="flex: 1; justify-content: center;">📋 总览看板</a>
+          </div>
+        </div>
+      `;
+
+      drawerOverlay.classList.add('active');
+      detailDrawer.classList.add('active');
+      detailDrawer.setAttribute('aria-hidden', 'false');
+      drawerCloseBtn.focus();
+    }
+
+    // 标的池管理弹窗（Modal）交互
+    const exclusionsModalOverlay = document.getElementById('exclusionsModalOverlay');
+    const openManageBtn = document.getElementById('openManageBtn');
+    const closeExclusionsModalBtn = document.getElementById('closeExclusionsModalBtn');
+    let activeModalTab = 'excluded'; // 'excluded' | 'active'
+
+    openManageBtn.addEventListener('click', () => {
+      activeModalTab = excludedCodes.length > 0 ? 'excluded' : 'active';
+      renderExclusionsModalContent();
+      exclusionsModalOverlay.classList.add('active');
+      exclusionsModalOverlay.setAttribute('aria-hidden', 'false');
+      closeExclusionsModalBtn.focus();
+    });
+
+    function closeExclusionsModal() {
+      exclusionsModalOverlay.classList.remove('active');
+      exclusionsModalOverlay.setAttribute('aria-hidden', 'true');
+      openManageBtn.focus();
+    }
+    closeExclusionsModalBtn.addEventListener('click', closeExclusionsModal);
+    exclusionsModalOverlay.addEventListener('click', (e) => {
+      if (e.target === exclusionsModalOverlay) closeExclusionsModal();
+    });
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') return;
+      if (exclusionsModalOverlay.classList.contains('active')) closeExclusionsModal();
+      else if (detailDrawer.classList.contains('active')) closeDrawer();
+    });
+
+    document.getElementById('modalTabExcluded').addEventListener('click', () => {
+      activeModalTab = 'excluded';
+      renderExclusionsModalContent();
+    });
+    document.getElementById('modalTabActive').addEventListener('click', () => {
+      activeModalTab = 'active';
+      renderExclusionsModalContent();
+    });
+
+    function renderExclusionsModalContent() {
+      document.getElementById('modalTabExcluded').classList.toggle('active', activeModalTab === 'excluded');
+      document.getElementById('modalTabActive').classList.toggle('active', activeModalTab === 'active');
+
+      const excludedItems = currentData.items.filter(i => excludedCodes.includes(i.code));
+      const activeItems = currentData.items.filter(i => !excludedCodes.includes(i.code));
+
+      document.getElementById('modalTabExCount').textContent = excludedItems.length;
+      document.getElementById('modalTabActCount').textContent = activeItems.length;
+
+      const body = document.getElementById('modalBody');
+
+      if (activeModalTab === 'excluded') {
+        if (excludedItems.length === 0) {
+          body.innerHTML = `
+            <div style="text-align: center; padding: 48px 16px; color: var(--text-dim);">
+              <div style="font-size: 32px; margin-bottom: 12px;">🎉</div>
+              <div style="font-size: 15px; font-weight: 600; color: var(--text-main);">暂无被剔除标的</div>
+              <p style="font-size: 13px; margin-top: 6px;">全库 ${currentData.items.length} 家标的目前均在活跃监控池中参与平均偏差与空间计算。</p>
+            </div>
+          `;
+          return;
+        }
+
+        let html = `
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+            <span style="font-size: 13px; color: var(--text-muted);">
+              已剔除标的不参与全库均值统计，随时可点击加回：
+            </span>
+            <button class="btn btn-restore-sm" style="padding: 4px 10px;" onclick="restoreAllStocks();">🔄 全部加回</button>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 8px;">
+        `;
+
+        excludedItems.forEach(d => {
+          html += `
+            <div class="exclusion-list-item">
+              <div>
+                <strong style="font-size: 14px;">${d.company}</strong>
+                <span class="mono" style="font-size: 12px; color: var(--text-dim); margin-left: 6px;">${d.code}</span>
+                ${getMarketBadge(d.market)}
+                <div style="font-size: 11px; color: var(--text-dim); margin-top: 3px;">
+                  行情: ${formatPrice(d.close_price)} ${d.currency} · 较基准: <span class="${d.price_diff_pct >= 0 ? 'val-positive' : 'val-negative'}">${d.price_diff_pct_str}</span>
+                </div>
+              </div>
+              <button class="btn-restore-sm" style="padding: 6px 14px; font-size: 12px;" onclick="toggleStockExclusion('${d.code}'); renderExclusionsModalContent();">↩️ 加回监控池</button>
+            </div>
+          `;
+        });
+
+        html += `</div>`;
+        body.innerHTML = html;
+
+      } else {
+        // 活跃监控标的列表
+        let html = `
+          <div style="margin-bottom: 12px;">
+            <input type="text" id="modalActiveSearch" class="search-input" placeholder="在活跃标的中筛选代码或名称..." style="width: 100%;">
+          </div>
+          <div id="modalActiveList" style="display: flex; flex-direction: column; gap: 8px;">
+        `;
+
+        activeItems.forEach(d => {
+          html += `
+            <div class="exclusion-list-item" data-name="${d.company.toLowerCase()}" data-code="${d.code.toLowerCase()}">
+              <div>
+                <strong style="font-size: 14px;">${d.company}</strong>
+                <span class="mono" style="font-size: 12px; color: var(--text-dim); margin-left: 6px;">${d.code}</span>
+                ${getMarketBadge(d.market)}
+                <div style="font-size: 11px; color: var(--text-dim); margin-top: 3px;">
+                  行情: ${formatPrice(d.close_price)} ${d.currency} · 基准偏差: <span class="${d.price_diff_pct >= 0 ? 'val-positive' : 'val-negative'}">${d.price_diff_pct_str}</span>
+                </div>
+              </div>
+              <button class="btn-danger-sm" style="padding: 6px 14px; font-size: 12px;" onclick="toggleStockExclusion('${d.code}'); renderExclusionsModalContent();">🚫 剔除监控</button>
+            </div>
+          `;
+        });
+
+        html += `</div>`;
+        body.innerHTML = html;
+
+        document.getElementById('modalActiveSearch').addEventListener('input', (e) => {
+          const q = e.target.value.toLowerCase().trim();
+          document.querySelectorAll('#modalActiveList .exclusion-list-item').forEach(item => {
+            const name = item.dataset.name;
+            const code = item.dataset.code;
+            item.style.display = (!q || name.includes(q) || code.includes(q)) ? 'flex' : 'none';
+          });
+        });
+      }
+    }
+
+    // CSV Export
+    document.getElementById('exportCsvBtn').addEventListener('click', () => {
+      if (!currentData || !currentData.items) return;
+      const headers = [
+        '公司', '代码', '市场', '是否剔除', '最新行情价', '币种', '行情数据日期', '当日涨跌幅', 
+        '研报基准价', '研报发布日期', '偏差绝对额', '基准偏离比例', 
+        '报告Base空间', '最新动态Base空间', '空间变化(百分点)', 
+        '距Bear偏离空间', '距Bull偏离空间', 'Bear目标价', 'Base目标价', 'Bull目标价', '状态预警', '当前立场', '估值方法'
+      ];
+      const rows = [headers.join(',')];
+
+      currentData.items.forEach(d => {
+        rows.push([
+          `"${d.company}"`,
+          `"${d.code}"`,
+          `"${d.market}"`,
+          d.is_excluded ? '"已剔除"' : '"活跃"',
+          d.close_price,
+          `"${d.currency}"`,
+          `"${d.close_date}"`,
+          `"${d.today_change_pct}%"`,
+          d.base_price,
+          `"${d.base_date}"`,
+          d.price_diff,
+          `"${d.price_diff_pct_str}"`,
+          `"${d.report_upside_str}"`,
+          `"${d.dynamic_base_upside_str}"`,
+          d.delta_upside,
+          `"${d.dynamic_bear_upside_str}"`,
+          `"${d.dynamic_bull_upside_str}"`,
+          d.bear,
+          d.base,
+          d.bull,
+          `"${d.alert_status}"`,
+          `"${d.stance}"`,
+          `"${d.method}"`
+        ].join(','));
+      });
+
+      const blob = new Blob(["\uFEFF" + rows.join('\r\n')], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `market-monitor-close-deviation-${currentData.kpis.data_date || '2026-09-09'}.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast('已导出行情与偏离分析 CSV！');
+    });
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+
+    // Init (支持离线与联机初始化)
+    initTheme();
+    initExclusions();
+    if (currentData) {
+      updateDashboard();
+    }
+    if (location.protocol === 'http:' || location.protocol === 'https:') {
+      fetchQuotes({ silent: true });
+    }
+  </script>
+</body>
+</html>

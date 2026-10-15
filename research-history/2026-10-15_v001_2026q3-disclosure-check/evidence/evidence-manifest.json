@@ -1,0 +1,50 @@
+[
+  {
+    "file": "dpc-q3-company-release.html",
+    "url": "https://www.dpcdash.com/news/detail/id/136.html",
+    "sha256": "887dcdb8636337639e5cd3ac7cc2d4d63b8581006d0ea1ee8f09d33cdb590ba7",
+    "retrieved_utc": "2026-10-15T13:12:44.037846+00:00"
+  },
+  {
+    "file": "dpc-q3-factsheet.pdf",
+    "url": "https://www.dpcdash.com/uploads/2026/56baa491e78308e5e6724e53fbafcbe7.pdf",
+    "sha256": "9040f38cfe94c99820bb61a7fda7322f64a2a0d8c1f03c04b3b2efed1ee8b142",
+    "retrieved_utc": "2026-10-15T13:12:44.732518+00:00"
+  },
+  {
+    "file": "longfor-2026-sep.pdf",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1012/2026101200884_c.pdf",
+    "sha256": "327b62d17c93a7a6ae074ebc6e630422bedbedfae2f6e35c2e52b2a683a02afc",
+    "retrieved_utc": "2026-10-15T13:12:46.242177+00:00"
+  },
+  {
+    "file": "spring-2026-sep.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-16/1225605993.PDF",
+    "sha256": "7248aa4b811473d3735adc151f6cf4a47422dcc9400e603a9b9d4d933ac691ab",
+    "retrieved_utc": "2026-10-15T13:12:46.457451+00:00"
+  },
+  {
+    "file": "catl-board-date.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-08/1225595386.PDF",
+    "sha256": "2218f3a59ca2052de6ddde406802fa4a9e66924260b68defed3f86f04c3459e4",
+    "retrieved_utc": "2026-10-15T13:12:46.536104+00:00"
+  },
+  {
+    "file": "tianqi-board-date.pdf",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225599203.PDF",
+    "sha256": "3d452cbb2f4625ad62dec8501f3b8d1a375ca5b000ef13434c3be6e05544620f",
+    "retrieved_utc": "2026-10-15T13:12:46.623461+00:00"
+  },
+  {
+    "file": "fsy-resumption-update.pdf",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0916/2026091601466_c.pdf",
+    "sha256": "0bd660769aecc1e029edac322474f3a8a48e844dda918abb1d961015fc2d296b",
+    "retrieved_utc": "2026-10-15T13:12:49.713103+00:00"
+  },
+  {
+    "file": "hkex-board-calendar.html",
+    "url": "https://www3.hkexnews.hk/reports/bmn/ebmn_c.htm",
+    "sha256": "6b7ef7c679e1b0d5b9b2934bc833d6324885e945b4bddaf3506744767ecde50b",
+    "retrieved_utc": "2026-10-15T13:12:52.303942+00:00"
+  }
+]

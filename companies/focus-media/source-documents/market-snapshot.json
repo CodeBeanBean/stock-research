@@ -1,0 +1,11 @@
+{
+  "ticker": "002027.SZ",
+  "currency": "CNY",
+  "price_date": "2026-10-09",
+  "close": 4.91,
+  "retrieved": "2026-10-12午间，北京时间",
+  "source": "https://cn.investing.com/equities/hedy-holding-a-historical-data",
+  "source_type": "已打开网页历史表核验后保存的研究快照，不是行情API原始导出",
+  "evidence": "2026年10月09日：收盘4.91、开盘4.72、最高4.95、最低4.72",
+  "intraday_caution": "页面10月12日列示5.17，但工具时钟为10月12日11:50左右，未收盘；只用于假定价格敏感性，不声称已确认当日收盘"
+}

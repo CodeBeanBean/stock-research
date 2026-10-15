@@ -1,0 +1,12 @@
+{
+  "id": "S8",
+  "title": "人民币汇率中间价历史数据",
+  "publisher": "中国外汇交易中心/中国货币网",
+  "date": "2026-10-09",
+  "retrieved": "2026-10-12",
+  "url": "https://www.chinamoney.com.cn/chinese/bkccpr/index.html?tab=2",
+  "HKD_CNY": 0.85798,
+  "CNY_HKD": 1.1655283339937994,
+  "scope": "官方中间价用于估值换算，不是可成交汇率",
+  "file": "S8-fx-snapshot.json"
+}

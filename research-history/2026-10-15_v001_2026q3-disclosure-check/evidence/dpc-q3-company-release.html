@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <title>DPC Dash Ltd - Company News</title>
+<meta charset="utf-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+<meta name="renderer" content="webkit"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<!-- Basic CSS -->
+<link rel="stylesheet" href="/assets/ir/js/layui/css/layui.css"/>
+<link rel="stylesheet" href="/assets/ir/css/iconfont/iconfont.css"/>
+<link rel="stylesheet" href="/assets/ir/css/uikit/uikit.min.css"/>
+<link rel="stylesheet" href="/assets/ir/css/common.css"/>
+<link rel="stylesheet" href="/assets/ir/css/custom.css"/>
+<link rel="stylesheet" href="/assets/ir/css/media.css"/>
+
+<script>
+  window.Config = {"site":{"name":"\u6295\u8d44\u8005\u5173\u7cfb","cdnurl":"","version":"V3-20250713","timezone":"Asia\/Shanghai","languages":{"backend":"zh-cn","frontend":"zh-cn"}},"upload":{"cdnurl":"","uploadurl":"\/ajax\/upload","bucket":"local","maxsize":"100mb","mimetype":"jpg,png,bmp,jpeg,gif,webp,zip,rar,xls,xlsx,wav,mp4,mp3,webm,pdf","chunking":false,"chunksize":2097152,"savekey":"\/uploads\/{year}\/{filemd5}{.suffix}","multipart":[],"multiple":false,"fullmode":false,"thumbstyle":"","storage":"local"},"modulename":"ir","controllername":"news","actionname":"detail","jsname":"frontend\/news","moduleurl":"","language":"en","isMobile":false,"apiToken":"54960a22ef7649c78b7301f6cf01bec3","apiUrl":"https:\/\/api.realxen.net\/","calendar_remote":"","__PUBLIC__":"\/","__ROOT__":"\/","__CDN__":"","ueditor":{"baiduMapAk":""}}</script>
+
+<!-- Basic JS -->
+<script src="/assets/js/vue3.js"></script>
+<script src="/assets/js/axios.min.js"></script>
+
+<script src="/assets/ir/js/jquery.min.js"></script>
+<script src="/assets/ir/js/base.min.js"></script>
+<script src="/assets/ir/js/layui/layui.js"></script>
+<script src="/assets/ir/js/common.js"></script>
+<script src="/assets/js/ir-frontend.js"></script>
+<script src="/assets/js/i18n/cn-hk.js"></script>
+
+
+<link rel="shortcut icon" href="/favicon.ico"/>
+
+
+<style>
+    [v-cloak] {
+        display: none;
+    }
+</style>
+
+</head>
+<body class="en-body">
+  <div id="offcanvas-push" uk-offcanvas="overlay: true;">
+	<div class="uk-offcanvas-bar">
+		<button class="uk-offcanvas-close" type="button" uk-close></button>
+		<ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+			<li><a href="/">Home</a></li>
+			<li class="uk-parent">
+				<a href="/news/companynews.html">Newsroom</a>
+				<ul class="uk-nav-sub">
+					<li><a href="/news/finance.html">Financial News</a></li>
+					<li><a href="/news/companynews.html">Company News</a></li>
+					<li><a href="/news/media.html">Multi-media</a></li>
+				</ul>
+			</li>
+			<li><a href="/stock/index.html">Stock Information</a></li>
+			<li class="uk-parent">
+			    <a href="/announcement/index.html">Information</a>
+				<ul class="uk-nav-sub">
+					<li><a href="/announcement/index.html">Announcements & Notices</a></li>
+					<li><a href="/report/index.html">Financial Reports</a></li>
+					<li><a href="/report/esg.html">ESG Reports</a></li>
+					<li><a href="/prospectus/index.html">Listing Documents</a></li>
+					<li><a href="/article/notice.html" class="large">NOTICES (Dissemination of Corporate Communications)</a></li>
+				</ul>
+			</li>
+			<li class="uk-parent">
+				<a href="/news/index.html">Investor Resources</a>
+				<ul class="uk-nav-sub">
+					<li><a href="/news/index.html">Factsheet</a></li>
+					<!--<li><a href="/news/presentation.html">Investor Presentation</a></li>-->
+					<li><a href="/news/financialsummary.html">Financial Summary</a></li>
+					<li><a href="/news/analyst.html">Analyst Coverage</a></li>
+					<li><a href="/news/faq.html">FAQ</a></li>
+                    <li><a href="/news/help.html">Helpful Links</a></li>
+				</ul>
+			</li>
+			<li><a href="/calendar/index.html">Investor Calendar</a></li>
+			<li><a href="/governance/index.html">Corporate Governance</a></li>
+			<li><a href="/article/contact.html">Contact Us</a></li>
+		</ul>
+		<div class="fdbar">
+	    	<div class="gohome">
+	    		<a href="https://www.dpcdash.com/?lang=en/" class="f16 uk-flex uk-flex-middle"><span uk-icon="home" class="mr5"></span> <span>Back Home</span></a>
+	    	</div>
+	    	<div class="mlang uk-flex uk-flex-middle">
+	    		<a href="?lang=zh-cn" class="cur">简</a>
+	    		<a href="?lang=zh-hk" class="">繁</a>
+	    		<a href="?lang=en" class="">En</a>
+	    	</div>
+	    </div>
+	</div>
+</div>
+
+  <div id="root">
+    <section class="header uk-visible@m">
+	<div class="maxwidth">
+		<div class="bd f16">
+			<div class="uk-navbar">
+				<div class="uk-navbar-left">
+					<div>
+						<a href="https://www.dominos.com.cn/" class="home" target="_blank">Online mall</a>
+					</div>
+				</div>
+				<div class="uk-navbar-center">
+					<ul class="menu uk-navbar-nav uk-flex uk-flex-wrap uk-flex-middle">
+						<li class=""><a href="/index/index.html"><span>Home</span></a></li>
+						<li class=""><a href="/news/companynews.html"><span>Newsroom</span></a>
+							<div uk-drop="offset: 0; pos:bottom-center">
+            					<ul>
+            						<li><a href="/news/finance.html">Financial News</a></li>
+            						<li><a href="/news/companynews.html">Company News</a></li>
+            						<li><a href="/news/media.html">Multi-media</a></li>
+            					</ul>
+							</div>
+						</li>
+						<li class=""><a href="/stock/index.html"><span>Stock Information</span></a></li>
+						<li class=""><a href="/announcement/index.html"><span>Information</span></a>
+                            <div uk-drop="offset: 0; pos:bottom-center" class="large">
+            					<ul>
+            						<li><a href="/announcement/index.html">Announcements & Notices</a></li>
+            						<li><a href="/report/index.html">Financial Reports</a></li>
+            						<li><a href="/report/esg.html">ESG Reports</a></li>
+            						<li><a href="/prospectus/index.html">Listing Documents</a></li>
+            						<li><a href="/article/notice.html">NOTICES (Dissemination of Corporate Communications)</a></li>
+            					</ul>
+            				</div>
+						</li>
+						<li class="logo"><a href="/index/index.html"><img src="/assets/ir/images/logo.png" /></a></li>
+						<li class=""><a href="/news/index.html"><span>Investor Resources</span></a>
+							<div uk-drop="offset: 0; pos:bottom-center">
+            					<ul>
+            						<li><a href="/news/index.html">Factsheet</a></li>
+            						<!--<li><a href="/news/presentation.html">Investor Presentation</a></li>-->
+            						<li><a href="/news/financialsummary.html">Financial Summary</a></li>
+            						<li><a href="/news/analyst.html">Analyst Coverage</a></li>
+									<li><a href="/news/faq.html">FAQ</a></li>
+									<li><a href="/news/help.html">Helpful Links</a></li>
+            					</ul>
+							</div>
+						</li>
+						<li class=""><a href="/calendar/index.html"><span>Investor Calendar</span></a></li>
+						<li class=""><a href="/governance/index.html"><span>Corporate Governance</span></a></li>
+						<li class=""><a href="/article/contact.html"><span>Contact Us</span></a></li>
+					</ul>
+				</div>
+				<div class="uk-navbar-right f14">
+					<div class="pc-menu"><a href="#offcanvas-push" uk-toggle><span uk-icon="icon: menu; ratio: 1.4"></span></a></div>
+					<div class="lang uk-flex uk-flex-middle">
+						<a href="?lang=zh-cn" class="">简</a>
+						<a href="?lang=zh-hk" class="">繁</a>
+						<a href="?lang=en" class="cur">EN</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="mheader uk-hidden@m">
+	<div class="uk-navbar">
+		<div class="mnav uk-navbar-left">
+			<button type="button" class="uk-button uk-button-default" uk-toggle="target: #offcanvas-push"><span uk-icon="icon: menu; ratio: 1.4"></span></button>
+		</div>
+		<div class="uk-logo"><a href="/"><img src="/assets/ir/images/logo.png" alt=""></a></div>
+		<!-- <div class="uk-navbar-right">
+			<div class="lang uk-flex uk-flex-right">
+				<div class="box f14"><span>English</span></div>
+				<div class="f14" uk-drop="offset:0">
+					<a href="?lang=zh-cn" class="">简体中文</a>
+					<a href="?lang=zh-hk" class="">繁体中文</a>
+					<a href="?lang=en" class="cur">English</a>
+				</div>
+			</div>
+		</div> -->
+	</div>
+</section>
+    <div class="inban" style="background-image:url(/assets/ir/images/ban_news.png)">
+	<h2 class="fb f40 text-white">Company News</h2>
+</div>
+<div class="tbody">
+    <div class="uk-container">
+        <div class="newsdetail">
+            <h1 class="uk-margin-remove mb40 uk-text-center f30 text-black" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: false; delay:0">DPC Dash – Domino’s Pizza China Strengthens Market Presence in Q3 2026 with Continued Store Expansion, Product Innovation and Improving Sales Momentum</h1>
+            <div class="infos f14 uk-text-center text-gray uk-margin-small-top uk-margin-bottom">
+                Date：2026-10-12            </div>
+            <div class="content f18" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: false; delay:200">
+                <p style="text-align: justify;">DPC Dash - Domino&#39;s Pizza China (&quot;DPC Dash&quot; or the &quot;Company&quot;, together with its subsidiaries, the &quot;Group&quot;) (1405.HK), Domino&#39;s Pizza&#39;s exclusive master franchisee in the Chinese Mainland, the Hong Kong Special Administrative Region of China, and the Macau Special Administrative Region of China, today published its <a href="https://www.dpcdash.com/uploads/2026/56baa491e78308e5e6724e53fbafcbe7.pdf" target="_blank" style="color: rgb(0, 112, 192); text-decoration: underline;"><span style="color: #0070C0;"><strong>Third Quarter 2026 Investor Fact Sheet</strong></span></a>.&nbsp;</p><p><br/></p><p style="text-align: justify;">During the third quarter, DPC Dash expanded its store network and broadened its product and marketing initiatives under its 4D strategy of Development, Delicious Pizza at Value, Delivery and Digital.</p><p><br/></p><p style="text-align: justify;">Under its “Go Deeper, Go Broader” strategy, the Company strengthened its presence in existing cities and extended its footprint into new markets. By September 30, 2026, DPC Dash operated 1,634 stores across 87 cities, including 908 stores in initial cities and 726 stores in new cities, representing a net addition of 84 stores and entry into 12 additional cities compared with the previous quarter. New cities continue to drive network expansion, accounting for approximately 44% of the total network.&nbsp;</p><p><br/></p><p style="text-align: justify;">Over the first nine months of 2026, the Company added 319 net new stores and entered 27 new cities.&nbsp;</p><p><br/></p><p style="text-align: justify;">As of September 30, DPC Dash had secured 100% of its full-year 2026 opening target of approximately 350 net new stores through stores already opened, under construction or signed, up from approximately 89% as of June 30.</p><p><br/></p><p style="text-align: justify;">In 3Q2026, DPC Dash achieved positive same-store transaction count growth (&quot;SSTG&quot;). Average transaction price (&quot;ATP&quot;) continued to stabilize and recorded a modest sequential uptick compared with 2Q2026, supported by a series of marketing initiatives, against the backdrop of the gradual rationalization of third-party aggregator platform (&quot;3PP&quot;) subsidies. Same-store sales growth (&quot;SSSG&quot;) remained negative, mainly because ATP was lower than in 3Q2025, despite healthy year-on-year transaction count growth and signs of gradual ATP recovery.</p><p><br/></p><p style="text-align: justify;">As the Company continued to roll out delivery services, delivery transactions accounted for 30% of total transaction volumes in New City Markets in 3Q2026, up from 25% in 1H2026. Third-party aggregator platforms remained an important channel as the Company further expanded its delivery business in these markets.</p><p><br/></p><p style="text-align: justify;">The continued expansion of the Company&#39;s loyalty program supported its digital strategy and customer engagement, building a resilient proprietary platform ecosystem. As of September 30, 2026, total loyalty program members reached 45.2 million, compared with 32.9 million as of September 30, 2025. Over the past 12 months, approximately 19.9 million new customers placed their first orders through both the Company&#39;s own channels and third-party channels.</p><p><br/></p><p style="text-align: justify;">On product innovation, DPC Dash introduced the Durian Roast Chicken Pizza, pairing generous portions of durian flesh with tender roast chicken to offer consumers a new taste experience.</p><p><br/></p><p style="text-align: justify;">On festive and seasonal marketing, DPC Dash re-hit its core product, the Salted Egg Yolk Flavored Chicken Pizza (金沙咸蛋黄嫩鸡比萨), with a limited-edition Star &amp; Moon design for the Mid-Autumn Festival. During Major Heat (大暑), a traditional Chinese calendar period associated with peak summer heat, the Company ran a tongue-in-cheek campaign (“大暑食薯”), spotlighting seasonal potato pizza flavors to address summer dining demand.</p><p><br/></p><p style="text-align: justify;">To strengthen its value proposition, DPC Dash headlined the quarter with a RMB79 six-piece set comprising two 9-inch pizzas plus multiple sides and drinks, delivering standout value for money. The quarter’s offers also included an affordable solo combo and the limited-time return of “Mega Week”, a buy-one-get-one-free promotion on Signature and Classic Flavor pizzas.</p><p><br/></p><p style="text-align: justify;">To build emotional connections and encourage playful engagement, DPC Dash promoted its buy-one-get-one-free offers through social media content including “Favorite Brands and Flavors – You Have it All (招牌美味全都要)”, “Second One On The House (你的第二个比萨，达美乐请)” and “Pizza Freedom (比萨自由)”. The “Finding Domino’s Red &amp; Blue” campaign invited customers to spot and share red-and-blue color pairings in everyday life, encouraging social media engagement and reinforcing Domino’s brand image.</p><p><br/></p><p style="text-align: justify;">Beyond its product and marketing initiatives, DPC Dash continued to receive recognition for its focus on quality and consumer trust. The Company was named to Southern Metropolis Daily’s 2026 Top100 High-Quality Consumer Brands (2026高品质消费品牌) list for the third consecutive year and was again named a Top10 High-Quality Consumer Brand (十大高品质消费品牌). DPC Dash also received Jiemian News’ 2026 Consumer Trust Award – Western Fast Food of the Year (2026安心奖-年度西式快餐).</p><p><br/></p><p style="text-align: justify;">For the full figures, please refer to DPC Dash&#39;s Third Quarter 2026 Investor Fact Sheet (&quot;Investor Fact Sheet&quot;) <a href="https://www.dpcdash.com/uploads/2026/56baa491e78308e5e6724e53fbafcbe7.pdf" target="_blank" style="color: rgb(0, 112, 192); text-decoration: underline;"><span style="color: #0070C0;"><strong>here</strong></span></a>.&nbsp;</p><p><br/></p><p style="text-align: justify;"><strong>About DPC Dash – Domino’s Pizza China</strong></p><p style="text-align: justify;">DPC Dash is Domino&#39;s Pizza&#39;s exclusive master franchisee in the Chinese Mainland, the Hong Kong Special Administrative Region of China and the Macau Special Administrative Region of China. Domino&#39;s Pizza, Inc., DPC Dash&#39;s global franchisor, is one of the most widely-recognized global consumer brands and the world&#39;s largest pizza company. Led by a seasoned and visionary management team, DPC Dash is a market leader that differentiates from competitors with, among others, a continually innovated and localized pizza-focused menu, unique expertise and leadership in delivery, technology focus and scalable and replicable store economic model. As of September 30, 2026, DPC Dash operated 1,634 stores in 87 cities in the Chinese Mainland.</p><p><br/></p><p style="text-align: justify;">For more information, please visit: www.dpcdash.com&nbsp;&nbsp;</p><p style="text-align: justify;">For official company announcements, please visit: www.hkexnews.hk&nbsp;</p><p><br/></p><p style="text-align: justify;"><strong>Contacts</strong></p><p style="text-align: justify;"><strong>Investor Relations:&nbsp;</strong></p><p style="text-align: justify;">DPC Dash Ltd&nbsp;</p><p style="text-align: justify;">IR@dominos.com.cn&nbsp;</p><p style="text-align: justify;">Christensen Advisory</p><p style="text-align: justify;">dpcdash@christensencomms.com</p><p><br/></p><p style="text-align: justify;"><strong>Media Relations:&nbsp;</strong></p><p style="text-align: justify;">Christensen Advisory&nbsp;</p><p style="text-align: justify;">dpcdash@christensencomms.com</p><p><br/></p>            </div>
+            <div class="p20"></div>
+            <div class="cother f14 uk-visible@m" uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: false; delay:0">
+                <ul>
+                    <li><a href="/news/detail/id/132.html"><span class="text-blue">Previous</span>&nbsp; DPC Dash – Domino's Pizza China Deepens Market Leadership with Continued Store Expansion and Improving Sales Momentum in Q2 2026</a></li>
+                    <li><a href="javascript:;"><span class="text-blue">Next</span>&nbsp; None</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+/*.en-body .inban h2{ line-height:20px; font-size:20px; }*/
+
+h1.f30{ margin-top:30px; padding-left:120px; padding-right:120px; line-height: 1.4; }
+.infos{  margin-bottom: 20px; border-bottom:1px dotted #ddd; padding-bottom: 15px; color:#a2a2a2; }
+
+.infos .tags{ margin:20px 0 -10px; }
+.infos .tags span,.infos .tags a{ margin-left:5px; background:#e2e2e2; color:#717171; }
+.infos .tags span:hover,.infos .tags a:hover{ margin-left:5px; background:var(--main-color); color:#fff; }
+
+.content{ line-height: 2; color:#444444; }
+.content img{ height: auto!important;}
+
+/*上下链接*/
+/*.cother{  }*/
+/*.cother ul{ }*/
+.cother ul li{ padding:12px 20px; border:1px solid #f5f5f5; position: relative; margin-bottom:15px; background:#f5f5f5; }
+.cother ul li a{color:#8a8a8a; white-space:nowrap;overflow:hidden;display:block;text-overflow:ellipsis; }
+.cother ul li a:hover{color:var(--main-color); }
+/*.cother ul li:last-child{ text-align: right;}*/
+.cother span{ display: inline-block; padding-left:15px; }
+.cother li:first-child span{ background: url(/assets/ir/images/icon_prev.png) left center no-repeat;}
+.cother li:last-child span{ background: url(/assets/ir/images/icon_next.png) left center no-repeat;}
+
+@media screen and (max-width: 960px) {
+    .en-body .inban h2{ width: 240px; }
+    .en-body .inban h2{ line-height:1.4; height:50px; width:300px; line-height:20px; padding:5px 0; }
+
+    .tbody h1.f30{ padding:0px; font-size:20px; }
+    .infos{ margin-bottom: 15px!important; padding-bottom:10px; }
+    .newsdetail .content{ font-size:16px; }    
+    
+    
+}
+</style>
+
+    <div class="footer uk-visible@m">
+	<div class="uk-container">
+		<div class="uk-flex uk-flex-between uk-flex-top">
+			<div class="fotlogo">
+				<a href="/"><img src="/assets/ir/images/logo_fot.png" /></a>
+			</div>
+			<div class="fotnav uk-flex f14">
+				<ul>
+					<li><a href="/news/companynews.html">Company News</a></li>
+					<li><a href="/stock/index.html">Stock Information</a></li>
+					<li><a href="/announcement/index.html">Information</a></li>
+				</ul>
+				<ul>
+					<li><a href="/news/index.html">Investor Resources</a></li>
+					<li><a href="/calendar/index.html">Investor Calendar</a></li>
+				</ul>
+				<ul>
+					<li><a href="/governance/index.html">Corporate Governance</a></li>
+					<li><a href="/article/contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="fotcat">
+				<div class="fottel line-height-10">
+					<span class="f30 text-white iconfont icon-dianhua"></span>
+					<span class="f30 text-white fs100">+86-21-53685888</span>
+				</div>
+				<div class="">
+					<ul class="icon-position-left f14">
+						<li><span class="text-white iconfont icon-mark"></span>Level 8, Block A 33 Caobao Road, Xuhui District, Shanghai, China</li>
+						<li><span class="text-white iconfont icon-email"></span>IR@dominos.com.cn</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright f14">
+		<div class="uk-container">
+			<div class="uk-flex uk-flex-between">
+				<div>2026 DPC Dash Ltd All Rights Reserved.</div>
+				<!--<div><a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备12007878号-4</a></div>-->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer uk-text-center uk-hidden@m">
+	<div class="fottel line-height-10">
+		<span class="f30 text-white iconfont icon-dianhua"></span>
+		<span class="f30 text-white">+86-21-53685888</span>
+	</div>
+	<div class="copyright f15">
+		<div class="uk-container">
+			<div>2026 DPC Dash Ltd All Rights Reserved.</div>
+			<div><a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备12007878号-4</a></div>
+		</div>
+	</div>
+</div>
+
+  </div>
+  <!--右下角菜单-->
+<div class="PathInner hotline uk-hidden@m" id="PathMenu">
+  <div class="PathMain">
+    <div class="Tmain" onclick="PathRun(); return false;">
+      <div class="animated-circles">
+        <div class="circle c-1"></div>
+        <div class="circle c-2"></div>
+        <div class="circle c-3"></div>
+      </div>
+      <div class="cur">Lang</div>
+    </div>
+  </div>
+  <div class="PathItem">
+    <a href="?lang=en">EN</a>
+  </div>
+  <div class="PathItem">
+    <a href="?lang=zh-hk">繁</a>
+  </div>
+  <div class="PathItem">
+    <a href="?lang=zh-cn">简</a>
+  </div>
+</div>
+
+
+
+
+<!--另外一个模式的做法，如果想语言按钮不显示言语，而是处于什么语言就显示什么名称例如处于繁体就像是繁而不是语言二字的办法就是把第十行的语言改为菜单语言，然后去ir-lang里面的添加翻译即可-->
+</body>
+
+</html>

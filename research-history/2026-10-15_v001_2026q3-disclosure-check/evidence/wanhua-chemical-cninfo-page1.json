@@ -1,0 +1,36 @@
+{
+  "classifiedAnnouncements": null,
+  "totalSecurities": 0,
+  "totalAnnouncement": 1,
+  "totalRecordNum": 1,
+  "announcements": [
+    {
+      "id": null,
+      "secCode": "600309",
+      "secName": "<em>万华化学</em>",
+      "orgId": "gssh0600309",
+      "announcementId": "1225597087",
+      "announcementTitle": "<em>万华化学</em>烟台产业园乙烯二期装置停产检修公告",
+      "announcementTime": 1791475200000,
+      "adjunctUrl": "finalpage/2026-10-09/1225597087.PDF",
+      "adjunctSize": 45,
+      "adjunctType": "PDF",
+      "storageTime": null,
+      "columnId": "250401||251302",
+      "pageColumn": "SHZB",
+      "announcementType": "01010503||010113||012305",
+      "associateAnnouncement": null,
+      "important": null,
+      "batchNum": null,
+      "announcementContent": "",
+      "orgName": null,
+      "tileSecName": "<em>万华化学</em>",
+      "shortTitle": "<em>万华化学</em>烟台产业园乙烯二期装置停产检修公告",
+      "announcementTypeName": null,
+      "secNameList": null
+    }
+  ],
+  "categoryList": null,
+  "hasMore": false,
+  "totalpages": 0
+}

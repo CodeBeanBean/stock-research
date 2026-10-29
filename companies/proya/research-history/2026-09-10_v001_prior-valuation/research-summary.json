@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "更新前已交付研究基线",
+  "security": "603605.SH",
+  "currency": "CNY",
+  "price": 60.3,
+  "bear": 48.52212040070096,
+  "base": 75.83639517637555,
+  "bull": 113.49674891994745,
+  "conclusion": "中性偏积极",
+  "method": "2027正常化归母P/E",
+  "valuation_horizon": "2027/正常化，见原报告",
+  "key_points": [
+    "原业务12.5/15/17.5亿元，加花知晓100%利润2.4/3.3/4亿元的51%，PE14/18/23；剔除4.45亿持股重估。"
+  ],
+  "key_assumptions": [
+    "原业务12.5/15/17.5亿元，加花知晓100%利润2.4/3.3/4亿元的51%，PE14/18/23；剔除4.45亿持股重估。"
+  ],
+  "risks": [
+    "原报告所列盈利持续性、现金质量及治理风险，按原价和原资料截止保留。"
+  ],
+  "next_checks": [
+    "下一次完整财报及资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原始报告及模型字节保留；不将10月29日新事实倒填旧版。",
+  "report_sha256": "a5851d9a561cd51d474766317dcc520dadddd2506d8acb2cfe9181a9502ecab0",
+  "prepared_at_utc": "2026-10-29T10:00:33.220008+00:00",
+  "price_date": "2026-09-09"
+}

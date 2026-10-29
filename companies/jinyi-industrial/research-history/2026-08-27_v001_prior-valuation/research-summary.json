@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "更新前已交付研究基线",
+  "security": "601002.SH",
+  "currency": "CNY",
+  "price": 5.24,
+  "bear": 3.535993406383765,
+  "base": 5.612003011553301,
+  "bull": 7.88850178459597,
+  "conclusion": "中性偏积极",
+  "method": "70%正常化P/E+30%P/B",
+  "valuation_horizon": "2027/正常化，见原报告",
+  "key_points": [
+    "利润2.5/3.2/4亿、PE13/17/20、PB.85/1.2/1.5；净资产含中期分红备考，库存和应付票据制约现金质量。"
+  ],
+  "key_assumptions": [
+    "利润2.5/3.2/4亿、PE13/17/20、PB.85/1.2/1.5；净资产含中期分红备考，库存和应付票据制约现金质量。"
+  ],
+  "risks": [
+    "原报告所列盈利持续性、现金质量及治理风险，按原价和原资料截止保留。"
+  ],
+  "next_checks": [
+    "下一次完整财报及资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原始报告及模型字节保留；不将10月29日新事实倒填旧版。",
+  "report_sha256": "09bce31e68434e7029f60d02c626f13bc7656c8638f5e9f77a71ec7b95af6c0f",
+  "prepared_at_utc": "2026-10-29T10:00:36.540155+00:00",
+  "price_date": "2026-08-27"
+}

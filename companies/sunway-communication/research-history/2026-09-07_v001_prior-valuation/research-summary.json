@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "更新前已交付研究基线",
+  "security": "300136.SZ",
+  "currency": "CNY",
+  "price": 56.18,
+  "bear": 15.1815613136806,
+  "base": 43.63801237791214,
+  "bull": 81.63331359857142,
+  "conclusion": "中性偏谨慎",
+  "method": "2028核心盈利P/E及募资稀释",
+  "valuation_horizon": "2028",
+  "key_points": [
+    "2028收入109.12/143.48/173.16亿元，净利率7/9.5/11%，PE25/35/45；60亿元定增未完成、MLCC收购待交割。"
+  ],
+  "key_assumptions": [
+    "2028收入109.12/143.48/173.16亿元，净利率7/9.5/11%，PE25/35/45；60亿元定增未完成、MLCC收购待交割。"
+  ],
+  "risks": [
+    "原报告所列盈利持续性、现金质量及治理风险，按原价和原资料截止保留。"
+  ],
+  "next_checks": [
+    "下一次完整财报及资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原始报告及模型字节保留；不将10月29日新事实倒填旧版。",
+  "report_sha256": "95fa251a11a8235e496f11af2a1f915234c53f493244a2a245fbb3ccb6d8eb1b",
+  "prepared_at_utc": "2026-10-29T10:00:33.868622+00:00",
+  "price_date": "2026-09-04"
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-12_v001_prior-valuation",
+  "version_number": 1,
+  "company": "lancy",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整Q3更新前已交付研究基线",
+  "reason": "覆盖当前报告及模型前保存真实前版",
+  "created_at_utc": "2026-10-29T10:00:32.165166+00:00",
+  "reported_research_date": "2026-10-12",
+  "source_cutoff": "2026-10-12",
+  "price_date": "2026-10-09",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\lancy",
+  "context_directory": "D:\\Research\\stock-research\\companies\\lancy",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "247a3d313f521bc3cba83277487dd8bcb6e606311e2e7237c2c3426b372e7fda",
+      "archive_sha256": "0e7d7d0d7973a2a0bd3a4b0170cc5285eb818760f3b7cf5a3ebe60b274cc2d39",
+      "bytes": 18771
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "648c115d2e300dc10334c75471d6bbb22dd1c5bb762f4704793b5bf3065bb068",
+      "archive_sha256": "648c115d2e300dc10334c75471d6bbb22dd1c5bb762f4704793b5bf3065bb068",
+      "bytes": 24635
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "0fe3edddc067864b23fff43056ac4c31d2b341e1fae55165c6a475d7b910ade8",
+      "archive_sha256": "2488532d68f64d6bee214c6e95af3d5e2a12f570ecfbebc5177f75c309c7e758",
+      "bytes": 1900
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "2ddbb3b09ca99b340d06b64453c788794a4611537489cdbac610aa5729ac4071",
+      "archive_sha256": "e5557cd2050507d57b37e21e00415a7fc6620525836e0729c7d0f75e2a83beb8",
+      "bytes": 7232
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "a5f6576c307ca41acb0ef74ac9de7f1aecc6a0a4e48d27ab5560fcc918a60188",
+      "archive_sha256": "a5f6576c307ca41acb0ef74ac9de7f1aecc6a0a4e48d27ab5560fcc918a60188",
+      "bytes": 1139
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "b66a5d819bb51404fe6f802f4f6c7fcbe3f6663dedeeae69b7d488b717b7011d",
+      "archive_sha256": "250b55eab394c02d3a372ffd83fa7527a85feab5a04a55f3ffd56582d6efafde",
+      "bytes": 1165
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025AR.pdf",
+      "sha256": "f5618f2dfb79e3af6e3adb9b4e12295262157471c59dd39b52cca0449cefeb73"
+    },
+    {
+      "path": "../../source-documents/20260901-IR.pdf",
+      "sha256": "fb4186a37d9a179094c602e458b3205d13913eef0530d06db99d0bd3f0a7c347"
+    },
+    {
+      "path": "../../source-documents/20260930-guarantee-official.html",
+      "sha256": "2aed245acc9fb8cf6b1fa8953e898eb0ee306d9d3574f8bf63f211f0c2c935ef"
+    },
+    {
+      "path": "../../source-documents/2026H1-guidance.pdf",
+      "sha256": "a846eab78f94c7f04cbb4382625309f56c286f5df5116baf6d1d95473cf44eed"
+    },
+    {
+      "path": "../../source-documents/2026H1.pdf",
+      "sha256": "6f64140f591a1e572ea82b2ee28110c3a54ea6089117ea0eefe1450ace7a2acd"
+    },
+    {
+      "path": "../../source-documents/2026Q1.pdf",
+      "sha256": "e7195bd3fbf1e5466692c5754f047b7913ad487f5a40ff78ab38caa2e425a54c"
+    },
+    {
+      "path": "../../source-documents/employee-plan.pdf",
+      "sha256": "7f99be4d63e52ae648765c9ecdc79e1dfc8bd621cec025748c7d6f42182324d9"
+    },
+    {
+      "path": "../../source-documents/employee-progress.pdf",
+      "sha256": "5b9a04f19fb561f8f5a6d6d651febb8bcfdab5b461900793e740a256e83c7188"
+    },
+    {
+      "path": "../../source-documents/hightech-cancel.pdf",
+      "sha256": "512417e392710613c716cff0bf9c3c14e3aae927c458f37cdc084e9ad6a4222f"
+    },
+    {
+      "path": "../../source-documents/market-snapshot.json",
+      "sha256": "5d32b756dc7b6b1c8d458fe640e32c3ee6471881a5547d31b354bb8ac2cd6ad3"
+    },
+    {
+      "path": "../../source-documents/shareholder-change.pdf",
+      "sha256": "9de90726e339a22f610fb0dfa0677a44b95d1ba6eb2457e992f3ea5d57af6e0f"
+    }
+  ],
+  "mutable_navigation_links": []
+}

@@ -1,0 +1,90 @@
+{
+  "cases": [
+    3.5389271730087724,
+    5.616144799729782,
+    7.893679019816572
+  ],
+  "upside": [
+    -0.2518124369960313,
+    0.1873456236215183,
+    0.668853915394624
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "checks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Operating Drivers",
+    "Assumptions",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P30",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:H36",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A36:H49",
+      "file": "Historical-36.png"
+    },
+    {
+      "sheet": "Operating Drivers",
+      "range": "A1:H39",
+      "file": "Operating-Drivers-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "A1:H27",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:I27",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:H17",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources Audit",
+      "range": "A1:H26",
+      "file": "Sources-Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 35,
+    "cost": 36,
+    "gross": 37,
+    "gm": 38,
+    "parent": 39,
+    "core": 40,
+    "nonrec": 41,
+    "cfo": 42,
+    "capex": 43,
+    "fcf": 44,
+    "equity": 45,
+    "assets": 46
+  },
+  "scale": 1000000000,
+  "price": 4.73
+}

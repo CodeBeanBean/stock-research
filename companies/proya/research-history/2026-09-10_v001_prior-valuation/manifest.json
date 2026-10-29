@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-10_v001_prior-valuation",
+  "version_number": 1,
+  "company": "proya",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整Q3更新前已交付研究基线",
+  "reason": "覆盖当前报告及模型前保存真实前版",
+  "created_at_utc": "2026-10-29T10:00:33.220008+00:00",
+  "reported_research_date": "2026-09-10",
+  "source_cutoff": "2026-09-10",
+  "price_date": "2026-09-09",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\proya",
+  "context_directory": "D:\\Research\\stock-research\\companies\\proya",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "a5851d9a561cd51d474766317dcc520dadddd2506d8acb2cfe9181a9502ecab0",
+      "archive_sha256": "a5851d9a561cd51d474766317dcc520dadddd2506d8acb2cfe9181a9502ecab0",
+      "bytes": 10416
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "546ab1b00e9e92a97e6a80d018e22227aaba2fc7aaf0581e5ad18a905afb77a2",
+      "archive_sha256": "546ab1b00e9e92a97e6a80d018e22227aaba2fc7aaf0581e5ad18a905afb77a2",
+      "bytes": 27761
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "0bbd425b982f2c105ed8fce261adbdfaa1c021fd825518e9001770e0dd1e8764",
+      "archive_sha256": "0bbd425b982f2c105ed8fce261adbdfaa1c021fd825518e9001770e0dd1e8764",
+      "bytes": 4837
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "c8fb4fa6539a062138324a106a85fb7b71d7f19b622ac7510ab4ad7bf39382fb",
+      "archive_sha256": "c8fb4fa6539a062138324a106a85fb7b71d7f19b622ac7510ab4ad7bf39382fb",
+      "bytes": 4783
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "d0e7d32e5f4c55b1c595e35e599eff1f603b02910b2eff2786c5b8fc099ad01c",
+      "archive_sha256": "d0e7d32e5f4c55b1c595e35e599eff1f603b02910b2eff2786c5b8fc099ad01c",
+      "bytes": 1556
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "fec62051ebda9218c80d56db4b0aff76fc5f52c8380c475e44b901bc61f6ff00",
+      "archive_sha256": "8a0866fe76a237e795e0784fadcbb1ebd4124ccea1d532d803a875a06a13e2e5",
+      "bytes": 1179
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

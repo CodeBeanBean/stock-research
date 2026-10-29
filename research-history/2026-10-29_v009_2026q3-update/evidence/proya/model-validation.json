@@ -1,0 +1,85 @@
+{
+  "cases": [
+    35.426374090004586,
+    61.040036520177274,
+    97.49450277528315
+  ],
+  "upside": [
+    -0.3474604146250767,
+    0.12433296224308843,
+    0.7958095924715998
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "checks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Brands & Channels",
+    "Cash & Acquisition",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P38",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:H43",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Brands & Channels",
+      "range": "A1:H31",
+      "file": "Brands---Channels-1.png"
+    },
+    {
+      "sheet": "Cash & Acquisition",
+      "range": "A1:H38",
+      "file": "Cash---Acquisition-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:H34",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:H17",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources Audit",
+      "range": "A1:H40",
+      "file": "Sources-Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 29,
+    "cost": 30,
+    "gross": 31,
+    "gm": 32,
+    "parent": 33,
+    "core": 34,
+    "nonrec": 35,
+    "cfo": 36,
+    "capex": 37,
+    "fcf": 38,
+    "equity": 39,
+    "assets": 40
+  },
+  "scale": 1000000,
+  "price": 54.29
+}

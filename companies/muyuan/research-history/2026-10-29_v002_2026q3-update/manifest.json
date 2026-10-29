@@ -1,0 +1,111 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-29_v002_2026q3-update",
+  "version_number": 2,
+  "company": "muyuan",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3及估值分析更新",
+  "reason": "新增正式季报，区分利润质量、现金、股本和估值假设变化",
+  "created_at_utc": "2026-10-29T10:18:55.688953+00:00",
+  "reported_research_date": "2026-10-29",
+  "source_cutoff": "2026-10-29 17:52:01—17:52:19北京时间；补充原件实际获取UTC见来源索引",
+  "price_date": "2026-10-29",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\muyuan",
+  "context_directory": "D:\\Research\\stock-research\\companies\\muyuan",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "6aec5420fc1c02f9a2b5cf2c1eb469b9333560b219ef4740b5feafaadb96bdb1",
+      "archive_sha256": "545c4e325bb026667155d25318c23e8f5a846e59407c4890b3b13faab4276d39",
+      "bytes": 19582
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "b07424611b8bc0ab86d50848a4df1b79b0304c7ead404770ff85ff829d7065aa",
+      "archive_sha256": "b07424611b8bc0ab86d50848a4df1b79b0304c7ead404770ff85ff829d7065aa",
+      "bytes": 33774
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "ad8d4b771c45ee46ad086023398f400f9f1e364e43e95019671a84d2ad32b207",
+      "archive_sha256": "c7bbbe124bf4359592a14885dee71bc7600df726075b3d41e4374c15f20cf05c",
+      "bytes": 8926
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "b497d0803c8cadb5d48d33a6bcee35a7a85183b48e5b0d246e3890e5ea1b29f8",
+      "archive_sha256": "e38e0f50732c9e5a953a92d9724528f9b1f5b8e6889ab270d35b85e3e23fea37",
+      "bytes": 7175
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "a1ffa22fc2725f713b54c8a2a0627376433d25d7d97fb6824f4b6821edf3b63c",
+      "archive_sha256": "a1ffa22fc2725f713b54c8a2a0627376433d25d7d97fb6824f4b6821edf3b63c",
+      "bytes": 2118
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "259efac10eda7b88e96150157ca643a4729f5893cf814cddf7bc6d1826eded77",
+      "archive_sha256": "b81ac9129a1380eaa409ca8f190a8c3a49b78f33c7dde28b49eee280c8ae76a3",
+      "bytes": 6254
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report-cn.pdf",
+      "sha256": "b26c4441b34feef43d1124e6372fb858c8455f6851b19f31504a10fdc6ba4de5"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report-en.pdf",
+      "sha256": "563cbee8250b273d7708935ea8361b3a3fe399e25b6415aea3b530ab3a6910d3"
+    },
+    {
+      "path": "../../source-documents/2026-07-sales-bulletin-en.pdf",
+      "sha256": "11bfd0a41a8867a58d50f908542b79f6fa05fee52f12a4301814ca0281232fc2"
+    },
+    {
+      "path": "../../source-documents/2026-interim-report-en.pdf",
+      "sha256": "ee208b50c0d033a17f8421eabc4080e275f5b86fb106ceca72f278f6205c7608"
+    },
+    {
+      "path": "../../source-documents/2026H1-investor-relations-cn.pdf",
+      "sha256": "23f41b0ad5939e45adbe613acf4320f1705e6d2979dc4c68e9677a6f666196d0"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225551030.pdf",
+      "sha256": "3015eb99fd0e34f43256a17c41367e1132722cc40a1699ccb629cac3e5224ac5"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225600460.pdf",
+      "sha256": "b798cd5f6e9fbceb2d9148ebbf4ac9df78251857642fb336c46848a44200c6dc"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225639870.pdf",
+      "sha256": "ba05a17c10c6b5729ff89efe9c6f55843067c9809ff30c9922ee99e8d5bfc28b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225639872.pdf",
+      "sha256": "465f1c7913ecfc201de88e8809ac59a52b8b7aa577377fb66a6c3c4a0d4b985c"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-12387779.pdf",
+      "sha256": "3e9aec55ea21dbd66868ca67f1a6aefe21e7a11044742327a71798c21ac69301"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-market.json",
+      "sha256": "157408a7a44b3a7fd4aba762f0c95d13b2b9412562855ac23d5df0b47e82be07"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-model-validation.json",
+      "sha256": "baa9db31c9797326c1224b7addee9f812e3553175f99a10d7f2893ec9f30d163"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

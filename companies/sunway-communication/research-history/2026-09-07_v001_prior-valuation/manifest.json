@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-07_v001_prior-valuation",
+  "version_number": 1,
+  "company": "sunway-communication",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整Q3更新前已交付研究基线",
+  "reason": "覆盖当前报告及模型前保存真实前版",
+  "created_at_utc": "2026-10-29T10:00:33.868622+00:00",
+  "reported_research_date": "2026-09-07",
+  "source_cutoff": "2026-09-07",
+  "price_date": "2026-09-04",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\sunway-communication",
+  "context_directory": "D:\\Research\\stock-research\\companies\\sunway-communication",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "95fa251a11a8235e496f11af2a1f915234c53f493244a2a245fbb3ccb6d8eb1b",
+      "archive_sha256": "95fa251a11a8235e496f11af2a1f915234c53f493244a2a245fbb3ccb6d8eb1b",
+      "bytes": 9437
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "5380d96a355dbce10c030c2cbfa106ba8564fb85e3856f4a15420f1058523caa",
+      "archive_sha256": "5380d96a355dbce10c030c2cbfa106ba8564fb85e3856f4a15420f1058523caa",
+      "bytes": 29862
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "fd32d8d46a33a01bd217b1a4318f1a35b93cd9be4b894c29c92647d89d4ee65f",
+      "archive_sha256": "fd32d8d46a33a01bd217b1a4318f1a35b93cd9be4b894c29c92647d89d4ee65f",
+      "bytes": 3976
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "cce63e27dc528ba765ecb3a08d49eca11f81a904e116d04134da9aa212e0fa0d",
+      "archive_sha256": "8c1e863eb7781b1047d5a3b03f671932be6d9d7d1bfbbb91c3c83dbd72598963",
+      "bytes": 3831
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "a819854e98752425a18892d8c29771eeed39c47f794e12bda5ba4d86332e7d56",
+      "archive_sha256": "a819854e98752425a18892d8c29771eeed39c47f794e12bda5ba4d86332e7d56",
+      "bytes": 1159
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "16ce47fa79f695fc588621d7ea11a60c594dc8f57c42e55615a4e774a4122ef5",
+      "archive_sha256": "fcdacedf8818feab69c4c91885cdccc62e08fe0b8c59b850a3e3effcffa74dc6",
+      "bytes": 1173
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "d28497b2a8ffafde2c986e534f64f91cc195499f5b82b9fa598839bffa2ac3b4"
+    },
+    {
+      "path": "../../source-documents/2026-H1-report.pdf",
+      "sha256": "b29134c7468a1d56afc8f2922cfae2280483069f9b09dce2bf63d5d67d2e3122"
+    },
+    {
+      "path": "../../source-documents/2026-MLCC-acquisition.pdf",
+      "sha256": "56d8ee796afe2a62021d5f93aab4425d849b401639563bb5bd3c92c7b53137cb"
+    },
+    {
+      "path": "../../source-documents/2026-placement-registration-approval.pdf",
+      "sha256": "5477554d72108b28d6d8ff64adf4d76f45696ea33313bdf0be9b1d6e5087b102"
+    },
+    {
+      "path": "../../source-documents/2026-private-placement-plan.pdf",
+      "sha256": "d96916a806178731132adc02b1aa8bd930c2547f52e93c4e98d2ee534f6d412b"
+    }
+  ],
+  "mutable_navigation_links": []
+}

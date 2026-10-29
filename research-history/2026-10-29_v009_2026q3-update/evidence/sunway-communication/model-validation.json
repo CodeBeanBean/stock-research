@@ -1,0 +1,103 @@
+{
+  "cases": [
+    12.393118868963782,
+    34.352788628315025,
+    69.46760854995212
+  ],
+  "upside": [
+    -0.7388173051851679,
+    -0.27602131447175926,
+    0.4640170400411405
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "checks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Operations",
+    "Balance & Cash",
+    "Capital Program",
+    "Assumptions",
+    "Forecast",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P35",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:H39",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Operations",
+      "range": "A1:H18",
+      "file": "Operations-1.png"
+    },
+    {
+      "sheet": "Balance & Cash",
+      "range": "A1:H28",
+      "file": "Balance---Cash-1.png"
+    },
+    {
+      "sheet": "Capital Program",
+      "range": "A1:H26",
+      "file": "Capital-Program-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "A1:H21",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Forecast",
+      "range": "A1:J20",
+      "file": "Forecast-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:H27",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:H16",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources Audit",
+      "range": "A1:H24",
+      "file": "Sources-Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 25,
+    "cost": 26,
+    "gross": 27,
+    "gm": 28,
+    "parent": 29,
+    "core": 30,
+    "nonrec": 31,
+    "cfo": 32,
+    "capex": 33,
+    "fcf": 34,
+    "equity": 35,
+    "assets": 36
+  },
+  "scale": 1000000,
+  "price": 47.45
+}

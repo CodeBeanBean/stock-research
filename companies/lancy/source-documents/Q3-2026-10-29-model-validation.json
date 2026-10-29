@@ -1,0 +1,87 @@
+{
+  "cases": [
+    7.910581051954718,
+    17.17726171281596,
+    30.557444520693654
+  ],
+  "upside": [
+    -0.5495113296153349,
+    -0.02179603002187014,
+    0.7401733781716204
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "selector": true,
+    "unselectedBlank": true,
+    "selectedBlank": true,
+    "zero": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Valuation",
+    "Assumptions",
+    "Financials",
+    "Balance Cash",
+    "Sources Checks"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "C1:P33",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "C1:H36",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "C1:I32",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Financials",
+      "range": "C1:I36",
+      "file": "Financials-1.png"
+    },
+    {
+      "sheet": "Financials",
+      "range": "C36:I57",
+      "file": "Financials-36.png"
+    },
+    {
+      "sheet": "Balance Cash",
+      "range": "C1:H41",
+      "file": "Balance-Cash-1.png"
+    },
+    {
+      "sheet": "Sources Checks",
+      "range": "C1:I36",
+      "file": "Sources-Checks-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 43,
+    "cost": 44,
+    "gross": 45,
+    "gm": 46,
+    "parent": 47,
+    "core": 48,
+    "nonrec": 49,
+    "cfo": 50,
+    "capex": 51,
+    "fcf": 52,
+    "equity": 53,
+    "assets": 54
+  },
+  "scale": 1000000,
+  "price": 17.56
+}

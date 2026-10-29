@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "更新前已交付研究基线",
+  "security": "002612.SZ",
+  "currency": "CNY",
+  "price": 17.28,
+  "bear": 7.910581051954718,
+  "base": 17.17726171281596,
+  "bull": 30.557444520693654,
+  "conclusion": "中性观察",
+  "method": "2027正常化归母P/E",
+  "valuation_horizon": "2027/正常化，见原报告",
+  "key_points": [
+    "利润2.5/3.8/5.2亿元，PE14/20/26；H1扣非1.84亿元，税务、商誉、租赁后现金是主要约束。"
+  ],
+  "key_assumptions": [
+    "利润2.5/3.8/5.2亿元，PE14/20/26；H1扣非1.84亿元，税务、商誉、租赁后现金是主要约束。"
+  ],
+  "risks": [
+    "原报告所列盈利持续性、现金质量及治理风险，按原价和原资料截止保留。"
+  ],
+  "next_checks": [
+    "下一次完整财报及资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原始报告及模型字节保留；不将10月29日新事实倒填旧版。",
+  "report_sha256": "0e7d7d0d7973a2a0bd3a4b0170cc5285eb818760f3b7cf5a3ebe60b274cc2d39",
+  "prepared_at_utc": "2026-10-29T10:00:32.165166+00:00",
+  "price_date": "2026-10-09"
+}

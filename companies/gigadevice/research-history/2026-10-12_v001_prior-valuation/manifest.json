@@ -1,0 +1,108 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-12_v001_prior-valuation",
+  "version_number": 1,
+  "company": "gigadevice",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整Q3更新前已交付研究基线",
+  "reason": "覆盖当前报告及模型前保存真实前版",
+  "created_at_utc": "2026-10-29T10:00:35.446625+00:00",
+  "reported_research_date": "2026-10-12",
+  "source_cutoff": "2026-10-12",
+  "price_date": "2026-10-09",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\gigadevice",
+  "context_directory": "D:\\Research\\stock-research\\companies\\gigadevice",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "7d5a2226d5eaa4e71fe01051bc24ed193181b0df7a8755581c7e80987f5ba8ab",
+      "archive_sha256": "40d7070575e3212b851ad02cce9350d5849718111f4a6f8a4dba545a3462227b",
+      "bytes": 22032
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "fdc9e95e895545e72a4f03f3f22d844a4191e04a578477e50444ec2a68d6fe22",
+      "archive_sha256": "fdc9e95e895545e72a4f03f3f22d844a4191e04a578477e50444ec2a68d6fe22",
+      "bytes": 30806
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "0548bf714a8ff7d2de0318782cd3f686841243a5d52cc07220e5fd54a5525636",
+      "archive_sha256": "35d16d8807966a0696a059e7f7dcb4a5a218689d6a0432457ebf6f1c6cc427d3",
+      "bytes": 9824
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "621cc57903de0b8c37ad73bbeb969322c0e4d84d652a48ee68564e70a8fa0242",
+      "archive_sha256": "f8efb301b43a67ede35eda8ec5c83ea6429846939d853e73116f8bd8d868ef20",
+      "bytes": 9090
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "ae2c76e212740216036a827364326a362b0f5b9edcf0e3cbee8d219afb4edb92",
+      "archive_sha256": "ae2c76e212740216036a827364326a362b0f5b9edcf0e3cbee8d219afb4edb92",
+      "bytes": 2782
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "a6e5aa9d8f23ce4b36a9a34774efa30838604435d6114eb2726bd206ce8066f1",
+      "archive_sha256": "ddf073590bf179ed2ab5279bf0d67e12848dec05110e0240d0092c9b1f713a34",
+      "bytes": 1232
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report.pdf",
+      "sha256": "9653e260a55f639a8ff31ebcf3b2e3bac8116528adcec6c7b50adc739572e353"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "653c636397dca983bbf653157e6d931ce09895f0f81e162ea8b2d4367577527e"
+    },
+    {
+      "path": "../../source-documents/2026-09-01-price-snapshot.txt",
+      "sha256": "5af298bf21c05bef53dc78fb1965dac5ba132070246d95d2df12ab62b55b6028"
+    },
+    {
+      "path": "../../source-documents/2026-09-29-hshare-awards.pdf",
+      "sha256": "34eb4ccca185d8f802fc90f4fa510e8e3767fea3a0a419c183a8e4d573615073"
+    },
+    {
+      "path": "../../source-documents/2026-09-29-related-procurement.pdf",
+      "sha256": "e43b9c811af0576012b80eaa4704e9bd55b3cc61b0f5bad298aee953bd47d38e"
+    },
+    {
+      "path": "../../source-documents/2026-09-29-share-capital.pdf",
+      "sha256": "dc7bea962d1c5c0853dd0d609514634c8f35d584bd18988c23d5307dc73cb2eb"
+    },
+    {
+      "path": "../../source-documents/2026-10-08-next-day-return.pdf",
+      "sha256": "7c8d03223b7c28d60c35ac3ca8f7d36a3b1c247c8a5f55101ab175045b1a011a"
+    },
+    {
+      "path": "../../source-documents/2026-10-09-buyback-progress.pdf",
+      "sha256": "20d83fe9c702e57d0ef7729dd013c6575c7d731fc2a36440326351bd0ebcc6a4"
+    },
+    {
+      "path": "../../source-documents/2026-10-09-market-snapshot.json",
+      "sha256": "071ef84d6ac9f68e2fc84c1be90ea55e54663af2f6ebfe612888e591a5ce9eb4"
+    },
+    {
+      "path": "../../source-documents/2026-buyback-plan.pdf",
+      "sha256": "f83771148f63f71fc99da93a92977f05f8efbd12fd018eea73cfacd57c15eeef"
+    },
+    {
+      "path": "../../source-documents/2026-h1-report.pdf",
+      "sha256": "8d559a90a9ddc41e667f630afb620004549d31d43de06f9ddb0ab4c2dc84f25f"
+    },
+    {
+      "path": "../../source-documents/2026-q1-report.pdf",
+      "sha256": "14130f990dadd48e1dd73e4694a79d08637f65584cf461750edbd7347fba3a6a"
+    }
+  ],
+  "mutable_navigation_links": []
+}

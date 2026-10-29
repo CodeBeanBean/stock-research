@@ -1,0 +1,155 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-29_v002_2026q3-update",
+  "version_number": 2,
+  "company": "gigadevice",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3及估值分析更新",
+  "reason": "新增正式季报，区分利润质量、现金、股本和估值假设变化",
+  "created_at_utc": "2026-10-29T10:18:56.465403+00:00",
+  "reported_research_date": "2026-10-29",
+  "source_cutoff": "2026-10-29 17:52:01—17:52:19北京时间；补充原件实际获取UTC见来源索引",
+  "price_date": "2026-10-29",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\gigadevice",
+  "context_directory": "D:\\Research\\stock-research\\companies\\gigadevice",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "da1a618f24a62f71195bf7f85c5fc93d81106989e25db372445fe42e44ed0cfb",
+      "archive_sha256": "7506892db8fee7eacda3970069648eb363c8f9c697407e48880f230b9526ab96",
+      "bytes": 29360
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "a0cd68f0ef72c9b9d9e978ec657020f587eb4c74ff5a7f310836a8a3b4ea44b5",
+      "archive_sha256": "a0cd68f0ef72c9b9d9e978ec657020f587eb4c74ff5a7f310836a8a3b4ea44b5",
+      "bytes": 32767
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "602d53906fc07470c6cb1eb8a51748cd84b8497db4d5cb842c1bc31035c9bd12",
+      "archive_sha256": "a70f11f40fdbadca3c55aef7d813bfe4f428d9f922f9cf81211b29115307d612",
+      "bytes": 10666
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "07ae3e2987b743fbae96ffbe2c89cab16087c3fa0d04727e5f18bb38fdc4601e",
+      "archive_sha256": "9f5369a479ef81813fda3534eb3d204773f74ad1caa97c7e46f2f4f15ee7d8c7",
+      "bytes": 13281
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "8297c43ad40ed874c1d7f4bf9b73f2f2099e394ad5e52d9c8a0115984e6880a5",
+      "archive_sha256": "8297c43ad40ed874c1d7f4bf9b73f2f2099e394ad5e52d9c8a0115984e6880a5",
+      "bytes": 4055
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "91e9b4a1c8b4bd285082341fd5c1edc06d90e5f69af88790d88629ae9980cc98",
+      "archive_sha256": "7acc1a3a1e153253e81f02c45eab7b4e769f5883d2d80844e9fd29ef3ecdf7ec",
+      "bytes": 6611
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report.pdf",
+      "sha256": "9653e260a55f639a8ff31ebcf3b2e3bac8116528adcec6c7b50adc739572e353"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "653c636397dca983bbf653157e6d931ce09895f0f81e162ea8b2d4367577527e"
+    },
+    {
+      "path": "../../source-documents/2026-09-01-price-snapshot.txt",
+      "sha256": "5af298bf21c05bef53dc78fb1965dac5ba132070246d95d2df12ab62b55b6028"
+    },
+    {
+      "path": "../../source-documents/2026-09-29-hshare-awards.pdf",
+      "sha256": "34eb4ccca185d8f802fc90f4fa510e8e3767fea3a0a419c183a8e4d573615073"
+    },
+    {
+      "path": "../../source-documents/2026-09-29-related-procurement.pdf",
+      "sha256": "e43b9c811af0576012b80eaa4704e9bd55b3cc61b0f5bad298aee953bd47d38e"
+    },
+    {
+      "path": "../../source-documents/2026-09-29-share-capital.pdf",
+      "sha256": "dc7bea962d1c5c0853dd0d609514634c8f35d584bd18988c23d5307dc73cb2eb"
+    },
+    {
+      "path": "../../source-documents/2026-10-08-next-day-return.pdf",
+      "sha256": "7c8d03223b7c28d60c35ac3ca8f7d36a3b1c247c8a5f55101ab175045b1a011a"
+    },
+    {
+      "path": "../../source-documents/2026-10-09-buyback-progress.pdf",
+      "sha256": "20d83fe9c702e57d0ef7729dd013c6575c7d731fc2a36440326351bd0ebcc6a4"
+    },
+    {
+      "path": "../../source-documents/2026-10-09-market-snapshot.json",
+      "sha256": "071ef84d6ac9f68e2fc84c1be90ea55e54663af2f6ebfe612888e591a5ce9eb4"
+    },
+    {
+      "path": "../../source-documents/2026-buyback-plan.pdf",
+      "sha256": "f83771148f63f71fc99da93a92977f05f8efbd12fd018eea73cfacd57c15eeef"
+    },
+    {
+      "path": "../../source-documents/2026-h1-report.pdf",
+      "sha256": "8d559a90a9ddc41e667f630afb620004549d31d43de06f9ddb0ab4c2dc84f25f"
+    },
+    {
+      "path": "../../source-documents/2026-q1-report.pdf",
+      "sha256": "14130f990dadd48e1dd73e4694a79d08637f65584cf461750edbd7347fba3a6a"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225601328.pdf",
+      "sha256": "10442bc387a970e14a207bec3bb5de5b95edb01a0e79baa0e156e9b8ed9688ab"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225612916.pdf",
+      "sha256": "f9f5ca9deb1fb0cf66a734669f2b3667ad1eee5706d5a084ffe000db1264787a"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225630578.pdf",
+      "sha256": "8d4ff3e8a59b2fdef1f083a4323e9b0503d97945945a1a6fe86adf3db51d1d56"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225641672.pdf",
+      "sha256": "8bdc4c7069e8bdfddbf0099a7dafa95d4efafb21c4f554a429baa40561538424"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225641959.pdf",
+      "sha256": "824073962afb82db90b9175f08c26c4c248770bd8c87be1b624db5e36241660a"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225641976.pdf",
+      "sha256": "3212baa49c1803376c5d4ac255c22116dcb39341f018ae4b138d3f090020e67b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-12387375.pdf",
+      "sha256": "8bdc4c7069e8bdfddbf0099a7dafa95d4efafb21c4f554a429baa40561538424"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-12387677.pdf",
+      "sha256": "7b7d7e341603f43eb75aa64dfc703c8c1efc6f0b60bb82a94e65d9a59b0a7da4"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-12387703.pdf",
+      "sha256": "36bd35d0241bfd4ef2ac96dad0f9d26d723e9f16305c2854005ca14e8c2cd5c8"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-market.json",
+      "sha256": "dc4a2d799bbda6bbb6e821b1f2f2555e18db6bafe32e836a2eb735c422414900"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-model-validation.json",
+      "sha256": "0a09ed6a42b11ac4aeb30655b1764aa155c6d3d5f568dd40f4ead0b87b06771f"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "scope": "library",
+  "version": 10,
+  "run_id": "2026-10-29_v010_2026q3-final",
+  "research_date": "2026-10-29",
+  "sealed_at_utc": "2026-10-29T10:23:29.262692+00:00",
+  "source_cutoff": {
+    "min_utc": "2026-10-29T09:52:01.860840+00:00",
+    "max_utc": "2026-10-29T09:52:19.762746+00:00",
+    "local_range": "2026-10-29 17:52:01—17:52:19北京时间",
+    "query_window": "2026-10-28~2026-10-30",
+    "note": "部分公告落款30日，但实际29日查询可见且原件已公开下载；不以名义日期推定获取在未来"
+  },
+  "kind": "research",
+  "label": "同轮最终稿：仅信维模型审批备注修订",
+  "company_archives": {
+    "gehua-cable": "../../companies/gehua-cable/research-history/2026-10-29_v002_2026q3-update",
+    "lancy": "../../companies/lancy/research-history/2026-10-29_v002_2026q3-update",
+    "proya": "../../companies/proya/research-history/2026-10-29_v002_2026q3-update",
+    "sunway-communication": "../../companies/sunway-communication/research-history/2026-10-29_v003_model-caption-correction",
+    "muyuan": "../../companies/muyuan/research-history/2026-10-29_v002_2026q3-update",
+    "gigadevice": "../../companies/gigadevice/research-history/2026-10-29_v002_2026q3-update",
+    "jinyi-industrial": "../../companies/jinyi-industrial/research-history/2026-10-29_v002_2026q3-update"
+  },
+  "shared_archives_sha256": {
+    "../2026-10-29_v009_2026q3-update/manifest.json": "d06620ffd0ca846275e8628628e228ce3c8fdc49605694570ebc8f0743cc8e6b"
+  },
+  "files_sha256": {
+    "research-report.md": "08e208f3da78f825a11de9c9ea76c3a7e83b2157ff52eab91fae90a7493f31ad",
+    "research-summary.json": "df33278097c74800b043b2f7af21a72437da40a6eeee1aa4d03cdd9084c124ab"
+  }
+}

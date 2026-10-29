@@ -1,6 +1,8 @@
 # Stock Research 项目长期上下文与会话交接
 
-**最后更新：** 2026-10-15
+**三季报更新（2026-10-29晚）：** 39家、46条官方查询新增7家完整Q3：歌华、朗姿、珀莱雅、信维、牧原、兆易、晋亿。完整Q3累计17家；珀莱雅/信维/牧原下调盈利假设，兆易提高正常化利润及折价投资价值，其余审慎更新。7家价格为10月29日收盘，其余32家保留原截面。[核查与分析](quarterly-disclosure-review.md) · [永久历史](research-history/index.md)。
+
+**最后更新：** 2026-10-29
 **工作区：** `D:\Research`  
 **研究库：** `D:\Research\stock-research`  
 **当前状态：** 36 家上市公司已建立档案；赣锋锂业为最新增量更新公司，赛轮轮胎为最新新增公司
@@ -59,7 +61,7 @@ D:\Research\
 | 赛轮轮胎 | 601058.SH | 12.63 元（2026-10-13，已除息） | 8.21 元 | 15.36 元 | 23.72 元 | 中性偏积极 | 2026-10-14 | [报告](companies/sailun/research-report.md) |
 | 蜜雪集团 | 02097.HK | 171.90 港元（2026-10-09，已除息） | 114.58 港元 | 199.99 港元 | 332.12 港元 | 中性观察 | 2026-10-12 | [报告](companies/mixue/research-report.md) |
 | 分众传媒 | 002027.SZ | 4.91 元（2026-10-09） | 3.86 元 | 6.14 元 | 9.16 元 | 谨慎积极 | 2026-10-12 | [报告](companies/focus-media/research-report.md) |
-| 朗姿股份 | 002612.SZ | 17.28 元（2026-10-09） | 7.91 元 | 17.18 元 | 30.56 元 | 中性观察 | 2026-10-12 | [报告](companies/lancy/research-report.md) |
+| 朗姿股份 | 002612.SZ | 17.56 元（2026-10-29收盘） | 7.91 元 | 17.18 元 | 30.56 元 | 中性观察 | 2026-10-29晚 | [报告](companies/lancy/research-report.md) |
 | 春秋航空 | 601021.SH | 41.94 元（除息前） | 21.36 元 | 49.59 元 | 74.44 元 | 中性偏积极 | 2026-09-24 | [报告](companies/spring-airlines/research-report.md) |
 | 美的集团 | 000333.SZ / 00300.HK | 84.40 元（A 股） | 57.52 元 | 105.36 元 | 153.99 元 | 谨慎积极 | 2026-09-21 | [报告](companies/midea-group/research-report.md) |
 | 宁德时代 | 300750.SZ / 03750.HK | 337.11 元（A 股） | 254.43 元 | 493.21 元 | 792.98 元 | 中性偏积极 | 2026-09-15 | [报告](companies/catl/research-report.md) |
@@ -68,23 +70,23 @@ D:\Research\
 | 万华化学 | 600309.SH | 77.15 元（含息） | 51.99 元 | 95.46 元 | 148.51 元 | 中性偏积极 | 2026-09-11 | [报告](companies/wanhua-chemical/research-report.md) |
 | 伊利股份 | 600887.SH | 26.54 元 | 21.58 元 | 33.59 元 | 46.48 元 | 中性偏积极 | 2026-09-11 | [报告](companies/yili/research-report.md) |
 | 恒隆地产 | 00101.HK | 6.93 港元 | 4.84 港元 | 7.80 港元 | 11.63 港元 | 中性观察 | 2026-09-11 | [报告](companies/hang-lung-properties/research-report.md) |
-| 珀莱雅 | 603605.SH | 60.30 元 | 48.52 元 | 75.84 元 | 113.50 元 | 中性偏积极 | 2026-09-10 | [报告](companies/proya/research-report.md) |
+| 珀莱雅 | 603605.SH | 54.29 元（2026-10-29收盘） | 35.43 元 | 61.04 元 | 97.49 元 | 中性观察 | 2026-10-29晚 | [报告](companies/proya/research-report.md) |
 | 宝钢股份 | 600019.SH | 5.75 元 | 3.59 元 | 6.21 元 | 9.55 元 | 中性观察 | 2026-09-08 | [报告](companies/baosteel/research-report.md) |
 | 威高股份 | 01066.HK | 3.23 港元 | 2.40 港元 | 4.89 港元 | 7.55 港元 | 谨慎积极 | 2026-09-08 | [报告](companies/weigao-group/research-report.md) |
 | 梦百合 | 603313.SH | 6.43 元 | 1.98 元 | 5.39 元 | 9.83 元 | 中性偏谨慎 | 2026-09-07 | [报告](companies/mlily/research-report.md) |
 | 福寿园 | 01448.HK | 2.64 港元（停牌前） | 0.76 港元 | 1.31 港元 | 1.85 港元 | 回避 | 2026-09-07 | [报告](companies/fu-shou-yuan/research-report.md) |
-| 信维通信 | 300136.SZ | 56.18 元 | 15.18 元 | 43.64 元 | 81.63 元 | 中性偏谨慎 | 2026-09-07 | [报告](companies/sunway-communication/research-report.md) |
+| 信维通信 | 300136.SZ | 47.45 元（2026-10-29收盘） | 12.39 元 | 34.35 元 | 69.47 元 | 谨慎观察 | 2026-10-29晚 | [报告](companies/sunway-communication/research-report.md) |
 | 达势股份 | 01405.HK | 30.50 港元 | 17.19 港元 | 40.67 港元 | 67.57 港元 | 中性偏积极 | 2026-09-07 | [报告](companies/dpc-dash/research-report.md) |
 | 保利物业 | 06049.HK | 28.76 港元 | 18.81 港元 | 36.73 港元 | 57.89 港元 | 谨慎积极 | 2026-09-06 | [报告](companies/poly-property-services/research-report.md) |
 | 中海物业 | 02669.HK | 3.575 港元 | 2.52 港元 | 4.33 港元 | 6.21 港元 | 中性观察 | 2026-09-06 | [报告](companies/china-overseas-property/research-report.md) |
 | 天齐锂业 | 002466.SZ / 09696.HK | 45.35 元 | 23.18 元 | 48.97 元 | 76.00 元 | 中性观察 | 2026-09-05 | [报告](companies/tianqi-lithium/research-report.md) |
 | 赣锋锂业 | 002460.SZ / 01772.HK | 40.01 元（2026-10-15，A股） | 16.38 元 | 38.12 元 | 63.75 元 | 中性观察 | 2026-10-15晚间 | [报告](companies/ganfeng-lithium/research-report.md) |
 | 云铝股份 | 000807.SZ | 26.95 元 | 13.13 元 | 24.10 元 | 39.06 元 | 中性观察 | 2026-09-05 | [报告](companies/yunnan-aluminum/research-report.md) |
-| 牧原股份 | 002714.SZ / 02714.HK | 43.97 元 | 18.22 元 | 48.71 元 | 81.26 元 | 中性观察 | 2026-09-05 | [报告](companies/muyuan/research-report.md) |
+| 牧原股份 | 002714.SZ / 02714.HK | 41.15 元（2026-10-29收盘） | 11.57 元 | 38.49 元 | 78.09 元 | 中性偏谨慎 | 2026-10-29晚 | [报告](companies/muyuan/research-report.md) |
 | 宝丰能源 | 600989.SH | 24.37 元 | 19.50 元 | 29.55 元 | 41.41 元 | 谨慎积极 | 2026-09-02 | [报告](companies/baofeng-energy/research-report.md) |
-| 兆易创新 | 603986.SH / 03986.HK | 326.46 元（2026-10-09，A股） | 201.29 元 | 381.31 元 | 642.13 元 | 中性偏积极 | 2026-10-12 | [报告](companies/gigadevice/research-report.md) |
+| 兆易创新 | 603986.SH / 03986.HK | 275.99 元（2026-10-29收盘） | 275.00 元 | 510.31 元 | 840.59 元 | 中性偏积极 | 2026-10-29晚 | [报告](companies/gigadevice/research-report.md) |
 | 阳光电源 | 300274.SZ | 91.50 元 | 61.24 元 | 100.60 元 | 144.35 元 | 中性偏积极 | 2026-09-01 | [报告](companies/sungrow/research-report.md) |
-| 晋亿实业 | 601002.SH | 5.24 元 | 3.54 元 | 5.61 元 | 7.89 元 | 中性偏积极 | 2026-08-27 | [报告](companies/jinyi-industrial/research-report.md) |
+| 晋亿实业 | 601002.SH | 4.73 元（2026-10-29收盘） | 3.54 元 | 5.62 元 | 7.89 元 | 中性偏积极 | 2026-10-29晚 | [报告](companies/jinyi-industrial/research-report.md) |
 | 百联股份 | 600827.SH | 7.78 元 | 4.59 元 | 7.35 元 | 10.10 元 | 中性 | 2026-08-29 | [报告](companies/bailian/research-report.md) |
 | 宋城演艺 | 300144.SZ | 5.97 元 | 3.42 元 | 5.36 元 | 7.74 元 | 中性偏谨慎 | 2026-08-24 | [报告](companies/songcheng-performance/research-report.md) |
 | 腾讯控股 | 0700.HK | 461.60 港元 | 478 港元 | 629 港元 | 771 港元 | 估值吸引力中等偏高 | 2026-08-12 | [报告](companies/tencent/research-report.md) |
@@ -92,6 +94,7 @@ D:\Research\
 | 海吉亚医疗 | 06078.HK | 10.58 港元 | 8.69 港元 | 13.57 港元 | 17.83 港元 | 谨慎积极 | 2026-08-30 | [报告](companies/hygeia-healthcare/research-report.md) |
 | 海底捞 | 06862.HK | 11.41 港元 | 8.32 港元 | 12.52 港元 | 17.63 港元 | 中性观察 | 2026-08-26 | [报告](companies/haidilao/research-report.md) |
 | 中国民航信息网络 | 00696.HK | 8.935 港元 | 6.72 港元 | 9.87 港元 | 13.17 港元 | 中性偏积极 | 2026-08-26 | [报告](companies/travelsky/research-report.md) |
+| 歌华有线 | 600037.SH | 6.67 元（2026-10-29收盘） | 4.96 元 | 6.76 元 | 8.52 元 | 中性偏谨慎 | 2026-10-29晚 | [报告](companies/gehua-cable/research-report.md) |
 
 价格基准日期并不完全相同，详见总览和各公司报告。不能根据表中“Base 相对价格”脱离业务质量、盈利可见度和证伪条件做机械排名。
 

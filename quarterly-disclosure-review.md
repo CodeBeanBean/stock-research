@@ -1,109 +1,152 @@
-# 2026年三季报披露核查与增量分析
+# 三季报全库核查与七家公司增量分析
 
-**研究日：** 2026-10-15。**核查截止：** 北京时间21:14；逐公司检索取得时间见原始JSON。**覆盖：** 36家公司，22家有A股上市、14家仅在香港上市。**类型：** 全库披露核查及经营跟踪，不是36家公司重新估值。
+**研究日：** 2026-10-29晚  
+**官方查询：** 2026-10-29 17:52:01—17:52:19北京时间  
+**范围：** 39家公司、25条巨潮与21条港交所查询全部成功；7家A/H双侧  
+**比较基线：** 10月28日全库结果及各公司上一报告  
+**价格：** 仅新增完整Q3的7家公司更新为10月29日完整收盘，人民币；其余保留原时点。
 
-## 核查结论
+新增完整三季报7家：歌华有线、朗姿股份、珀莱雅、信维通信、牧原股份、兆易创新、晋亿实业。完整Q3累计由10家升至17家；22家尚未检出完整Q3。本轮32家没有新增完整Q3，并不等于32家都没发布过Q3。港股并非全部要求季报，未检出不等于逾期。
 
-截至本次核查，**只确认赣锋锂业已发布2026年完整三季报，且已在研究库完成更新；除赣锋外，没有发现需要补做完整三季报分析的公司。** 其余21家A股公司及14家纯港股公司在所查询的官方公告中未检出该报告。检索没有命中不等于公司将不发布三季报；它只代表本次时点及查询范围内的状态。
+部分原件落款10月30日，但10月29日晚已经在官方查询中公开且成功下载；实际获取UTC、PDF哈希及查询原始结果一并留档。董事会、经营数据、英文版及A/H重复刊发不重复计为完整财报事件。检出39份新增公告原件另有10份专项补充，不是49个财报事件。
 
-赣锋公告落款、巨潮路径是10月16日，但10月15日晚已公开取得，因此计入“已发布”；不使用16日行情。达势的季度投资者简报、龙湖及春秋的月度经营数据、福寿园的复牌进度季度更新均单列，不能视为包含利润、资产负债和现金流的完整三季报。
+## 本轮估值及判断
 
-本次不产生新的公司估值版本。公司报告、模型和总览中的价格/估值日期保持各自原研究时点；下述经营信息不证明旧目标值在当前市场价格下仍有相同吸引力。需要跟踪的信息变化和未解决问题已在本报告留档。
+| 公司 | Q3扣非（亿元） | 同比 | 前版Base→本次（元） | 10月29日价 | Base空间 | 判断 |
+|---|---:|---:|---:|---:|---:|---|
+| [歌华有线](companies/gehua-cable/research-report.md) | -0.82 | 转亏/不适用 | 6.86→6.76 | 6.67 | +1.4% | 中性偏谨慎 |
+| [朗姿股份](companies/lancy/research-report.md) | 0.77 | +113.73% | 17.18→17.18 | 17.56 | -2.2% | 中性观察 |
+| [珀莱雅](companies/proya/research-report.md) | 0.79 | -65.20% | 75.84→61.04 | 54.29 | +12.4% | 中性观察 |
+| [信维通信](companies/sunway-communication/research-report.md) | 2.25 | -28.38% | 43.64→34.35 | 47.45 | -27.6% | 谨慎观察 |
+| [牧原股份](companies/muyuan/research-report.md) | -32.11 | -166.95% | 48.71→38.49 | 41.15 | -6.5% | 中性偏谨慎 |
+| [兆易创新](companies/gigadevice/research-report.md) | 45.51 | +814.39% | 381.31→510.31 | 275.99 | +84.9% | 中性偏积极 |
+| [晋亿实业](companies/jinyi-industrial/research-report.md) | 0.75 | +66.70% | 5.61→5.62 | 4.73 | +18.7% | 中性偏积极 |
 
-## 已完成的三季报更新：赣锋锂业
+兆易的高上行空间同时依赖正常化盈利和金融投资折价，不是确定收益。信维融资假设的发行价格会影响摊薄股本，因此市场价格变化可通过该研究假设影响每股价值；其他模型价值与参考价输入分离。不同公司空间不可直接作为推荐排序。
 
-[当前报告](companies/ganfeng-lithium/research-report.md)与[估值研究历史](companies/ganfeng-lithium/research-history/index.md)已包含正式三季报。Q3收入130.62亿元、归母7.55亿元、扣非7.88亿元；扣非环比下降67.6%，毛利率由Q2约32.7%降至20.2%。Q3单季经营现金流9.66亿元、现金购建2.93亿元，简化自由现金流6.73亿元；前三季经营现金流22.95亿元，不能误当单季。[正式三季报](https://static.cninfo.com.cn/finalpage/2026-10-16/1225607211.PDF)
+## 七家公司重点变化
 
-该版把2027正常化扣非EPS由2.80元下调至2.40元，Base由45.27元下调至38.12元；Bear/Base/Bull为16.38/38.12/63.75元。以10月15日收盘40.01元为参考，Base空间约-4.7%，判断为中性观察。盈利恢复减速与融资负担上升仍是约束；单季现金购建下降尚不足以证明项目已经进入稳定股东回报阶段。以上为已完成研究的复核摘要，本次未再次改动预测或倍数。
+### 歌华有线
 
-## 新增经营信息及其研究含义
+前三季收入18.18亿元、归母1.24亿元，Q3归母亏0.89亿元、扣非亏0.82亿元。公司把季度下滑主要归因于联营项目市值波动，但不能只看投资：前三季权益法收益1.23亿元，较H1的1.71亿元减少0.48亿元；收入减成本、税金、销售、管理及研发费用的研究代理，Q3约亏0.46亿元。二者均拖累当季利润。
 
-### 达势股份：扩张兑现，单位经济性修复仍未完成
+前三季经营现金0.69亿元，购建长期资产3.07亿元，简化自由现金流-2.38亿元；Q3对应-0.26/-1.09亿元。取得投资收益的现金只有0.15亿元，不能把基金账面利润当作可分红现金。货币资金45.49亿元、现金等价物45.4867亿元，期末全部负债25.45亿元，现金资产丰厚但网络维护仍消耗现金。
 
-公司10月12日发布Q3投资者简报和新闻稿。9月底门店1,634家、87个城市，较6月底1,550家、75城净增84店、进入12城；前九个月净增319店。全年约350家净增目标的“100%已落实”包含**已经开业、施工中及已签约**的门店，并非350家已经全部开出；按已开业净增计算约完成91.1%。会员由H1的4,190万增至4,520万。[公司Q3简报](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/dpc-q3-factsheet.pdf)、[公司新闻稿](https://www.dpcdash.com/news/detail/id/136.html)、[此前H1研究](companies/dpc-dash/research-report.md)
+继续用调整后NAV。Q3其他非流动金融资产15.87亿元缺子类明细，合并按55%/80%/100%计价，取代H1分项折价；长期股权50%/75%/100%、固定资产40%/60%/85%等保留，全部账面负债扣一次。募资用途约束仍以H1已披露27.004亿元为代理，采用65%/80%/95%实现系数，明确不是Q3专户余额或法律冻结。现金用等价物，未把未披露明细强行填齐。
 
-Q3同店交易增长为正，客单价ATP较Q2小幅上升，但仍低于去年同期，因此同店销售增长SSSG仍为负；公司未披露其具体百分比，不能自行补出。新城市外送交易占比由H1的25%升至Q3的30%，也不能当作第三方平台占集团收入的比例。
+[完整三季报](https://static.cninfo.com.cn/finalpage/2026-10-30/1225640391.PDF) · [全部分析与证伪条件](companies/gehua-cable/research-report.md) · [历史变化](companies/gehua-cable/research-history/index.md)
 
-**研究判断：** 订单需求和门店复制得到新增支持，客单价企稳是温和正面信号；但SSSG尚未转正，未披露Q3利润率、经营现金流、资本开支及租赁本金，不能据此确认原Base要求的2027调整净利率4.0%已实现，也不足以直接上调盈利预测。最强反方仍是折扣促销与平台流量拉动交易，却不能提高每股租赁后现金流。后续应查SSSG/ATP数值、门店利润率、自有渠道表现、租赁后FCF及特许经营权续约。
+### 朗姿股份
 
-### 龙湖集团：运营服务提供支撑，开发收缩尚未逆转
+前三季归母2.03亿元同比下降79.45%，而扣非2.61亿元同比增长51.72%。主因是2025年的若羽臣处置与剩余持股重估构成高基数，不能据归母下降判断主营同比崩塌。Q3扣非0.772亿元同比增长113.73%，但较Q2约1.097亿元下降约29.6%；收入15.01亿元同比仅增长2.46%，增长速度放缓值得重视。
 
-10月12日九月经营公告披露：前九个月合同销售231.4亿元、面积250.6万平方米；九月单月销售23.0亿元，其中权益销售14.2亿元。运营及服务不含税收入204.4亿元，分为运营109.3亿元、服务95.1亿元。九月新增土地权益对价2.12亿元。[官方经营公告](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/longfor-2026-sep.pdf)、[H1及此前研究](companies/longfor-group/research-report.md)
+前三季CFO5.18亿元、现金购建0.69亿元，差额4.49亿元；Q3对应约1.87、0.24和1.63亿元，现金表现好于利润。但季报未单列租赁总支付、少数股权及各收购项后续拆分，4.49亿元不能称作归母可分配FCFE。货币资金5.16亿元，短借15.04亿元，商誉19.58亿元约为归母权益29.32亿元的66.8%，资本结构约束仍在。
 
-**研究计算：** 用同一合同销售定义，231.4减H1的165.5得到Q3合同销售65.9亿元；月均约21.97亿元，低于H1月均27.58亿元约20.4%。这只是未作季节调整的期内节奏比较，不等同于同比下降20.4%，更不代表收入或现金回款。运营/服务经营公告口径也不直接与财务分部收入相减计算Q3利润。
+2027正常化归母利润仍为2.5/3.8/5.2亿元，收入65/72/81亿元，P/E14/20/26倍。使用4.42445375亿已发行股，不另加金融资产或重复扣净债务，少数股东、利息与租赁已通过归母盈利口径体现。Q3同控重述比较数优先；年度与季报拼接TTM仅作近似校验，非新的全年财报。
 
-**研究判断：** 新数据支持“经常性业务仍有收入、开发销售仍承压”的原主线。没有新的九月底现金、债务、归母权益、开发毛利和项目伙伴资金明细，不能把204.4亿元运营服务收入当成利润、可分配现金或降债金额。暂不足以提高资产价值的实现置信度。后续重点是实际回款、可动用现金、债务偿付、投资物业估值及开发减值。
+[完整三季报](https://static.cninfo.com.cn/finalpage/2026-10-29/1225632921.PDF) · [全部分析与证伪条件](companies/lancy/research-report.md) · [历史变化](companies/lancy/research-history/index.md)
 
-### 春秋航空：客座率仍强，国际需求及油价约束仍需财报验证
+### 珀莱雅
 
-九月运营公告在15日晚已可获取、落款16日。九月底机队仍为140架。前九个月ASK同比+12.98%、RPK+15.12%、客座率93.00%（同比+1.73个百分点）；九月单月ASK+10.54%、RPK+11.97%、客座率93.03%。国际线九月旅客量同比-16.68%，前三季累计-8.94%。[九月正式运营公告](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/spring-2026-sep.pdf)、[此前研究](companies/spring-airlines/research-report.md)
+Q3收入22.53亿元同比增长29.76%，但归母0.882亿元下降61.18%、扣非0.790亿元下降65.20%。花知晓在6月30日取得控制后，Q3开始完整并表经营，合并增长与原有业务增长不可直接比较。前三季扣非7.43亿元下降25.50%，而报告归母12.56亿元仍受H1的4.45亿元持股重估支持。季报没有完整品牌损益，无法精确计算剔花知晓后的同口径增速。
 
-**研究判断：** 国内量增和高装载率继续支持成本优势，累计客座率较前八个月92.99%基本持平；但月报没有票价、客公里收益、航油单位成本、利润及现金流，不能用旅客周转量增长直接推断Q3盈利增长。九月环比暑期下降也不宜当作趋势恶化。原研究最关键的验证仍是收益能否覆盖油价与扩张成本，以及新增飞机带来的资本开支和债务压力。原41.94元是9月23日除息前价格，本次未用它计算当前空间。
+经营数据公告显示Q3护肤、彩妆平均售价分别54.83、50.23元/支，同比分别-12.16%、-40.32%。公司称彩妆由花知晓及原色波塔占比提高推动，洗护也有单品结构变化。因此这是组合平均价下降，不能断言每个SKU都降价40%。新品牌放量同时改变并表结构、毛利及归母少数股东份额。
 
-### 福寿园：季度复牌更新不是三季报
+2027原有业务归母由12.5/15/17.5亿元降为9/12/15亿元；花知晓100%净利由2.4/3.3/4亿元降为2/2.8/3.5亿元，只取51%。归母合计10.02/13.428/16.785亿元，P/E14/18/23不变，分母3.95976172亿股。不额外加净现金；净现金代理和分红只用于资本配置审查。若拟注销全部完成，仅机械提高每股值约0.41%，不能抵消本次盈利下调。
 
-9月16日公告披露独立调查报告已完成，并载明资料取得限制；识别69笔、2,341.26万元存疑交易，扣除5笔重复统计后为64笔、2,276.74万元。该金额不是已经确认的最终损失。旧9月7日研究使用的是初步47笔、1,970万元，新增发现说明原调查范围不能继续作为最终边界。公告当时2025全年及2026H1业绩仍未定稿；本次官方检索也未发现其后补发的该两期业绩或2026Q3财报。[复牌进度公告p5、8—9](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/fsy-resumption-update.pdf)、[原研究](companies/fu-shou-yuan/research-report.md)
+[完整三季报](https://static.cninfo.com.cn/finalpage/2026-10-30/1225640965.PDF) · [全部分析与证伪条件](companies/proya/research-report.md) · [历史变化](companies/proya/research-history/index.md)
 
-**研究判断：** 调查报告完成是程序进展，但不等于财务报表可信度、内控和复牌条件全部恢复。“回避，等待可验证复牌条件”的原方向未被新资料推翻；原压力估值只作历史记录，本次没有新的可交易市价或可依赖的财报来重估。重点等补发经审计业绩、内控结论及监管确认。
+### 信维通信
 
-## 已核实的后续财报节点
+前三季收入65.42亿元同比+1.24%，归母4.68亿元-3.79%，扣非3.65亿元-14.86%。Q3归母3.18亿元仅下降2.20%，但扣非2.25亿元下降28.38%，差额0.926亿元不能忽略。追加投资取得控制的原持股重估等进入非经常损益，不能按表观利润判断新业务已经贡献稳定利润。
 
-| 公司 | 官方拟审议日 | 已核实内容 | 注意事项 |
+卫星产品已向两家北美低轨客户批量交付，车载终端量产；MLCC部分客户验证完成、另有料号计划Q4出货，电阻业务截至Q3开始盈利。这些披露提高技术兑现可信度，但没有独立卫星、AI散热或MLCC收入和归母净利，不为这些业务分别添加未经验证的市场估值。
+
+保留2028扣非P/E框架及2027/28原增速假设，把2026收入增速5/10/15%降为0/5/10%，2028扣非净利率7/9.5/11%降为6/8/10%，PE25/35/45不变。融资情景主设60亿元，Bear按30%股数上限，Base按当前价85%、Bull按当前价120%发行；均受30%上限约束。Base摊薄约11.16亿股。补上原模型静态摊薄股数与文字口径不一致的动态公式，价格变化会通过发行价格假设影响每股价值，不再声称股价绝不改变情景估值。
+
+[完整三季报](https://static.cninfo.com.cn/finalpage/2026-10-29/1225636757.PDF) · [全部分析与证伪条件](companies/sunway-communication/research-report.md) · [历史变化](companies/sunway-communication/research-history/index.md)
+
+### 牧原股份
+
+前三季收入922.00亿元同比-17.52%，归母亏93.19亿元、扣非亏91.07亿元；Q3归母亏32.41亿元、扣非亏32.11亿元。季度收入同比-7.18%，亏损仍由低猪价主导。Q3毛利率约-3.44%，低于H1约-1.58%，不能因经营现金转正就视作盈利已经修复。
+
+前三季CFO29.83亿元，现金购建87.18亿元，差额-57.35亿元；Q3对应约52.07、21.97及30.10亿元。单季现金好转是真实积极变化，但不足以补回H1消耗。前三季存货减值损失增加，资产减值损失约3.14亿元；库存及生物资产、生产效率和价格预期要一并判断，不能简单把减值全部加回正常利润。
+
+仍用60%正常化P/E+40%P/B。2027猪价由12.5/13.5/14.5改为12/13/14.5元/kg，完全成本由11.8/11.2/10.9改为12/11.4/11元/kg；销量7500/7800/8100万头、体重124kg及原屠宰和融资增量假设保留。由2025归母154.869亿元锚推导，不把低价9个月或单月利润机械年化。P/E9/13/15、P/B1.8/2.6/3.4不变，PB更新Q3权益。该利润桥仍是近似情景，未独立按各期销量重建全部固定成本和屠宰抵消。
+
+[完整三季报](https://static.cninfo.com.cn/finalpage/2026-10-30/1225639870.PDF) · [全部分析与证伪条件](companies/muyuan/research-report.md) · [历史变化](companies/muyuan/research-history/index.md)
+
+### 兆易创新
+
+前三季收入202.97亿元、归母110.66亿元、扣非94.34亿元；Q3收入87.32亿元同比+225.65%，扣非45.51亿元同比+814.39%，较Q2约34.73亿元再增约31%。Q3报告归母42.09亿元反而低于核心利润，因为当季非经常损益约-3.42亿元，不能用归母环比回落否定经营增长。
+
+前三季CFO101.24亿元、现金购建14.04亿元，简化自由现金流87.20亿元；Q3约40.76、4.60和36.16亿元，CFO约为Q3扣非的89.6%，低于H1现金转化水平但仍较强。存货62.92亿元较H1约41.84亿元又增21.08亿元，应收账款5.997亿元；现金等价物149.62亿元低于货币资金188.60亿元，差额不能一律当作可自由分配现金。
+
+2027正常化核心归母由60/85/115亿元提高到80/110/145亿元，仍低于Q3核心乘四的约182亿元；P/E22/30/38不变。金融投资折价加项由100/140/160亿元提高为180/300/420亿元，相当于Q3账面投资减全部递延税负约514亿元后的35%/58%/82%，系综合税务、流动性及市值回撤假设，不再重复扣一次税。只用7.05459327亿压力股本，不额外加净现金。核心利润仍含部分资金利息，分部及投资收益分类存在残余双计风险，需年度附注进一步拆解。
+
+[完整三季报](https://static.cninfo.com.cn/finalpage/2026-10-30/1225641959.PDF) · [全部分析与证伪条件](companies/gigadevice/research-report.md) · [历史变化](companies/gigadevice/research-history/index.md)
+
+### 晋亿实业
+
+前三季收入18.95亿元同比+9.29%，归母2.84亿元+74.55%，扣非2.51亿元+57.46%；Q3收入6.58亿元+19.69%、扣非0.752亿元+66.70%。收入恢复不再只靠成本改善，且Q3非经常损益仅约146万元，利润增长主要来自经营。Q3扣非低于Q2约1.04亿元，铁路集中交付节奏仍可能使季度利润波动。
+
+前三季CFO1.93亿元同比-13.13%，低于归母2.84亿元；Q3经营现金约-1.04亿元、扣现金购建约-1.11亿元。应收账款由H1约6.99亿元升至8.30亿元，是回款压力信号；应付票据4.53亿元由H1约5.89亿元下降，供应链结算方式变化也可能造成现金流出。因此单季负现金不能单独证明坏账，但足以阻止只按利润增速抬高估值。
+
+保留70%正常化P/E+30%P/B。正常化归母2.5/3.2/4亿元，PE13/17/20，PB0.85/1.2/1.5；分母9.6165072亿股。PB基数为9月末归母权益减10月已派4808.25万元，P/E不额外加现金，避免与利息收入双计。三情景上调极小，仅反映净资产变动。
+
+[完整三季报](https://static.cninfo.com.cn/finalpage/2026-10-30/1225639309.PDF) · [全部分析与证伪条件](companies/jinyi-industrial/research-report.md) · [历史变化](companies/jinyi-industrial/research-history/index.md)
+
+## 逐公司官方核查
+
+| 公司 | 查询市场 | 完整Q3状态 | 本轮处理 |
 |---|---|---|---|
-| 宁德时代 | 2026-10-20 | 截至9月30日九个月第三季度业绩 | 董事会日期，不是已经发布财报 |
-| 天齐锂业 | 2026-10-23 | 截至9月30日九个月第三季度业绩 | 以公司原始通知为准，不采用第三方“26日”旧预约信息 |
-| 腾讯控股 | 2026-11-18 | 第三季业绩/股息 | 港交所14日董事会日历列示，日历声明可能不完整 |
+| [紫金矿业](companies/zijin-mining/research-report.md) | CNINFO/HKEX | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [荣盛石化](companies/rongsheng-petrochemical/research-report.md) | CNINFO | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [歌华有线](companies/gehua-cable/research-report.md) | CNINFO | 新增完整Q3，已更新 | 更新报告、模型和永久v002 |
+| [赛轮轮胎](companies/sailun/research-report.md) | CNINFO | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [蜜雪集团](companies/mixue/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [分众传媒](companies/focus-media/research-report.md) | CNINFO | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [朗姿股份](companies/lancy/research-report.md) | CNINFO | 新增完整Q3，已更新 | 更新报告、模型和永久v002 |
+| [春秋航空](companies/spring-airlines/research-report.md) | CNINFO | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [美的集团](companies/midea-group/research-report.md) | CNINFO/HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [宁德时代](companies/catl/research-report.md) | CNINFO/HKEX | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [思格新能](companies/sigenergy/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [龙湖集团](companies/longfor-group/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [万华化学](companies/wanhua-chemical/research-report.md) | CNINFO | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [伊利股份](companies/yili/research-report.md) | CNINFO | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [恒隆地产](companies/hang-lung-properties/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [珀莱雅](companies/proya/research-report.md) | CNINFO | 新增完整Q3，已更新 | 更新报告、模型和永久v002 |
+| [宝钢股份](companies/baosteel/research-report.md) | CNINFO | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [威高股份](companies/weigao-group/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [梦百合](companies/mlily/research-report.md) | CNINFO | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [福寿园](companies/fu-shou-yuan/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [信维通信](companies/sunway-communication/research-report.md) | CNINFO | 新增完整Q3，已更新 | 更新报告、模型和永久v002 |
+| [达势股份](companies/dpc-dash/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [保利物业](companies/poly-property-services/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [中海物业](companies/china-overseas-property/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [天齐锂业](companies/tianqi-lithium/research-report.md) | CNINFO/HKEX | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [赣锋锂业](companies/ganfeng-lithium/research-report.md) | CNINFO/HKEX | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [云铝股份](companies/yunnan-aluminum/research-report.md) | CNINFO | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [牧原股份](companies/muyuan/research-report.md) | CNINFO/HKEX | 新增完整Q3，已更新 | 更新报告、模型和永久v002 |
+| [宝丰能源](companies/baofeng-energy/research-report.md) | CNINFO | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [兆易创新](companies/gigadevice/research-report.md) | CNINFO/HKEX | 新增完整Q3，已更新 | 更新报告、模型和永久v002 |
+| [阳光电源](companies/sungrow/research-report.md) | CNINFO | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [晋亿实业](companies/jinyi-industrial/research-report.md) | CNINFO | 新增完整Q3，已更新 | 更新报告、模型和永久v002 |
+| [百联股份](companies/bailian/research-report.md) | CNINFO | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [宋城演艺](companies/songcheng-performance/research-report.md) | CNINFO | 完整Q3此前已覆盖，无新增 | 保留原价、原估值及文件 |
+| [腾讯控股](companies/tencent/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [三生制药](companies/3sbio/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [海吉亚医疗](companies/hygeia-healthcare/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [海底捞](companies/haidilao/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
+| [中国民航信息网络](companies/travelsky/research-report.md) | HKEX | 未检出完整Q3 | 保留原价、原估值及文件 |
 
-来源：[宁德时代会议通知](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/catl-board-date.pdf)、[天齐会议通知](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/tianqi-board-date.pdf)、[港交所董事会日历](https://www3.hkexnews.hk/reports/bmn/ebmn_c.htm)。未来日期可能变更，正式业绩以实际刊发为准；本次未设置自动跟踪。
+## 其他公告及证据
 
-## 全部36家逐一核查清单
+本轮亦检出美的中期分红更新、宁德/威高回购翌日报表、赣锋质押、梦百合归还临时补流资金、宝钢股东会资料等。它们未被当作新增季度财报，也未据此重估这些公司的旧模型；原件按标题、日期及哈希留存供后续专项研究。
 
-“未检出”只指2026年完整第三季度财务报告。A/H双重上市按同一发行人计一次，A股季度财报作为主核查口径；纯港股另核对港交所公告。表中“库内最新财报”描述原研究基础，不是统一刷新后的估值日期。每家原始查询结果均留档。
+- [39家公司清单](outputs/q3-library-review-20261029/coverage.json)、[CNINFO结果](outputs/q3-library-review-20261029/cninfo-results.json)、[HKEX结果](outputs/q3-library-review-20261029/hkex-results.json)。查询窗28—30日，实际使用抓取时可见文件。
+- [新增公告原件索引](outputs/q3-library-review-20261029/new-announcement-sources.json)、[专项查询](outputs/q3-library-review-20261029/supplement-disclosures.json)、[补充原件](outputs/q3-library-review-20261029/extra-sources.json)。
+- [财务核对](outputs/q3-library-review-20261029/financial-facts.json)、[模型数值验收](outputs/q3-library-review-20261029/model-validation.json)、[错误及图表保留检查](outputs/q3-library-review-20261029/qa.json)。原51张工作表和14个图表保留，全部工作表已渲染目视验收；未测试桌面Excel原生引擎。分部、估值退出及库存股明细缺失不被通过状态消除。
+- [永久历史](research-history/index.md)分为估值与结论、重要研究变化、版本技术信息；七家公司各封存v002，全库v010为最终稿，v009保留初封状态；信维仅修订审批备注，估值不变，查询与原件保留，旧版本不改。
 
-| 公司 | 代码 | 库内最新财报 | 本次完整Q3状态 | 相关披露/处理 | 官方查询快照 |
-|---|---|---|---|---|---|
-| [赛轮轮胎](companies/sailun/research-report.md) | 601058.SH | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/sailun-cninfo-page1.json) |
-| [蜜雪集团](companies/mixue/research-report.md) | 02097.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/mixue-hkex.json) |
-| [分众传媒](companies/focus-media/research-report.md) | 002027.SZ | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/focus-media-cninfo-page1.json) |
-| [朗姿股份](companies/lancy/research-report.md) | 002612.SZ | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/lancy-cninfo-page1.json) |
-| [春秋航空](companies/spring-airlines/research-report.md) | 601021.SH | 2026H1 / Q2 | 未检出 | 九月运营数据，16日落款/15日晚可得；本报告补充分析 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/spring-airlines-cninfo-page1.json) |
-| [美的集团](companies/midea-group/research-report.md) | 000333.SZ / 00300.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/midea-group-cninfo-page1.json) |
-| [宁德时代](companies/catl/research-report.md) | 300750.SZ / 03750.HK | 2026H1 / Q2 | 未检出 | 10月20日拟审议Q3 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/catl-cninfo-page1.json) |
-| [思格新能](companies/sigenergy/research-report.md) | 06656.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/sigenergy-hkex.json) |
-| [龙湖集团](companies/longfor-group/research-report.md) | 00960.HK | 2026H1 / Q2 | 未检出 | 10月12日九月经营数据；本报告补充分析 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/longfor-group-hkex.json) |
-| [万华化学](companies/wanhua-chemical/research-report.md) | 600309.SH | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/wanhua-chemical-cninfo-page1.json) |
-| [伊利股份](companies/yili/research-report.md) | 600887.SH | 2026H1 / Q2 | 未检出 | 第三季度子公司担保公告，非财报 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/yili-cninfo-page1.json) |
-| [恒隆地产](companies/hang-lung-properties/research-report.md) | 00101.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/hang-lung-properties-hkex.json) |
-| [珀莱雅](companies/proya/research-report.md) | 603605.SH | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/proya-cninfo-page1.json) |
-| [宝钢股份](companies/baosteel/research-report.md) | 600019.SH | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/baosteel-cninfo-page1.json) |
-| [威高股份](companies/weigao-group/research-report.md) | 01066.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/weigao-group-hkex.json) |
-| [梦百合](companies/mlily/research-report.md) | 603313.SH | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/mlily-cninfo-page1.json) |
-| [福寿园](companies/fu-shou-yuan/research-report.md) | 01448.HK | 2025H1；后续财报延迟 | 未检出 | 9月16日复牌进度季度更新，非财务季报 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/fu-shou-yuan-hkex.json) |
-| [信维通信](companies/sunway-communication/research-report.md) | 300136.SZ | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/sunway-communication-cninfo-page1.json) |
-| [达势股份](companies/dpc-dash/research-report.md) | 01405.HK | 2026H1 / Q2 | 未检出 | 10月12日Q3经营简报；本报告补充分析 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/dpc-dash-hkex.json) |
-| [保利物业](companies/poly-property-services/research-report.md) | 06049.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/poly-property-services-hkex.json) |
-| [中海物业](companies/china-overseas-property/research-report.md) | 02669.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/china-overseas-property-hkex.json) |
-| [天齐锂业](companies/tianqi-lithium/research-report.md) | 002466.SZ / 09696.HK | 2026H1 / Q2 | 未检出 | 10月23日拟审议Q3 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/tianqi-lithium-cninfo-page1.json) |
-| [赣锋锂业](companies/ganfeng-lithium/research-report.md) | 002460.SZ / 01772.HK | 2026Q3 | 已发布，已更新 | 已发布；此前更新已完成 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/ganfeng-lithium-cninfo-page1.json) |
-| [云铝股份](companies/yunnan-aluminum/research-report.md) | 000807.SZ | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/yunnan-aluminum-cninfo-page1.json) |
-| [牧原股份](companies/muyuan/research-report.md) | 002714.SZ / 02714.HK | 2026H1 / Q2 | 未检出 | 第三季度可转债转股公告，非财报 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/muyuan-cninfo-page1.json) |
-| [宝丰能源](companies/baofeng-energy/research-report.md) | 600989.SH | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/baofeng-energy-cninfo-page1.json) |
-| [兆易创新](companies/gigadevice/research-report.md) | 603986.SH / 03986.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/gigadevice-cninfo-page1.json) |
-| [阳光电源](companies/sungrow/research-report.md) | 300274.SZ | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/sungrow-cninfo-page1.json) |
-| [晋亿实业](companies/jinyi-industrial/research-report.md) | 601002.SH | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/jinyi-industrial-cninfo-page1.json) |
-| [百联股份](companies/bailian/research-report.md) | 600827.SH | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/bailian-cninfo-page1.json) |
-| [宋城演艺](companies/songcheng-performance/research-report.md) | 300144.SZ | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/songcheng-performance-cninfo-page1.json) |
-| [腾讯控股](companies/tencent/research-report.md) | 0700.HK | 2026H1 / Q2 | 未检出 | 11月18日拟审议Q3 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/tencent-hkex.json) |
-| [三生制药](companies/3sbio/research-report.md) | 01530.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/3sbio-hkex.json) |
-| [海吉亚医疗](companies/hygeia-healthcare/research-report.md) | 06078.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/hygeia-healthcare-hkex.json) |
-| [海底捞](companies/haidilao/research-report.md) | 06862.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/haidilao-hkex.json) |
-| [中国民航信息网络](companies/travelsky/research-report.md) | 00696.HK | 2026H1 / Q2 | 未检出 | 本轮无完整三季报可更新 | [查询结果](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/travelsky-hkex.json) |
-
-## 方法、来源与核查边界
-
-- A股：巨潮官方历史公告查询，逐发行人搜索公司简称，区间2026-10-01至2026-10-16。截止日纳入已在15日晚公开、目录标16日的文件；没有使用未来行情或尚未发布业绩。22次请求均成功，全部结果一页以内，按证券代码二次筛选：百联名称搜索额外返回一条688506百利天恒公告，已排除。原始返回值见各公司“查询结果”，[标准化汇总](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/cninfo-results.json)记录取得UTC时间与标题/链接。另尝试全市场标题交叉检索时返回HTTP403，未将该失败请求当作“没有报告”的证据。
-- 纯港股：港交所标题搜索，按官方证券内部ID逐公司查询2026-09-01至10-15，所有标题类别。14次均成功，返回总数与已取得条数一致，无遗漏分页；[完整结果及公开查询URL](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/hkex-results.json)。达势另查官网，因为公司投资者简报没有出现在该期港交所公告结果中。
-- 定期报告与“预告、担保、转股、月报表、月度营运、复牌季度更新、董事会会议日期”按标题和原文内容分别识别。未把9月刊发的中期报告误认为9月30日季度财报。
-- 公开检索存在披露延迟、名称匹配和时点局限；结论是截至此次成功查询的证据，不承诺所有未来发布状态。香港上市公司也不能机械套用A股三季报披露节奏。本报告未核查全部非季度重大事项、全部价格或股本，不构成36家公司财务与估值的全面刷新。
-- 金额均按各段说明使用人民币亿元，达势/春秋为公司经营统计，龙湖为未经审计营运口径；计算与公司披露分开标识。本次未修改任何公司财务模型，故没有新增工作簿或以旧值冒充当前估值。
-- 正式来源原件及查询JSON随本版封存，[原件来源、获取时点与SHA-256](research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/evidence-manifest.json)；本报告另有版本清单及逐文件SHA-256，后续核查另开递增版本，不覆盖本版。
+结论限于上述检索时点，后续公告应再次查询。本轮没有建立自动监控。

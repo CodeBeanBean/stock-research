@@ -1,0 +1,10 @@
+{
+  "price": 6.67,
+  "price_date": "2026-10-29",
+  "security": "600037.SH",
+  "currency": "CNY",
+  "legal_shares": 1391777884,
+  "basis": "当日完整收盘；腾讯收盘快照与腾讯历史日线同一供应商核验，不称独立来源",
+  "quote_url": "https://qt.gtimg.cn/q=sh600037",
+  "history_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get"
+}

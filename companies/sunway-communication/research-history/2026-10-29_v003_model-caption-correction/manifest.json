@@ -1,0 +1,103 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-29_v003_model-caption-correction",
+  "version_number": 3,
+  "company": "sunway-communication",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "Q3最终模型审批备注修订，估值不变",
+  "reason": "初封后发现审批说明列遗留旧日期，不覆盖v002，另存最终匹配模型",
+  "created_at_utc": "2026-10-29T10:23:28.885398+00:00",
+  "reported_research_date": "2026-10-29",
+  "source_cutoff": "2026-10-29晚；正式原件UTC见来源索引",
+  "price_date": "2026-10-29",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\sunway-communication",
+  "context_directory": "D:\\Research\\stock-research\\companies\\sunway-communication",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "9d3b32d053d5d08a166b952d596bde5b178c506eb3744e000f5e69e63be9e50e",
+      "archive_sha256": "0d3702ca25215f5cd688fcea2fee41c3bb3e8f3bf11c6325767df8ca6c0d747f",
+      "bytes": 15932
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "b68d99a2d1c57c1dd175450bbb63690e306c362ec160303665a042afd4cc276e",
+      "archive_sha256": "b68d99a2d1c57c1dd175450bbb63690e306c362ec160303665a042afd4cc276e",
+      "bytes": 32132
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "af742642145b3073802fb59caa6c2c7ddd891c73198c2e94fbc3e4a2a103a549",
+      "archive_sha256": "af742642145b3073802fb59caa6c2c7ddd891c73198c2e94fbc3e4a2a103a549",
+      "bytes": 4688
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "6f01fd0d4706a532017ba9e0a392069d16bdd37d8baa1d32f4a0fcbe328b2ec5",
+      "archive_sha256": "8ab612615afa2dd5f9965107fa9ca3d3a90219c336d4752167dc19a99a6df6c8",
+      "bytes": 6075
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "78458b2f77b12b5aabb394fb9f5397888ecb0d19c5d0b3e319f377a274ce57bb",
+      "archive_sha256": "78458b2f77b12b5aabb394fb9f5397888ecb0d19c5d0b3e319f377a274ce57bb",
+      "bytes": 2706
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "f35de4339b71987944cd97ab5d80155b8431202b32bfbe357a3baa715e5c2eed",
+      "archive_sha256": "79c1352191342805e06e6ea91446d6a3126a9a67fba9b4416aeb5335ade0541c",
+      "bytes": 4326
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "d28497b2a8ffafde2c986e534f64f91cc195499f5b82b9fa598839bffa2ac3b4"
+    },
+    {
+      "path": "../../source-documents/2026-H1-report.pdf",
+      "sha256": "b29134c7468a1d56afc8f2922cfae2280483069f9b09dce2bf63d5d67d2e3122"
+    },
+    {
+      "path": "../../source-documents/2026-MLCC-acquisition.pdf",
+      "sha256": "56d8ee796afe2a62021d5f93aab4425d849b401639563bb5bd3c92c7b53137cb"
+    },
+    {
+      "path": "../../source-documents/2026-placement-registration-approval.pdf",
+      "sha256": "5477554d72108b28d6d8ff64adf4d76f45696ea33313bdf0be9b1d6e5087b102"
+    },
+    {
+      "path": "../../source-documents/2026-private-placement-plan.pdf",
+      "sha256": "d96916a806178731132adc02b1aa8bd930c2547f52e93c4e98d2ee534f6d412b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225578724.pdf",
+      "sha256": "9cc5c65e993014cb97b66365ddb29bd71daa24137d5e898236e2f62d769f7deb"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225636757.pdf",
+      "sha256": "9afe384ccf7c6e574a1fb8e2af758b48af325e9a5ff5ddd78769f92eec7d8782"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225636759.pdf",
+      "sha256": "683ac40f9578265513a51496bd57bfc0221144c272e0d493e5ccc3981793ff10"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-market.json",
+      "sha256": "d9864625d52ac3e3f4131630d0b6d6e708809db6ce017f5de97edd7a745548cb"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-model-validation.json",
+      "sha256": "69f0f9e3028f764138794534f2d51c74b932f265ff3222f3d7b47b19a446db5f"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

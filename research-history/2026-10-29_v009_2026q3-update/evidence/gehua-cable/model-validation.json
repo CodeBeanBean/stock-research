@@ -1,0 +1,98 @@
+{
+  "cases": [
+    4.964086480591037,
+    6.762780698249693,
+    8.518674363669874
+  ],
+  "upside": [
+    -0.25575914833717583,
+    0.013910149662622606,
+    0.2771625732638492
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Assumptions",
+    "Valuation",
+    "Quality",
+    "Inputs",
+    "Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "C1:P27",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "C1:I36",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "C36:I71",
+      "file": "Assumptions-36.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "C71:I78",
+      "file": "Assumptions-71.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "C1:I48",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Quality",
+      "range": "C1:I46",
+      "file": "Quality-1.png"
+    },
+    {
+      "sheet": "Inputs",
+      "range": "C1:I36",
+      "file": "Inputs-1.png"
+    },
+    {
+      "sheet": "Inputs",
+      "range": "C36:I71",
+      "file": "Inputs-36.png"
+    },
+    {
+      "sheet": "Inputs",
+      "range": "C71:I102",
+      "file": "Inputs-71.png"
+    },
+    {
+      "sheet": "Audit",
+      "range": "C1:J45",
+      "file": "Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 71,
+    "cost": 72,
+    "gross": 73,
+    "gm": 74,
+    "parent": 75,
+    "core": 76,
+    "nonrec": 77,
+    "cfo": 78,
+    "capex": 79,
+    "fcf": 80,
+    "equity": 81,
+    "assets": 82
+  },
+  "scale": 1000000,
+  "price": 6.67
+}

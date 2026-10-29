@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-05_v001_prior-valuation",
+  "version_number": 1,
+  "company": "muyuan",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整Q3更新前已交付研究基线",
+  "reason": "覆盖当前报告及模型前保存真实前版",
+  "created_at_utc": "2026-10-29T10:00:34.591709+00:00",
+  "reported_research_date": "2026-09-05",
+  "source_cutoff": "2026-09-05",
+  "price_date": "2026-09-04",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\muyuan",
+  "context_directory": "D:\\Research\\stock-research\\companies\\muyuan",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "e21b38ca64018b33e9ddaeabf43ef1230a68be2fe99c4c450f272a2641890638",
+      "archive_sha256": "e21b38ca64018b33e9ddaeabf43ef1230a68be2fe99c4c450f272a2641890638",
+      "bytes": 13291
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "a94a0af715eab41e9ca9e4be93726e6198da4188d0e4fce1265d0482b472fbce",
+      "archive_sha256": "a94a0af715eab41e9ca9e4be93726e6198da4188d0e4fce1265d0482b472fbce",
+      "bytes": 31679
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "7479bded7a8b26e8258ba90bc830fe7587defbbaa1efca94c30f6fe4aecdb451",
+      "archive_sha256": "9fa20a3b99a00054051dee2f07f882dcb5fb38ec67a79893a4a21b8449cf4a0b",
+      "bytes": 8180
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "6f41c80a6e1b3fc80b69f631c3640c13c4e3e168d7b10d9fe5cbaee356d3006f",
+      "archive_sha256": "201775b821ec9e695eeb88e9613c2a841b1a31b1155ae27bff1b1f566904e041",
+      "bytes": 4416
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "b3c8c784573dcf0c7a2e8cadf8c9a14cb15fcd5ced09fe06d20d5d564f996af0",
+      "archive_sha256": "b3c8c784573dcf0c7a2e8cadf8c9a14cb15fcd5ced09fe06d20d5d564f996af0",
+      "bytes": 932
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "8945e5bd24fdd97352ededc54dd7ca1a0fd01d693ef548d618b247f8eb0569dc",
+      "archive_sha256": "f616bbb5c65b9946bd676887081c9e6c70780400d31fb6055fc0909917d09581",
+      "bytes": 1189
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report-cn.pdf",
+      "sha256": "b26c4441b34feef43d1124e6372fb858c8455f6851b19f31504a10fdc6ba4de5"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report-en.pdf",
+      "sha256": "563cbee8250b273d7708935ea8361b3a3fe399e25b6415aea3b530ab3a6910d3"
+    },
+    {
+      "path": "../../source-documents/2026-07-sales-bulletin-en.pdf",
+      "sha256": "11bfd0a41a8867a58d50f908542b79f6fa05fee52f12a4301814ca0281232fc2"
+    },
+    {
+      "path": "../../source-documents/2026-interim-report-en.pdf",
+      "sha256": "ee208b50c0d033a17f8421eabc4080e275f5b86fb106ceca72f278f6205c7608"
+    },
+    {
+      "path": "../../source-documents/2026H1-investor-relations-cn.pdf",
+      "sha256": "23f41b0ad5939e45adbe613acf4320f1705e6d2979dc4c68e9677a6f666196d0"
+    }
+  ],
+  "mutable_navigation_links": []
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-29_v002_2026q3-update",
+  "version_number": 2,
+  "company": "jinyi-industrial",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3及估值分析更新",
+  "reason": "新增正式季报，区分利润质量、现金、股本和估值假设变化",
+  "created_at_utc": "2026-10-29T10:18:57.482172+00:00",
+  "reported_research_date": "2026-10-29",
+  "source_cutoff": "2026-10-29 17:52:01—17:52:19北京时间；补充原件实际获取UTC见来源索引",
+  "price_date": "2026-10-29",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\jinyi-industrial",
+  "context_directory": "D:\\Research\\stock-research\\companies\\jinyi-industrial",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "592dad4f659855d9249760797b72a4b21c20c2bc89b3d27ac8b38bf67b5a272b",
+      "archive_sha256": "24e092ce7f9bff8a98cf055da9bb9d080d611f4a89ea4182c5e72bdfdd8e8e86",
+      "bytes": 19864
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "93d61ead501132fdf855142906e07e06b03a105fcd549ed3e9d8ebf10642e39a",
+      "archive_sha256": "93d61ead501132fdf855142906e07e06b03a105fcd549ed3e9d8ebf10642e39a",
+      "bytes": 36043
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "5912669dc99ffc6c558e91928ed3aa0bcb93706e9951fa2200166485671ab90f",
+      "archive_sha256": "5912669dc99ffc6c558e91928ed3aa0bcb93706e9951fa2200166485671ab90f",
+      "bytes": 7855
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "8507e679c78a6292a6a497b2298d32ee399527f0a7eac72092330a17fcf9b959",
+      "archive_sha256": "0a314cdb514958ac896fa951fa2ced918d61d89a56b6c4e77fe8d57828d3795b",
+      "bytes": 9730
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "137f018426cf6d128899925cbce922ccc2bd0cf9f562726ae1d6325f6d7c61b4",
+      "archive_sha256": "137f018426cf6d128899925cbce922ccc2bd0cf9f562726ae1d6325f6d7c61b4",
+      "bytes": 3108
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "278aa0f78e6a9b4dbefc2ccbe27b1ca26db9bf2a781b3de502e826dc0a181d06",
+      "archive_sha256": "51a2a564d5f7cffae717512f78b227a109c71c0cf3b813fa3eda5fc34b433195",
+      "bytes": 5692
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225587096.pdf",
+      "sha256": "99038037506524ca202fd873ee998079666a4e3e7cf8e405f02b52ea605b02bc"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225639253.pdf",
+      "sha256": "d6e69fb761c295b64efe01d2db101ae4ac3eed1090d2a3a3aa372f0d1af5408d"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225639264.pdf",
+      "sha256": "6d503f721e3b57cf8ac2b93ed14e329462b1fc9b1cd4f7d6315c6d75beecbbe3"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225639309.pdf",
+      "sha256": "0ad5209723d4bb2587f3691fb8cc5192efd574f2f9931530cf3e9dcf8542f80b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-market.json",
+      "sha256": "eb7b091a2d9306a73fb0fe8640cd89859cecbead9f6b3024aa65b2a8b9a96e0a"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-model-validation.json",
+      "sha256": "38e40b60435bd4ee4898417f107bd8609488f8c259c3332983aa9202fffbb235"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

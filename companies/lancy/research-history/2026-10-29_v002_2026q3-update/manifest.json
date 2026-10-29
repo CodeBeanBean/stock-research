@@ -1,0 +1,127 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-29_v002_2026q3-update",
+  "version_number": 2,
+  "company": "lancy",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3及估值分析更新",
+  "reason": "新增正式季报，区分利润质量、现金、股本和估值假设变化",
+  "created_at_utc": "2026-10-29T10:18:52.978163+00:00",
+  "reported_research_date": "2026-10-29",
+  "source_cutoff": "2026-10-29 17:52:01—17:52:19北京时间；补充原件实际获取UTC见来源索引",
+  "price_date": "2026-10-29",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\lancy",
+  "context_directory": "D:\\Research\\stock-research\\companies\\lancy",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "91d40f9b357100575839a32bd519f64dae8bac2b9404a8cbcd836616eecbad3e",
+      "archive_sha256": "973fb84f4e0435a0eed67fb50bb962aed066fc8ddde63deec6455ce0058e28b7",
+      "bytes": 24682
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "9a396083904207cd3e28a620b8b50f86dcd0928740edb1a5b4ef8b1b18e920ca",
+      "archive_sha256": "9a396083904207cd3e28a620b8b50f86dcd0928740edb1a5b4ef8b1b18e920ca",
+      "bytes": 26132
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "fe9fd4b261bb54ee2d452496a270cb1b41628dba33bb515ca86d817c2f37cb8f",
+      "archive_sha256": "5bd185b1f02ffe891c856a91260e5e8dd75202bfbbe4ba32c90b5ee82c31876e",
+      "bytes": 2674
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "9e4825dc5cc87f6cb27905c76ac5c1c3dc5192f9a651274fdb73de69575a3a67",
+      "archive_sha256": "6ca2d70788b4d9884de16adce5877d8ef6e47e4f39b1685422cf65580c2249da",
+      "bytes": 9333
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "c9dd11d0ca269b4e6fddb13be01e84008c90e5a1115d0aae564f95396882a454",
+      "archive_sha256": "c9dd11d0ca269b4e6fddb13be01e84008c90e5a1115d0aae564f95396882a454",
+      "bytes": 2156
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "925ba3f5611144ba9948421db6b21d5c599f50bf2d0cc3159ed10ea01b1dcfdf",
+      "archive_sha256": "0e9cc6fb790da6664048fd50ba79f27caa0e19ba530a9073181ebf13f1ff5f4f",
+      "bytes": 5551
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025AR.pdf",
+      "sha256": "f5618f2dfb79e3af6e3adb9b4e12295262157471c59dd39b52cca0449cefeb73"
+    },
+    {
+      "path": "../../source-documents/20260901-IR.pdf",
+      "sha256": "fb4186a37d9a179094c602e458b3205d13913eef0530d06db99d0bd3f0a7c347"
+    },
+    {
+      "path": "../../source-documents/20260930-guarantee-official.html",
+      "sha256": "2aed245acc9fb8cf6b1fa8953e898eb0ee306d9d3574f8bf63f211f0c2c935ef"
+    },
+    {
+      "path": "../../source-documents/2026H1-guidance.pdf",
+      "sha256": "a846eab78f94c7f04cbb4382625309f56c286f5df5116baf6d1d95473cf44eed"
+    },
+    {
+      "path": "../../source-documents/2026H1.pdf",
+      "sha256": "6f64140f591a1e572ea82b2ee28110c3a54ea6089117ea0eefe1450ace7a2acd"
+    },
+    {
+      "path": "../../source-documents/2026Q1.pdf",
+      "sha256": "e7195bd3fbf1e5466692c5754f047b7913ad487f5a40ff78ab38caa2e425a54c"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225618455.pdf",
+      "sha256": "552e0be4c25f85c5ba3bbf9e33c8c120d30ebaf993c1db96cc2018e92c945079"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225632921.pdf",
+      "sha256": "fd878da1c2c55484a7618718ad091dcd4e1a450f03e812529aa0dffc2391320f"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225632923.pdf",
+      "sha256": "aa479fbebe3ad7c76032286f0af7f3ae7119ffb111c2cff1de7cba0c11bd2688"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-market.json",
+      "sha256": "8e6579f9f484630000d9d0354c2f7680e7e38819f9691e9361da82d716d5211d"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-model-validation.json",
+      "sha256": "2563542aa0cae6640c969690641c22b5be086956a1e20489e1645d2947eb00ea"
+    },
+    {
+      "path": "../../source-documents/employee-plan.pdf",
+      "sha256": "7f99be4d63e52ae648765c9ecdc79e1dfc8bd621cec025748c7d6f42182324d9"
+    },
+    {
+      "path": "../../source-documents/employee-progress.pdf",
+      "sha256": "5b9a04f19fb561f8f5a6d6d651febb8bcfdab5b461900793e740a256e83c7188"
+    },
+    {
+      "path": "../../source-documents/hightech-cancel.pdf",
+      "sha256": "512417e392710613c716cff0bf9c3c14e3aae927c458f37cdc084e9ad6a4222f"
+    },
+    {
+      "path": "../../source-documents/market-snapshot.json",
+      "sha256": "5d32b756dc7b6b1c8d458fe640e32c3ee6471881a5547d31b354bb8ac2cd6ad3"
+    },
+    {
+      "path": "../../source-documents/shareholder-change.pdf",
+      "sha256": "9de90726e339a22f610fb0dfa0677a44b95d1ba6eb2457e992f3ea5d57af6e0f"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

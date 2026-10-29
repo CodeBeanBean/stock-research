@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-29_v002_2026q3-update",
+  "version_number": 2,
+  "company": "gehua-cable",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3及估值分析更新",
+  "reason": "新增正式季报，区分利润质量、现金、股本和估值假设变化",
+  "created_at_utc": "2026-10-29T10:18:52.230397+00:00",
+  "reported_research_date": "2026-10-29",
+  "source_cutoff": "2026-10-29 17:52:01—17:52:19北京时间；补充原件实际获取UTC见来源索引",
+  "price_date": "2026-10-29",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\gehua-cable",
+  "context_directory": "D:\\Research\\stock-research\\companies\\gehua-cable",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "34e08667c13c1405eff355145259f4eb55dd4a6ae4d0b654b577db3035f6a504",
+      "archive_sha256": "e2cb081aaf442663d433d2e42158dd3714a85bafd831882e59ce52345fa93676",
+      "bytes": 21365
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "7c8916a2fe89822279e8a5380d9a6317b9531598c6193bfc56efb05f415a9bd2",
+      "archive_sha256": "7c8916a2fe89822279e8a5380d9a6317b9531598c6193bfc56efb05f415a9bd2",
+      "bytes": 32312
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "123659200cf17e5db2eb1f0ae360990140c6d0fb504b1d828e8c141feae6747d",
+      "archive_sha256": "238b8295f99f8f9f98125b25dc24a468df201dcf0536ee42ac2c94ed105da9ca",
+      "bytes": 2354
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "9e66d2e096eef44b16b3219c177a1c4c928c3d30461692a918ee4b205e898033",
+      "archive_sha256": "3a54566b1039f5c90c125de02e6a983fb477cf4c16510ac41a5c65f1efdc9bde",
+      "bytes": 8538
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "4f9bba965b4a283bb5e3e6fd9cb838e3841cd3767859b9a50dfc962bc6ef1b92",
+      "archive_sha256": "1a275fd2f67173760d3ebfc088ff4750b3320a44f6569fd5aab5dd004873c122",
+      "bytes": 2077
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "f5af64859c35ce51fca6c977a76d8fb6fb59a63d552462313155fa50e557a61d",
+      "archive_sha256": "cf325ec8a7f95b3991cd443681a25c1f5ee299df18f4d3d470c4d12ef66c49eb",
+      "bytes": 5700
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../outputs/gehua-cable-20261019/announcements-page1.json",
+      "sha256": "70e0e3089c72366b7d2ce97ada41bb2d9cb6b0108897e09e366980ac3f01ece7"
+    },
+    {
+      "path": "../../../../outputs/gehua-cable-20261019/validation.json",
+      "sha256": "f21a65d9c51a6531434e7b9f10c6d350489c5e1ef4544c6c4bde2094980e25ab"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640342.pdf",
+      "sha256": "f3c92e8071f95e89bbe291f268df01917f7a5700d4b1173f294b6e6e4283932c"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640391.pdf",
+      "sha256": "7b8035a079d76ad0dc6acd6fd2849dcdfd4c1e91c67284ecd85141f2054affe9"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640398.pdf",
+      "sha256": "e8ed61fd0a1ec6dc8ee026a2bbb15abea3035e1ca16c04fa6ad1ac025e8b23b9"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-market.json",
+      "sha256": "bbd9924bf758a9b2cabe898d38e77930ceea02c8a5fce455f7fba066046a3f2e"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-model-validation.json",
+      "sha256": "038a4aed29cf5881bb1002b63d41472ccb396fb3ef7be6e0aec8ca380842aa67"
+    },
+    {
+      "path": "../../source-documents/S01-2026-08-29.pdf",
+      "sha256": "a5b22d59afc4da0e7b5b1ade6d9176202a75f4aeb91b8fabbdc2f91383ca3283"
+    },
+    {
+      "path": "../../source-documents/S02-2026-04-29.pdf",
+      "sha256": "b5b6be18424b7c3d7d7988f755ff7083141831904d4347c07cba1da8452c8b76"
+    },
+    {
+      "path": "../../source-documents/S03-2026-04-29.pdf",
+      "sha256": "18d8867b21776ffadd60051e2767ec00f4ccf99977de7cabe828cbb614ade3cd"
+    },
+    {
+      "path": "../../source-documents/S04-2026-06-12.pdf",
+      "sha256": "92234f2a11cb95e2bce92d77319a23e7c1e78c196c6cfd20a767a458c55cbbfb"
+    },
+    {
+      "path": "../../source-documents/S05-2026-08-29.pdf",
+      "sha256": "1f7df5f19f22997baf794c4d18b266bfa08c2ceca19eb414e4ddc52047729027"
+    },
+    {
+      "path": "../../source-documents/S06-2026-08-04.pdf",
+      "sha256": "8af9e8a71453d789298db1563c53439eb439515c9db72492ff5a2b97b8c0e285"
+    },
+    {
+      "path": "../../source-documents/S07-2026-01-29.pdf",
+      "sha256": "a4bc452a0a997adb9627e9a466bb87947d7d43d930a7bf48351ef2d78dd02ede"
+    },
+    {
+      "path": "../../source-documents/S08-2026-09-29.pdf",
+      "sha256": "0e85b4e0d5080fd629098f5c5788bd76d199ecc9ec1f19dcb0a1ad08a3d35fce"
+    },
+    {
+      "path": "../../source-documents/S09-2026-08-29.pdf",
+      "sha256": "a69a5d99ba5553f793c6be5f9469917b3e971102b4f9ffed6884211b220eb25c"
+    },
+    {
+      "path": "../../source-documents/S10-2026-09-16.pdf",
+      "sha256": "e23e5b358bb733c28d6e37120894867f8834103353ed6760245c234441d2e9d5"
+    },
+    {
+      "path": "../../source-documents/S11-2026-04-29.pdf",
+      "sha256": "e0863395313e0feea906d5cdf901574b87ae4decc00510353354dcf11fd1fdfd"
+    },
+    {
+      "path": "../../source-documents/S12-2026-10-16-price.txt",
+      "sha256": "2ed371619855ce0a2cc464af21f3f11a0c02065bdfa545db0ea46c05e859c33d"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

@@ -1,0 +1,6 @@
+行情核对记录，2026-10-19研究时采集网页可见字段；不是交易所逐笔数据。
+Investing：https://cn.investing.com/equities/gehua-catv-historical-data
+2026-10-16：收盘7.17元，开盘7.35，最高7.49，最低7.09，成交23.42M股，涨跌-2.05%。
+交叉核对：https://www.lixinger.com/equity/company/detail/sh/600037/600037/fundamental/valuation/dyr
+最后更新2026-10-16，股价7.17元。当前交易日2026-10-19盘中价格不用于本次估值。
+2025年度每股0.05元股息已于2026-06-18除息，本次采用之后的实际收盘价，不再减息。

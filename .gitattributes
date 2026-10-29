@@ -1,0 +1,6 @@
+# Preserve source documents and sealed research hashes across Windows checkouts.
+research-history/** -text
+companies/*/research-history/** -text
+companies/*/source-documents/** -text
+*.xlsx -text
+*.pdf -text

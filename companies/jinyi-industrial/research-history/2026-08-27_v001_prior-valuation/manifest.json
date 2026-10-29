@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-08-27_v001_prior-valuation",
+  "version_number": 1,
+  "company": "jinyi-industrial",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整Q3更新前已交付研究基线",
+  "reason": "覆盖当前报告及模型前保存真实前版",
+  "created_at_utc": "2026-10-29T10:00:36.540155+00:00",
+  "reported_research_date": "2026-08-27",
+  "source_cutoff": "2026-08-27",
+  "price_date": "2026-08-27",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\jinyi-industrial",
+  "context_directory": "D:\\Research\\stock-research\\companies\\jinyi-industrial",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "09bce31e68434e7029f60d02c626f13bc7656c8638f5e9f77a71ec7b95af6c0f",
+      "archive_sha256": "09bce31e68434e7029f60d02c626f13bc7656c8638f5e9f77a71ec7b95af6c0f",
+      "bytes": 13386
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "6308b6daec560a901dc21dc75a0683a40d2e0cbf9b56752a973d4e1aefdd34e4",
+      "archive_sha256": "6308b6daec560a901dc21dc75a0683a40d2e0cbf9b56752a973d4e1aefdd34e4",
+      "bytes": 34495
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "328474651f6789abcedadb49183c4ccaa1b8ec572609d53feb0b76411ff6bab7",
+      "archive_sha256": "328474651f6789abcedadb49183c4ccaa1b8ec572609d53feb0b76411ff6bab7",
+      "bytes": 7195
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "4ca784fb18a6d3b96964f29cafbc422f8335b426b4205c81c689b1c3f2c923a4",
+      "archive_sha256": "4ca784fb18a6d3b96964f29cafbc422f8335b426b4205c81c689b1c3f2c923a4",
+      "bytes": 7268
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "a3f73f44cf8edf4c8d2e36468811b775b093445320a8f15de8540d5dd19555a3",
+      "archive_sha256": "a3f73f44cf8edf4c8d2e36468811b775b093445320a8f15de8540d5dd19555a3",
+      "bytes": 2151
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "a911343e1543899bedc060a6d19bfc2b2919f12227cfd7321f6c686f34f9884a",
+      "archive_sha256": "4a5934a82a4b02d835702a1279b393f86695a82075909331527ca4e1196d1cd9",
+      "bytes": 1193
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

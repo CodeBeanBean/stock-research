@@ -1,0 +1,119 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-29_v002_2026q3-update",
+  "version_number": 2,
+  "company": "proya",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3及估值分析更新",
+  "reason": "新增正式季报，区分利润质量、现金、股本和估值假设变化",
+  "created_at_utc": "2026-10-29T10:18:54.049697+00:00",
+  "reported_research_date": "2026-10-29",
+  "source_cutoff": "2026-10-29 17:52:01—17:52:19北京时间；补充原件实际获取UTC见来源索引",
+  "price_date": "2026-10-29",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\proya",
+  "context_directory": "D:\\Research\\stock-research\\companies\\proya",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "94d272f29500eb82f77fe71dc802eee7892383027f729b8702d1458b92865194",
+      "archive_sha256": "20382b7cafbb7b173dac6b7b372bf181f1aea63012e27fbbebe8e40743a915aa",
+      "bytes": 17944
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "1e378ec697c2f0f40f32143ee649f709809f9c920a3a70a91eba83c89a33a039",
+      "archive_sha256": "1e378ec697c2f0f40f32143ee649f709809f9c920a3a70a91eba83c89a33a039",
+      "bytes": 30360
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "25790bb85b5193fdd64fdce4c68dcf80139ba52ad6e6ade82add6d3d93c553ef",
+      "archive_sha256": "25790bb85b5193fdd64fdce4c68dcf80139ba52ad6e6ade82add6d3d93c553ef",
+      "bytes": 5710
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "84a74f2fed21209bdddbf0b6d7eb90690f4dcd271dedaca2a38d28d5d5e46a8b",
+      "archive_sha256": "7610d24d22379d528f07d64325717589871acf3af3e60126d6f106c1d91a8701",
+      "bytes": 10156
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "4f35e9f88a2afa078ca18a0d8e2af9ccd7b00e54c28b4bd82e13a3e316ac8533",
+      "archive_sha256": "4f35e9f88a2afa078ca18a0d8e2af9ccd7b00e54c28b4bd82e13a3e316ac8533",
+      "bytes": 2669
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "3e44e20e227620c3760c1af4d45c7c6749eec89eacf43ecacc3bfe9a33e5371e",
+      "archive_sha256": "fd7e789e0e5a71d834ad4e61b999bf333e203afb469a129deb6d9342b5ece858",
+      "bytes": 6259
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225569633.pdf",
+      "sha256": "7bd5f85071794b95b51ff114d3973ddb8d2541a3b61ae6a381a7b5fd8d1e073a"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225600426.pdf",
+      "sha256": "5b17463eeae09334971a6ae5356e6eb7a1de1630a96893f1203fdee3a3426058"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640717.pdf",
+      "sha256": "7ceb9b6699afd469e249397933951211132c9925b938e07b5127af7d8169d35f"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640722.pdf",
+      "sha256": "aa7e544fad4cf9824071f95cc3c91311014e0d38ca4a8568b1e62be492f38563"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640723.pdf",
+      "sha256": "a0bd4484eb6d600bd708ce891c068c77aab57f87dcd7c1827b88ea799e660d01"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640737.pdf",
+      "sha256": "0f862dd5de0418c9a7a582020aa7c9cad99e61fe2e74cca5f86207b925084c6f"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640766.pdf",
+      "sha256": "2c80c2e8ddcf22b952124fd758bd0f42889b6903cfb7b7b8d455aef9ebc5dc58"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640841.pdf",
+      "sha256": "6351334be7b46c7e74bbc86120588c21261d263f8e8c41c9cd892b7b214af3a2"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640899.pdf",
+      "sha256": "5fe58160dafdd1f8df7da941bbb4dbb0e0a5c4832dd349eb6fa60067fd5e89eb"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640956.pdf",
+      "sha256": "282e15ab53f3ad890b910ae59dcbacfe2ae0657c12e2c25db8bc9d8aa1412af7"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640961.pdf",
+      "sha256": "afbc4602858284c9d293a0acc6baa525df2bbb2f79ba525f353885259d821764"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225640965.pdf",
+      "sha256": "ab70e2bd7f994eea1683db6c39333acd06f448b7a485d9e166274a9521329329"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-market.json",
+      "sha256": "33b154c5818a9c0a3d82e50719c7d0c0e060093cd18ba98484d9e299ae2cb47e"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-model-validation.json",
+      "sha256": "44be2d60ec87ac969671c2e4aaba634d9a83c11d93b310dc8f9fb8153a6e41d9"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

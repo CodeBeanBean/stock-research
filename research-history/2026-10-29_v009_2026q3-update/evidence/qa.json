@@ -1,0 +1,67 @@
+{
+  "gehua-cable": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\gehua-cable-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\gehua-cable-contact-2.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\gehua-cable-contact-3.png"
+    ]
+  },
+  "lancy": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\lancy-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\lancy-contact-2.png"
+    ]
+  },
+  "proya": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\proya-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\proya-contact-2.png"
+    ]
+  },
+  "sunway-communication": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\sunway-communication-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\sunway-communication-contact-2.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\sunway-communication-contact-3.png"
+    ]
+  },
+  "muyuan": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\muyuan-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\muyuan-contact-2.png"
+    ]
+  },
+  "gigadevice": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\gigadevice-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\gigadevice-contact-2.png"
+    ]
+  },
+  "jinyi-industrial": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\jinyi-industrial-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261029\\jinyi-industrial-contact-2.png"
+    ]
+  }
+}

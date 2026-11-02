@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-24_v001_prior-valuation",
+  "version_number": 1,
+  "company": "spring-airlines",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整三季报前已交付基线",
+  "reason": "覆盖当前报告与模型前保存可核验原稿",
+  "created_at_utc": "2026-10-31T02:23:04.122741+00:00",
+  "reported_research_date": "2026-09-24",
+  "source_cutoff": "2026-09-24",
+  "price_date": "2026-09-23",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\spring-airlines",
+  "context_directory": "D:\\Research\\stock-research\\companies\\spring-airlines",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "3dfff1df9f1319ec02eb4e74ea2ac8577909d767ef6d55dae8fd4be0563f66c9",
+      "archive_sha256": "3dfff1df9f1319ec02eb4e74ea2ac8577909d767ef6d55dae8fd4be0563f66c9",
+      "bytes": 10157
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "d78ea97d70b903aa183701208eef7f55ef2a160f74a81b5d80543e1e9035f1b7",
+      "archive_sha256": "d78ea97d70b903aa183701208eef7f55ef2a160f74a81b5d80543e1e9035f1b7",
+      "bytes": 41361
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "f812052d746b4a5399a3aba0ef034b9e9c374bf34884f7f14048ca6f1ce2a6a5",
+      "archive_sha256": "f812052d746b4a5399a3aba0ef034b9e9c374bf34884f7f14048ca6f1ce2a6a5",
+      "bytes": 4972
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "929dddb39acdf0ea8dad77bc2a2ca98dd5cc380a0a32082165e62122c884871e",
+      "archive_sha256": "929dddb39acdf0ea8dad77bc2a2ca98dd5cc380a0a32082165e62122c884871e",
+      "bytes": 4083
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "a2df24733b5d2bd9cc29f7973eea3fdd7907565f5346d6109464f6a602f1ccfe",
+      "archive_sha256": "a2df24733b5d2bd9cc29f7973eea3fdd7907565f5346d6109464f6a602f1ccfe",
+      "bytes": 724
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "d513526213bcf09af994599f5a73aa732d207b70b49006fa85b33b7fb2bfd84b",
+      "archive_sha256": "663e14534fbea520a17911bfe9423f6d2f09cb15824a8602bc34df294987d37b",
+      "bytes": 1212
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

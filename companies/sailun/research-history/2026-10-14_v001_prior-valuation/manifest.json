@@ -1,0 +1,104 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-14_v001_prior-valuation",
+  "version_number": 1,
+  "company": "sailun",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整三季报前已交付基线",
+  "reason": "覆盖当前报告与模型前保存可核验原稿",
+  "created_at_utc": "2026-10-31T02:23:03.089282+00:00",
+  "reported_research_date": "2026-10-14",
+  "source_cutoff": "2026-10-14",
+  "price_date": "2026-10-13",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\sailun",
+  "context_directory": "D:\\Research\\stock-research\\companies\\sailun",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "db20a8e802701f5b7b4db5fc6195f6a6f9789467889e9a5f246b6df3d60ed061",
+      "archive_sha256": "13a4b275b9a02718ebb39e9b85c2d0298ace8a6062cb3a01f1c21ba71f8c78ca",
+      "bytes": 16517
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "f43f98ee99a1df57ef481bba28cd9b5da9814effc4a22ef2686bba5ad11a8261",
+      "archive_sha256": "f43f98ee99a1df57ef481bba28cd9b5da9814effc4a22ef2686bba5ad11a8261",
+      "bytes": 30464
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "6ad2f53bdb3e5677d61d55033e919e5c13d29ba83c0889533cb36dfd8952380c",
+      "archive_sha256": "648a4531fbeb446dc5ca8182eb467c13253b151d0dd000f8a842a603e228f3f0",
+      "bytes": 1429
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "6dce6cbd626141fc262a8d7ab8a5b9f52de96f8a2bd141a38f8e93b3c291efa4",
+      "archive_sha256": "0bf27ab3a46dcdb2446fec9f74557f64ce5199b5b085739b5577b54bd9b15209",
+      "bytes": 7006
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "12bb2b23d6a6ee6b79d0aff044567cd33d9253c13a3fcd43f3d130ef79b94349",
+      "archive_sha256": "12bb2b23d6a6ee6b79d0aff044567cd33d9253c13a3fcd43f3d130ef79b94349",
+      "bytes": 782
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "c09465b3ac94dcbadca5e3dc30a8c81a0e2b51c8ed8753d55063de57447766f0",
+      "archive_sha256": "0292e57fbf473669a6e3673ba8085335e4593d22a2d15d5a877100d6896cd733",
+      "bytes": 1225
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/S1-2026-08-31.pdf",
+      "sha256": "ea83c42cbb2f2b085c79857708d921623cc41b3795af0264efa6324157f7dea2"
+    },
+    {
+      "path": "../../source-documents/S10-2026-10-01.pdf",
+      "sha256": "6a07ce4c1cfd565dd049b2f4c6c541a0762a9e54c6061ccad9ee54204396ef07"
+    },
+    {
+      "path": "../../source-documents/S11-price-snapshot.json",
+      "sha256": "20d8bd47f7b485b594e9051eee9415ddbf3c9534247b58061d84effb65cca84c"
+    },
+    {
+      "path": "../../source-documents/S2-2026-04-28.pdf",
+      "sha256": "5bcaf59ab17b675c7df5e249aaf340e3cfcb92a147d0ea616eadffe3a7fa8768"
+    },
+    {
+      "path": "../../source-documents/S3-2026-04-28.pdf",
+      "sha256": "445939b2e39b174e5d2934a7246c4bc720cd91012eebf85952f003a473012b1a"
+    },
+    {
+      "path": "../../source-documents/S4-2026-08-31.pdf",
+      "sha256": "57b01d50b0e254f07d4b88aed77e3225edea9c6b7adc6c34614c0a9c2e6cee1c"
+    },
+    {
+      "path": "../../source-documents/S5-2026-09-05.pdf",
+      "sha256": "6914d01e8bbca198665ec2c028d58f59a9271fac7ae0d4f3213cf17b3cc2876e"
+    },
+    {
+      "path": "../../source-documents/S6-2026-06-18.pdf",
+      "sha256": "efe3311ed81a168a8a0de01a24d4fe76be8351c0bf5b323fb264a401f3cf6001"
+    },
+    {
+      "path": "../../source-documents/S7-2026-09-30.docx",
+      "sha256": "852442c54390b102a216a016d87be493a171b3056a19d8c4ecb9054be369e6e2"
+    },
+    {
+      "path": "../../source-documents/S8-2026-09-09.pdf",
+      "sha256": "a9dad4195a2603bc8d0527a6eadaf7f673bf73d0a1654866a4759c8c4e22e8d7"
+    },
+    {
+      "path": "../../source-documents/S9-2026-07-07.pdf",
+      "sha256": "dd0f8a6c4bce75ce597a1303145d399daea2748bc7e1d985ebc91f4c36185d8e"
+    }
+  ],
+  "mutable_navigation_links": []
+}

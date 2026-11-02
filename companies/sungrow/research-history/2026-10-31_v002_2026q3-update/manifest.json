@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-31_v002_2026q3-update",
+  "version_number": 2,
+  "company": "sungrow",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3与正常化估值更新",
+  "reason": "新季报、盈利现金及资本事项分别核对，估值前后变化永久保留",
+  "created_at_utc": "2026-10-31T02:39:50.534977+00:00",
+  "reported_research_date": "2026-10-31",
+  "source_cutoff": "2026-10-31 10:09:33—10:09:48北京时间；补充原件实际获取UTC见索引",
+  "price_date": "2026-10-30",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\sungrow",
+  "context_directory": "D:\\Research\\stock-research\\companies\\sungrow",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "63afc2095103ec12c654e456d36717b5176e094ac5be2f0529764261f07325bb",
+      "archive_sha256": "e00bc3c26807a818a013b2e4d3b804d9d694d1b0f49d1921bc4db1eeeeb992ec",
+      "bytes": 25110
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "f5e0dfbff7591b31e33692d092cf2b606ddec5f609b330e1ea8d86232d7adc2a",
+      "archive_sha256": "f5e0dfbff7591b31e33692d092cf2b606ddec5f609b330e1ea8d86232d7adc2a",
+      "bytes": 34677
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "9236230638c5f56ee38d29c82c2f5811343fedf81bd9df1933b62f1c1003343a",
+      "archive_sha256": "d0aafccdc4baa193fc71d34853d1783ac6ea9c98c1ab18a05cb73779dc4a2627",
+      "bytes": 10638
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "d37a765f6aab4fc7a9c9efbd18e3cadd6050fe520185bde4c7b1e046e7a0cce7",
+      "archive_sha256": "2d18934131dd48695b5c387f4369263745b1c35c5acc6d5a4bbbd8726598dd2e",
+      "bytes": 6487
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "ee48ec61eab2460bd47f3d1e827a09a39857f4fd8a3e1f228695a870d7884d28",
+      "archive_sha256": "ee48ec61eab2460bd47f3d1e827a09a39857f4fd8a3e1f228695a870d7884d28",
+      "bytes": 2175
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "71f5f9760b863d1ebe8c77bdd16a07130f6f24331310036e532c6bb241d41fd8",
+      "archive_sha256": "03291efea501a5f0de61fbb665281dd4f757182ceaec2107edbf82db3801c714",
+      "bytes": 6243
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "81e61708dfe569a1c6ec947934824750998c9deca8bc8fd62acfd8eac8e87d7a"
+    },
+    {
+      "path": "../../source-documents/2025-h1-report.pdf",
+      "sha256": "b17f4413fa47cc93d824ef75cc840f519a470b056ce28c069e936e7c082f52eb"
+    },
+    {
+      "path": "../../source-documents/2026-08-28-investor-relations.pdf",
+      "sha256": "b882e669291b076bde9618681f4c0b1ba196a69e0f15131ed438452dbd2e5636"
+    },
+    {
+      "path": "../../source-documents/2026-08-31-price-snapshot.txt",
+      "sha256": "bd8071e84a4e07686f638d29fdcd6e063207d9a6d3dcba3964b2944005500e26"
+    },
+    {
+      "path": "../../source-documents/2026-h1-report.pdf",
+      "sha256": "7a77d3a439619a41450c9aba5be39a2dbe93b9ec81bb1fad212a00674a54307f"
+    },
+    {
+      "path": "../../source-documents/2026-q1-report.pdf",
+      "sha256": "fdf791dc31303816127efc8850b4757ba385ee073f45a2e62c1f77081f0d35f7"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225566653.pdf",
+      "sha256": "142f2845a8a6586a773b3b94cab7e37a5d7e9c36dac5494c31bcd49375c15877"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225599315.pdf",
+      "sha256": "8c1f64c1a2a7139cdfec712ef2ae21fba681729f65b2c989d4ac1c1f72e8330b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643527.pdf",
+      "sha256": "167bc1206b4073e2a9cb10f410af2b1015e95ed9db13121acdf3924b0d2dbb2b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225646130.pdf",
+      "sha256": "bf8982f5761e5307ea9cd6de5aa39a31d049e721c76f69ef10afeb88ae8ea1fe"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225646132.pdf",
+      "sha256": "3690c3f67dfbb7adc354063f67e3fca32b4c4882e4a2780b917c8aaab3bd9838"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-market.json",
+      "sha256": "1f68801068333166391ed9cedf7a2e23c0c6bf9f73d729f1913686588d923e22"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-model-validation.json",
+      "sha256": "03a4389799057a2b24c5a812480775b9f4784b5d61e8302902351d577e6e5ef2"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

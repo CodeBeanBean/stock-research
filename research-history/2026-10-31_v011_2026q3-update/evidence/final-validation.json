@@ -1,0 +1,17 @@
+{
+  "covered_companies": 39,
+  "updated": 8,
+  "complete_q3_count": 25,
+  "unaffected_issuer_hashes_unchanged": true,
+  "all_prior_sources_preserved": true,
+  "all_prior_company_archives_preserved": true,
+  "unaffected_overview_rows_unchanged": 31,
+  "local_links_valid": 127,
+  "sheets_preserved": 65,
+  "charts_preserved": 14,
+  "formula_errors": 0,
+  "failed_checks": 0,
+  "matching_company_archives": 8,
+  "existing_global_archive_hashes_valid": true,
+  "excel_native_engine_tested": false
+}

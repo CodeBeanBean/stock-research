@@ -1,0 +1,95 @@
+{
+  "cases": [
+    6.760742753860171,
+    11.943066484214528,
+    20.875275871568245
+  ],
+  "upside": [
+    -0.42017643620410194,
+    0.024276713912052106,
+    0.790332407510141
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "priceUpside": true,
+    "selector": true,
+    "unselectedBlank": true,
+    "selectedBlank": true,
+    "zero": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "checks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Valuation",
+    "Assumptions",
+    "Actuals",
+    "Operations",
+    "Cash",
+    "Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "C1:P40",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "C1:I45",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "C1:I47",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Actuals",
+      "range": "C1:I36",
+      "file": "Actuals-1.png"
+    },
+    {
+      "sheet": "Actuals",
+      "range": "C36:I65",
+      "file": "Actuals-36.png"
+    },
+    {
+      "sheet": "Operations",
+      "range": "C1:I46",
+      "file": "Operations-1.png"
+    },
+    {
+      "sheet": "Cash",
+      "range": "C1:I48",
+      "file": "Cash-1.png"
+    },
+    {
+      "sheet": "Audit",
+      "range": "C1:J47",
+      "file": "Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 51,
+    "cost": 52,
+    "gross": 53,
+    "gm": 54,
+    "parent": 55,
+    "core": 56,
+    "nonrec": 57,
+    "cfo": 58,
+    "capex": 59,
+    "fcf": 60,
+    "equity": 61,
+    "assets": 62
+  },
+  "scale": 1000000,
+  "price": 11.66
+}

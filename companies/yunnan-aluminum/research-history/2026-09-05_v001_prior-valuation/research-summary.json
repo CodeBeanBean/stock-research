@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "完整三季报更新前研究基线",
+  "security": "000807.SZ",
+  "currency": "CNY",
+  "price": 26.95,
+  "bear": 13.127756234157093,
+  "base": 24.098692892374203,
+  "bull": 39.0632783037599,
+  "conclusion": "中性观察",
+  "method": "70%正常化P/E+30%P/B",
+  "valuation_horizon": "2027或正常化，见原报告",
+  "key_points": [
+    "正常化EPS1.46/2.62/4.26元，PE8/9/10、PB1.5/2.3/2.8；H1高铝价利润不机械年化，0.887元中期股息尚未实施。"
+  ],
+  "key_assumptions": [
+    "正常化EPS1.46/2.62/4.26元，PE8/9/10、PB1.5/2.3/2.8；H1高铝价利润不机械年化，0.887元中期股息尚未实施。"
+  ],
+  "risks": [
+    "旧报告中的经营、资产质量和资本分配风险按原日期保留。"
+  ],
+  "next_checks": [
+    "完整三季报、现金流和资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原报告与模型原字节保存；未将10月31日新披露倒填旧版。",
+  "report_sha256": "659cad1caff01f0f96e5d5b8c45581836dc94a608bcec2734f4714ffdb685e41",
+  "prepared_at_utc": "2026-10-31T02:23:08.406543+00:00",
+  "price_date": "2026-09-04"
+}

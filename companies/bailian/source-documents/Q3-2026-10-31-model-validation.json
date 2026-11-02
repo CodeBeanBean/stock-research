@@ -1,0 +1,91 @@
+{
+  "cases": [
+    4.423404592856706,
+    6.969051738375392,
+    9.64452269531616
+  ],
+  "upside": [
+    -0.43289684706965315,
+    -0.10653182841341124,
+    0.23647726863027696
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "priceUpside": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "checks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Lianhua Bridge",
+    "Assumptions",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P28",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:H36",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A36:H60",
+      "file": "Historical-36.png"
+    },
+    {
+      "sheet": "Lianhua Bridge",
+      "range": "A1:H35",
+      "file": "Lianhua-Bridge-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "A1:H24",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:H26",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:H23",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources Audit",
+      "range": "A1:H29",
+      "file": "Sources-Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 46,
+    "cost": 47,
+    "gross": 48,
+    "gm": 49,
+    "parent": 50,
+    "core": 51,
+    "nonrec": 52,
+    "cfo": 53,
+    "capex": 54,
+    "fcf": 55,
+    "equity": 56,
+    "assets": 57
+  },
+  "scale": 1000000000,
+  "price": 7.8
+}

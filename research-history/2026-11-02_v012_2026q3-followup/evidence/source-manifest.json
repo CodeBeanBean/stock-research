@@ -1,0 +1,43 @@
+[
+  {
+    "slug": "mlily",
+    "company": "梦百合",
+    "market": "CNINFO",
+    "code": "603313",
+    "title": "关于获得政府补助的公告",
+    "date": "2026-11-02",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650964.PDF",
+    "id": "1225650964",
+    "file": "mlily-1225650964.pdf",
+    "pages": 1,
+    "sha256": "e5f86f948da4f2d0ff87f267f266e60c07f5a894c6ff348bf674f891b9ff363a",
+    "retrieved_utc": "2026-11-02T02:40:40.339154+00:00"
+  },
+  {
+    "slug": "mlily",
+    "company": "梦百合",
+    "market": "CNINFO",
+    "code": "603313",
+    "title": "关于美东工厂收到火灾事故存货保险理赔款的公告",
+    "date": "2026-11-02",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650976.PDF",
+    "id": "1225650976",
+    "file": "mlily-1225650976.pdf",
+    "pages": 1,
+    "sha256": "e9c4890f3f3275d56755d06065865ab63b12b5e88dd7751134cb6c3237c1f1b2",
+    "retrieved_utc": "2026-11-02T02:40:40.484784+00:00"
+  },
+  {
+    "slug": "dpc-dash",
+    "company": "达势股份",
+    "market": "HKEX",
+    "title": "首席財務官及聯席公司秘書辭任；及委任首席財務官",
+    "date": "01/11/2026 18:01",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1101/2026110100002_c.pdf",
+    "id": "12391718",
+    "file": "dpc-dash-12391718.pdf",
+    "pages": 2,
+    "sha256": "c2825c59108a913b04877c872140088e96ba9e179422a480afadee1d4f4a76c2",
+    "retrieved_utc": "2026-11-02T02:40:41.375282+00:00"
+  }
+]

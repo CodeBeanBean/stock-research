@@ -1,0 +1,151 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-11-02_v003_insurance-followup",
+  "version_number": 3,
+  "company": "mlily",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "存货险到账及补助更新，估值不变",
+  "reason": "正式理赔到账与偶发补助需要增量记录，不重复资本化",
+  "created_at_utc": "2026-11-02T02:43:03.040652+00:00",
+  "reported_research_date": "2026-11-02",
+  "source_cutoff": "2026-11-02T10:38:57.119566+08:00",
+  "price_date": "2026-10-30",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\mlily",
+  "context_directory": "D:\\Research\\stock-research\\companies\\mlily",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "e1e4358f3bf2657140c05f26a950c1ae8eb359d6ae10af490f98f23da443895c",
+      "archive_sha256": "d1c2c57acc73abc0eb7ff9e328021b441d4269f2f70b2d231cc5188d701f57d9",
+      "bytes": 19294
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "ce3615b48bc898db273cd30f2097ca07808a2ef11af35cfb20a58c8481de1042",
+      "archive_sha256": "ce3615b48bc898db273cd30f2097ca07808a2ef11af35cfb20a58c8481de1042",
+      "bytes": 31335
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "8161ca31889266bad0de9d584ec0ea0ecb29dcb5ae3ab7ba8c10c260a924a3f1",
+      "archive_sha256": "bc1099dbf25c38a7aa4bf6eda16e3add71edb33e37d6ae065c805c4528b15630",
+      "bytes": 7886
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "d54c40bd998820474aef0171a39de1b253a2fe34c5545977a0cf3c0e4a9aea4b",
+      "archive_sha256": "48eb5a9ac2a5178bab6f54d70cc68f6365c25b9472f36f235cad13b531941a49",
+      "bytes": 10066
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "bae27c593ee43c12909486d39fafd041ae47d470a98daaf7863b36011e47e4ac",
+      "archive_sha256": "bae27c593ee43c12909486d39fafd041ae47d470a98daaf7863b36011e47e4ac",
+      "bytes": 4614
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "0c975be2a5940ff8c0c33efe8f437fda29e862f427a7a87c752aa27bbce6f684",
+      "archive_sha256": "ffedcf1784d0d2d30e5023596da179105bd8c1c122ae40a139342cb622b3dc91",
+      "bytes": 5295
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report.pdf",
+      "sha256": "6548fb78cd86dd715b80082a73beb2b4fe4b6d56f57145ea76f7773e25a3bcd5"
+    },
+    {
+      "path": "../../source-documents/2025-H1-report.pdf",
+      "sha256": "70cac85492e4d7eddd644e37a17356d431ea2de13b20f74cff0348261b0e3a95"
+    },
+    {
+      "path": "../../source-documents/2025-annual-inquiry-response.html",
+      "sha256": "c3359673d72e646c90216faf3a650d734ab95ebc74b16ed70b97d983c031793c"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report-correction.html",
+      "sha256": "23683d8e85996bc1fa66ec6de6c113aeb134ff830bdb3e3fb24ca8b02e0891c0"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "47dea6ea4b545dc036d61862708a98031cd445fe5e359ad3ac0b57685e8ffb60"
+    },
+    {
+      "path": "../../source-documents/2025-audit-special-explanation.pdf",
+      "sha256": "13c8d64bd3eb395ea608bdac04b875b21fea9e5a8349cdc38d5b84de3e1264ef"
+    },
+    {
+      "path": "../../source-documents/2026-11-02-1225650964.pdf",
+      "sha256": "e5f86f948da4f2d0ff87f267f266e60c07f5a894c6ff348bf674f891b9ff363a"
+    },
+    {
+      "path": "../../source-documents/2026-11-02-1225650976.pdf",
+      "sha256": "e9c4890f3f3275d56755d06065865ab63b12b5e88dd7751134cb6c3237c1f1b2"
+    },
+    {
+      "path": "../../source-documents/2026-H1-operating-data.html",
+      "sha256": "698bbe2bed46ff3005077e68d9504912d932b288accd3618b7648a5935f9f282"
+    },
+    {
+      "path": "../../source-documents/2026-H1-report.pdf",
+      "sha256": "2a793daf5486c8e6dc094455b7edbff956ef96aa20a0dcc35f07235245364c05"
+    },
+    {
+      "path": "../../source-documents/2026-south-carolina-fire.html",
+      "sha256": "8835ae87cc35318103bef73b9e55dd008e6eecb007c04108c72da5fe499aaa19"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648902.pdf",
+      "sha256": "fbee783110aa42e73fc36127c9d24886906b0f6fc37793410c6c827d2f5c3eab"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648910.pdf",
+      "sha256": "81ec4122c22d298a39692c3ac8b5042041e3f12df43b024f6a14ec7622451032"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648913.pdf",
+      "sha256": "b2224473fceb520d62cf84f753f11a2fc12d726b42d69204b371391e8a13f1bc"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648918.pdf",
+      "sha256": "83cd7f7013f37a581cfb35a5221772cb5e4f37c6aab92dca35e339a8755b8805"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648936.pdf",
+      "sha256": "985217a03b32ea0c9c17475621da7c27d7843cd56dd17a5c8ec97f6d4751f7d2"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648940.pdf",
+      "sha256": "acd8c8b51fab670d91c33789a016e0fd1eeadc4f05d76c401857655bc23caac5"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648949.pdf",
+      "sha256": "9a01685c5ed4ad5b2c3dcc3e4f28f5723377d8573010f3db70fcf48c190b93fb"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648951.pdf",
+      "sha256": "89e450344cb1eb93d6f70eea910da22254cdbf9aea4a9ac0b8b563ae00fcd7b8"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648958.pdf",
+      "sha256": "9f6ddfaebc1b64fb102d7011c1c8d1bfdff9ec168b0f80c0a0e5f43542e96109"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-market.json",
+      "sha256": "fc5bdada53b57e85f5a19273cec363a31626d3df245e964acfc1872d8b3eb8d2"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-model-validation.json",
+      "sha256": "c3588c198f5ea8e46be688f5dc7ce17b5eb74508702442dc32efd3235975f019"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

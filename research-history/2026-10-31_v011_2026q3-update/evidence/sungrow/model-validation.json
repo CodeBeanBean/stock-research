@@ -1,0 +1,103 @@
+{
+  "cases": [
+    54.02246905619983,
+    86.8218252688926,
+    132.64445527191924
+  ],
+  "upside": [
+    -0.1725766724429495,
+    0.32978749071668845,
+    1.0316197774838294
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "priceUpside": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "checks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Segments",
+    "Balance Sheet",
+    "Assumptions",
+    "Valuation",
+    "DCF",
+    "Checks",
+    "Sources"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P46",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:H36",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A36:H60",
+      "file": "Historical-36.png"
+    },
+    {
+      "sheet": "Segments",
+      "range": "A1:H25",
+      "file": "Segments-1.png"
+    },
+    {
+      "sheet": "Balance Sheet",
+      "range": "A1:H38",
+      "file": "Balance-Sheet-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "A1:H26",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:H25",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "DCF",
+      "range": "A1:H28",
+      "file": "DCF-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:H19",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources",
+      "range": "A1:H18",
+      "file": "Sources-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 46,
+    "cost": 47,
+    "gross": 48,
+    "gm": 49,
+    "parent": 50,
+    "core": 51,
+    "nonrec": 52,
+    "cfo": 53,
+    "capex": 54,
+    "fcf": 55,
+    "equity": 56,
+    "assets": 57
+  },
+  "scale": 1000000,
+  "price": 65.29
+}

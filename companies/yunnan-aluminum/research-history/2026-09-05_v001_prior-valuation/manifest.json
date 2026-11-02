@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-05_v001_prior-valuation",
+  "version_number": 1,
+  "company": "yunnan-aluminum",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整三季报前已交付基线",
+  "reason": "覆盖当前报告与模型前保存可核验原稿",
+  "created_at_utc": "2026-10-31T02:23:08.406543+00:00",
+  "reported_research_date": "2026-09-05",
+  "source_cutoff": "2026-09-05",
+  "price_date": "2026-09-04",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\yunnan-aluminum",
+  "context_directory": "D:\\Research\\stock-research\\companies\\yunnan-aluminum",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "659cad1caff01f0f96e5d5b8c45581836dc94a608bcec2734f4714ffdb685e41",
+      "archive_sha256": "659cad1caff01f0f96e5d5b8c45581836dc94a608bcec2734f4714ffdb685e41",
+      "bytes": 5508
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "65c8c35766748bf756dd2f079cc83f48ec958fc941d24ff4221ba411f338f37c",
+      "archive_sha256": "65c8c35766748bf756dd2f079cc83f48ec958fc941d24ff4221ba411f338f37c",
+      "bytes": 24922
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "023582304e7380cc9d0f29059e53148a9fd087b5215aa4792a408d89efd25fd2",
+      "archive_sha256": "023582304e7380cc9d0f29059e53148a9fd087b5215aa4792a408d89efd25fd2",
+      "bytes": 3010
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "7968b5899208388f7e6107438dbb6f91f3a4bed9cdc57716ee818eaad3f2795f",
+      "archive_sha256": "7968b5899208388f7e6107438dbb6f91f3a4bed9cdc57716ee818eaad3f2795f",
+      "bytes": 1800
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "8e7e4b726f7ce1ba8c1749af31885f53162e1908d601b25e4bf4c318d45a87c1",
+      "archive_sha256": "8e7e4b726f7ce1ba8c1749af31885f53162e1908d601b25e4bf4c318d45a87c1",
+      "bytes": 689
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "98ac7c0e331d4b83c67292de974a7bd6cbd0b75e53e99c4493501a951d807465",
+      "archive_sha256": "886b8093e3da93a0dc20a11f4d864fd81e2a39ffbce5fbf9a5ee44dcd81626d8",
+      "bytes": 1194
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

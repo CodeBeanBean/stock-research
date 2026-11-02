@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "完整三季报更新前研究基线",
+  "security": "600887.SH",
+  "currency": "CNY",
+  "price": 26.54,
+  "bear": 21.57979713506825,
+  "base": 33.59492227986816,
+  "bull": 46.479563060147,
+  "conclusion": "中性偏积极",
+  "method": "2027正常化归母P/E",
+  "valuation_horizon": "2027或正常化，见原报告",
+  "key_points": [
+    "归母105/125/140亿元、PE13/17/21；仅加回商誉减值，不加回存货跌价；澳优、渠道与高分红可持续性待验证。"
+  ],
+  "key_assumptions": [
+    "归母105/125/140亿元、PE13/17/21；仅加回商誉减值，不加回存货跌价；澳优、渠道与高分红可持续性待验证。"
+  ],
+  "risks": [
+    "旧报告中的经营、资产质量和资本分配风险按原日期保留。"
+  ],
+  "next_checks": [
+    "完整三季报、现金流和资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原报告与模型原字节保存；未将10月31日新披露倒填旧版。",
+  "report_sha256": "68afc06110242b3f2e17d07d07f1b4870c6a306d4c03b8fea2214651c0a7df4d",
+  "prepared_at_utc": "2026-10-31T02:23:05.917293+00:00",
+  "price_date": "2026-09-10"
+}

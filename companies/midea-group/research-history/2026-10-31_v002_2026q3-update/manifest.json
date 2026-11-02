@@ -1,0 +1,103 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-31_v002_2026q3-update",
+  "version_number": 2,
+  "company": "midea-group",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3与正常化估值更新",
+  "reason": "新季报、盈利现金及资本事项分别核对，估值前后变化永久保留",
+  "created_at_utc": "2026-10-31T02:39:45.665529+00:00",
+  "reported_research_date": "2026-10-31",
+  "source_cutoff": "2026-10-31 10:09:33—10:09:48北京时间；补充原件实际获取UTC见索引",
+  "price_date": "2026-10-30",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\midea-group",
+  "context_directory": "D:\\Research\\stock-research\\companies\\midea-group",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "0138fd1eae0e8a358d582240ea70da2eb48b3677220f644945fe1cf608bd3c07",
+      "archive_sha256": "9c2dd475a4343ca9ce2fc7ef9db8414ef4200b899565d5928ec9614fbd03b4e5",
+      "bytes": 17244
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "b10d2e1003a8210af910ecfb7e7dc69abe4b0f39dd9693cbe18a5d586f177005",
+      "archive_sha256": "b10d2e1003a8210af910ecfb7e7dc69abe4b0f39dd9693cbe18a5d586f177005",
+      "bytes": 43472
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "23987c45519dbbe0281809c5c4c3fa272036f773d81ba1c1250aaace5f8dcfe9",
+      "archive_sha256": "5affc9c6daaf7f626fdae91713762b07c7b2fabb00e4eee001117720f8131686",
+      "bytes": 6143
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "ed2b323eed842020f9dc7d287f5308450ef3d7f91779986cf8b041294cc5a25b",
+      "archive_sha256": "48379eba9921c1ae35266120070507c4f38fb3df2d564d099e7a290bdb6a23c9",
+      "bytes": 7620
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "e5296f7240fc5c92a4e087be2c736ab486628929f1347e98581100dc926c6672",
+      "archive_sha256": "e5296f7240fc5c92a4e087be2c736ab486628929f1347e98581100dc926c6672",
+      "bytes": 2371
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "aea4fdce24bba2c07855e885ed120e4bfa358fe113c0588604b6430a477f1b6b",
+      "archive_sha256": "687bd4f6b5cda90aa463d8d9e60cbff0ed85702002b0aeb7674f23e2f9baf21d",
+      "bytes": 6387
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225603534.pdf",
+      "sha256": "b38a3d71faa803d485d3400410a1dab61699653fc8635e6b2d435df86f04d733"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225616891.pdf",
+      "sha256": "30b748c93f9b9d0b7a31700a5a2a947a8777cfff2671d931936c0274cacba572"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225645132.pdf",
+      "sha256": "9c52a6175a6f41e4dec481127e278dfe3dc832901defd0e4ed053a47cc597805"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225645134.pdf",
+      "sha256": "44e43ca90fb89651db2393b0c7a5fd1255256e0d64d72b71013ca1da10b0eb2e"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225645135.pdf",
+      "sha256": "64ff23cbf317ca7a2daebdde1136c63cecd39d26eba4b55277156d6cc4804e96"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225645136.pdf",
+      "sha256": "9212ee295f3fe4a1fba1fac463594448669fb4eb0c1af21bf2accf993238ef4c"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225645137.pdf",
+      "sha256": "8978a8b3dfc6643b6dc979f2bd7b6b95071387f0e81e169e87ca89c3f7628e2b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-12387995.pdf",
+      "sha256": "e3ee845dbe2afb0b91992dbc0af6e3d2e44518cb53dafd2cfafa5e1464ab10d9"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-market.json",
+      "sha256": "a16f5e06096e25ccf61f6eb8372a9084d17cb6bce905b700d3adace1e66953fb"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-model-validation.json",
+      "sha256": "f77185ad44ec5f80464a1cfc6335b092d2dd85914e6836599fbab613c71406d7"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

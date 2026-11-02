@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "完整三季报更新前研究基线",
+  "security": "601021.SH",
+  "currency": "CNY",
+  "price": 41.94,
+  "bear": 21.362298550879622,
+  "base": 49.5913254853504,
+  "bull": 74.44369171372978,
+  "conclusion": "中性偏积极",
+  "method": "70%2027正常化P/E+30%P/B",
+  "valuation_horizon": "2027或正常化，见原报告",
+  "key_points": [
+    "利润15/28/35亿元、PE13/18/22，BVPS19/20.5/21.5、PB1.3/2.2/3；价格为0.33元除息前。H1燃油成本与飞机支出上升。"
+  ],
+  "key_assumptions": [
+    "利润15/28/35亿元、PE13/18/22，BVPS19/20.5/21.5、PB1.3/2.2/3；价格为0.33元除息前。H1燃油成本与飞机支出上升。"
+  ],
+  "risks": [
+    "旧报告中的经营、资产质量和资本分配风险按原日期保留。"
+  ],
+  "next_checks": [
+    "完整三季报、现金流和资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原报告与模型原字节保存；未将10月31日新披露倒填旧版。",
+  "report_sha256": "3dfff1df9f1319ec02eb4e74ea2ac8577909d767ef6d55dae8fd4be0563f66c9",
+  "prepared_at_utc": "2026-10-31T02:23:04.122741+00:00",
+  "price_date": "2026-09-23"
+}

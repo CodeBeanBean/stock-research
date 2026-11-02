@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-21_v001_prior-valuation",
+  "version_number": 1,
+  "company": "midea-group",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整三季报前已交付基线",
+  "reason": "覆盖当前报告与模型前保存可核验原稿",
+  "created_at_utc": "2026-10-31T02:23:05.018550+00:00",
+  "reported_research_date": "2026-09-21",
+  "source_cutoff": "2026-09-21",
+  "price_date": "2026-09-18",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\midea-group",
+  "context_directory": "D:\\Research\\stock-research\\companies\\midea-group",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "ed61146ab65c570ebf076c28c30b127ca709703e755fcb493567176ede00bef3",
+      "archive_sha256": "ed61146ab65c570ebf076c28c30b127ca709703e755fcb493567176ede00bef3",
+      "bytes": 10298
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "91fb8ab0c84a14c06d5f1670b45adac52c694e4335ad3274962c802304e24d28",
+      "archive_sha256": "91fb8ab0c84a14c06d5f1670b45adac52c694e4335ad3274962c802304e24d28",
+      "bytes": 41249
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "5e1cf58b74bde0172cdf55befb85585b2e7ee5e20e58ab7011d33ecc0b610519",
+      "archive_sha256": "5e1cf58b74bde0172cdf55befb85585b2e7ee5e20e58ab7011d33ecc0b610519",
+      "bytes": 4969
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "924c482c540a0bab44f5a49d9860874bb7dc871112572812f53dba7268406ba6",
+      "archive_sha256": "924c482c540a0bab44f5a49d9860874bb7dc871112572812f53dba7268406ba6",
+      "bytes": 3754
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "24c23ed24a6410de7636a6960ab09000c5f2917644d3582cd02affb4259354ef",
+      "archive_sha256": "24c23ed24a6410de7636a6960ab09000c5f2917644d3582cd02affb4259354ef",
+      "bytes": 1147
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "f7098b2e14c239fb967a71275f7662b6deae377fcb4ae3b5c27cb2d110801ad6",
+      "archive_sha256": "528de743a77d2721893abb6408b565b249ba101e46f869e10bdd4d0c0366876c",
+      "bytes": 1192
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

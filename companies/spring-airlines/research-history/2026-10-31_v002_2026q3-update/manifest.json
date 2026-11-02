@@ -1,0 +1,99 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-31_v002_2026q3-update",
+  "version_number": 2,
+  "company": "spring-airlines",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3与正常化估值更新",
+  "reason": "新季报、盈利现金及资本事项分别核对，估值前后变化永久保留",
+  "created_at_utc": "2026-10-31T02:39:44.528314+00:00",
+  "reported_research_date": "2026-10-31",
+  "source_cutoff": "2026-10-31 10:09:33—10:09:48北京时间；补充原件实际获取UTC见索引",
+  "price_date": "2026-10-30",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\spring-airlines",
+  "context_directory": "D:\\Research\\stock-research\\companies\\spring-airlines",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "57ba759c6cfb4d16c5f2b54a78890aa23a601d2eedc0912873a65dcd59d482e0",
+      "archive_sha256": "42ab966ce65a0e6a0f68b322c2b826218b37c2ae8f5147fd6b351ebb055f3ea3",
+      "bytes": 16613
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "0c540185529a925a1bbf76a467be4c9ecd42ea9f6c2fd38ca5ebcdb597f2c33d",
+      "archive_sha256": "0c540185529a925a1bbf76a467be4c9ecd42ea9f6c2fd38ca5ebcdb597f2c33d",
+      "bytes": 43434
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "c4a7d8dce1c173d02af6c9b9b722aed33dbfb67cb2a90947e6854d2b7b4843ba",
+      "archive_sha256": "4ef4620629d81b951a6f229af0968dd6056267893d4a3f07e719f3969dad7239",
+      "bytes": 5967
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "7eb75887be2efb714dad5403ff65752a6e2effd3055f54ab0015ebbdf23c992f",
+      "archive_sha256": "a65864e34c671b824f74fdb0e9ff9be73649dd08141bfe39e9e3d28d818b999e",
+      "bytes": 7598
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "f13fd54c010ee585a1ff4cd53038e8069f7d68a64357f267f144304e2be882d4",
+      "archive_sha256": "f13fd54c010ee585a1ff4cd53038e8069f7d68a64357f267f144304e2be882d4",
+      "bytes": 1737
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "713c970e0d987612a50953533fbc190dacdebe24524400d54ab7fbb03ccb5431",
+      "archive_sha256": "de246984f3aedf25db1c48a11c9b9f2e5ded79fe3209d3de2c3dd4ed1b2a202c",
+      "bytes": 5681
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225570047.pdf",
+      "sha256": "fc387da868e5bc54aadff532590013e521c104e3c2fe63815213ce108b4c56e1"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643276.pdf",
+      "sha256": "0d1232f87bfd20123ce979eca32114de293d54e5376bab335a5ca859d5d623a6"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643298.pdf",
+      "sha256": "482b930f2478582d11bb0083a0f66ce38426ad60fab5aad34ac66da366304442"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643308.pdf",
+      "sha256": "98e654c9a3653c8579dabb58171e04a196a19380318e5dbb6f5e5f648fb75eea"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643315.pdf",
+      "sha256": "45c6704871d0454b031617478e5dcb373d0e038b26f065f8141d6838727c733b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643362.pdf",
+      "sha256": "232ecb9aa5912b35c1f833e0ad56a17fe9f47901c0ec5fb35bbf4dc97d20e0bb"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225646083.pdf",
+      "sha256": "1a6b01f27ee77c8e5c72057b483a1d47f3fe852ce3022bf7ea24cd4d71bc65d5"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-market.json",
+      "sha256": "caf457c87b451e848e800537745c20eb8c8f523b62cf14c07a67b06231516ae2"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-model-validation.json",
+      "sha256": "87a4ff198a36c52bb7baa24741157f5b0a6a52fa1a62d4bcdf4886ed674aa1f1"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

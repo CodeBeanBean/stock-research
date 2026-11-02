@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-07_v001_prior-valuation",
+  "version_number": 1,
+  "company": "mlily",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整三季报前已交付基线",
+  "reason": "覆盖当前报告与模型前保存可核验原稿",
+  "created_at_utc": "2026-10-31T02:23:06.828402+00:00",
+  "reported_research_date": "2026-09-07",
+  "source_cutoff": "2026-09-07",
+  "price_date": "2026-09-04",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\mlily",
+  "context_directory": "D:\\Research\\stock-research\\companies\\mlily",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "a442f9e0de2135bab330eeb60e4be8a651af2396185b12bb32fff1c212e79b63",
+      "archive_sha256": "a442f9e0de2135bab330eeb60e4be8a651af2396185b12bb32fff1c212e79b63",
+      "bytes": 10845
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "a0682c6a2eba4be655c1c8bd69725787aed19740ac0434c6005a3e1b110dfe56",
+      "archive_sha256": "a0682c6a2eba4be655c1c8bd69725787aed19740ac0434c6005a3e1b110dfe56",
+      "bytes": 28534
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "bbdd6408e82c49e7452e829da23064f90bbafbdf2447ab4530b3bccbb612f322",
+      "archive_sha256": "bbdd6408e82c49e7452e829da23064f90bbafbdf2447ab4530b3bccbb612f322",
+      "bytes": 5204
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "db1f8ae2576b59841b0390c21975a3641ba3b7417ab17a6a7e48034428f30397",
+      "archive_sha256": "f067d6881eecd302d1b5a27027a3d096f63703f29b1f7617e10d0241b9429931",
+      "bytes": 5378
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "09678b60f20e1b1830264a44eb0437f017e9618fdae923853728c67b6efa9ba7",
+      "archive_sha256": "09678b60f20e1b1830264a44eb0437f017e9618fdae923853728c67b6efa9ba7",
+      "bytes": 1841
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "aaec08e48e64eed8df0c3f3691d3f84820a6d6f1b500acd270db722e011b6951",
+      "archive_sha256": "7353ad2a9dbb942d60f2d8041e5ad69f68636d5507557632e978de7f4cc0f4bd",
+      "bytes": 1200
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report.pdf",
+      "sha256": "6548fb78cd86dd715b80082a73beb2b4fe4b6d56f57145ea76f7773e25a3bcd5"
+    },
+    {
+      "path": "../../source-documents/2025-H1-report.pdf",
+      "sha256": "70cac85492e4d7eddd644e37a17356d431ea2de13b20f74cff0348261b0e3a95"
+    },
+    {
+      "path": "../../source-documents/2025-annual-inquiry-response.html",
+      "sha256": "c3359673d72e646c90216faf3a650d734ab95ebc74b16ed70b97d983c031793c"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report-correction.html",
+      "sha256": "23683d8e85996bc1fa66ec6de6c113aeb134ff830bdb3e3fb24ca8b02e0891c0"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "47dea6ea4b545dc036d61862708a98031cd445fe5e359ad3ac0b57685e8ffb60"
+    },
+    {
+      "path": "../../source-documents/2025-audit-special-explanation.pdf",
+      "sha256": "13c8d64bd3eb395ea608bdac04b875b21fea9e5a8349cdc38d5b84de3e1264ef"
+    },
+    {
+      "path": "../../source-documents/2026-H1-operating-data.html",
+      "sha256": "698bbe2bed46ff3005077e68d9504912d932b288accd3618b7648a5935f9f282"
+    },
+    {
+      "path": "../../source-documents/2026-H1-report.pdf",
+      "sha256": "2a793daf5486c8e6dc094455b7edbff956ef96aa20a0dcc35f07235245364c05"
+    },
+    {
+      "path": "../../source-documents/2026-south-carolina-fire.html",
+      "sha256": "8835ae87cc35318103bef73b9e55dd008e6eecb007c04108c72da5fe499aaa19"
+    }
+  ],
+  "mutable_navigation_links": []
+}

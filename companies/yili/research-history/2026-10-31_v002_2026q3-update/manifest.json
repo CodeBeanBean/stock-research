@@ -1,0 +1,99 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-31_v002_2026q3-update",
+  "version_number": 2,
+  "company": "yili",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3与正常化估值更新",
+  "reason": "新季报、盈利现金及资本事项分别核对，估值前后变化永久保留",
+  "created_at_utc": "2026-10-31T02:39:47.029439+00:00",
+  "reported_research_date": "2026-10-31",
+  "source_cutoff": "2026-10-31 10:09:33—10:09:48北京时间；补充原件实际获取UTC见索引",
+  "price_date": "2026-10-30",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\yili",
+  "context_directory": "D:\\Research\\stock-research\\companies\\yili",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "dc9143e0a4abb5fd196d8b0f3c5b25c90045be1f9eadf6e90e6ec01f0720ab77",
+      "archive_sha256": "d9af0a93c30c9c547f5649938faa844d8de299f06017bd0b19dd0391eac7488c",
+      "bytes": 18431
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "3edbfd3864bb9756289f2c4c911bcf9ac0b6111ca78487dc8f049cfb43e76dba",
+      "archive_sha256": "3edbfd3864bb9756289f2c4c911bcf9ac0b6111ca78487dc8f049cfb43e76dba",
+      "bytes": 32908
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "016ad7f828f8c19f6c9f354709a161be90f84a91a840fbbe9df326ac61e5d12c",
+      "archive_sha256": "fa430b3146b03c930362b11b11ca15dcdca72d5c94200a4287e34634501173e9",
+      "bytes": 6997
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "d1464b5687ba0d3f5997bf0e93b486dd84b162545bb46b36b6b36ed88ab3ba32",
+      "archive_sha256": "44ec21e1432d0b8512eeb247d479dd4114f051c6d2a5239dd4423a7480af71db",
+      "bytes": 8532
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "fb759f61e442ec8ec599cfd140cb039297aa250914e06dbfb12b51edac4b0b5f",
+      "archive_sha256": "fb759f61e442ec8ec599cfd140cb039297aa250914e06dbfb12b51edac4b0b5f",
+      "bytes": 3000
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "2dbb3dac91254ac4454d4121ef033ea49df36ee55d210650e016be7830a4ecbb",
+      "archive_sha256": "0b7937993f6a785b4a9ad2763a3d35dace5b7a9210025a239fb4ab70efd3a022",
+      "bytes": 5869
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225618134.pdf",
+      "sha256": "557ffada4ea10f94eed1f5c1a8d45f18ad4ae8527439fe9a4a98b69b4d951144"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225644485.pdf",
+      "sha256": "9e9b71da1b4ba6bd258efbeffcc6c4cb7f17ebafb55ad6edb5bc62b5fdcfa465"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225644489.pdf",
+      "sha256": "48ba3ff134e75e22fd09bb77df5a31750935ad1a814ce2497946efdb4ed0fc5e"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225644498.pdf",
+      "sha256": "edabd3c9460cc610c00b271f9b93b7c21badddfe33d9b3e3cd87afb90fca93e3"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225644500.pdf",
+      "sha256": "e165e6ee19441a1c0a59199991016bbf78098073981c469f3432e533cb3ce7a0"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225644520.pdf",
+      "sha256": "6649a6b67908e1306edaa84092c38bdb74f1bb091cb613f2bc404baea27bb87e"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225644527.pdf",
+      "sha256": "e32dfd4a2f8bf61d77d3bc61052ad0ff489b822fcc188ae4e4717933c22609d7"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-market.json",
+      "sha256": "397d8cdcea9da7df0a803fa9ff94947f655f58de8234abc2613f1405af356315"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-model-validation.json",
+      "sha256": "03961d4e247e1e5c388ed730bf6e7bc5e2cea18952a5f600299e57a861ff3350"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

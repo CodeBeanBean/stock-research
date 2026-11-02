@@ -1,0 +1,103 @@
+{
+  "cases": [
+    18.376838840703698,
+    44.109707558871776,
+    69.27137528112438
+  ],
+  "upside": [
+    -0.5466985979106143,
+    0.08805396050497727,
+    0.7087167064904878
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "priceUpside": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "checks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Assumptions",
+    "Historical",
+    "Operating KPIs",
+    "Balance & Cash",
+    "Forecast",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P46",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "A1:H44",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:H36",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A36:H60",
+      "file": "Historical-36.png"
+    },
+    {
+      "sheet": "Operating KPIs",
+      "range": "A1:H46",
+      "file": "Operating-KPIs-1.png"
+    },
+    {
+      "sheet": "Balance & Cash",
+      "range": "A1:H39",
+      "file": "Balance---Cash-1.png"
+    },
+    {
+      "sheet": "Forecast",
+      "range": "A1:H34",
+      "file": "Forecast-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:H41",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:H30",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources Audit",
+      "range": "A1:H36",
+      "file": "Sources-Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 46,
+    "cost": 47,
+    "gross": 48,
+    "gm": 49,
+    "parent": 50,
+    "core": 51,
+    "nonrec": 52,
+    "cfo": 53,
+    "capex": 54,
+    "fcf": 55,
+    "equity": 56,
+    "assets": 57
+  },
+  "scale": 1000000000,
+  "price": 40.54
+}

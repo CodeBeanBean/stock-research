@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "完整三季报更新前研究基线",
+  "security": "600827.SH",
+  "currency": "CNY",
+  "price": 7.78,
+  "bear": 4.589211723166893,
+  "base": 7.350856602865749,
+  "bull": 10.1049642169679,
+  "conclusion": "中性",
+  "method": "60%折价净资产+40%正常化P/E",
+  "valuation_horizon": "2027或正常化，见原报告",
+  "key_points": [
+    "利润3/5.5/8亿元、PE12/15/18，PB0.55/0.8/1；联华托管终止当时待批，H1扣非1.98亿元、FCF负7.42亿元。"
+  ],
+  "key_assumptions": [
+    "利润3/5.5/8亿元、PE12/15/18，PB0.55/0.8/1；联华托管终止当时待批，H1扣非1.98亿元、FCF负7.42亿元。"
+  ],
+  "risks": [
+    "旧报告中的经营、资产质量和资本分配风险按原日期保留。"
+  ],
+  "next_checks": [
+    "完整三季报、现金流和资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原报告与模型原字节保存；未将10月31日新披露倒填旧版。",
+  "report_sha256": "ff300d7380da36bf0e1fc60e22e42118fcda783ab53d018f9e6a868374be91f5",
+  "prepared_at_utc": "2026-10-31T02:23:10.264109+00:00",
+  "price_date": "2026-08-28"
+}

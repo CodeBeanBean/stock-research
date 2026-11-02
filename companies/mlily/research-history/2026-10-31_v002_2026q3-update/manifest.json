@@ -1,0 +1,143 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-31_v002_2026q3-update",
+  "version_number": 2,
+  "company": "mlily",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3与正常化估值更新",
+  "reason": "新季报、盈利现金及资本事项分别核对，估值前后变化永久保留",
+  "created_at_utc": "2026-10-31T02:39:47.817492+00:00",
+  "reported_research_date": "2026-10-31",
+  "source_cutoff": "2026-10-31 10:09:33—10:09:48北京时间；补充原件实际获取UTC见索引",
+  "price_date": "2026-10-30",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\mlily",
+  "context_directory": "D:\\Research\\stock-research\\companies\\mlily",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "8311df8e2217ed3e1c00dbb96bc4fedb7975fdbb9bd61276e17ab926e6c39f66",
+      "archive_sha256": "88119a6bedbd2c3014620f3cf7c8d459079dce5f5ddf0957dcb94326c03890d0",
+      "bytes": 17529
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "ce3615b48bc898db273cd30f2097ca07808a2ef11af35cfb20a58c8481de1042",
+      "archive_sha256": "ce3615b48bc898db273cd30f2097ca07808a2ef11af35cfb20a58c8481de1042",
+      "bytes": 31335
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "51d547cc771e6c24f25547831258f3cf0d27f452020927209d2c25d3ff6442bd",
+      "archive_sha256": "23844fc8d380f376834220bced74aef8f2755ff3b72eb9c52273a51f831e2500",
+      "bytes": 6177
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "792ef697bba44f6715aef5b39aa46ea430958a37de008c5bc093ab1e19c50743",
+      "archive_sha256": "bb8cdaaea0151a74e63e469bd015ab304928ce02f6e1569ac0d3ddb5969f9fa1",
+      "bytes": 9394
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "6ae893f0386b75b81a464b41071608310eedea9019f769907c551d271acd6eeb",
+      "archive_sha256": "6ae893f0386b75b81a464b41071608310eedea9019f769907c551d271acd6eeb",
+      "bytes": 2905
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "0892974ce3834ffe1c89835649becccc206d41d0513a8b5b8cb7964f81b9b3c8",
+      "archive_sha256": "423f631f8887bec40ecb9275e8d4fc88f5f33495ab723c2d042d0d5b8fff312f",
+      "bytes": 6162
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report.pdf",
+      "sha256": "6548fb78cd86dd715b80082a73beb2b4fe4b6d56f57145ea76f7773e25a3bcd5"
+    },
+    {
+      "path": "../../source-documents/2025-H1-report.pdf",
+      "sha256": "70cac85492e4d7eddd644e37a17356d431ea2de13b20f74cff0348261b0e3a95"
+    },
+    {
+      "path": "../../source-documents/2025-annual-inquiry-response.html",
+      "sha256": "c3359673d72e646c90216faf3a650d734ab95ebc74b16ed70b97d983c031793c"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report-correction.html",
+      "sha256": "23683d8e85996bc1fa66ec6de6c113aeb134ff830bdb3e3fb24ca8b02e0891c0"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "47dea6ea4b545dc036d61862708a98031cd445fe5e359ad3ac0b57685e8ffb60"
+    },
+    {
+      "path": "../../source-documents/2025-audit-special-explanation.pdf",
+      "sha256": "13c8d64bd3eb395ea608bdac04b875b21fea9e5a8349cdc38d5b84de3e1264ef"
+    },
+    {
+      "path": "../../source-documents/2026-H1-operating-data.html",
+      "sha256": "698bbe2bed46ff3005077e68d9504912d932b288accd3618b7648a5935f9f282"
+    },
+    {
+      "path": "../../source-documents/2026-H1-report.pdf",
+      "sha256": "2a793daf5486c8e6dc094455b7edbff956ef96aa20a0dcc35f07235245364c05"
+    },
+    {
+      "path": "../../source-documents/2026-south-carolina-fire.html",
+      "sha256": "8835ae87cc35318103bef73b9e55dd008e6eecb007c04108c72da5fe499aaa19"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648902.pdf",
+      "sha256": "fbee783110aa42e73fc36127c9d24886906b0f6fc37793410c6c827d2f5c3eab"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648910.pdf",
+      "sha256": "81ec4122c22d298a39692c3ac8b5042041e3f12df43b024f6a14ec7622451032"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648913.pdf",
+      "sha256": "b2224473fceb520d62cf84f753f11a2fc12d726b42d69204b371391e8a13f1bc"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648918.pdf",
+      "sha256": "83cd7f7013f37a581cfb35a5221772cb5e4f37c6aab92dca35e339a8755b8805"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648936.pdf",
+      "sha256": "985217a03b32ea0c9c17475621da7c27d7843cd56dd17a5c8ec97f6d4751f7d2"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648940.pdf",
+      "sha256": "acd8c8b51fab670d91c33789a016e0fd1eeadc4f05d76c401857655bc23caac5"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648949.pdf",
+      "sha256": "9a01685c5ed4ad5b2c3dcc3e4f28f5723377d8573010f3db70fcf48c190b93fb"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648951.pdf",
+      "sha256": "89e450344cb1eb93d6f70eea910da22254cdbf9aea4a9ac0b8b563ae00fcd7b8"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225648958.pdf",
+      "sha256": "9f6ddfaebc1b64fb102d7011c1c8d1bfdff9ec168b0f80c0a0e5f43542e96109"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-market.json",
+      "sha256": "fc5bdada53b57e85f5a19273cec363a31626d3df245e964acfc1872d8b3eb8d2"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-model-validation.json",
+      "sha256": "c3588c198f5ea8e46be688f5dc7ce17b5eb74508702442dc32efd3235975f019"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

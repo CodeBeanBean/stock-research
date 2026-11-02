@@ -1,0 +1,80 @@
+{
+  "sailun": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\sailun-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\sailun-contact-2.png"
+    ]
+  },
+  "spring-airlines": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\spring-airlines-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\spring-airlines-contact-2.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\spring-airlines-contact-3.png"
+    ]
+  },
+  "midea-group": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\midea-group-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\midea-group-contact-2.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\midea-group-contact-3.png"
+    ]
+  },
+  "yili": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\yili-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\yili-contact-2.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\yili-contact-3.png"
+    ]
+  },
+  "mlily": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\mlily-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\mlily-contact-2.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\mlily-contact-3.png"
+    ]
+  },
+  "yunnan-aluminum": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 1,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\yunnan-aluminum-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\yunnan-aluminum-contact-2.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\yunnan-aluminum-contact-3.png"
+    ]
+  },
+  "sungrow": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 2,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\sungrow-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\sungrow-contact-2.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\sungrow-contact-3.png"
+    ]
+  },
+  "bailian": {
+    "errors": [],
+    "failed_checks": [],
+    "charts": 1,
+    "contacts": [
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\bailian-contact-1.png",
+      "D:\\Research\\stock-research\\outputs\\q3-library-review-20261031\\bailian-contact-2.png"
+    ]
+  }
+}

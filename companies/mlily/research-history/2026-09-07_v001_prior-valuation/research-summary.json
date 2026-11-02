@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "headline": "完整三季报更新前研究基线",
+  "security": "603313.SH",
+  "currency": "CNY",
+  "price": 6.43,
+  "bear": 1.9840756767481607,
+  "base": 5.391219603654227,
+  "bull": 9.832400546675725,
+  "conclusion": "中性偏谨慎",
+  "method": "60%正常化P/E+40%P/B",
+  "valuation_horizon": "2027或正常化，见原报告",
+  "key_points": [
+    "利润0.8/2.2/3.5亿元、PE8/13/17，PB0.55/1/1.5；保留审计意见、关联应收及美东火灾未定损构成主要风险。"
+  ],
+  "key_assumptions": [
+    "利润0.8/2.2/3.5亿元、PE8/13/17，PB0.55/1/1.5；保留审计意见、关联应收及美东火灾未定损构成主要风险。"
+  ],
+  "risks": [
+    "旧报告中的经营、资产质量和资本分配风险按原日期保留。"
+  ],
+  "next_checks": [
+    "完整三季报、现金流和资本事项落实。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "原报告与模型原字节保存；未将10月31日新披露倒填旧版。",
+  "report_sha256": "a442f9e0de2135bab330eeb60e4be8a651af2396185b12bb32fff1c212e79b63",
+  "prepared_at_utc": "2026-10-31T02:23:06.828402+00:00",
+  "price_date": "2026-09-04"
+}

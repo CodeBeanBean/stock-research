@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-31_v002_2026q3-update",
+  "version_number": 2,
+  "company": "yunnan-aluminum",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整2026Q3与正常化估值更新",
+  "reason": "新季报、盈利现金及资本事项分别核对，估值前后变化永久保留",
+  "created_at_utc": "2026-10-31T02:39:49.084531+00:00",
+  "reported_research_date": "2026-10-31",
+  "source_cutoff": "2026-10-31 10:09:33—10:09:48北京时间；补充原件实际获取UTC见索引",
+  "price_date": "2026-10-30",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\yunnan-aluminum",
+  "context_directory": "D:\\Research\\stock-research\\companies\\yunnan-aluminum",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "d690c6b3cc17eb1b4e0f37dd3e2dc7aa6a2c8ae5586a1136215aacafee32d55d",
+      "archive_sha256": "16d378786137ac149a71869776c840dea2424421b17446c3c96dc37995304d33",
+      "bytes": 11890
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "91a1a9277d027120eb47d70b816ae444a4e6ff48e131dd1c38580a407ebca6a4",
+      "archive_sha256": "91a1a9277d027120eb47d70b816ae444a4e6ff48e131dd1c38580a407ebca6a4",
+      "bytes": 27278
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "c88607cbf3dde2e7027fa6bd4394695eccf1a65f5094109a9b5cad0499a3f920",
+      "archive_sha256": "e68226f384dcf08b96df365a467eb279478fd7042af4ed8cf4ce7af823f3b90a",
+      "bytes": 3977
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "27b6e1d758b1adf33889a6694c48a57427ceba50a1041e6f93b544e5452ca07e",
+      "archive_sha256": "926af8bc5d530c081f02e0eeb25e38ea1e863cda50f0bcb163c70b61d92277e9",
+      "bytes": 4749
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "c6a09a4f72833e214e2ffbfc900e25e75e612af645fab2fbbfcb21086b02846e",
+      "archive_sha256": "c6a09a4f72833e214e2ffbfc900e25e75e612af645fab2fbbfcb21086b02846e",
+      "bytes": 1749
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "38dbfcf097af801c8ccac113fe18ad95d88f9db2e235924f85a7c61ff8e33d3f",
+      "archive_sha256": "28bedc476dbc3de9511db0953fa2c43cd367d96afe52f18a165962a66c6f964f",
+      "bytes": 5712
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225577798.pdf",
+      "sha256": "03bf8d9f82eb7426a0da42d9688fe9b87aadc17a0686e789e7ba54f733bed21f"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225616786.pdf",
+      "sha256": "80c6e99a3b557b5197d84274df46d3cc769c240f58e7e9c2ebebf8eff68198de"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643518.pdf",
+      "sha256": "e4c87749b58656e2192ac79cf4f0a620b8131e75c5a3f689ac30ba4893eee981"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643520.pdf",
+      "sha256": "8a0b72965d527b1cba2c266aa45a5d6c25348585f93b21a531d67b7f3583b7d7"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-1225643521.pdf",
+      "sha256": "97020a182e7a84384131df262189d94fbf32a17dea1b2e507ce5c6443d901e59"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-market.json",
+      "sha256": "9506cdf3078b1aefad42408622d2e95d694004c7c4ef56a02f5e570ce7337ede"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-31-model-validation.json",
+      "sha256": "ab274c853d44040ad10ad50e4e1882241c4ce41e4a99e25d2ab910f8efa70795"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "cases": [
+    21.57979713506825,
+    33.59492227986816,
+    46.479563060147
+  ],
+  "upside": [
+    -0.28425216799110276,
+    0.11425944543509647,
+    0.5416107150960863
+  ],
+  "tests": {
+    "driver": true,
+    "cash": true,
+    "price": true,
+    "priceUpside": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "checks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Segments",
+    "Cash & Debt",
+    "Normalization",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P40",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:H36",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A36:H60",
+      "file": "Historical-36.png"
+    },
+    {
+      "sheet": "Segments",
+      "range": "A1:H39",
+      "file": "Segments-1.png"
+    },
+    {
+      "sheet": "Cash & Debt",
+      "range": "A1:H44",
+      "file": "Cash---Debt-1.png"
+    },
+    {
+      "sheet": "Normalization",
+      "range": "A1:H30",
+      "file": "Normalization-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:H37",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:H25",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources Audit",
+      "range": "A1:H34",
+      "file": "Sources-Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 46,
+    "cost": 47,
+    "gross": 48,
+    "gm": 49,
+    "parent": 50,
+    "core": 51,
+    "nonrec": 52,
+    "cfo": 53,
+    "capex": 54,
+    "fcf": 55,
+    "equity": 56,
+    "assets": 57
+  },
+  "scale": 1000000,
+  "price": 30.15
+}

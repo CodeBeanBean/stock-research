@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-11_v001_prior-valuation",
+  "version_number": 1,
+  "company": "yili",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "完整三季报前已交付基线",
+  "reason": "覆盖当前报告与模型前保存可核验原稿",
+  "created_at_utc": "2026-10-31T02:23:05.917293+00:00",
+  "reported_research_date": "2026-09-11",
+  "source_cutoff": "2026-09-11",
+  "price_date": "2026-09-10",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\yili",
+  "context_directory": "D:\\Research\\stock-research\\companies\\yili",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "68afc06110242b3f2e17d07d07f1b4870c6a306d4c03b8fea2214651c0a7df4d",
+      "archive_sha256": "68afc06110242b3f2e17d07d07f1b4870c6a306d4c03b8fea2214651c0a7df4d",
+      "bytes": 11578
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "fedf2ac6157a00792982aff45b5f10a9918185a1df22e39f0931d083d6bda815",
+      "archive_sha256": "fedf2ac6157a00792982aff45b5f10a9918185a1df22e39f0931d083d6bda815",
+      "bytes": 29650
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "47d131e3d0b8657797da40fa71e88cd051a9c2b68d770290fe9e45ff9e13a6f9",
+      "archive_sha256": "47d131e3d0b8657797da40fa71e88cd051a9c2b68d770290fe9e45ff9e13a6f9",
+      "bytes": 5914
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "f615eeece8ed794159364857601dfa0f88e5b061a0e7e00261613a921a81f6d9",
+      "archive_sha256": "f615eeece8ed794159364857601dfa0f88e5b061a0e7e00261613a921a81f6d9",
+      "bytes": 4738
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "30565109caae5b561ee3b85faac6b6d34211e89a9fd0ddc8c5f3a5f685d46dda",
+      "archive_sha256": "30565109caae5b561ee3b85faac6b6d34211e89a9fd0ddc8c5f3a5f685d46dda",
+      "bytes": 1876
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "142e937abe6d26bdb93b454ee12a0ffff9a78754dfc00c72d38d2b1a8c0302c7",
+      "archive_sha256": "2d23ff8bf3c263d4397aae422dcccaac96d50c301392925635e321ba6651779c",
+      "bytes": 1212
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

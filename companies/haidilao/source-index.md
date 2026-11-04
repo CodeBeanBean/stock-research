@@ -1,5 +1,14 @@
 # 海底捞研究来源索引
 
+## 2026-11-04补核来源
+
+- 2026-09-22 港交所。2026H1现金流量表第56—57页。 [2026正式中报](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0922/2026092200357_c.pdf) · [本地原件](source-documents/2026-h1-interim-report.pdf)。SHA-256 `8a3e867524e7371e403789c024ecb88e44e61ea8ce2ed6bb721c5464b57f7d53`。
+- 2026-10-12 港交所。额度、期限、利率、无担保及董事会程序。 [控股股东财务资助](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1012/2026101200894_c.pdf) · [本地原件](source-documents/2026-10-12-connected-loan.pdf)。SHA-256 `a4c1581d9e882292b6b282e43a63d988072a21154ea8bf39345a6047bab660f6`。
+- 2026-11-02 港交所。本金及应计利息结清。 [控股股东提前全额还款](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1102/2026110203380_c.pdf) · [本地原件](source-documents/2026-11-02-connected-loan-repayment.pdf)。SHA-256 `cfb2b733a6520e111adf1cc9073fafbc183eee72f34dd2a9880b77b0b9eb1a1c`。
+- 11月3日未复权收盘9.935港元，由11月4日腾讯行情昨收字段及经济通11月3日17:00截面互核，仅作事件价格对照。 [行情快照](source-documents/2026-11-04-event-price-snapshot.txt)
+
+## 2026-08-26初始来源
+
 **资料截止：** 2026-08-26  
 **来源原则：** 财务和治理事实优先采用港交所公告及经审计年报；行业使用国家统计局；价格仅作为带日期的二级市场快照；分析假设与公司披露分开。
 

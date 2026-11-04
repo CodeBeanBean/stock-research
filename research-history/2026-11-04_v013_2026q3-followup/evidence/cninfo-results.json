@@ -1,0 +1,441 @@
+[
+  {
+    "name": "紫金矿业",
+    "codes": "601899.SH / 02899.HK",
+    "slug": "zijin-mining",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "601899",
+        "title": "紫金矿业H股市场公告",
+        "date": "2026-11-04",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225656111.PDF",
+        "id": "1225656111"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:21.621771+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "歌华有线",
+    "codes": "600037.SH",
+    "slug": "gehua-cable",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:21.632298+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "荣盛石化",
+    "codes": "002493.SZ",
+    "slug": "rongsheng-petrochemical",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:21.633756+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "分众传媒",
+    "codes": "002027.SZ",
+    "slug": "focus-media",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:21.727477+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "赛轮轮胎",
+    "codes": "601058.SH",
+    "slug": "sailun",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "601058",
+        "title": "赛轮轮胎关于董事兼高级管理人员近亲属增持公司股份的公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652241.PDF",
+        "id": "1225652241"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:21.751522+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "朗姿股份",
+    "codes": "002612.SZ",
+    "slug": "lancy",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:21.850125+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "春秋航空",
+    "codes": "601021.SH",
+    "slug": "spring-airlines",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "601021",
+        "title": "春秋航空2026年员工持股计划实施进展公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225651692.PDF",
+        "id": "1225651692"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:21.882004+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "美的集团",
+    "codes": "000333.SZ / 00300.HK",
+    "slug": "midea-group",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "000333",
+        "title": "关于以集中竞价交易方式回购A股股份进展情况的公告",
+        "date": "2026-11-04",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655633.PDF",
+        "id": "1225655633"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:21.955060+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "宁德时代",
+    "codes": "300750.SZ / 03750.HK",
+    "slug": "catl",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "300750",
+        "title": "关于授予2026年A股第二期员工持股计划预留份额的公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225656276.PDF",
+        "id": "1225656276"
+      },
+      {
+        "code": "300750",
+        "title": "H股公告（截至2026年10月31日止股份发行人的证券变动月报表）",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225654455.PDF",
+        "id": "1225654455"
+      },
+      {
+        "code": "300750",
+        "title": "H股公告（翌日披露报表）",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225654454.PDF",
+        "id": "1225654454"
+      },
+      {
+        "code": "300750",
+        "title": "上海市通力律师事务所关于宁德时代新能源科技股份有限公司2026年第二次临时股东会的法律意见书",
+        "date": "2026-11-02",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225654266.PDF",
+        "id": "1225654266"
+      },
+      {
+        "code": "300750",
+        "title": "2026年第二次临时股东会决议公告",
+        "date": "2026-11-02",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225654265.PDF",
+        "id": "1225654265"
+      },
+      {
+        "code": "300750",
+        "title": "关于回购公司A股股份的进展公告",
+        "date": "2026-11-02",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225654264.PDF",
+        "id": "1225654264"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:22.078277+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "万华化学",
+    "codes": "600309.SH",
+    "slug": "wanhua-chemical",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:25.548666+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "伊利股份",
+    "codes": "600887.SH",
+    "slug": "yili",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "600887",
+        "title": "内蒙古伊利实业集团股份有限公司关于股份回购进展公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225653072.PDF",
+        "id": "1225653072"
+      },
+      {
+        "code": "600887",
+        "title": "内蒙古伊利实业集团股份有限公司关于为全资子公司提供担保的进展公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225653079.PDF",
+        "id": "1225653079"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:25.670359+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "珀莱雅",
+    "codes": "603605.SH",
+    "slug": "proya",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "603605",
+        "title": "珀莱雅化妆品股份有限公司关于股份回购进展公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225651687.PDF",
+        "id": "1225651687"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:25.903157+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "宝钢股份",
+    "codes": "600019.SH",
+    "slug": "baosteel",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:26.033719+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "梦百合",
+    "codes": "603313.SH",
+    "slug": "mlily",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "603313",
+        "title": "关于获得政府补助的公告",
+        "date": "2026-11-02",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650964.PDF",
+        "id": "1225650964"
+      },
+      {
+        "code": "603313",
+        "title": "关于美东工厂收到火灾事故存货保险理赔款的公告",
+        "date": "2026-11-02",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-02/1225650976.PDF",
+        "id": "1225650976"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:26.194665+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "信维通信",
+    "codes": "300136.SZ",
+    "slug": "sunway-communication",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:27.461726+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "天齐锂业",
+    "codes": "002466.SZ / 09696.HK",
+    "slug": "tianqi-lithium",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:29.049753+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "赣锋锂业",
+    "codes": "002460.SZ / 01772.HK",
+    "slug": "ganfeng-lithium",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "002460",
+        "title": "H股公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652489.PDF",
+        "id": "1225652489"
+      },
+      {
+        "code": "002460",
+        "title": "关于股东部分股份解除质押的公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652488.PDF",
+        "id": "1225652488"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:29.436784+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "云铝股份",
+    "codes": "000807.SZ",
+    "slug": "yunnan-aluminum",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:29.551837+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "牧原股份",
+    "codes": "002714.SZ / 02714.HK",
+    "slug": "muyuan",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "002714",
+        "title": "H股公告（翌日披露报表）",
+        "date": "2026-11-04",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225656187.PDF",
+        "id": "1225656187"
+      },
+      {
+        "code": "002714",
+        "title": "H股公告（证券变动月报表）",
+        "date": "2026-11-04",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225656188.PDF",
+        "id": "1225656188"
+      },
+      {
+        "code": "002714",
+        "title": "关于2026年度第二期科技创新债券兑付完成的公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652335.PDF",
+        "id": "1225652335"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:29.910016+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "宝丰能源",
+    "codes": "600989.SH",
+    "slug": "baofeng-energy",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:30.984404+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "兆易创新",
+    "codes": "603986.SH / 03986.HK",
+    "slug": "gigadevice",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "603986",
+        "title": "H股公告-翌日披露报表",
+        "date": "2026-11-04",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655908.PDF",
+        "id": "1225655908"
+      },
+      {
+        "code": "603986",
+        "title": "兆易创新关于以集中竞价交易方式回购A股股份的进展公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652254.PDF",
+        "id": "1225652254"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:31.944858+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "阳光电源",
+    "codes": "300274.SZ",
+    "slug": "sungrow",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "300274",
+        "title": "关于回购公司股份的进展公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225655631.PDF",
+        "id": "1225655631"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:32.114288+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "晋亿实业",
+    "codes": "601002.SH",
+    "slug": "jinyi-industrial",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:32.225226+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "百联股份",
+    "codes": "600827.SH",
+    "slug": "bailian",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "600827",
+        "title": "百联股份关于股份回购进展公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652383.PDF",
+        "id": "1225652383"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:32.346986+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "宋城演艺",
+    "codes": "300144.SZ",
+    "slug": "songcheng-performance",
+    "market_query": "CNINFO",
+    "status": "ok",
+    "items": [
+      {
+        "code": "300144",
+        "title": "关于控股股东部分股份解除质押的公告",
+        "date": "2026-11-03",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225655264.PDF",
+        "id": "1225655264"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:32.471852+00:00",
+    "query_window": "2026-11-02~2026-11-04"
+  }
+]

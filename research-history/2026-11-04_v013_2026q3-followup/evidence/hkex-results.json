@@ -1,0 +1,612 @@
+[
+  {
+    "name": "蜜雪集团",
+    "codes": "02097.HK",
+    "slug": "mixue",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:23.482961+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000249228&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "美的集团",
+    "codes": "000333.SZ / 00300.HK",
+    "slug": "midea-group",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "266KB",
+        "NEWS_ID": "12397625",
+        "SHORT_TEXT": "公告及通告 - [海外監管公告-其他]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "美的集團",
+        "TITLE": "海外監管公告 - 美的集團股份有限公司關於以集中競價交易方式回購A股股份進展情況的公告",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 18:01",
+        "LONG_TEXT": "公告及通告 - [海外監管公告-其他]",
+        "STOCK_CODE": "00300",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110301726_c.pdf"
+      },
+      {
+        "FILE_INFO": "138KB",
+        "NEWS_ID": "12397424",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "美的集團",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 17:33",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "00300",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110301529_c.pdf"
+      },
+      {
+        "FILE_INFO": "137KB",
+        "NEWS_ID": "12394581",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "美的集團",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 17:33",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "00300",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110202733_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:23.874400+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000231771&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "紫金矿业",
+    "codes": "601899.SH / 02899.HK",
+    "slug": "zijin-mining",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "156KB",
+        "NEWS_ID": "12397518",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "紫金礦業",
+        "TITLE": "截至2026年10月31日止之股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 17:44",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "02899",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110301619_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:25.411142+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=6898&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "龙湖集团",
+    "codes": "00960.HK",
+    "slug": "longfor-group",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "122KB",
+        "NEWS_ID": "12393885",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "龍湖集團",
+        "TITLE": "截至二零二六年十月三十一日止月份之股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 16:52",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "00960",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110202029_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:25.780612+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=40632&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "宁德时代",
+    "codes": "300750.SZ / 03750.HK",
+    "slug": "catl",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "257KB",
+        "NEWS_ID": "12398142",
+        "SHORT_TEXT": "公告及通告 - [海外監管公告-其他]<br/>",
+        "TOTAL_COUNT": "6",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "寧德時代",
+        "TITLE": "海外監管公告 - 關於授予2026年A股第二期員工持股計劃預留份額的公告",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 20:11",
+        "LONG_TEXT": "公告及通告 - [海外監管公告-其他]",
+        "STOCK_CODE": "03750",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110302227_c.pdf"
+      },
+      {
+        "FILE_INFO": "119KB",
+        "NEWS_ID": "12395774",
+        "SHORT_TEXT": "公告及通告 - [股東特別大會的結果]<br/>",
+        "TOTAL_COUNT": "6",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "寧德時代",
+        "TITLE": "臨時股東會投票表決結果",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 22:39",
+        "LONG_TEXT": "公告及通告 - [股東特別大會的結果]",
+        "STOCK_CODE": "03750",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110203940_c.pdf"
+      },
+      {
+        "FILE_INFO": "239KB",
+        "NEWS_ID": "12395627",
+        "SHORT_TEXT": "公告及通告 - [海外監管公告-其他]<br/>",
+        "TOTAL_COUNT": "6",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "寧德時代",
+        "TITLE": "海外監管公告 - 關於回購公司A股股份的進展公告",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 21:16",
+        "LONG_TEXT": "公告及通告 - [海外監管公告-其他]",
+        "STOCK_CODE": "03750",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110203783_c.pdf"
+      },
+      {
+        "FILE_INFO": "2MB",
+        "NEWS_ID": "12395621",
+        "SHORT_TEXT": "公告及通告 - [海外監管公告-其他]<br/>",
+        "TOTAL_COUNT": "6",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "寧德時代",
+        "TITLE": "海外監管公告 - 上海市通力律師事務所關於寧德時代新能源科技股份有限公司2026年第二次臨時股東會的法律意見書",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 21:10",
+        "LONG_TEXT": "公告及通告 - [海外監管公告-其他]",
+        "STOCK_CODE": "03750",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110203777_c.pdf"
+      },
+      {
+        "FILE_INFO": "138KB",
+        "NEWS_ID": "12395576",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "6",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "寧德時代",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 20:36",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "03750",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110203732_c.pdf"
+      },
+      {
+        "FILE_INFO": "157KB",
+        "NEWS_ID": "12395570",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "6",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "寧德時代",
+        "TITLE": "截至二零二六年十月三十一日止股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 20:29",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "03750",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110203726_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:26.061160+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000259940&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "思格新能",
+    "codes": "06656.HK",
+    "slug": "sigenergy",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:27.347260+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000298729&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "恒隆地产",
+    "codes": "00101.HK",
+    "slug": "hang-lung-properties",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:27.469500+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=162&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "福寿园",
+    "codes": "01448.HK",
+    "slug": "fu-shou-yuan",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "123KB",
+        "NEWS_ID": "12393747",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "福壽園",
+        "TITLE": "截至二零二六年十月三十一日之股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 16:45",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "01448",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110201891_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:28.033273+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=98167&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "威高股份",
+    "codes": "01066.HK",
+    "slug": "weigao-group",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "149KB",
+        "NEWS_ID": "12394842",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "截至二零二六年十月三十一日止月份股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 17:54",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110202994_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:28.921253+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=50340&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "保利物业",
+    "codes": "06049.HK",
+    "slug": "poly-property-services",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "124KB",
+        "NEWS_ID": "12396730",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "保利物業",
+        "TITLE": "截至二零二六年十月三十一日止股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 16:33",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "06049",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110300817_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:29.294306+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000017524&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "达势股份",
+    "codes": "01405.HK",
+    "slug": "dpc-dash",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:29.359302+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000176932&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "中海物业",
+    "codes": "02669.HK",
+    "slug": "china-overseas-property",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "122KB",
+        "NEWS_ID": "12392725",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "中海物業",
+        "TITLE": "截至2026年10月31日之月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 14:05",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "02669",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110200906_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:30.873259+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=132703&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "赣锋锂业",
+    "codes": "002460.SZ / 01772.HK",
+    "slug": "ganfeng-lithium",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "246KB",
+        "NEWS_ID": "12395497",
+        "SHORT_TEXT": "公告及通告 - [海外監管公告-其他]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "贛鋒鋰業",
+        "TITLE": "海外監管公告",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 19:57",
+        "LONG_TEXT": "公告及通告 - [海外監管公告-其他]",
+        "STOCK_CODE": "01772",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110203653_c.pdf"
+      },
+      {
+        "FILE_INFO": "126KB",
+        "NEWS_ID": "12393817",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "贛鋒鋰業",
+        "TITLE": "截至二零二六年十月三十一日止股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 16:48",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "01772",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110201961_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:31.230173+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=191440&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "天齐锂业",
+    "codes": "002466.SZ / 09696.HK",
+    "slug": "tianqi-lithium",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:32.879595+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000158798&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "牧原股份",
+    "codes": "002714.SZ / 02714.HK",
+    "slug": "muyuan",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "133KB",
+        "NEWS_ID": "12397804",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "牧原股份",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 18:34",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "02714",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110301899_c.pdf"
+      },
+      {
+        "FILE_INFO": "154KB",
+        "NEWS_ID": "12397630",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "牧原股份",
+        "TITLE": "截至2026年10月31日止之股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 18:01",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "02714",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110301731_c.pdf"
+      },
+      {
+        "FILE_INFO": "339KB",
+        "NEWS_ID": "12395287",
+        "SHORT_TEXT": "公告及通告 - [海外監管公告-證券發行及相關事宜]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "牧原股份",
+        "TITLE": "海外監管公告 - 關於2026年度第二期科技創新債券兌付完成的公告",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 19:01",
+        "LONG_TEXT": "公告及通告 - [海外監管公告-證券發行及相關事宜]",
+        "STOCK_CODE": "02714",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110203443_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:33.773926+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000286591&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "兆易创新",
+    "codes": "603986.SH / 03986.HK",
+    "slug": "gigadevice",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "135KB",
+        "NEWS_ID": "12397336",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "兆易創新",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 17:26",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "03986",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110301445_c.pdf"
+      },
+      {
+        "FILE_INFO": "406KB",
+        "NEWS_ID": "12394242",
+        "SHORT_TEXT": "公告及通告 - [海外監管公告-其他]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "兆易創新",
+        "TITLE": "關於以集中競價交易方式回購A股股份的進展公告",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 17:11",
+        "LONG_TEXT": "公告及通告 - [海外監管公告-其他]",
+        "STOCK_CODE": "03986",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110202394_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:34.148240+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000286269&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "腾讯控股",
+    "codes": "0700.HK",
+    "slug": "tencent",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-11-04T07:48:35.475530+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=7609&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "海吉亚医疗",
+    "codes": "06078.HK",
+    "slug": "hygeia-healthcare",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "150KB",
+        "NEWS_ID": "12396770",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "海吉亞醫療",
+        "TITLE": "截至二零二六年十月三十一日止之股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "03/11/2026 16:35",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "06078",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1103/2026110300857_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:35.653403+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000043419&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "三生制药",
+    "codes": "01530.HK",
+    "slug": "3sbio",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "129KB",
+        "NEWS_ID": "12394357",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "三生製藥",
+        "TITLE": "截至2026年10月31日止月份之股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 17:19",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "01530",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110202509_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:36.732598+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=125086&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "海底捞",
+    "codes": "06862.HK",
+    "slug": "haidilao",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "115KB",
+        "NEWS_ID": "12395224",
+        "SHORT_TEXT": "公告及通告 - [其他-雜項]<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "海底撈",
+        "TITLE": "自願性公告 - 我們的控股股東、執行董事、董事會主席兼首席執行官悉數償還貸款",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 18:48",
+        "LONG_TEXT": "公告及通告 - [其他-雜項]",
+        "STOCK_CODE": "06862",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110203380_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:37.114538+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=199151&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  },
+  {
+    "name": "中国民航信息网络",
+    "codes": "00696.HK",
+    "slug": "travelsky",
+    "market_query": "HKEX",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "124KB",
+        "NEWS_ID": "12393359",
+        "SHORT_TEXT": "月報表<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "中國民航信息網絡",
+        "TITLE": "截至2026年10月31日止月份之股份發行人的證券變動月報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "02/11/2026 16:33",
+        "LONG_TEXT": "月報表",
+        "STOCK_CODE": "00696",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1102/2026110201503_c.pdf"
+      }
+    ],
+    "retrieved_utc": "2026-11-04T07:48:39.245639+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1625&documentType=-2&fromDate=20261102&toDate=20261104&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH",
+    "query_window": "2026-11-02~2026-11-04"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-11-04_v002_loan-cashflow-followup",
+  "version_number": 2,
+  "company": "haidilao",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "控股股东借款结清与正式中报现金流补核",
+  "reason": "11月2日正式还款公告触发关联资金及股息覆盖更新",
+  "created_at_utc": "2026-11-04T07:55:05.807103+00:00",
+  "reported_research_date": "2026-11-04",
+  "source_cutoff": "2026-11-04T15:48:39.245639+08:00",
+  "price_date": "2026-08-25",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\haidilao",
+  "context_directory": "D:\\Research\\stock-research\\companies\\haidilao",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "bef22f19f1bc5059bf2b1552ed5050002cd11c658f2aee6bd3fbbecb86e1bd48",
+      "archive_sha256": "280788b158d704e361a4df1eec16fdb3d1ac12364b6f117c6fe0c8e2853e2651",
+      "bytes": 16563
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "2a1b6efbf0fc91b34bafc9919c55ef1079931b4ab76eb6b6d5283a8f523e2bb8",
+      "archive_sha256": "2a1b6efbf0fc91b34bafc9919c55ef1079931b4ab76eb6b6d5283a8f523e2bb8",
+      "bytes": 31861
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "881c81ba741834f9a09b25215d8dd96a155ac4986092338f0b8e029376f6c838",
+      "archive_sha256": "881c81ba741834f9a09b25215d8dd96a155ac4986092338f0b8e029376f6c838",
+      "bytes": 4986
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "270ca5f02a376f26eac7c56357d6e0f53edee0c6e26f8811daa1a342854f7f74",
+      "archive_sha256": "e9254761487b5872cc9b01f4f993f27ecaebf05311c7fa5828fc564fed2d3ca2",
+      "bytes": 5941
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "ade96e9d82e94c5bde93c39ca548ae1d686b592b2b0f612f590810b2bfee6ce1",
+      "archive_sha256": "f99d449fae220fc7502696e850dc55f247f3be1aae98517f09cb3734c26490d0",
+      "bytes": 1632
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "c9a10791d37811fe453cc2f19b206551d81d801185beb6f9a95d2e1b2065e819",
+      "archive_sha256": "30cc607df0759e13649a94a08f1831b1f24cedfc9a250e65480ff87397cd49fb",
+      "bytes": 2486
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2026-10-12-connected-loan.pdf",
+      "sha256": "a4c1581d9e882292b6b282e43a63d988072a21154ea8bf39345a6047bab660f6"
+    },
+    {
+      "path": "../../source-documents/2026-11-02-connected-loan-repayment.pdf",
+      "sha256": "cfb2b733a6520e111adf1cc9073fafbc183eee72f34dd2a9880b77b0b9eb1a1c"
+    },
+    {
+      "path": "../../source-documents/2026-11-04-event-price-snapshot.txt",
+      "sha256": "cbdcafdad19286740c0426b2d316769724260844e52bce2eb0c0b9b8fe4f5afa"
+    },
+    {
+      "path": "../../source-documents/2026-h1-interim-report.pdf",
+      "sha256": "8a3e867524e7371e403789c024ecb88e44e61ea8ce2ed6bb721c5464b57f7d53"
+    },
+    {
+      "path": "../2026-08-26_v001_2026h1-initial/research-report.md",
+      "sha256": "bec6d41dd8f529750bbeeb4810911dea9aa09ec4b94bb04a3e0771347f76a252"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

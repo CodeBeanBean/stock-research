@@ -1,0 +1,304 @@
+[
+  {
+    "name": "歌华有线",
+    "codes": "600037.SH",
+    "slug": "gehua-cable",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:37.067308+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "赛轮轮胎",
+    "codes": "601058.SH",
+    "slug": "sailun",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:37.086305+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "分众传媒",
+    "codes": "002027.SZ",
+    "slug": "focus-media",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:37.180473+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "荣盛石化",
+    "codes": "002493.SZ",
+    "slug": "rongsheng-petrochemical",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:37.199408+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "朗姿股份",
+    "codes": "002612.SZ",
+    "slug": "lancy",
+    "status": "ok",
+    "items": [
+      {
+        "code": "002612",
+        "title": "关于第四期员工持股计划完成股票购买暨实施进展的公告",
+        "date": "2026-10-24",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618455.PDF",
+        "id": "1225618455"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:37.201981+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "春秋航空",
+    "codes": "601021.SH",
+    "slug": "spring-airlines",
+    "status": "ok",
+    "items": [
+      {
+        "code": "601021",
+        "title": "春秋航空关于控股股东部分股份解除质押的公告",
+        "date": "2026-10-24",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618567.PDF",
+        "id": "1225618567"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:37.296988+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "美的集团",
+    "codes": "000333.SZ / 00300.HK",
+    "slug": "midea-group",
+    "status": "ok",
+    "items": [
+      {
+        "code": "000333",
+        "title": "关于以集中竞价交易方式回购A股股份进展情况的公告",
+        "date": "2026-10-23",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616891.PDF",
+        "id": "1225616891"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:37.318649+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "宁德时代",
+    "codes": "300750.SZ / 03750.HK",
+    "slug": "catl",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:37.420804+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "万华化学",
+    "codes": "600309.SH",
+    "slug": "wanhua-chemical",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:40.336886+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "伊利股份",
+    "codes": "600887.SH",
+    "slug": "yili",
+    "status": "ok",
+    "items": [
+      {
+        "code": "600887",
+        "title": "内蒙古伊利实业集团股份有限公司关于以集中竞价交易方式首次回购公司股份的公告",
+        "date": "2026-10-24",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618134.PDF",
+        "id": "1225618134"
+      },
+      {
+        "code": "600887",
+        "title": "内蒙古伊利实业集团股份有限公司关于召开2026年第三季度业绩说明会的公告",
+        "date": "2026-10-23",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225615375.PDF",
+        "id": "1225615375"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:40.441631+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "珀莱雅",
+    "codes": "603605.SH",
+    "slug": "proya",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:40.775565+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "宝钢股份",
+    "codes": "600019.SH",
+    "slug": "baosteel",
+    "status": "ok",
+    "items": [
+      {
+        "code": "600019",
+        "title": "宝钢股份关于召开2026年三季度业绩网上说明会的公告",
+        "date": "2026-10-24",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225617924.PDF",
+        "id": "1225617924"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:40.965377+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "梦百合",
+    "codes": "603313.SH",
+    "slug": "mlily",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:41.455707+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "信维通信",
+    "codes": "300136.SZ",
+    "slug": "sunway-communication",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:43.252804+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "天齐锂业",
+    "codes": "002466.SZ / 09696.HK",
+    "slug": "tianqi-lithium",
+    "status": "ok",
+    "items": [
+      {
+        "code": "002466",
+        "title": "第七届董事会第四次会议决议公告",
+        "date": "2026-10-26",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-26/1225620883.PDF",
+        "id": "1225620883"
+      },
+      {
+        "code": "002466",
+        "title": "2026年三季度报告",
+        "date": "2026-10-26",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-26/1225620881.PDF",
+        "id": "1225620881"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:45.466887+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "赣锋锂业",
+    "codes": "002460.SZ / 01772.HK",
+    "slug": "ganfeng-lithium",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:46.567917+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "云铝股份",
+    "codes": "000807.SZ",
+    "slug": "yunnan-aluminum",
+    "status": "ok",
+    "items": [
+      {
+        "code": "000807",
+        "title": "云南铝业股份有限公司2026年中期利润分配实施公告",
+        "date": "2026-10-23",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616786.PDF",
+        "id": "1225616786"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:46.697300+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "牧原股份",
+    "codes": "002714.SZ / 02714.HK",
+    "slug": "muyuan",
+    "status": "ok",
+    "items": [
+      {
+        "code": "002714",
+        "title": "关于第二期员工持股计划存续期届满前六个月的提示性公告",
+        "date": "2026-10-23",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616788.PDF",
+        "id": "1225616788"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:46.815864+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "宝丰能源",
+    "codes": "600989.SH",
+    "slug": "baofeng-energy",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:46.924203+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "兆易创新",
+    "codes": "603986.SH / 03986.HK",
+    "slug": "gigadevice",
+    "status": "ok",
+    "items": [
+      {
+        "code": "603986",
+        "title": "H股公告-翌日披露报表",
+        "date": "2026-10-23",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225615862.PDF",
+        "id": "1225615862"
+      }
+    ],
+    "retrieved_utc": "2026-10-26T07:28:47.103651+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "阳光电源",
+    "codes": "300274.SZ",
+    "slug": "sungrow",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:47.569510+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "晋亿实业",
+    "codes": "601002.SH",
+    "slug": "jinyi-industrial",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:47.695975+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "百联股份",
+    "codes": "600827.SH",
+    "slug": "bailian",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:47.842410+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  },
+  {
+    "name": "宋城演艺",
+    "codes": "300144.SZ",
+    "slug": "songcheng-performance",
+    "status": "ok",
+    "items": [],
+    "retrieved_utc": "2026-10-26T07:28:47.987982+00:00",
+    "query_window": "2026-10-23~2026-10-27"
+  }
+]

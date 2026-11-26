@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-08-24_v001_2026h1-baseline",
+  "version_number": 1,
+  "company": "songcheng-performance",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "更新前已交付研究基线",
+  "reason": "完整Q3更新前永久保存现有交付版本",
+  "created_at_utc": "2026-10-28T02:23:45.325844+00:00",
+  "reported_research_date": "2026-08-24",
+  "source_cutoff": "2026-08-24",
+  "price_date": "2026-08-21",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\songcheng-performance",
+  "context_directory": "D:\\Research\\stock-research\\companies\\songcheng-performance",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "1bd96460ccfc4916b58ce81cf2843e97f47f35b858c93f0482b5c6e6bcbf4820",
+      "archive_sha256": "1bd96460ccfc4916b58ce81cf2843e97f47f35b858c93f0482b5c6e6bcbf4820",
+      "bytes": 13972
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "d76c3f0201e461089b79d58cc9851d1840664aba684f80e32a675cbad7b95c47",
+      "archive_sha256": "d76c3f0201e461089b79d58cc9851d1840664aba684f80e32a675cbad7b95c47",
+      "bytes": 31783
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "8b979590cb3dc988feb41a9bcc6b17eb68d81455a86bb1c853fc5eab9383f6f2",
+      "archive_sha256": "8b979590cb3dc988feb41a9bcc6b17eb68d81455a86bb1c853fc5eab9383f6f2",
+      "bytes": 3572
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "bc1cf0d50c15bd9dba9760bc3606ab3472ca0094fd3351f155ca002f3b7936f1",
+      "archive_sha256": "bc1cf0d50c15bd9dba9760bc3606ab3472ca0094fd3351f155ca002f3b7936f1",
+      "bytes": 5074
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "24f0b1fcaccb58575eadb82db4cfb74a9103c7ffe10e2d71b24f1b20f925fa2d",
+      "archive_sha256": "24f0b1fcaccb58575eadb82db4cfb74a9103c7ffe10e2d71b24f1b20f925fa2d",
+      "bytes": 1597
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "49b5f005b8e1a5619266e3e2d9c16a71766cb7260d923ca1c7c151073ec75998",
+      "archive_sha256": "99af643c1251d0204118f4e56d1af0cb3cd9ad7099bfe5bbf32b9ac02df2546f",
+      "bytes": 973
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-28_v002_2026q3-update",
+  "version_number": 2,
+  "company": "wanhua-chemical",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整三季报及估值更新",
+  "reason": "新完整Q3实际、现金质量、股本分红与正常化估值更新",
+  "created_at_utc": "2026-10-28T02:46:04.001822+00:00",
+  "reported_research_date": "2026-10-28",
+  "source_cutoff": "2026-10-28上午（全库10:18:17—10:18:33，专项补查至10:24:52，北京时间）",
+  "price_date": "2026-10-27",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\wanhua-chemical",
+  "context_directory": "D:\\Research\\stock-research\\companies\\wanhua-chemical",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "39442b7df05727c86fa5146f4965be55651ecdeac47b1a0d95eaa5df866bbaba",
+      "archive_sha256": "e6d342cd671211f5d6839fad4722643108221a4bddbb1ef4a5c2da53fb5f4309",
+      "bytes": 18312
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "e6cd3fbc7abf58fd0d1308c690715018e809f039ea98fa5fba5992a1f8fc6e11",
+      "archive_sha256": "e6cd3fbc7abf58fd0d1308c690715018e809f039ea98fa5fba5992a1f8fc6e11",
+      "bytes": 32866
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "42f33bca521b427ad83d1a85220b3ee3aebf0728116b17d286b5a5872a1645fd",
+      "archive_sha256": "c78c0cfb38137584d1c8f703c448c0bc503a451c9acff113f512a51caa16c552",
+      "bytes": 7236
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "a2b9818596937c5c60bbcb089dd3d7ab7d78d6888978e47c4e06febab69560f6",
+      "archive_sha256": "04e53c42936f9d51600d06a08032ae8d335f345cfcb8e9b99d4f674330d74c1c",
+      "bytes": 7479
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "8a93f7557c2aa48a9e2cf3b589db7ca791c601c7975df014b89aa0a649ea553b",
+      "archive_sha256": "924e0ac3f5e9b5b2982fc8e4abb48f957b43765703a137505b331cf6b3ec6bec",
+      "bytes": 4368
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "8e701568163972b460c17a88282946d56acf7599acfbe570c8b37ff6e8f97755",
+      "archive_sha256": "b6e899c77d5ebf6771982c7814f421bdb5da5bef51772e98b9bef76b70c7987a",
+      "bytes": 4957
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/coverage.json",
+      "sha256": "68aa913f87fefcc906a34851bb97db91dec8507a4b945c69524d049f566f5fc6"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/extra-sources.json",
+      "sha256": "3b0974e0787a598ca1abfbf410b54c53fe687c28ce51d44dffbf77b9c961e34f"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/new-announcement-sources.json",
+      "sha256": "88e658db5c3491c39b494e798555d4c6c473774eca8af662e321584ada0009dd"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/wanhua-chemical/model-validation.json",
+      "sha256": "de021399078c083a9e3e4bf720eccb85cb8d1120a72769899f7de84b92452ebe"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1224733028.pdf",
+      "sha256": "e6736e3f96ae4b21dd85d3968d3eada22e4fabfcca2b657c26bad387bf7d5b27"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225586697.pdf",
+      "sha256": "b17a54a4eb1c9017c668f6d9626e915a081e4e06e2dbf81ad8f5694b7a405f3e"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225597087.pdf",
+      "sha256": "9260cc6ddeb81165c3f39089fbb714fa4743b8b47aaea43b1a8497d09c8b22e3"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225622843.pdf",
+      "sha256": "2e9831e10e928aa851917322e06bf599cafc3e47dfb93dc6849483d6f8fdee21"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225622845.pdf",
+      "sha256": "d60895200c717838b0a47f6040820952f3ee3bd4b9c1894cc1b486c5f1a532e4"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225622854.pdf",
+      "sha256": "3ac99a3b540be4572cc23d3644c2318d427f9daa966b89dc674d3442451adb36"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-market.json",
+      "sha256": "9be97dda074e8dcdc0c8fc9830bf60d9234f2be0c435d797599fed4b8c9c8a6c"
+    },
+    {
+      "path": "../2026-09-11_v001_2026h1-baseline/research-report.md",
+      "sha256": "e502f595f3b67ee3ef3f1df4f5d7ff980f2ea44c3be92e00ee0ba8ebe65fec43"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

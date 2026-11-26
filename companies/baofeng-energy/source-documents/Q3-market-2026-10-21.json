@@ -1,0 +1,18 @@
+{
+  "security": "600989.SH",
+  "currency": "CNY",
+  "close": 22.18,
+  "price_date": "2026-10-21",
+  "retrieved_date": "2026-10-22上午",
+  "sources": [
+    {
+      "url": "https://cn.investing.com/equities/ningxia-baofeng-energy-group-historical-data",
+      "observed": "历史日线：2026年10月21日 收盘22.18 开22.45 高22.47 低21.97 成交36.39M 涨跌-1.20%"
+    },
+    {
+      "url": "https://www.nbd.com.cn/articles/2026-10-21/4611650.html",
+      "observed": "2026年10月21日19:26:49文章明确收盘价22.18元"
+    }
+  ],
+  "basis": "未使用10月22日盘中行情；9月1日已除息，不再重复扣0.42元"
+}

@@ -1,0 +1,115 @@
+{
+  "cases": [
+    3.505095481074522,
+    5.689521057672751,
+    8.881661585079904
+  ],
+  "upside": [
+    -0.31674552025837777,
+    0.10906843229488317,
+    0.7313180477738603
+  ],
+  "tests": {
+    "selector": true,
+    "profit": true,
+    "transaction": true,
+    "unselectedBlank": true,
+    "selectedMissing": true,
+    "zeroIsNotMissing": true,
+    "priceDoesNotChangeValue": true,
+    "cashFormula": true,
+    "q3_revenue": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "q3_cfo": true,
+    "q3_capex": true,
+    "q3_fcf": true,
+    "q3_leases": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Valuation",
+    "Assumptions",
+    "Earnings",
+    "Cash",
+    "Deal",
+    "Sources Checks"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "C1:M31",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "C1:J45",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "C1:J42",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Earnings",
+      "range": "C1:J36",
+      "file": "Earnings-1.png"
+    },
+    {
+      "sheet": "Earnings",
+      "range": "C36:J68",
+      "file": "Earnings-36.png"
+    },
+    {
+      "sheet": "Cash",
+      "range": "C1:J36",
+      "file": "Cash-1.png"
+    },
+    {
+      "sheet": "Cash",
+      "range": "C36:J52",
+      "file": "Cash-36.png"
+    },
+    {
+      "sheet": "Deal",
+      "range": "C1:J39",
+      "file": "Deal-1.png"
+    },
+    {
+      "sheet": "Sources Checks",
+      "range": "A1:J42",
+      "file": "Sources-Checks-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 42,
+    "cost": 43,
+    "gross": 44,
+    "gm": 45,
+    "parent": 46,
+    "core": 47,
+    "nonrec": 48,
+    "cfo": 49,
+    "capex": 50,
+    "fcf": 51,
+    "leases": 52,
+    "lease_cash": 53,
+    "taxes": 54,
+    "pretax": 55,
+    "income_tax": 56,
+    "net_profit": 57,
+    "nci": 58,
+    "refund": 59,
+    "assets": 60,
+    "liabilities": 61,
+    "equity": 62,
+    "cash": 63,
+    "cash_eq": 64,
+    "cip": 65
+  },
+  "scale": 1000000,
+  "price": 5.13
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-16_v003_2026q3-profit-bridge",
+  "version_number": 3,
+  "company": "ganfeng-lithium",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "2026Q3环比下降原因专项分析（未重估）",
+  "reason": "补充Q2/Q3利润变化逐项勾稽和经济解释，模型与估值不变",
+  "created_at_utc": "2026-10-16T02:27:29.957885+00:00",
+  "reported_research_date": "2026-10-16",
+  "source_cutoff": "2026-10-16上午10:23（北京时间）；财务截至9月30日，原估值截至10月15日",
+  "price_date": "2026-10-15",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\ganfeng-lithium",
+  "context_directory": "D:\\Research\\stock-research\\companies\\ganfeng-lithium",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "249af0e5bd5f19fcc6ba82a0925a32f9843f6707d60009a4a7057212b2fbd973",
+      "archive_sha256": "52d127da2ba0f2891ddab6aa024d7b4f84d8414364c3d5085926bc289496774a",
+      "bytes": 24411
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "76e163468c8a698ffde4174eb578e11a19ecf89c87af380d471b6d4bea5d2946",
+      "archive_sha256": "76e163468c8a698ffde4174eb578e11a19ecf89c87af380d471b6d4bea5d2946",
+      "bytes": 33145
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "ac074722cedb26b2bbf9acf3dec361ca197e26cccc833a77e77ae5eda69034fa",
+      "archive_sha256": "3cec5f9807f9dcf40bbe1f590a243fc109d10bbe22df95f5d01a351b1f410480",
+      "bytes": 3981
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "a678953adeff2e911d9a68bfe003c59cd807ab0ed14c3f4b0c839088f74c012c",
+      "archive_sha256": "2b1f727b536ff4c4a71c686cb75810d050e2ff6636993131ba00eaf1add5d4ac",
+      "bytes": 8266
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "3ad1713d649f21921099fbda71d84059a920fb6fe9a70017f863cba8c7a48798",
+      "archive_sha256": "1211c28e6f2abb2050a4348c2517872c0fd2c2849f55bda99937e7ffd9a5dc06",
+      "bytes": 5959
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "6f9ea2a7d723bbf998bf2093caafb009015898bda3f7eba8de203d803a0bb297",
+      "archive_sha256": "b9561ca3ed4efa87a0bcc9c3d656efb62526e2fca4e5720621ee4592c1b73552",
+      "bytes": 4418
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025-annual-cas.pdf",
+      "sha256": "21b8d5020c9a706a591eaa89345e40ef1853c0af630c75adb809cf743fde6025"
+    },
+    {
+      "path": "../../source-documents/2026-07-10-smm-h1-price-review.html",
+      "sha256": "3c43d82a420700415353a25f954732a0f294684063bb9f9ebbe618fb61440bf5"
+    },
+    {
+      "path": "../../source-documents/2026-09-share-monthly.pdf",
+      "sha256": "f3311cc7baf5c8838019366e43cd44289e696140d2b6f10f42b5465002db60d4"
+    },
+    {
+      "path": "../../source-documents/2026-10-07-smm-september-price-review.html",
+      "sha256": "5ef9d1347e6f37b7b79812d3a21e991fa72074f2fa8bc292b60bc7b0dc0b3d89"
+    },
+    {
+      "path": "../../source-documents/2026-10-16-cninfo-query.json",
+      "sha256": "f99dc662f41f5d4d717a96c53aa3070a2f25bab427122c4237741dbc66197b14"
+    },
+    {
+      "path": "../../source-documents/2026-10-16-qoq-source-manifest.json",
+      "sha256": "5971721999332681e2b8be55ddbd8741c323eb9953107a18d8dda29043430244"
+    },
+    {
+      "path": "../../source-documents/2026-10-board.pdf",
+      "sha256": "0a1800ee229f9463944611a34326968a2d6a415f90b044b18c55b0e91a9563c9"
+    },
+    {
+      "path": "../../source-documents/2026-10-guarantees.pdf",
+      "sha256": "7137ce5762fff4d438503d41f50e4ba765d776ab8cb6705f904ab021722b0d8a"
+    },
+    {
+      "path": "../../source-documents/2026-10-related-limits.pdf",
+      "sha256": "ea565a5f2f97f6edd7d328522b113cfe40135b4be325810476c07aab534f058a"
+    },
+    {
+      "path": "../../source-documents/2026-h1-cas.pdf",
+      "sha256": "8fe5155801db0392e208feb15ea228a025d25396c1c160c57519ac91b18897d8"
+    },
+    {
+      "path": "../../source-documents/2026-interim-report-en.pdf",
+      "sha256": "a68cb462a62b5283ea6b30ce635df7ff358ff76a893f88b956f53b82a11ee6bf"
+    },
+    {
+      "path": "../../source-documents/2026-q1-cas.pdf",
+      "sha256": "ab3e33e5893ae03c5a38cba790230b0e71243f3ef3a88ceeeff0037bffb4b100"
+    },
+    {
+      "path": "../../source-documents/2026-q3-qoq-profit-bridge.json",
+      "sha256": "e36eb1630d82eabec034033196a760418e3277bd861ac0f3e9e2172159c3d8e1"
+    },
+    {
+      "path": "../../source-documents/2026-q3-report.pdf",
+      "sha256": "9e1e087ba558b8ba27f1249710fb7bf2e154c9a06b2928fc5566d0e7800c85f2"
+    },
+    {
+      "path": "../2026-09-05_v001_2026h1-initial/research-report.md",
+      "sha256": "a61a48e7e9a013a34ac50b39a0f1101282eb7802103b95c0f1885ae231141e2c"
+    },
+    {
+      "path": "../migration-map.json",
+      "sha256": "086f97e35c5de62e51afadbb37f607194a403cedfc8a2e67c71eff8afcb66ca5"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md",
+    "../versions.md"
+  ]
+}

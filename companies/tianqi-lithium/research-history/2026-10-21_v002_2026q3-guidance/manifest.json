@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-21_v002_2026q3-guidance",
+  "version_number": 2,
+  "company": "tianqi-lithium",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "天齐2026前三季业绩预告、季度区间与CAS口径",
+  "reason": "业绩预告增量分析，SQM估计与季度放缓，统一CAS资产估值及股本",
+  "created_at_utc": "2026-10-21T00:28:17.838178+00:00",
+  "reported_research_date": "2026-10-21",
+  "source_cutoff": "2026-10-21上午",
+  "price_date": "2026-10-20",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\tianqi-lithium",
+  "context_directory": "D:\\Research\\stock-research\\companies\\tianqi-lithium",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "4df7be1e1d69fefb32c6f356b3c9e3eac9b30743fa0fd983cb85ec480080bd2e",
+      "archive_sha256": "8667be43498e95d9add932385edb9e88ce6ce91f9b56c0729fcd5251fb5207f6",
+      "bytes": 8605
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "1bf86b613b9c59b2b61aca27e175c28638e5df7441e3adc59487733fa442644d",
+      "archive_sha256": "1bf86b613b9c59b2b61aca27e175c28638e5df7441e3adc59487733fa442644d",
+      "bytes": 28287
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "483e6776d221c04aac2ae1a41b0788caf89c9f94892eb751ba545d7a0e77b763",
+      "archive_sha256": "483e6776d221c04aac2ae1a41b0788caf89c9f94892eb751ba545d7a0e77b763",
+      "bytes": 3708
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "fb88bbfdd7ca3f35511548138063313c63ac93a25a45d6085211015707512d35",
+      "archive_sha256": "9a4b346a0df1a511f06d49a88a28bf5e6e168240d323cd78c0af10cd38a196be",
+      "bytes": 4465
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "1fc2d3919c35a82a24589c2f8c96faf37531f944a3ac171a39508de39aef3f40",
+      "archive_sha256": "feaf83273f596da8ec2242d5e6dc3725d58acced97ceaada2360a8b9435c31e6",
+      "bytes": 1748
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "222ef3306925f307ce8a8b0c66951fc3704a58622d15aa7505228c690391ba29",
+      "archive_sha256": "2c4456739736d4a1fa41b0bb97de4eabb503aad1f74e4e7fbbadbdd69a0b095f",
+      "bytes": 3053
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../research-history/2026-10-15_v001_2026q3-disclosure-check/evidence/tianqi-board-date.pdf",
+      "sha256": "3d452cbb2f4625ad62dec8501f3b8d1a375ca5b000ef13434c3be6e05544620f"
+    },
+    {
+      "path": "../../source-documents/2026-interim-report-en.pdf",
+      "sha256": "ea11ecfa9d54f8a0654d789e467bca0195b21efa07c05b1d8317b37bcbac33e7"
+    },
+    {
+      "path": "../../source-documents/Q3-market-2026-10-20.txt",
+      "sha256": "39884edd387c5669efe929a1834520b1ec17b301cf213de4bef30410f3a26f73"
+    },
+    {
+      "path": "../../source-documents/Q301-2026-10-21-guidance.pdf",
+      "sha256": "3cdf805557b9354acad4d945d9f9bbb5cc8ef0bccae9684054082c6aee472e13"
+    },
+    {
+      "path": "../../source-documents/Q304-2026-10-08-monthly.pdf",
+      "sha256": "bee2e8229c732465684fe69197145bf07e02fc475a91ce3268afe57c22c28cc7"
+    },
+    {
+      "path": "../../source-documents/Q305-2026-08-28-h1-cas.pdf",
+      "sha256": "ef01ccab12723364f80444303df7a0b061222019513969ca496594e0915298f7"
+    },
+    {
+      "path": "../../source-documents/Q306-2026-04-28-q1.pdf",
+      "sha256": "564694f0e95dcef3472e4a0607e562a25401763d7d874cba91cb507e048391ab"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

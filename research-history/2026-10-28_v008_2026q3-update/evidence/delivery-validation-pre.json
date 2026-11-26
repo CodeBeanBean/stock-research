@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "phase": "pre-archive",
+  "companies": 39,
+  "affected_companies": 5,
+  "unaffected_company_count": 34,
+  "unchanged_original_files_in_other_companies": 634,
+  "overview_unchanged_rows": 34,
+  "local_links_checked": 539,
+  "missing_links": 0,
+  "workbook_checks": {
+    "rongsheng-petrochemical": {
+      "sheets": 6,
+      "charts": 2,
+      "native_sensitivity_tables": 1,
+      "tests_pass": true,
+      "formula_errors": 0,
+      "output_sha256": "ab12f514d78c950ac10d77f0765203129a854d6ce812fe98c333a750574d41bd"
+    },
+    "focus-media": {
+      "sheets": 7,
+      "charts": 2,
+      "native_sensitivity_tables": 0,
+      "tests_pass": true,
+      "formula_errors": 0,
+      "output_sha256": "b6eea8e0d4c07b3b587f3a87e309a6109d02db379084feffa4e7544fc7207aae"
+    },
+    "wanhua-chemical": {
+      "sheets": 8,
+      "charts": 2,
+      "native_sensitivity_tables": 0,
+      "tests_pass": true,
+      "formula_errors": 0,
+      "output_sha256": "e6cd3fbc7abf58fd0d1308c690715018e809f039ea98fa5fba5992a1f8fc6e11"
+    },
+    "baosteel": {
+      "sheets": 8,
+      "charts": 2,
+      "native_sensitivity_tables": 0,
+      "tests_pass": true,
+      "formula_errors": 0,
+      "output_sha256": "591487efb4f3c373c35155492baedcafdd571b056d49f905c6f375f58111349d"
+    },
+    "songcheng-performance": {
+      "sheets": 7,
+      "charts": 2,
+      "native_sensitivity_tables": 0,
+      "tests_pass": true,
+      "formula_errors": 0,
+      "output_sha256": "873690efa3778fe44b3ee7710abd8d9a71a9fdebb45937353d1b951cc0fc61bb"
+    }
+  }
+}

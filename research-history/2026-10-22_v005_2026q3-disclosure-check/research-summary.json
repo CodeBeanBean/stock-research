@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "scope": "library",
+  "headline": "22日22:03重查37家，无新增三季报或预告",
+  "conclusion": "不新增公司财报估值版本，旧价格和估值按原研究日保留",
+  "key_points": [
+    "23家有A股、14家仅港股，全部官方查询成功。",
+    "相对17:50无新增完整Q3或业绩预告。",
+    "新增5份回购/分红/员工持股等非财报公告，原件已保存。",
+    "74个公司报告及模型文件字节保持不变，不刷新估值与价格。"
+  ],
+  "changes": [
+    {
+      "item": "季度覆盖",
+      "before": "宝丰、宁德、赣锋完整Q3；天齐预告",
+      "after": "相同，无新增季度财报或预告",
+      "reason": "官方实时查询与上轮公告ID对照",
+      "impact": "不改盈利或估值"
+    },
+    {
+      "item": "披露增量",
+      "before": "22日17:50",
+      "after": "22日22:03新增5份非财报公告",
+      "reason": "当日晚间发布",
+      "impact": "只更新披露状态，不用回购/分红代替财报"
+    }
+  ],
+  "source_cutoff": "2026-10-22T14:03:22.778535+00:00",
+  "valuation_action": "No revaluation; preserve each dated snapshot.",
+  "next_checks": [
+    "天齐及其余公司正式Q3实际披露",
+    "SQM最终业绩、已有公司毛利和现金验证",
+    "必要时独立处理新增回购、分红及员工持股事项"
+  ],
+  "evidence": [
+    "research-report.md",
+    "evidence/new-announcements.json",
+    "evidence/unchanged-company-files.json"
+  ]
+}

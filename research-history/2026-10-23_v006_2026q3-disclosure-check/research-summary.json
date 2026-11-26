@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "scope": "library",
+  "headline": "23日22:03重查37家，暂无新增Q3或预告；确认宝钢披露计划",
+  "conclusion": "不新增公司估值版本；等待实际财报，旧价格与估值按原日期保留",
+  "key_points": [
+    "37家官方查询成功，23家有A股、14家仅港股。",
+    "相比22日晚，无新增完整Q3或业绩预告。",
+    "新增10份非财报公告，原件已保存。",
+    "宝钢计划10月28日发Q3、29日说明会；伊利此前计划30日。",
+    "74个公司报告和模型文件字节未变，不刷新证券价格和估值。"
+  ],
+  "changes": [
+    {
+      "item": "财报覆盖",
+      "before": "宝丰、宁德、赣锋完整Q3；天齐已有预告",
+      "after": "相同，未检出新增完整财报或预告",
+      "reason": "37家官方查询与上轮公告ID比对",
+      "impact": "盈利/倍数/股本/净债务和每股价值均不调整"
+    },
+    {
+      "item": "待披露计划",
+      "before": "宝钢尚未从最新说明会公告确认日期",
+      "after": "正式公告计划10月28日发布Q3、29日说明会",
+      "reason": "宝钢新刊发正式公告正文",
+      "impact": "等待真实报告，不提前年化或造数"
+    }
+  ],
+  "source_cutoff": "2026-10-23T14:02:36.097275+00:00",
+  "valuation_action": "No revaluation; preserve each issuer dated snapshot.",
+  "next_checks": [
+    "宝钢、伊利实际刊发，计划不作事实数据替代",
+    "天齐正式Q3及SQM最终业绩",
+    "其他公司实际财报和已有现金/毛利验证项"
+  ],
+  "evidence": [
+    "research-report.md",
+    "evidence/new-announcements.json",
+    "evidence/unchanged-company-files.json"
+  ]
+}

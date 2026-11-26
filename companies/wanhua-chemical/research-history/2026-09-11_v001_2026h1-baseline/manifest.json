@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-11_v001_2026h1-baseline",
+  "version_number": 1,
+  "company": "wanhua-chemical",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "更新前已交付研究基线",
+  "reason": "完整Q3更新前永久保存现有交付版本",
+  "created_at_utc": "2026-10-28T02:23:24.394733+00:00",
+  "reported_research_date": "2026-09-11",
+  "source_cutoff": "2026-09-11",
+  "price_date": "2026-09-10",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\wanhua-chemical",
+  "context_directory": "D:\\Research\\stock-research\\companies\\wanhua-chemical",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "e502f595f3b67ee3ef3f1df4f5d7ff980f2ea44c3be92e00ee0ba8ebe65fec43",
+      "archive_sha256": "e502f595f3b67ee3ef3f1df4f5d7ff980f2ea44c3be92e00ee0ba8ebe65fec43",
+      "bytes": 11512
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "c73f13659a828db47be86505d5c58c0f08b69d3ccc4d5345d07ff161ed88372b",
+      "archive_sha256": "c73f13659a828db47be86505d5c58c0f08b69d3ccc4d5345d07ff161ed88372b",
+      "bytes": 26589
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "14a210b4611dd4033c11769776ee55df4ea9aaadf8658da56ec06f52e2e92fa2",
+      "archive_sha256": "14a210b4611dd4033c11769776ee55df4ea9aaadf8658da56ec06f52e2e92fa2",
+      "bytes": 5766
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "a97c29b8a4f59505695f35c7536b50064bda391dca7fcbe446dfead8b785ac33",
+      "archive_sha256": "a97c29b8a4f59505695f35c7536b50064bda391dca7fcbe446dfead8b785ac33",
+      "bytes": 4019
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "43110ac613d2d3e274317d029bf36cb29bc0238fc860c88f86c2d0d474f08513",
+      "archive_sha256": "43110ac613d2d3e274317d029bf36cb29bc0238fc860c88f86c2d0d474f08513",
+      "bytes": 1851
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "077f75f3eba5b1acebe77ccee13e7cf780af7d4011fe80237567c0982a3670a5",
+      "archive_sha256": "def23649a6e0d5fce36c11300e7ebb96d1a681cb856f8b5b9ce04d9a7632baba",
+      "bytes": 1014
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

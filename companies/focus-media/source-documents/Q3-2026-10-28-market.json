@@ -1,0 +1,10 @@
+{
+  "price": 5.13,
+  "price_date": "2026-10-27",
+  "basis": "前一完整交易日收盘；腾讯2026-10-28分时前收字段与历史日线同日收盘交叉核对，均为同一供应商，非独立来源",
+  "quote_url": "https://qt.gtimg.cn/q=sz002027",
+  "history_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get",
+  "share_count": 14442199726,
+  "security": "002027.SZ",
+  "currency": "CNY"
+}

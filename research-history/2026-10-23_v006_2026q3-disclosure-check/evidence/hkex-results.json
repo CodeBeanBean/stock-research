@@ -1,0 +1,301 @@
+[
+  {
+    "name": "龙湖集团",
+    "codes": "00960.HK",
+    "slug": "longfor-group",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:27.387912+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=40632&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "蜜雪集团",
+    "codes": "02097.HK",
+    "slug": "mixue",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:27.944069+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000249228&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "思格新能",
+    "codes": "06656.HK",
+    "slug": "sigenergy",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "539KB",
+        "NEWS_ID": "12382083",
+        "SHORT_TEXT": "公告及通告 - [更換公司秘書]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "思格新能",
+        "TITLE": "(1) 更換聯席公司秘書、授權代表及法律程序代理人；及(2)豁免嚴格遵守上市規則第3.28條及第8.17條",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "23/10/2026 20:45",
+        "LONG_TEXT": "公告及通告 - [更換公司秘書]",
+        "STOCK_CODE": "06656",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1023/2026102301494_c.pdf"
+      },
+      {
+        "FILE_INFO": "437KB",
+        "NEWS_ID": "12382079",
+        "SHORT_TEXT": "公告及通告 - [董事名單和他們的地位和作用]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "思格新能",
+        "TITLE": "董事名單與其角色和職能",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "23/10/2026 20:43",
+        "LONG_TEXT": "公告及通告 - [董事名單和他們的地位和作用]",
+        "STOCK_CODE": "06656",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1023/2026102301490_c.pdf"
+      },
+      {
+        "FILE_INFO": "520KB",
+        "NEWS_ID": "12382077",
+        "SHORT_TEXT": "公告及通告 - [更換董事或重要行政職能或職責的變更 &#x2f; 更換審核委員會成員]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "思格新能",
+        "TITLE": "董事調任及審計委員會成員組成變動",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "23/10/2026 20:41",
+        "LONG_TEXT": "公告及通告 - [更換董事或重要行政職能或職責的變更 &#x2f; 更換審核委員會成員]",
+        "STOCK_CODE": "06656",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1023/2026102301488_c.pdf"
+      }
+    ],
+    "count": 3,
+    "retrieved_utc": "2026-10-23T14:02:28.337846+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000298729&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "恒隆地产",
+    "codes": "00101.HK",
+    "slug": "hang-lung-properties",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:29.635087+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=162&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "威高股份",
+    "codes": "01066.HK",
+    "slug": "weigao-group",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "133KB",
+        "NEWS_ID": "12381725",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "翌日披露報表 - 股份購回",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "23/10/2026 18:47",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1023/2026102301136_c.pdf"
+      },
+      {
+        "FILE_INFO": "133KB",
+        "NEWS_ID": "12379666",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "翌日披露報表 - 股份購回",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "22/10/2026 17:08",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102200666_c.pdf"
+      }
+    ],
+    "count": 2,
+    "retrieved_utc": "2026-10-23T14:02:29.763462+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=50340&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "福寿园",
+    "codes": "01448.HK",
+    "slug": "fu-shou-yuan",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:31.132088+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=98167&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "中海物业",
+    "codes": "02669.HK",
+    "slug": "china-overseas-property",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:31.748211+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=132703&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "达势股份",
+    "codes": "01405.HK",
+    "slug": "dpc-dash",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:32.669849+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000176932&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "保利物业",
+    "codes": "06049.HK",
+    "slug": "poly-property-services",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:32.733380+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000017524&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "腾讯控股",
+    "codes": "0700.HK",
+    "slug": "tencent",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "2MB",
+        "NEWS_ID": "12379124",
+        "SHORT_TEXT": "債券及結構性產品 - [發行通函或定價補充文件 － 債務證券]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "騰訊控股<br/>騰訊控股－Ｒ",
+        "TITLE": "根據騰訊控股有限公司最高限額為300億美元之全球中期票據計劃發行將於二零三六年到期的1,300,000,000美元6.10%優先票據及將於二零四六年到期的500,000,000美元6.75%優先票據及將於二零三六年到期的人民幣20,000,000,000元2.40%優先票據及將於二零五六年到期的人民幣6,000,000,000元3.00%優先票據刊發定價補充文件",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "22/10/2026 12:03",
+        "LONG_TEXT": "債券及結構性產品 - [發行通函或定價補充文件 － 債務證券]",
+        "STOCK_CODE": "00700<br/>80700",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102200203_c.pdf"
+      },
+      {
+        "FILE_INFO": "176KB",
+        "NEWS_ID": "12378785",
+        "SHORT_TEXT": "債券及結構性產品 - [上市通告 － 債務證券]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "騰訊控股<br/>騰訊控股－Ｒ",
+        "TITLE": "於香港聯合交易所有限公司上市之通告 - 根據騰訊控股有限公司最高限額為300億美元之全球中期票據計劃發行將於二零三六年到期的1,300,000,000美元6.10%優先票據及將於二零四六年到期的500,000,000美元6.75%優先票據及將於二零三六年到期的人民幣20,000,000,000元2.40%優先票據及將於二零五六年到期的人民幣6,000,000,000元3.00%優先票據",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "22/10/2026 07:40",
+        "LONG_TEXT": "債券及結構性產品 - [上市通告 － 債務證券]",
+        "STOCK_CODE": "00700<br/>80700",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102200036_c.pdf"
+      },
+      {
+        "FILE_INFO": "164KB",
+        "NEWS_ID": "12378783",
+        "SHORT_TEXT": "公告及通告 - [發行債務證券]<br/>",
+        "TOTAL_COUNT": "3",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "騰訊控股<br/>騰訊控股－Ｒ",
+        "TITLE": "根據全球中期票據計劃完成發行18億美元及人民幣260億元票據",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "22/10/2026 07:37",
+        "LONG_TEXT": "公告及通告 - [發行債務證券]",
+        "STOCK_CODE": "00700<br/>80700",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102200034_c.pdf"
+      }
+    ],
+    "count": 3,
+    "retrieved_utc": "2026-10-23T14:02:34.083197+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=7609&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "三生制药",
+    "codes": "01530.HK",
+    "slug": "3sbio",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:34.102416+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=125086&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "海吉亚医疗",
+    "codes": "06078.HK",
+    "slug": "hygeia-healthcare",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "132KB",
+        "NEWS_ID": "12381352",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "海吉亞醫療",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "23/10/2026 17:30",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "06078",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1023/2026102300763_c.pdf"
+      },
+      {
+        "FILE_INFO": "132KB",
+        "NEWS_ID": "12380080",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "海吉亞醫療",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "22/10/2026 18:36",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "06078",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102201074_c.pdf"
+      }
+    ],
+    "count": 2,
+    "retrieved_utc": "2026-10-23T14:02:34.672600+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000043419&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "海底捞",
+    "codes": "06862.HK",
+    "slug": "haidilao",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-23T14:02:35.887073+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=199151&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "中国民航信息网络",
+    "codes": "00696.HK",
+    "slug": "travelsky",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "104KB",
+        "NEWS_ID": "12380916",
+        "SHORT_TEXT": "公告及通告 - [更改註冊地址或辦事處、香港業務的註冊地或香港接收法律程序文件代表]<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "中國民航信息網絡",
+        "TITLE": "更改在香港接收法律程序文件及通知之授權代表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "23/10/2026 16:32",
+        "LONG_TEXT": "公告及通告 - [更改註冊地址或辦事處、香港業務的註冊地或香港接收法律程序文件代表]",
+        "STOCK_CODE": "00696",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1023/2026102300299_c.pdf"
+      }
+    ],
+    "count": 1,
+    "retrieved_utc": "2026-10-23T14:02:36.097275+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1625&documentType=-2&fromDate=20261022&toDate=20261024&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  }
+]

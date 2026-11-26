@@ -1,0 +1,94 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-21_v002_2026q3-update",
+  "version_number": 2,
+  "company": "catl",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "宁德时代2026Q3及现金转化、估值下修",
+  "reason": "完整三季报更新，现金和毛利走弱、下调利润率及倍数",
+  "created_at_utc": "2026-10-21T00:28:17.478899+00:00",
+  "reported_research_date": "2026-10-21",
+  "source_cutoff": "2026-10-21上午",
+  "price_date": "2026-10-20",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\catl",
+  "context_directory": "D:\\Research\\stock-research\\companies\\catl",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "1eea402ec0599b7881aed585461dac49e5b0ff3f812391cdb1162195ea03e637",
+      "archive_sha256": "1e4777d0723b631fa314a65a083d635d3fa98052cc651ded19246e9f2b8144c1",
+      "bytes": 10177
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "bcdbd753c37e5999285d7b52a7e9c282101b8235b038536288249cc072e328f9",
+      "archive_sha256": "bcdbd753c37e5999285d7b52a7e9c282101b8235b038536288249cc072e328f9",
+      "bytes": 41379
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "ee855227d94b2e1cedb73d9f0d6fd1c37f5b7d0b6d5d0c29d1959dfb7ba84678",
+      "archive_sha256": "ee855227d94b2e1cedb73d9f0d6fd1c37f5b7d0b6d5d0c29d1959dfb7ba84678",
+      "bytes": 6742
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "7f6b7b73f5c4d1db1dd6be394c58868d82bbb0e3041aabb5fe86ae1fbe09bcbf",
+      "archive_sha256": "25f11d7604b10f3152a2c6e39452ca9944d13b50c304901cb4eccd5d1c4033f0",
+      "bytes": 7719
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "26155ee64b7206115c199a51dcfd42a2044dbe318859cf37203c7e0f47a28f71",
+      "archive_sha256": "c29c64a2c511195e3c465256be6f87198d2eb96c349333f9489ad7dfaf04539b",
+      "bytes": 1906
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "cf5015f40d5027977447173df222a20b9c0c92bddc4b3a35a7d19cd6b49e7be6",
+      "archive_sha256": "6fd4412cc89cea9ebe4192b32abeebe17c970e2ab5905e2c7ae329589d84aa9f",
+      "bytes": 3097
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2026-H1-report.pdf",
+      "sha256": "d96b5d49ae75bec5913d032de781873565f5405bf99fd8b011eab152549862b9"
+    },
+    {
+      "path": "../../source-documents/Q3-market-2026-10-20.txt",
+      "sha256": "a07101c866c66e594bb0709c907117f04d6afd2f0c4aee06f6875662796b29a2"
+    },
+    {
+      "path": "../../source-documents/Q301-2026-10-21-quarterly.pdf",
+      "sha256": "476611fe240b90088319c852de4e89d8ab1537b858d2ffbca573af5f8c5419b3"
+    },
+    {
+      "path": "../../source-documents/Q302-2026-10-19-nextday.pdf",
+      "sha256": "7efac32c57abd11e8dd709a91bbcfba15b4a8b3c1ece06dbdc99388bef11889e"
+    },
+    {
+      "path": "../../source-documents/Q303-2026-10-21-board.pdf",
+      "sha256": "dbd7bc08209d6b6eb1c58dc9037e1a21b1e767b0c884d76bbd26d6a1bb08e508"
+    },
+    {
+      "path": "../../source-documents/Q304-2026-10-08-monthly.pdf",
+      "sha256": "eaf356bf7027bbd2252c278695528188250ded066da8dbb830cc2249cce9c482"
+    },
+    {
+      "path": "../../source-documents/Q306-2026-04-16-q1.pdf",
+      "sha256": "32e4936e6dd68a89741a8167b4c4ae3f8b4bc7ef61d70f35b294e1cb0e46fbe8"
+    },
+    {
+      "path": "../../source-documents/Q307-2026-10-08-1225597751.pdf",
+      "sha256": "ac918fb8a183b3eaa5ab0bb416e820b5aac7c6693257217f327a79d2f9ded1c7"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

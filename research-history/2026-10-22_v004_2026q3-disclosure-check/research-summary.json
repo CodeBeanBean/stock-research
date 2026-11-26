@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "scope": "library",
+  "headline": "22日17:50全库复核：无新增完整三季报或预告",
+  "conclusion": "无需新增公司财报估值版本，原研究按原价格/资料日期保留",
+  "source_cutoff": "2026-10-22T09:50:01.180381+00:00",
+  "key_points": [
+    "37家公司重新官方查询；23家有A股、14家仅港股。",
+    "相比22日上午，无新增完整Q3或业绩预告。",
+    "新增4份非财报公告，伊利计划10月30日发Q3，说明会不等于财报。",
+    "公司报告和模型74文件未改变，不刷新市场价、股本及估值。"
+  ],
+  "changes": [
+    {
+      "item": "财报覆盖",
+      "before": "宝丰、宁德、赣锋完整Q3；天齐预告",
+      "after": "相同，无新增财报或预告",
+      "reason": "37家最新正式查询及与上午ID差异核对",
+      "impact": "不改盈利与估值"
+    },
+    {
+      "item": "新增公告",
+      "before": "22日上午原始查询",
+      "after": "伊利说明会、兆易和威高翌日报表、腾讯票据文件",
+      "reason": "晚间正式披露增量",
+      "impact": "非季度业绩，不作财报输入"
+    }
+  ],
+  "valuation_action": "No revaluation; all existing share-price and valuation dates preserved.",
+  "next_checks": [
+    "伊利计划10月30日，等待实际刊发",
+    "天齐完整Q3及SQM最终业绩",
+    "其他公司真实财报、已有研究现金和毛利验证"
+  ],
+  "evidence": [
+    "research-report.md",
+    "evidence/new-announcements.json",
+    "evidence/unchanged-company-files.json"
+  ]
+}

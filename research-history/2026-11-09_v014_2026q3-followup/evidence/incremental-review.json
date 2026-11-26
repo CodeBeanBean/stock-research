@@ -1,0 +1,310 @@
+{
+  "query_window": "2026-11-04~2026-11-09",
+  "actual_start": "2026-11-09T09:19:26.533817+08:00",
+  "actual_end": "2026-11-09T09:23:58.825578+08:00",
+  "companies": 39,
+  "queries": 46,
+  "all_successful": true,
+  "new_announcements": [
+    {
+      "slug": "gehua-cable",
+      "company": "歌华有线",
+      "market": "CNINFO",
+      "code": "600037",
+      "title": "歌华有线关于公司董事辞任的公告",
+      "date": "2026-11-07",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225660703.PDF",
+      "id": "1225660703"
+    },
+    {
+      "slug": "zijin-mining",
+      "company": "紫金矿业",
+      "market": "CNINFO",
+      "code": "601899",
+      "title": "紫金矿业集团股份有限公司关于2026年员工持股计划第一次持有人会议决议公告",
+      "date": "2026-11-06",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659993.PDF",
+      "id": "1225659993"
+    },
+    {
+      "slug": "wanhua-chemical",
+      "company": "万华化学",
+      "market": "CNINFO",
+      "code": "600309",
+      "title": "万华化学关于持股5%以上股东部分股份解除质押公告",
+      "date": "2026-11-07",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225661003.PDF",
+      "id": "1225661003"
+    },
+    {
+      "slug": "wanhua-chemical",
+      "company": "万华化学",
+      "market": "CNINFO",
+      "code": "600309",
+      "title": "万华化学关于持股5%以上股东部分股份质押公告",
+      "date": "2026-11-06",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225658989.PDF",
+      "id": "1225658989"
+    },
+    {
+      "slug": "tianqi-lithium",
+      "company": "天齐锂业",
+      "market": "CNINFO",
+      "code": "002466",
+      "title": "H股公告：证券变动月报表",
+      "date": "2026-11-06",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225659630.PDF",
+      "id": "1225659630"
+    },
+    {
+      "slug": "ganfeng-lithium",
+      "company": "赣锋锂业",
+      "market": "CNINFO",
+      "code": "002460",
+      "title": "关于公司实际控制人、董事长提议回购公司股份的公告",
+      "date": "2026-11-07",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225661701.PDF",
+      "id": "1225661701"
+    },
+    {
+      "slug": "yunnan-aluminum",
+      "company": "云铝股份",
+      "market": "CNINFO",
+      "code": "000807",
+      "title": "云南铝业股份有限公司关于召开2026年第三季度网上业绩说明会的公告",
+      "date": "2026-11-07",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225661178.PDF",
+      "id": "1225661178"
+    },
+    {
+      "slug": "muyuan",
+      "company": "牧原股份",
+      "market": "CNINFO",
+      "code": "002714",
+      "title": "H股公告（翌日披露报表）",
+      "date": "2026-11-07",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-07/1225662020.PDF",
+      "id": "1225662020"
+    },
+    {
+      "slug": "muyuan",
+      "company": "牧原股份",
+      "market": "CNINFO",
+      "code": "002714",
+      "title": "2026年10月份销售简报",
+      "date": "2026-11-06",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660101.PDF",
+      "id": "1225660101"
+    },
+    {
+      "slug": "muyuan",
+      "company": "牧原股份",
+      "market": "CNINFO",
+      "code": "002714",
+      "title": "H股公告（翌日披露报表）",
+      "date": "2026-11-06",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660102.PDF",
+      "id": "1225660102"
+    },
+    {
+      "slug": "muyuan",
+      "company": "牧原股份",
+      "market": "CNINFO",
+      "code": "002714",
+      "title": "H股公告（翌日披露报表）",
+      "date": "2026-11-05",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-05/1225657944.PDF",
+      "id": "1225657944"
+    },
+    {
+      "slug": "songcheng-performance",
+      "company": "宋城演艺",
+      "market": "CNINFO",
+      "code": "300144",
+      "title": "关于控股股东部分股份质押的公告",
+      "date": "2026-11-04",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225657479.PDF",
+      "id": "1225657479"
+    },
+    {
+      "slug": "mixue",
+      "company": "蜜雪集团",
+      "market": "HKEX",
+      "title": "截至二零二六年十月三十一日止月份之股份發行人的證券變動月報表",
+      "date": "05/11/2026 17:29",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501399_c.pdf",
+      "id": "12402249"
+    },
+    {
+      "slug": "zijin-mining",
+      "company": "紫金矿业",
+      "market": "HKEX",
+      "title": "關於2026年員工持股計劃第一次持有人會議決議公告",
+      "date": "05/11/2026 18:23",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501699_c.pdf",
+      "id": "12402549"
+    },
+    {
+      "slug": "sigenergy",
+      "company": "思格新能",
+      "market": "HKEX",
+      "title": "截至2026年10月31日止之股份發行人的證券變動月報表",
+      "date": "04/11/2026 16:32",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1104/2026110400603_c.pdf",
+      "id": "12399189"
+    },
+    {
+      "slug": "hang-lung-properties",
+      "company": "恒隆地产",
+      "market": "HKEX",
+      "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 October 2026",
+      "date": "05/11/2026 17:21",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501330.pdf",
+      "id": "12402180"
+    },
+    {
+      "slug": "midea-group",
+      "company": "美的集团",
+      "market": "HKEX",
+      "title": "翌日披露報表",
+      "date": "06/11/2026 17:30",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110600768_c.pdf",
+      "id": "12403842"
+    },
+    {
+      "slug": "midea-group",
+      "company": "美的集团",
+      "market": "HKEX",
+      "title": "翌日披露報表",
+      "date": "05/11/2026 17:58",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501530_c.pdf",
+      "id": "12402380"
+    },
+    {
+      "slug": "midea-group",
+      "company": "美的集团",
+      "market": "HKEX",
+      "title": "截至2026年10月31日止月份之股份發行人的證券變動月報表",
+      "date": "05/11/2026 17:23",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501353_c.pdf",
+      "id": "12402203"
+    },
+    {
+      "slug": "midea-group",
+      "company": "美的集团",
+      "market": "HKEX",
+      "title": "翌日披露報表",
+      "date": "04/11/2026 17:30",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1104/2026110401292_c.pdf",
+      "id": "12399859"
+    },
+    {
+      "slug": "longfor-group",
+      "company": "龙湖集团",
+      "market": "HKEX",
+      "title": "二零二六年十月未經審核營運數據",
+      "date": "06/11/2026 19:30",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601377_c.pdf",
+      "id": "12404421"
+    },
+    {
+      "slug": "dpc-dash",
+      "company": "达势股份",
+      "market": "HKEX",
+      "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 October 2026",
+      "date": "04/11/2026 16:54",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1104/2026110400882.pdf",
+      "id": "12399495"
+    },
+    {
+      "slug": "weigao-group",
+      "company": "威高股份",
+      "market": "HKEX",
+      "title": "翌日披露報表 - 股份購回",
+      "date": "04/11/2026 17:51",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1104/2026110401443_c.pdf",
+      "id": "12400012"
+    },
+    {
+      "slug": "ganfeng-lithium",
+      "company": "赣锋锂业",
+      "market": "HKEX",
+      "title": "海外監管公告",
+      "date": "06/11/2026 21:44",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601662_c.pdf",
+      "id": "12404686"
+    },
+    {
+      "slug": "muyuan",
+      "company": "牧原股份",
+      "market": "HKEX",
+      "title": "翌日披露報表",
+      "date": "06/11/2026 17:51",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110600882_c.pdf",
+      "id": "12403963"
+    },
+    {
+      "slug": "muyuan",
+      "company": "牧原股份",
+      "market": "HKEX",
+      "title": "2026年10月銷售簡報",
+      "date": "05/11/2026 19:52",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501938_c.pdf",
+      "id": "12402786"
+    },
+    {
+      "slug": "muyuan",
+      "company": "牧原股份",
+      "market": "HKEX",
+      "title": "翌日披露報表",
+      "date": "05/11/2026 17:46",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501483_c.pdf",
+      "id": "12402333"
+    },
+    {
+      "slug": "muyuan",
+      "company": "牧原股份",
+      "market": "HKEX",
+      "title": "翌日披露報表",
+      "date": "04/11/2026 17:49",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1104/2026110401427_c.pdf",
+      "id": "12399996"
+    },
+    {
+      "slug": "gigadevice",
+      "company": "兆易创新",
+      "market": "HKEX",
+      "title": "截至2026年10月31日止月份之股份發行人的證券變動月報表",
+      "date": "05/11/2026 16:30",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500691_c.pdf",
+      "id": "12401577"
+    },
+    {
+      "slug": "tencent",
+      "company": "腾讯控股",
+      "market": "HKEX",
+      "title": "Monthly Return of Equity Issuer on Movements in Securities for the month ended 31 October 2026",
+      "date": "05/11/2026 16:55",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501130.pdf",
+      "id": "12401980"
+    },
+    {
+      "slug": "haidilao",
+      "company": "海底捞",
+      "market": "HKEX",
+      "title": "截至2026年10月31日止月份之股份發行人的證券變動月報表",
+      "date": "05/11/2026 12:00",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110500324_c.pdf",
+      "id": "12401224"
+    },
+    {
+      "slug": "tianqi-lithium",
+      "company": "天齐锂业",
+      "market": "HKEX",
+      "title": "截至2026年10月31日止股份發行人的證券變動月報表",
+      "date": "05/11/2026 17:23",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1105/2026110501361_c.pdf",
+      "id": "12402211"
+    }
+  ]
+}

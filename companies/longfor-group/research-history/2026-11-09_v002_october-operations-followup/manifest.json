@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-11-09_v002_october-operations-followup",
+  "version_number": 2,
+  "company": "longfor-group",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "前十个月销售同比下降54.1%，运营服务收入增长2.4%，延续中性观察",
+  "reason": "新增10月经营事实，更新风险与后续验证，保留原估值输入",
+  "created_at_utc": "2026-11-09T01:29:32.599865+00:00",
+  "reported_research_date": "2026-11-09",
+  "source_cutoff": "2026-11-09T09:23:58.825578+08:00",
+  "price_date": "2026-09-11",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\longfor-group",
+  "context_directory": "D:\\Research\\stock-research\\companies\\longfor-group",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "8e34b7b7b342a8852d2c97e660b78a4832269850148541d0f6c116ee35f3bb09",
+      "archive_sha256": "015154097b7b72926cfab3048d092a165ea9af26a089b4f5e91577de2cc82eb6",
+      "bytes": 14817
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "fade8b39b631aa05e77eb23acc6c7dfbcb938462fc297d77b66e496e8de4eade",
+      "archive_sha256": "fade8b39b631aa05e77eb23acc6c7dfbcb938462fc297d77b66e496e8de4eade",
+      "bytes": 36155
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "55935e1461c2bf90d1c3a7949c9298fb191c2eee5e68f652c4a37b7e919998cd",
+      "archive_sha256": "55935e1461c2bf90d1c3a7949c9298fb191c2eee5e68f652c4a37b7e919998cd",
+      "bytes": 6809
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "ca3ebeaaab00918613e07963080533a0fb5a33515213e6fcab0cc59041949378",
+      "archive_sha256": "21d137e935126ed2d8a3a616355eff2907e77a113e520ca4c6109b181922a0d4",
+      "bytes": 5653
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "53f751e244ee0d7fff13053a4bbc017d7fa4acf1b360a3800f38f9adecf046e8",
+      "archive_sha256": "f71ee960f73cd4f6dd2053d12c4365c2fea361a469325c66b7600af09974f109",
+      "bytes": 1846
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "b6266a0dbe64ed7b0c6bd23b220812f856447a08a4bbe20111a95c3d9c526be8",
+      "archive_sha256": "d09e153e59195ecef1a2f081c2f0ca099d1e0ccf6681744a6034f073d58699a6",
+      "bytes": 2148
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025-11-07-october-operating.pdf",
+      "sha256": "e8c1e2cd438d0551ea28387339cd82e0eab24f22db2aaa432caa3563bacbe941"
+    },
+    {
+      "path": "../../source-documents/2026-10-12-september-operating.pdf",
+      "sha256": "657a57e2f524cd143f9f82a05c57d0c510a802285dbebb282ae7a91d6f95c81b"
+    },
+    {
+      "path": "../../source-documents/2026-11-06-october-operating.pdf",
+      "sha256": "9bac7a4e92631762281a2d10e6e9d75af09ba5320f941eeaaece29e094953fce"
+    },
+    {
+      "path": "../../source-documents/2026-11-09-hk00960-price-history.json",
+      "sha256": "dbb77cf2f15b26eab0d3f7fe444f2f8a33cd8b8b06b65ece56a26c1e5cb7d448"
+    },
+    {
+      "path": "../../source-documents/2026-11-09-operating-calculations.json",
+      "sha256": "1feed8a4c5f42a2beb7ee2ac745856cc2e5f2a38e6f13ef648f5b87d1eba5a0d"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

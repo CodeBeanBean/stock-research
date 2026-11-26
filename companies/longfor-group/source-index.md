@@ -1,5 +1,15 @@
 # 龙湖集团来源索引
 
+## 2026-11-09补充来源
+
+- 2026年10月经营数据，2026-11-06，未经审核。 [2026年10月经营数据](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601377_c.pdf) · [本地原件](source-documents/2026-11-06-october-operating.pdf)。SHA256 `9bac7a4e92631762281a2d10e6e9d75af09ba5320f941eeaaece29e094953fce`。
+- 2026年9月经营数据，2026-10-12，未经审核。 [2026年9月经营数据](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1012/2026101200883.pdf) · [本地原件](source-documents/2026-10-12-september-operating.pdf)。SHA256 `657a57e2f524cd143f9f82a05c57d0c510a802285dbebb282ae7a91d6f95c81b`。
+- 2025年10月可比期，2025-11-07，未经审核。 [2025年10月可比期](https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1107/2025110701500.pdf) · [本地原件](source-documents/2025-11-07-october-operating.pdf)。SHA256 `e8c1e2cd438d0551ea28387339cd82e0eab24f22db2aaa432caa3563bacbe941`。
+- [经营计算](source-documents/2026-11-09-operating-calculations.json)，数值由原始月报计算，标明单位和比较期间。
+- [11月6日行情](source-documents/2026-11-09-hk00960-price-history.json)，腾讯财经历史日线，人民币或港元按证券代码区分；作为事件价格敏感性。
+
+## 此前来源（原日期保留）
+
 **资料截止：** 2026-09-14
 
 | 来源 | 本地文件/链接 | 用途 | 质量与限制 |

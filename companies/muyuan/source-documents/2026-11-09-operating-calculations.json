@@ -1,0 +1,21 @@
+{
+  "period": "2026-10 versus 2026-09",
+  "volume_unit": "万头",
+  "price_unit": "元/公斤",
+  "revenue_unit": "亿元",
+  "volume_prior": 642.3,
+  "volume_current": 591.3,
+  "volume_change": -0.07940214852872485,
+  "price_prior": 10.36,
+  "price_current": 9.64,
+  "price_change": -0.06949806949806936,
+  "revenue_prior": 85.2,
+  "revenue_current": 72.53,
+  "revenue_change": -0.14870892018779347,
+  "volume_yoy": -0.1643,
+  "price_yoy": -0.1654,
+  "revenue_yoy": -0.2979,
+  "at_constant_price_revenue_change": -6.765063054647357,
+  "price_change_on_revised_volume": -5.4510766989048065,
+  "composition_and_weight_residual": -0.45386024644784584
+}

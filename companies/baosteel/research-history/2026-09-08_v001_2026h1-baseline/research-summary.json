@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "headline": "更新前已交付报告基线，原研究结论保留",
+  "security": "600019.SH",
+  "currency": "CNY",
+  "price": 5.75,
+  "bear": 3.59,
+  "base": 6.21,
+  "bull": 9.55,
+  "conclusion": "中性观察",
+  "method": "60%P/B+40%正常化P/E",
+  "valuation_horizon": "2027/正常化，见原报告",
+  "key_points": [
+    "归母70/110/150亿元；PE8/11/14；PB0.45/0.7/1；经济股本217.453亿股。",
+    "基线按现存原报告及模型回溯整理，不代表2026-10-28重估。"
+  ],
+  "key_assumptions": [
+    "归母70/110/150亿元；PE8/11/14；PB0.45/0.7/1；经济股本217.453亿股。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "旧稿显示精度保留；本版模型为原始匹配字节，不借用新数据。",
+  "report_sha256": "82e5578e6b3f032147fe570051dcf4710744189e6b6da35a8cb95d9bbf83406d",
+  "prepared_at_utc": "2026-10-28T02:23:35.347172+00:00",
+  "price_date": "2026-09-07"
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-02_v001_2026h1-initial",
+  "version_number": 1,
+  "company": "baofeng-energy",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "宝丰能源2026H1首次研究基线",
+  "reason": "三季报更新前保存已交付报告与对应模型，摘要为本日追溯摘录",
+  "created_at_utc": "2026-10-22T01:33:49.963241+00:00",
+  "reported_research_date": "2026-09-02",
+  "source_cutoff": "2026-09-02",
+  "price_date": "2026-09-01",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\baofeng-energy",
+  "context_directory": "D:\\Research\\stock-research\\companies\\baofeng-energy",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "49772e259565d23c3154889da1e2159950fe27f1946d113f9a78ea5c56aa887e",
+      "archive_sha256": "49772e259565d23c3154889da1e2159950fe27f1946d113f9a78ea5c56aa887e",
+      "bytes": 14109
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "00ad322e668d0c9d5b6c3c29fecae9b908b40253f864483f435c7fb9097bbc3b",
+      "archive_sha256": "00ad322e668d0c9d5b6c3c29fecae9b908b40253f864483f435c7fb9097bbc3b",
+      "bytes": 29626
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "7f90dbeccaf984c7a180a9bf21344685af212ad5fdc4a7b37413f6060a816ce8",
+      "archive_sha256": "b8eff9f26950e28c92ca0ec6a779fc90044b72a200ac0f2de0112645fba71518",
+      "bytes": 7159
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "9ad6b6dccb1f1f533c593a420ec545af5d367679079c19798d257a5b3037d50a",
+      "archive_sha256": "167f85121e7de15ce7ff5392e349913eb211ac339fb97eaaf1a1d7f6784bcd0e",
+      "bytes": 3152
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "f9936cc7f10e3809f911a96f76e0a817acdeaa0973253083958b93b8178984d3",
+      "archive_sha256": "f9936cc7f10e3809f911a96f76e0a817acdeaa0973253083958b93b8178984d3",
+      "bytes": 617
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "9416af0d5157df95ca3e4037af44ddcd7a74d22df7221896cf392c3da7e1c8e2",
+      "archive_sha256": "af5f1f6a3358126cc4a77db420ba17a680c73567f9aa26b95f6a406c76ebc2e9",
+      "bytes": 1087
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report.pdf",
+      "sha256": "993472f44ba1d0d1d1b068c216ca812b92656d3b7d7a800a98c4d2752071a724"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "de1c54271e1e69ef4b131ea62ea6f879a36113e374a73400af794e18b76dc3af"
+    },
+    {
+      "path": "../../source-documents/2026-H1-operating-data.pdf",
+      "sha256": "bf4297a1396e29622d354d52f7cfacc6b1c6fdae62c4c9cdbbb2a62c35c876a5"
+    },
+    {
+      "path": "../../source-documents/2026-H1-report.pdf",
+      "sha256": "e4c2d398299a6856180134c580885f0848dcf2b15584ca263bc5d6f1506b682e"
+    },
+    {
+      "path": "../../source-documents/2026-Q1-report.pdf",
+      "sha256": "f8db0309ee8eac18e61c45b5b798defa704712ca2dc27b8605c489244df83fe8"
+    },
+    {
+      "path": "../../source-documents/market-price-2026-09-01.txt",
+      "sha256": "b4e9da9fa6f3c6f7062b4d93b36d9c9c3ba50f104c5a10a3bed361a7332a49ce"
+    }
+  ],
+  "mutable_navigation_links": []
+}

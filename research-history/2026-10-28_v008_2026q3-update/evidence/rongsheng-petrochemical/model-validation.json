@@ -1,0 +1,142 @@
+{
+  "cases": [
+    4.135366014399707,
+    10.273246232431747,
+    17.826821104921322
+  ],
+  "upside": [
+    -0.6453373915609171,
+    -0.11893257011734593,
+    0.5288868872145216
+  ],
+  "tests": {
+    "profit": true,
+    "selector": true,
+    "priceDoesNotChangeValue": true,
+    "cashFormula": true,
+    "q3_revenue": true,
+    "q3_cost": true,
+    "q3_gross": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "q3_cfo": true,
+    "q3_capex": true,
+    "q3_fcf": true,
+    "q3_taxes": true,
+    "q3_pretax": true,
+    "q3_income_tax": true,
+    "q3_net_profit": true,
+    "q3_nci": true,
+    "q3_refund": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Valuation",
+    "Quality",
+    "Financials",
+    "Operations",
+    "Sources"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "C1:M39",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "C1:L36",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "C36:L71",
+      "file": "Valuation-36.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "C71:L73",
+      "file": "Valuation-71.png"
+    },
+    {
+      "sheet": "Quality",
+      "range": "C1:L36",
+      "file": "Quality-1.png"
+    },
+    {
+      "sheet": "Quality",
+      "range": "C36:L71",
+      "file": "Quality-36.png"
+    },
+    {
+      "sheet": "Quality",
+      "range": "C71:L80",
+      "file": "Quality-71.png"
+    },
+    {
+      "sheet": "Financials",
+      "range": "C1:L36",
+      "file": "Financials-1.png"
+    },
+    {
+      "sheet": "Financials",
+      "range": "C36:L71",
+      "file": "Financials-36.png"
+    },
+    {
+      "sheet": "Financials",
+      "range": "C71:L106",
+      "file": "Financials-71.png"
+    },
+    {
+      "sheet": "Financials",
+      "range": "C106:L127",
+      "file": "Financials-106.png"
+    },
+    {
+      "sheet": "Operations",
+      "range": "C1:L42",
+      "file": "Operations-1.png"
+    },
+    {
+      "sheet": "Sources",
+      "range": "A1:L36",
+      "file": "Sources-1.png"
+    },
+    {
+      "sheet": "Sources",
+      "range": "A36:L57",
+      "file": "Sources-36.png"
+    }
+  ],
+  "rows": {
+    "revenue": 101,
+    "cost": 102,
+    "gross": 103,
+    "gm": 104,
+    "parent": 105,
+    "core": 106,
+    "nonrec": 107,
+    "cfo": 108,
+    "capex": 109,
+    "fcf": 110,
+    "leases": 111,
+    "lease_cash": 112,
+    "taxes": 113,
+    "pretax": 114,
+    "income_tax": 115,
+    "net_profit": 116,
+    "nci": 117,
+    "refund": 118,
+    "assets": 119,
+    "liabilities": 120,
+    "equity": 121,
+    "cash": 122,
+    "cash_eq": 123,
+    "cip": 124
+  },
+  "scale": 100000000,
+  "price": 11.66
+}

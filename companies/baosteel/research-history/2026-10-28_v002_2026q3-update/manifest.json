@@ -1,0 +1,118 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-28_v002_2026q3-update",
+  "version_number": 2,
+  "company": "baosteel",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整三季报及估值更新",
+  "reason": "新完整Q3实际、现金质量、股本分红与正常化估值更新",
+  "created_at_utc": "2026-10-28T02:46:04.844460+00:00",
+  "reported_research_date": "2026-10-28",
+  "source_cutoff": "2026-10-28上午（全库10:18:17—10:18:33，专项补查至10:24:52，北京时间）",
+  "price_date": "2026-10-27",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\baosteel",
+  "context_directory": "D:\\Research\\stock-research\\companies\\baosteel",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "52a244fbacec04c52f115be92b6eb9373a5a6899c66ad48e3a18395bf136d745",
+      "archive_sha256": "c3f3f49d60e9dfef28ffd649d5857560ab8d34620ebad79eba4bd348034f25b1",
+      "bytes": 14298
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "591487efb4f3c373c35155492baedcafdd571b056d49f905c6f375f58111349d",
+      "archive_sha256": "591487efb4f3c373c35155492baedcafdd571b056d49f905c6f375f58111349d",
+      "bytes": 34604
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "9618cd2164d990f2690e55b5d044bc1537f9c7525c5fccee70678612b4bf85ef",
+      "archive_sha256": "fb3286115f1612c5797b2db6b603e45fa20a0a7c2a6982491a4fd4168dcff214",
+      "bytes": 5799
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "321dbb85198d9ccf9b48b4d0919f6eb7a2f64722c2f6d9fc3ee70a962d700999",
+      "archive_sha256": "e40ade060bd1559a85df4d02508aa4d722b295e13886198d6747ab3d721916e8",
+      "bytes": 7199
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "29895f8771b217f9ad0de80ab9fb45cb9e18a8fefadfa10e703e2239ae526fea",
+      "archive_sha256": "112f27d1bf9d1724fda86cc7a5e7f83d5b8b0f12df5fad5b4a0ae40004dda30c",
+      "bytes": 3290
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "7aaa92cad6096e7437981edfbdef7fa188504cd8b4481895fb6d8eb49746b679",
+      "archive_sha256": "921ffa6966cd034b279b273c6d6bdb1483641f1a64d10db5220225e66f1c6005",
+      "bytes": 4608
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/baosteel/model-validation.json",
+      "sha256": "71577e22b499b7e18b2b50bfbbf7fa52b16237f570f90058965c273de7346f50"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/coverage.json",
+      "sha256": "68aa913f87fefcc906a34851bb97db91dec8507a4b945c69524d049f566f5fc6"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/extra-sources.json",
+      "sha256": "3b0974e0787a598ca1abfbf410b54c53fe687c28ce51d44dffbf77b9c961e34f"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/new-announcement-sources.json",
+      "sha256": "88e658db5c3491c39b494e798555d4c6c473774eca8af662e321584ada0009dd"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225556087.pdf",
+      "sha256": "0634564341b15ea7f20d7741c277f744dfd5fefb04ceb2b84aa51e9cac933b1a"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225629169.pdf",
+      "sha256": "98795b68067cea65147ed9e3faff8687191fe473cab2205ea4d9bb816567bca9"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225629171.pdf",
+      "sha256": "e8ad0554e15c939831556bad7158e87f03bb2c2f7416fe1c0115be23d6cafe91"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225629206.pdf",
+      "sha256": "93cfff96c49347b25cf0f166d007d08a90e00a174b3223c4b9e32542fe7089d7"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225629214.pdf",
+      "sha256": "bde9d19f1650f52040e54fc599e6538ff93c6d77949b3776751382bb1b0159f3"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225629226.pdf",
+      "sha256": "10b9bd539ec831e7f307075e59c372b00e9071b3ae6b0b323f30a41c121af90e"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225629233.pdf",
+      "sha256": "bdd1fb7bd03ca072cf3b2ac5046695735765202d2c62b494a85672de672b8903"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225629234.pdf",
+      "sha256": "adfb0a5fbd73ce92155515ca4280a1ad70dfa48ec2addf3a75e365bf6a894dce"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-market.json",
+      "sha256": "19f0744d52c7ee533866821e56627b39841b2a569a2439ebc149087b365ca616"
+    },
+    {
+      "path": "../2026-09-08_v001_2026h1-baseline/research-report.md",
+      "sha256": "82e5578e6b3f032147fe570051dcf4710744189e6b6da35a8cb95d9bbf83406d"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

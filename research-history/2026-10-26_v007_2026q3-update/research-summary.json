@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "scope": "library",
+  "headline": "38家复核新增天齐完整Q3，归母环比放缓，投资现金口径待核实",
+  "research_date": "2026-10-26",
+  "source_cutoff": "2026-10-26T07:28:54.327620+00:00",
+  "conclusion": "天齐中性观察；其他37家保留原研究截面",
+  "coverage": {
+    "companies": 38,
+    "cn_queries": 24,
+    "hk_queries": 20,
+    "dual_listed_both_sides": 6,
+    "all_queries_successful": true,
+    "new_complete_q3": [
+      "tianqi-lithium"
+    ],
+    "new_guidance": [],
+    "complete_q3_covered": [
+      "catl",
+      "ganfeng-lithium",
+      "baofeng-energy",
+      "tianqi-lithium"
+    ],
+    "guidance_only": [
+      "rongsheng-petrochemical"
+    ]
+  },
+  "key_points": [
+    "天齐9M归母56.02亿元、扣非55.33亿元在原预告内；正式季报CAS未经审计，SQM仍含预测。",
+    "Q3归母13.60亿元环比-42.5%，扣非13.34亿元环比-44.1%；毛利、投资收益下降及少数股东结构共同影响。",
+    "累计表差额Q3经营现金34.33亿元、购建4.00亿元；合并现金不全属上市股东。",
+    "H1投资支付54.66亿元高于9M17.68亿元，具体分类原因未确认，不构造Q3负投资。",
+    "五份新取文件为天齐两市场季报和董事会重复件及美的23日H股翌日报表；不计为五个新财报事件。",
+    "其他37家全部原公司文件未改；港股未刊发Q3不等于逾期。"
+  ],
+  "valuation_updates": [
+    {
+      "company": "天齐锂业",
+      "security": "002466.SZ",
+      "currency": "CNY",
+      "price_before": 36.5,
+      "price_date_before": "2026-10-20",
+      "price_after": 36.91,
+      "price_date_after": "2026-10-26 15:31:15 post-close Tencent quote",
+      "before": [
+        22.987860184262544,
+        48.66057629482006,
+        75.61572036852509
+      ],
+      "after": [
+        23.17724773950019,
+        48.9635963832003,
+        75.99449547900038
+      ],
+      "method": "60%正常化归母P/E+40% Q3 CAS归母P/B",
+      "value_change_reason": "CAS归母权益483.43→491.54亿元，Base+0.303020元；EPS、PE、PB、权重和股本不变",
+      "conclusion": "中性观察",
+      "archive": "../../companies/tianqi-lithium/research-history/2026-10-26_v003_2026q3-update"
+    }
+  ],
+  "changes": [
+    {
+      "item": "完整季度覆盖",
+      "before": "3家完整Q3，天齐预告",
+      "after": "4家完整Q3，天齐正式更新",
+      "reason": "25日晚港交所刊发、巨潮名义26日",
+      "impact": "仅天齐更新模型与价格"
+    },
+    {
+      "item": "检索范围",
+      "before": "37家公司；双重上市以A侧为主",
+      "after": "38家公司，44条查询，6家A/H双侧",
+      "reason": "新增荣盛；补查双重上市H侧",
+      "impact": "美的23日H侧旧件标为补充取证，非26日新财报"
+    }
+  ],
+  "risks": [
+    "天齐投资现金累计口径未解释；现金分类与集团资金可动用范围仍有限制。",
+    "SQM最终业绩可能导致权益法估计修正；锂价/产量/单位成本和少数股东分配均敏感。",
+    "查询仅截至逐公司UTC；未来新刊发需下一版核查。"
+  ],
+  "next_checks": [
+    "公司正式解释投资支付累计下降及存单现金分类。",
+    "SQM最终Q3、股利回流与矿盐单位经济性。",
+    "宝钢和伊利此前28日/30日计划以实际发布为准。"
+  ],
+  "evidence": [
+    "research-report.md",
+    "evidence/cninfo-results.json",
+    "evidence/hkex-results.json",
+    "evidence/new-announcement-sources.json",
+    "evidence/model-validation.json"
+  ],
+  "sealed_at_utc": "2026-10-26T07:56:14.298941+00:00"
+}

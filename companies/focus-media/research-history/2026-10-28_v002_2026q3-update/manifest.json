@@ -1,0 +1,146 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-28_v002_2026q3-update",
+  "version_number": 2,
+  "company": "focus-media",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整三季报及估值更新",
+  "reason": "新完整Q3实际、现金质量、股本分红与正常化估值更新",
+  "created_at_utc": "2026-10-28T02:46:02.901917+00:00",
+  "reported_research_date": "2026-10-28",
+  "source_cutoff": "2026-10-28上午（全库10:18:17—10:18:33，专项补查至10:24:52，北京时间）",
+  "price_date": "2026-10-27",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\focus-media",
+  "context_directory": "D:\\Research\\stock-research\\companies\\focus-media",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "7eae63378c9b735e5778c7c3d44cf2541a1600a266f23e443678b043ddfe5129",
+      "archive_sha256": "b29af8c6077a6c621e202fb215b45947ae26f8e7a9e75e0167e28e16ffdf5534",
+      "bytes": 29660
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "b6eea8e0d4c07b3b587f3a87e309a6109d02db379084feffa4e7544fc7207aae",
+      "archive_sha256": "b6eea8e0d4c07b3b587f3a87e309a6109d02db379084feffa4e7544fc7207aae",
+      "bytes": 31645
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "8968d5b596bdd760ac0a5831362bfac375602713f5b5a39aa4302ea3ba526415",
+      "archive_sha256": "d109e428543986be1f1318f1582a3268e233a553dd394dd0947fbbe7e870a6e8",
+      "bytes": 3395
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "ba1a032ba778d3917511e73d2f01524901c9f10f582b5695d7857e1cfd15fa60",
+      "archive_sha256": "960481f39a355fb46f9fde3c8ef822f26f3688c3893d26529ea3b8df4221de5a",
+      "bytes": 11061
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "c544af8bf1032c3ed9c55f084c743cf217e83bdd6f8d5c00bdcad89f858a5a49",
+      "archive_sha256": "0dd598de428e4c783a8f1f4795ba100ad25f9ecaea3f3ec1f50ebd90902ef495",
+      "bytes": 3948
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "837d3efdca00175dbe6f1e59e79ac5edf6032b63cebb4b3a044fbd25e7c149ae",
+      "archive_sha256": "b4ac2a6c78e68a29da52a6d4093e09e1c2486388d9d590d204c734ca91cbff3e",
+      "bytes": 5473
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/coverage.json",
+      "sha256": "68aa913f87fefcc906a34851bb97db91dec8507a4b945c69524d049f566f5fc6"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/extra-sources.json",
+      "sha256": "3b0974e0787a598ca1abfbf410b54c53fe687c28ce51d44dffbf77b9c961e34f"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/focus-media/model-validation.json",
+      "sha256": "44207846e5b306b6051b43e08d9c8ab45866a2f78b09b47d9110ae919af627b6"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/new-announcement-sources.json",
+      "sha256": "88e658db5c3491c39b494e798555d4c6c473774eca8af662e321584ada0009dd"
+    },
+    {
+      "path": "../../source-documents/2025-dividend.pdf",
+      "sha256": "42fc0ebe8ab4977bc2d5a578a1b993539dc31f3157125602e7e0b6063c656940"
+    },
+    {
+      "path": "../../source-documents/2025AR.pdf",
+      "sha256": "2c089c20fd280a3adbebee237ee1df7f13074d3fa57330127914c2082d8c6081"
+    },
+    {
+      "path": "../../source-documents/20260710-overseas-dilution.pdf",
+      "sha256": "8ea2c74911dddcf7c652fae376cd69729550763b4ec6c531d890873e01a966f2"
+    },
+    {
+      "path": "../../source-documents/20260819-IR.pdf",
+      "sha256": "fb1849b48b4fa2a2719eb3631d6b106e01dfda468623d0f5a82f0197522fd2e5"
+    },
+    {
+      "path": "../../source-documents/20260924-reorg-summary.pdf",
+      "sha256": "31ba15ade5a4151caa88f8e923141fd27c0051fa64e9615251f39c42ff10a06c"
+    },
+    {
+      "path": "../../source-documents/20261010-SAMR.html",
+      "sha256": "cf8b8b4ab4e53680ae44e81eec1930ae6888e13b2e88d14cde8bb8374abe5950"
+    },
+    {
+      "path": "../../source-documents/20261010-guarantee.pdf",
+      "sha256": "0e93ed1e77fb17773ee9895fdf9b0c55fa662d2db8e0a153f36deece77d9c743"
+    },
+    {
+      "path": "../../source-documents/20261012-antitrust.pdf",
+      "sha256": "252a5575499165f8a4cf8eea6fcb04679f7f933365ace17e0a1f4981c80910f9"
+    },
+    {
+      "path": "../../source-documents/2026H1-dividend.pdf",
+      "sha256": "147db4e2b162d74f46edaf911bce6631c51f1bb1cf36e7e1ba92fcd384621686"
+    },
+    {
+      "path": "../../source-documents/2026H1.pdf",
+      "sha256": "c4bcfa113ecf6b171cfb18f4a205a044cfaaa643869ff13a66dac724f1e93eb9"
+    },
+    {
+      "path": "../../source-documents/2026Q1.pdf",
+      "sha256": "d6a7e3fc11a06c4c72638075ae99160187e35dddd5b5bfd0d8bc646b6e4a5ecc"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1224763740.pdf",
+      "sha256": "7af726a4cbdacb5585288c755a110752d39799fa257d5ed0c9f77d1bcdacfc11"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225628192.pdf",
+      "sha256": "37fb6f055630631a50b4e942c2709fa40690ce47b6aa1a372bcb9f95e68ec5f3"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-market.json",
+      "sha256": "b73fc0832e5f00bca107b175cd3cf1198feb0eb1a1f09e3d249a0a1d1b79afe4"
+    },
+    {
+      "path": "../../source-documents/market-snapshot.json",
+      "sha256": "72ebb0cdafcf9e5f40e65901045440d9c60854826cb8f69548cd0380df2b7dc9"
+    },
+    {
+      "path": "../../source-documents/xinchao-audit.pdf",
+      "sha256": "622fdb79ac374d89624647e7d63b30d51ecc00d567a4c66b02a8daf521ef7541"
+    },
+    {
+      "path": "../2026-10-12_v001_2026h1-baseline/research-report.md",
+      "sha256": "ed15330a5351b21bb7a50add2d1efbbc9a3d38f21cd60531b64ebc4e4fb80bc3"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

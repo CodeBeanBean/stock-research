@@ -1,0 +1,47 @@
+[
+  {
+    "company": "宁德时代",
+    "slug": "catl",
+    "title": "H股公告（翌日披露报表）",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-22/1225616988.PDF",
+    "file": "catl-1225616988.pdf",
+    "sha256": "ea52aa426d8a9eec7efa063e5aa232e50d0ce710dd1b8b599b423986ed749212",
+    "retrieved_utc": "2026-10-22T14:04:07.054248+00:00"
+  },
+  {
+    "company": "美的集团",
+    "slug": "midea-group",
+    "title": "关于以集中竞价交易方式回购A股股份进展情况的公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616891.PDF",
+    "file": "midea-group-1225616891.pdf",
+    "sha256": "30b748c93f9b9d0b7a31700a5a2a947a8777cfff2671d931936c0274cacba572",
+    "retrieved_utc": "2026-10-22T14:04:07.372147+00:00"
+  },
+  {
+    "company": "云铝股份",
+    "slug": "yunnan-aluminum",
+    "title": "云南铝业股份有限公司2026年中期利润分配实施公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616786.PDF",
+    "file": "yunnan-aluminum-1225616786.pdf",
+    "sha256": "80c6e99a3b557b5197d84274df46d3cc769c240f58e7e9c2ebebf8eff68198de",
+    "retrieved_utc": "2026-10-22T14:04:07.481992+00:00"
+  },
+  {
+    "company": "牧原股份",
+    "slug": "muyuan",
+    "title": "关于第二期员工持股计划存续期届满前六个月的提示性公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225616788.PDF",
+    "file": "muyuan-1225616788.pdf",
+    "sha256": "8416d3a436bbd7db0a7c256d4f7d0271d319936c16cde65fbc9c03b338dd4785",
+    "retrieved_utc": "2026-10-22T14:04:07.578183+00:00"
+  },
+  {
+    "company": "海吉亚医疗",
+    "slug": "hygeia-healthcare",
+    "title": "翌日披露報表",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1022/2026102201074_c.pdf",
+    "file": "hygeia-healthcare-12380080.pdf",
+    "sha256": "53228afded1782802a5f5f6950c9f0b40829f7a404a5ffbabb8d2d3720c44966",
+    "retrieved_utc": "2026-10-22T14:04:09.452585+00:00"
+  }
+]

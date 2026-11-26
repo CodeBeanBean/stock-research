@@ -1,0 +1,113 @@
+{
+  "cases": [
+    3.5823649795142547,
+    5.993603790287742,
+    9.534586571267052
+  ],
+  "upside": [
+    -0.4029391700809576,
+    -0.001066034952042938,
+    0.5890977618778421
+  ],
+  "tests": {
+    "profit": true,
+    "priceDoesNotChangeValue": true,
+    "cashFormula": true,
+    "q3_revenue": true,
+    "q3_cost": true,
+    "q3_gross": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "q3_cfo": true,
+    "q3_capex": true,
+    "q3_fcf": true,
+    "allChecks": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Operations",
+    "Balance & Cash",
+    "Assumptions",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P40",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:G36",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A36:G53",
+      "file": "Historical-36.png"
+    },
+    {
+      "sheet": "Operations",
+      "range": "A1:J35",
+      "file": "Operations-1.png"
+    },
+    {
+      "sheet": "Balance & Cash",
+      "range": "A1:G36",
+      "file": "Balance---Cash-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "A1:G26",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:J35",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:G19",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources Audit",
+      "range": "A1:H28",
+      "file": "Sources-Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 27,
+    "cost": 28,
+    "gross": 29,
+    "gm": 30,
+    "parent": 31,
+    "core": 32,
+    "nonrec": 33,
+    "cfo": 34,
+    "capex": 35,
+    "fcf": 36,
+    "leases": 37,
+    "lease_cash": 38,
+    "taxes": 39,
+    "pretax": 40,
+    "income_tax": 41,
+    "net_profit": 42,
+    "nci": 43,
+    "refund": 44,
+    "assets": 45,
+    "liabilities": 46,
+    "equity": 47,
+    "cash": 48,
+    "cash_eq": 49,
+    "cip": 50
+  },
+  "scale": 1000000,
+  "price": 6
+}

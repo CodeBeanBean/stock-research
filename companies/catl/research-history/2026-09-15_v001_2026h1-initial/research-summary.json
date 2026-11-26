@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "headline": "首次覆盖研究基线，更新三季度前永久保存",
+  "conclusion": "中性偏积极",
+  "security": "300750.SZ",
+  "currency": "CNY",
+  "price": 337.11,
+  "bear": 254.43,
+  "base": 493.21,
+  "bull": 792.98,
+  "method": "2027E归母P/E，未另加净现金",
+  "valuation_horizon": "2027正常化，原研究口径",
+  "key_points": [
+    "根据现有已交付报告提取当时估值，保持原始报告及模型不变；本次封存时间不冒充旧研究完成时间。"
+  ],
+  "key_assumptions": [
+    "当时价格、股本及财务基准详见原版报告和模型。"
+  ],
+  "comparability_note": "更新前三季度前补存基线，摘要追溯提取，未加入新行情或新财报。",
+  "preparation": "retrospective extraction before update",
+  "evidence": [
+    "research-report.md",
+    "financial-model.xlsx"
+  ],
+  "report_sha256": "3b8d0cedd12dcde0b2df1354a3f730a1db439a9df7d9fcbc516f793386ed9610",
+  "prepared_at_utc": "2026-10-21T00:15:50.149687+00:00",
+  "price_date": "2026-09-14"
+}

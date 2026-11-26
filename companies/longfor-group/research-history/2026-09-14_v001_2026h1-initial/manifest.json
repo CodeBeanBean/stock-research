@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-14_v001_2026h1-initial",
+  "version_number": 1,
+  "company": "longfor-group",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "2026中期及八个月经营研究基线",
+  "reason": "更新前封存已交付报告及原模型",
+  "created_at_utc": "2026-11-09T01:29:31.476418+00:00",
+  "reported_research_date": "2026-09-14",
+  "source_cutoff": "2026-09-14",
+  "price_date": "2026-09-11",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\longfor-group",
+  "context_directory": "D:\\Research\\stock-research\\companies\\longfor-group",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "ddf1a5c8bbd7fff781c2e62c990c77d56347a544e47fc641527b023d584819b0",
+      "archive_sha256": "ddf1a5c8bbd7fff781c2e62c990c77d56347a544e47fc641527b023d584819b0",
+      "bytes": 11570
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "fade8b39b631aa05e77eb23acc6c7dfbcb938462fc297d77b66e496e8de4eade",
+      "archive_sha256": "fade8b39b631aa05e77eb23acc6c7dfbcb938462fc297d77b66e496e8de4eade",
+      "bytes": 36155
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "f86421a94fe22884d666b44814f8ebc2be23a116144db5ccd3410ae13272c3ef",
+      "archive_sha256": "f86421a94fe22884d666b44814f8ebc2be23a116144db5ccd3410ae13272c3ef",
+      "bytes": 6398
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "8fb56fa5688045b7a994a29f1dff684acb1a7d690c7d2142090203b907460257",
+      "archive_sha256": "8fb56fa5688045b7a994a29f1dff684acb1a7d690c7d2142090203b907460257",
+      "bytes": 4273
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "e75b65c978ad33f60a012189456053c12d11c29e452d17f6b6b2705028c3a80e",
+      "archive_sha256": "e75b65c978ad33f60a012189456053c12d11c29e452d17f6b6b2705028c3a80e",
+      "bytes": 1441
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "ca4ae78682fd686253d3a3d2679f8cb5bb61779bab1c9dfb0f911c64db3ab6b4",
+      "archive_sha256": "9ed5852ec9fa0f8d3e825a5598b1535d688cc7fc4cc743c1a66ffd8cd1ae0faa",
+      "bytes": 1239
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

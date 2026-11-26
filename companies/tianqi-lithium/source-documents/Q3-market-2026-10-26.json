@@ -1,0 +1,15 @@
+{
+  "publisher": "Tencent Finance",
+  "url": "https://qt.gtimg.cn/q=sz002466",
+  "quote_timestamp": "20261026153115",
+  "price": 36.91,
+  "currency": "CNY",
+  "price_date": "2026-10-26",
+  "status": "15:31:15收盘后报价；盘中36.70/36.94未采用",
+  "retrieved_utc": "2026-10-26T07:39:21.589896+00:00",
+  "shares": 1713105208,
+  "raw": "tencent-quote.txt",
+  "prior_day_close": 35.99,
+  "high": 37.26,
+  "low": 36.0
+}

@@ -1,0 +1,596 @@
+{
+  "rongsheng-petrochemical": {
+    "cases": [
+      4.135366014399707,
+      10.273246232431747,
+      17.826821104921322
+    ],
+    "upside": [
+      -0.6453373915609171,
+      -0.11893257011734593,
+      0.5288868872145216
+    ],
+    "tests": {
+      "profit": true,
+      "selector": true,
+      "priceDoesNotChangeValue": true,
+      "cashFormula": true,
+      "q3_revenue": true,
+      "q3_cost": true,
+      "q3_gross": true,
+      "q3_parent": true,
+      "q3_core": true,
+      "q3_cfo": true,
+      "q3_capex": true,
+      "q3_fcf": true,
+      "q3_taxes": true,
+      "q3_pretax": true,
+      "q3_income_tax": true,
+      "q3_net_profit": true,
+      "q3_nci": true,
+      "q3_refund": true,
+      "roundtrip": true
+    },
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+    "sheets": [
+      "Cover",
+      "Valuation",
+      "Quality",
+      "Financials",
+      "Operations",
+      "Sources"
+    ],
+    "ranges": [
+      {
+        "sheet": "Cover",
+        "range": "C1:M39",
+        "file": "Cover-1.png"
+      },
+      {
+        "sheet": "Valuation",
+        "range": "C1:L36",
+        "file": "Valuation-1.png"
+      },
+      {
+        "sheet": "Valuation",
+        "range": "C36:L71",
+        "file": "Valuation-36.png"
+      },
+      {
+        "sheet": "Valuation",
+        "range": "C71:L73",
+        "file": "Valuation-71.png"
+      },
+      {
+        "sheet": "Quality",
+        "range": "C1:L36",
+        "file": "Quality-1.png"
+      },
+      {
+        "sheet": "Quality",
+        "range": "C36:L71",
+        "file": "Quality-36.png"
+      },
+      {
+        "sheet": "Quality",
+        "range": "C71:L80",
+        "file": "Quality-71.png"
+      },
+      {
+        "sheet": "Financials",
+        "range": "C1:L36",
+        "file": "Financials-1.png"
+      },
+      {
+        "sheet": "Financials",
+        "range": "C36:L71",
+        "file": "Financials-36.png"
+      },
+      {
+        "sheet": "Financials",
+        "range": "C71:L106",
+        "file": "Financials-71.png"
+      },
+      {
+        "sheet": "Financials",
+        "range": "C106:L127",
+        "file": "Financials-106.png"
+      },
+      {
+        "sheet": "Operations",
+        "range": "C1:L42",
+        "file": "Operations-1.png"
+      },
+      {
+        "sheet": "Sources",
+        "range": "A1:L36",
+        "file": "Sources-1.png"
+      },
+      {
+        "sheet": "Sources",
+        "range": "A36:L57",
+        "file": "Sources-36.png"
+      }
+    ],
+    "rows": {
+      "revenue": 101,
+      "cost": 102,
+      "gross": 103,
+      "gm": 104,
+      "parent": 105,
+      "core": 106,
+      "nonrec": 107,
+      "cfo": 108,
+      "capex": 109,
+      "fcf": 110,
+      "leases": 111,
+      "lease_cash": 112,
+      "taxes": 113,
+      "pretax": 114,
+      "income_tax": 115,
+      "net_profit": 116,
+      "nci": 117,
+      "refund": 118,
+      "assets": 119,
+      "liabilities": 120,
+      "equity": 121,
+      "cash": 122,
+      "cash_eq": 123,
+      "cip": 124
+    },
+    "scale": 100000000,
+    "price": 11.66
+  },
+  "focus-media": {
+    "cases": [
+      3.505095481074522,
+      5.689521057672751,
+      8.881661585079904
+    ],
+    "upside": [
+      -0.31674552025837777,
+      0.10906843229488317,
+      0.7313180477738603
+    ],
+    "tests": {
+      "selector": true,
+      "profit": true,
+      "transaction": true,
+      "unselectedBlank": true,
+      "selectedMissing": true,
+      "zeroIsNotMissing": true,
+      "priceDoesNotChangeValue": true,
+      "cashFormula": true,
+      "q3_revenue": true,
+      "q3_parent": true,
+      "q3_core": true,
+      "q3_cfo": true,
+      "q3_capex": true,
+      "q3_fcf": true,
+      "q3_leases": true,
+      "roundtrip": true
+    },
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+    "sheets": [
+      "Cover",
+      "Valuation",
+      "Assumptions",
+      "Earnings",
+      "Cash",
+      "Deal",
+      "Sources Checks"
+    ],
+    "ranges": [
+      {
+        "sheet": "Cover",
+        "range": "C1:M31",
+        "file": "Cover-1.png"
+      },
+      {
+        "sheet": "Valuation",
+        "range": "C1:J45",
+        "file": "Valuation-1.png"
+      },
+      {
+        "sheet": "Assumptions",
+        "range": "C1:J42",
+        "file": "Assumptions-1.png"
+      },
+      {
+        "sheet": "Earnings",
+        "range": "C1:J36",
+        "file": "Earnings-1.png"
+      },
+      {
+        "sheet": "Earnings",
+        "range": "C36:J68",
+        "file": "Earnings-36.png"
+      },
+      {
+        "sheet": "Cash",
+        "range": "C1:J36",
+        "file": "Cash-1.png"
+      },
+      {
+        "sheet": "Cash",
+        "range": "C36:J52",
+        "file": "Cash-36.png"
+      },
+      {
+        "sheet": "Deal",
+        "range": "C1:J39",
+        "file": "Deal-1.png"
+      },
+      {
+        "sheet": "Sources Checks",
+        "range": "A1:J42",
+        "file": "Sources-Checks-1.png"
+      }
+    ],
+    "rows": {
+      "revenue": 42,
+      "cost": 43,
+      "gross": 44,
+      "gm": 45,
+      "parent": 46,
+      "core": 47,
+      "nonrec": 48,
+      "cfo": 49,
+      "capex": 50,
+      "fcf": 51,
+      "leases": 52,
+      "lease_cash": 53,
+      "taxes": 54,
+      "pretax": 55,
+      "income_tax": 56,
+      "net_profit": 57,
+      "nci": 58,
+      "refund": 59,
+      "assets": 60,
+      "liabilities": 61,
+      "equity": 62,
+      "cash": 63,
+      "cash_eq": 64,
+      "cip": 65
+    },
+    "scale": 1000000,
+    "price": 5.13
+  },
+  "wanhua-chemical": {
+    "cases": [
+      51.98570582294107,
+      95.46254381092416,
+      148.51402770062992
+    ],
+    "upside": [
+      -0.26083171018141516,
+      0.35735168222556757,
+      1.1116739328967715
+    ],
+    "tests": {
+      "profit": true,
+      "priceDoesNotChangeValue": true,
+      "cashFormula": true,
+      "q3_revenue": true,
+      "q3_cost": true,
+      "q3_gross": true,
+      "q3_parent": true,
+      "q3_core": true,
+      "q3_cfo": true,
+      "q3_capex": true,
+      "q3_fcf": true,
+      "q3_pretax": true,
+      "roundtrip": true
+    },
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+    "sheets": [
+      "Cover",
+      "Historical",
+      "Segments",
+      "Cash & Debt",
+      "Capex & Returns",
+      "Valuation",
+      "Checks",
+      "Sources Audit"
+    ],
+    "ranges": [
+      {
+        "sheet": "Cover",
+        "range": "A1:P41",
+        "file": "Cover-1.png"
+      },
+      {
+        "sheet": "Historical",
+        "range": "A1:G36",
+        "file": "Historical-1.png"
+      },
+      {
+        "sheet": "Historical",
+        "range": "A36:G56",
+        "file": "Historical-36.png"
+      },
+      {
+        "sheet": "Segments",
+        "range": "A1:G38",
+        "file": "Segments-1.png"
+      },
+      {
+        "sheet": "Cash & Debt",
+        "range": "A1:G36",
+        "file": "Cash---Debt-1.png"
+      },
+      {
+        "sheet": "Cash & Debt",
+        "range": "A36:G51",
+        "file": "Cash---Debt-36.png"
+      },
+      {
+        "sheet": "Capex & Returns",
+        "range": "A1:G31",
+        "file": "Capex---Returns-1.png"
+      },
+      {
+        "sheet": "Valuation",
+        "range": "A1:I38",
+        "file": "Valuation-1.png"
+      },
+      {
+        "sheet": "Checks",
+        "range": "A1:G15",
+        "file": "Checks-1.png"
+      },
+      {
+        "sheet": "Sources Audit",
+        "range": "A1:G30",
+        "file": "Sources-Audit-1.png"
+      }
+    ],
+    "rows": {
+      "revenue": 30,
+      "cost": 31,
+      "gross": 32,
+      "gm": 33,
+      "parent": 34,
+      "core": 35,
+      "nonrec": 36,
+      "cfo": 37,
+      "capex": 38,
+      "fcf": 39,
+      "leases": 40,
+      "lease_cash": 41,
+      "taxes": 42,
+      "pretax": 43,
+      "income_tax": 44,
+      "net_profit": 45,
+      "nci": 46,
+      "refund": 47,
+      "assets": 48,
+      "liabilities": 49,
+      "equity": 50,
+      "cash": 51,
+      "cash_eq": 52,
+      "cip": 53
+    },
+    "scale": 1000000,
+    "price": 70.33
+  },
+  "baosteel": {
+    "cases": [
+      3.5823649795142547,
+      5.993603790287742,
+      9.534586571267052
+    ],
+    "upside": [
+      -0.4029391700809576,
+      -0.001066034952042938,
+      0.5890977618778421
+    ],
+    "tests": {
+      "profit": true,
+      "priceDoesNotChangeValue": true,
+      "cashFormula": true,
+      "q3_revenue": true,
+      "q3_cost": true,
+      "q3_gross": true,
+      "q3_parent": true,
+      "q3_core": true,
+      "q3_cfo": true,
+      "q3_capex": true,
+      "q3_fcf": true,
+      "allChecks": true,
+      "roundtrip": true
+    },
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+    "sheets": [
+      "Cover",
+      "Historical",
+      "Operations",
+      "Balance & Cash",
+      "Assumptions",
+      "Valuation",
+      "Checks",
+      "Sources Audit"
+    ],
+    "ranges": [
+      {
+        "sheet": "Cover",
+        "range": "A1:P40",
+        "file": "Cover-1.png"
+      },
+      {
+        "sheet": "Historical",
+        "range": "A1:G36",
+        "file": "Historical-1.png"
+      },
+      {
+        "sheet": "Historical",
+        "range": "A36:G53",
+        "file": "Historical-36.png"
+      },
+      {
+        "sheet": "Operations",
+        "range": "A1:J35",
+        "file": "Operations-1.png"
+      },
+      {
+        "sheet": "Balance & Cash",
+        "range": "A1:G36",
+        "file": "Balance---Cash-1.png"
+      },
+      {
+        "sheet": "Assumptions",
+        "range": "A1:G26",
+        "file": "Assumptions-1.png"
+      },
+      {
+        "sheet": "Valuation",
+        "range": "A1:J35",
+        "file": "Valuation-1.png"
+      },
+      {
+        "sheet": "Checks",
+        "range": "A1:G19",
+        "file": "Checks-1.png"
+      },
+      {
+        "sheet": "Sources Audit",
+        "range": "A1:H28",
+        "file": "Sources-Audit-1.png"
+      }
+    ],
+    "rows": {
+      "revenue": 27,
+      "cost": 28,
+      "gross": 29,
+      "gm": 30,
+      "parent": 31,
+      "core": 32,
+      "nonrec": 33,
+      "cfo": 34,
+      "capex": 35,
+      "fcf": 36,
+      "leases": 37,
+      "lease_cash": 38,
+      "taxes": 39,
+      "pretax": 40,
+      "income_tax": 41,
+      "net_profit": 42,
+      "nci": 43,
+      "refund": 44,
+      "assets": 45,
+      "liabilities": 46,
+      "equity": 47,
+      "cash": 48,
+      "cash_eq": 49,
+      "cip": 50
+    },
+    "scale": 1000000,
+    "price": 6
+  },
+  "songcheng-performance": {
+    "cases": [
+      2.888013087748938,
+      4.6789765049836785,
+      7.194302537769701
+    ],
+    "upside": [
+      -0.4661713331332832,
+      -0.13512449076087274,
+      0.3298156262051204
+    ],
+    "tests": {
+      "profit": true,
+      "priceDoesNotChangeValue": true,
+      "cashFormula": true,
+      "q3_revenue": true,
+      "q3_cost": true,
+      "q3_gross": true,
+      "q3_parent": true,
+      "q3_core": true,
+      "q3_cfo": true,
+      "q3_capex": true,
+      "q3_fcf": true,
+      "roundtrip": true
+    },
+    "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+    "sheets": [
+      "Cover",
+      "Historical",
+      "Operating Drivers",
+      "Assumptions",
+      "Valuation",
+      "Checks",
+      "Sources Audit"
+    ],
+    "ranges": [
+      {
+        "sheet": "Cover",
+        "range": "A1:P31",
+        "file": "Cover-1.png"
+      },
+      {
+        "sheet": "Historical",
+        "range": "A1:H36",
+        "file": "Historical-1.png"
+      },
+      {
+        "sheet": "Historical",
+        "range": "A36:H55",
+        "file": "Historical-36.png"
+      },
+      {
+        "sheet": "Operating Drivers",
+        "range": "A1:H18",
+        "file": "Operating-Drivers-1.png"
+      },
+      {
+        "sheet": "Assumptions",
+        "range": "A1:H33",
+        "file": "Assumptions-1.png"
+      },
+      {
+        "sheet": "Valuation",
+        "range": "A1:I26",
+        "file": "Valuation-1.png"
+      },
+      {
+        "sheet": "Checks",
+        "range": "A1:G15",
+        "file": "Checks-1.png"
+      },
+      {
+        "sheet": "Sources Audit",
+        "range": "A1:H28",
+        "file": "Sources-Audit-1.png"
+      }
+    ],
+    "rows": {
+      "revenue": 29,
+      "cost": 30,
+      "gross": 31,
+      "gm": 32,
+      "parent": 33,
+      "core": 34,
+      "nonrec": 35,
+      "cfo": 36,
+      "capex": 37,
+      "fcf": 38,
+      "leases": 39,
+      "lease_cash": 40,
+      "taxes": 41,
+      "pretax": 42,
+      "income_tax": 43,
+      "net_profit": 44,
+      "nci": 45,
+      "refund": 46,
+      "assets": 47,
+      "liabilities": 48,
+      "equity": 49,
+      "cash": 50,
+      "cash_eq": 51,
+      "cip": 52
+    },
+    "scale": 1000000000,
+    "price": 5.41
+  }
+}

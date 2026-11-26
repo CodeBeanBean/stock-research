@@ -1,0 +1,59 @@
+{
+  "cases": [
+    18.66473398376979,
+    28.382653191336306,
+    39.900565853472074
+  ],
+  "upside": [
+    -0.15848809811678133,
+    0.27965072999712826,
+    0.7989434559725912
+  ],
+  "peValues": [
+    18.77720444652929,
+    29.127166810302512,
+    41.52257628154079
+  ],
+  "evValues": [
+    18.402302903997622,
+    26.64545474708183,
+    36.11587485464508
+  ],
+  "checks": [
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK",
+    "OK"
+  ],
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "donationDelta": -0.14727219173748907,
+  "netDebt": 22.99928797594,
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Operations",
+    "Balance & Cash",
+    "Assumptions",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "reopenedBase": 28.382653191336306
+}

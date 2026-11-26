@@ -1,0 +1,92 @@
+[
+  {
+    "company": "春秋航空",
+    "slug": "spring-airlines",
+    "title": "春秋航空关于控股股东部分股份解除质押的公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618567.PDF",
+    "file": "spring-airlines-1225618567.pdf",
+    "sha256": "d723bae8bcc3cde207b02eccae845b2bec756e5c601e8cf43ced0c8f292a6ad9",
+    "retrieved_utc": "2026-10-23T14:03:06.180742+00:00"
+  },
+  {
+    "company": "朗姿股份",
+    "slug": "lancy",
+    "title": "关于第四期员工持股计划完成股票购买暨实施进展的公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618455.PDF",
+    "file": "lancy-1225618455.pdf",
+    "sha256": "552e0be4c25f85c5ba3bbf9e33c8c120d30ebaf993c1db96cc2018e92c945079",
+    "retrieved_utc": "2026-10-23T14:03:06.258216+00:00"
+  },
+  {
+    "company": "伊利股份",
+    "slug": "yili",
+    "title": "内蒙古伊利实业集团股份有限公司关于以集中竞价交易方式首次回购公司股份的公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225618134.PDF",
+    "file": "yili-1225618134.pdf",
+    "sha256": "557ffada4ea10f94eed1f5c1a8d45f18ad4ae8527439fe9a4a98b69b4d951144",
+    "retrieved_utc": "2026-10-23T14:03:06.368241+00:00"
+  },
+  {
+    "company": "宝钢股份",
+    "slug": "baosteel",
+    "title": "宝钢股份关于召开2026年三季度业绩网上说明会的公告",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-10-24/1225617924.PDF",
+    "file": "baosteel-1225617924.pdf",
+    "sha256": "d01d4536c6c9697db1db33cc508215a211ba8bdc7f6aceb1f15e5f31e547a427",
+    "retrieved_utc": "2026-10-23T14:03:06.438579+00:00"
+  },
+  {
+    "company": "思格新能",
+    "slug": "sigenergy",
+    "title": "(1) 更換聯席公司秘書、授權代表及法律程序代理人；及(2)豁免嚴格遵守上市規則第3.28條及第8.17條",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102301494_c.pdf",
+    "file": "sigenergy-12382083.pdf",
+    "sha256": "a13d147d4e0aae9dc2f849a4cec38cdc481c55eb8aa2566da4f5ced1e05ee101",
+    "retrieved_utc": "2026-10-23T14:03:08.667614+00:00"
+  },
+  {
+    "company": "思格新能",
+    "slug": "sigenergy",
+    "title": "董事名單與其角色和職能",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102301490_c.pdf",
+    "file": "sigenergy-12382079.pdf",
+    "sha256": "efe59a1803c472cd492fb78e11d54bf992e3e88fb54a5d0988e683669ba66591",
+    "retrieved_utc": "2026-10-23T14:03:10.570295+00:00"
+  },
+  {
+    "company": "思格新能",
+    "slug": "sigenergy",
+    "title": "董事調任及審計委員會成員組成變動",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102301488_c.pdf",
+    "file": "sigenergy-12382077.pdf",
+    "sha256": "9b078b3f69dad367f86f8be51ea4c90351cd0d055710c24e20c47e87f5e659ce",
+    "retrieved_utc": "2026-10-23T14:03:12.860564+00:00"
+  },
+  {
+    "company": "威高股份",
+    "slug": "weigao-group",
+    "title": "翌日披露報表 - 股份購回",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102301136_c.pdf",
+    "file": "weigao-group-12381725.pdf",
+    "sha256": "bbfbdaaf19027005f631bebddecba4963e3e3c32c384742c2ca92778b8a29783",
+    "retrieved_utc": "2026-10-23T14:03:14.556017+00:00"
+  },
+  {
+    "company": "海吉亚医疗",
+    "slug": "hygeia-healthcare",
+    "title": "翌日披露報表",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102300763_c.pdf",
+    "file": "hygeia-healthcare-12381352.pdf",
+    "sha256": "479908d437d2ac4eef722346063385c8229ff15259d0b8615e64e29b0dfccf12",
+    "retrieved_utc": "2026-10-23T14:03:16.872914+00:00"
+  },
+  {
+    "company": "中国民航信息网络",
+    "slug": "travelsky",
+    "title": "更改在香港接收法律程序文件及通知之授權代表",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1023/2026102300299_c.pdf",
+    "file": "travelsky-12380916.pdf",
+    "sha256": "5c5ad889830aabe43253b8eef452b6f390391dfaf6cff4c7712a9b23006d7cdf",
+    "retrieved_utc": "2026-10-23T14:03:18.476573+00:00"
+  }
+]

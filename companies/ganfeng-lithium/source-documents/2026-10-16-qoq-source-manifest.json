@@ -1,0 +1,38 @@
+[
+  {
+    "file": "2026-07-10-smm-h1-price-review.html",
+    "url": "https://newenergy.smm.cn/content/14042/103999601",
+    "title": "SMM H1碳酸锂回顾",
+    "published": "2026-07-10",
+    "retrieved_utc": "2026-10-16T02:23:07.142240+00:00",
+    "sha256": "3c43d82a420700415353a25f954732a0f294684063bb9f9ebbe618fb61440bf5"
+  },
+  {
+    "file": "2026-10-07-smm-september-price-review.html",
+    "url": "https://newenergy.smm.cn/content/14042/104144279",
+    "title": "SMM三元正极国庆回顾，含9月碳酸锂月均价",
+    "published": "2026-10-07",
+    "retrieved_utc": "2026-10-16T02:23:07.255131+00:00",
+    "sha256": "5ef9d1347e6f37b7b79812d3a21e991fa72074f2fa8bc292b60bc7b0dc0b3d89"
+  },
+  {
+    "file": "outputs\\ganfeng-qoq-20261016\\latest-cninfo-query.json",
+    "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+    "query": {
+      "pageNum": 1,
+      "pageSize": 30,
+      "column": "szse",
+      "tabName": "fulltext",
+      "stock": "",
+      "searchkey": "赣锋锂业",
+      "secid": "",
+      "plate": "",
+      "seDate": "2026-10-15~2026-10-16",
+      "sortName": "time",
+      "sortType": "desc",
+      "isHLtitle": "true"
+    },
+    "retrieved_utc": "2026-10-16T02:23:07.378389+00:00",
+    "sha256": "f99dc662f41f5d4d717a96c53aa3070a2f25bab427122c4237741dbc66197b14"
+  }
+]

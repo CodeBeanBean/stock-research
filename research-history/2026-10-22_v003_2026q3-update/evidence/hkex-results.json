@@ -1,0 +1,200 @@
+[
+  {
+    "name": "蜜雪集团",
+    "codes": "02097.HK",
+    "slug": "mixue",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:17.504659+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000249228&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "龙湖集团",
+    "codes": "00960.HK",
+    "slug": "longfor-group",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:17.806224+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=40632&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "恒隆地产",
+    "codes": "00101.HK",
+    "slug": "hang-lung-properties",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:18.122160+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=162&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "思格新能",
+    "codes": "06656.HK",
+    "slug": "sigenergy",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:18.765902+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000298729&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "达势股份",
+    "codes": "01405.HK",
+    "slug": "dpc-dash",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:20.136100+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000176932&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "保利物业",
+    "codes": "06049.HK",
+    "slug": "poly-property-services",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:20.585293+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000017524&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "威高股份",
+    "codes": "01066.HK",
+    "slug": "weigao-group",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "133KB",
+        "NEWS_ID": "12378042",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "翌日披露報表 - 股份購回",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "21/10/2026 17:10",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1021/2026102100497_c.pdf"
+      },
+      {
+        "FILE_INFO": "133KB",
+        "NEWS_ID": "12376847",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "翌日披露報表 - 股份購回",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "20/10/2026 17:43",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1020/2026102000706_c.pdf"
+      }
+    ],
+    "count": 2,
+    "retrieved_utc": "2026-10-22T01:30:21.568920+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=50340&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "福寿园",
+    "codes": "01448.HK",
+    "slug": "fu-shou-yuan",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:21.759140+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=98167&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "中海物业",
+    "codes": "02669.HK",
+    "slug": "china-overseas-property",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:23.918343+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=132703&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "三生制药",
+    "codes": "01530.HK",
+    "slug": "3sbio",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:24.433139+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=125086&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "海吉亚医疗",
+    "codes": "06078.HK",
+    "slug": "hygeia-healthcare",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:24.512309+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000043419&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "腾讯控股",
+    "codes": "0700.HK",
+    "slug": "tencent",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "176KB",
+        "NEWS_ID": "12378785",
+        "SHORT_TEXT": "債券及結構性產品 - [上市通告 － 債務證券]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "騰訊控股<br/>騰訊控股－Ｒ",
+        "TITLE": "於香港聯合交易所有限公司上市之通告 - 根據騰訊控股有限公司最高限額為300億美元之全球中期票據計劃發行將於二零三六年到期的1,300,000,000美元6.10%優先票據及將於二零四六年到期的500,000,000美元6.75%優先票據及將於二零三六年到期的人民幣20,000,000,000元2.40%優先票據及將於二零五六年到期的人民幣6,000,000,000元3.00%優先票據",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "22/10/2026 07:40",
+        "LONG_TEXT": "債券及結構性產品 - [上市通告 － 債務證券]",
+        "STOCK_CODE": "00700<br/>80700",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102200036_c.pdf"
+      },
+      {
+        "FILE_INFO": "164KB",
+        "NEWS_ID": "12378783",
+        "SHORT_TEXT": "公告及通告 - [發行債務證券]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "騰訊控股<br/>騰訊控股－Ｒ",
+        "TITLE": "根據全球中期票據計劃完成發行18億美元及人民幣260億元票據",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "22/10/2026 07:37",
+        "LONG_TEXT": "公告及通告 - [發行債務證券]",
+        "STOCK_CODE": "00700<br/>80700",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102200034_c.pdf"
+      }
+    ],
+    "count": 2,
+    "retrieved_utc": "2026-10-22T01:30:25.407042+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=7609&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "海底捞",
+    "codes": "06862.HK",
+    "slug": "haidilao",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:27.788775+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=199151&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "中国民航信息网络",
+    "codes": "00696.HK",
+    "slug": "travelsky",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-22T01:30:28.357007+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1625&documentType=-2&fromDate=20261020&toDate=20261022&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  }
+]

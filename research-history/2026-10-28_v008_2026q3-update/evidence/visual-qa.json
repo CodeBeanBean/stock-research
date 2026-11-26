@@ -1,0 +1,325 @@
+{
+  "status": "passed",
+  "sheets_reviewed": 36,
+  "charts_preserved": 10,
+  "scope": "全部工作表，关键估值/现金/来源区域及封面；格式修改后重看受影响视图",
+  "repairs": [
+    "兼容字体使旧万华/宝钢单元格内容正常显示",
+    "渲染范围覆盖合并单元格，来源和假设注释完整显示",
+    "更新宝钢TTM检查比较期，旧H1检查保留",
+    "宋城敏感性利润档位与新三情景一致"
+  ],
+  "limitations": "内置表格引擎及导出重开验证；未启动本机Excel进行独立计算",
+  "renders": {
+    "rongsheng-petrochemical": [
+      {
+        "file": "Cover-1.png",
+        "sheet": "Cover",
+        "range": "C1:M39",
+        "sha256": "084cf5d5a85af9a0fa25c94c41efcb52038906becae650d0b49edbd130286094"
+      },
+      {
+        "file": "Valuation-1.png",
+        "sheet": "Valuation",
+        "range": "C1:L36",
+        "sha256": "ffcfb475b943e6ddc6e742b1ccd927c2cc41bd5eb6b47bd42cbad715eb10c2e9"
+      },
+      {
+        "file": "Valuation-36.png",
+        "sheet": "Valuation",
+        "range": "C36:L71",
+        "sha256": "541c7c360e0dbf0d0c6edf831164542d87f04c15bbf93cd63a12f31d8efb4bfc"
+      },
+      {
+        "file": "Valuation-71.png",
+        "sheet": "Valuation",
+        "range": "C71:L73",
+        "sha256": "53b68d7bfdabb3a43183b0d2ce9a8d0d121431c998c81865e415afde1f0ebf9a"
+      },
+      {
+        "file": "Quality-1.png",
+        "sheet": "Quality",
+        "range": "C1:L36",
+        "sha256": "9d509413ac89563c2c6057fc063298229fb1596e14ddda0299a92aa861464f1d"
+      },
+      {
+        "file": "Quality-36.png",
+        "sheet": "Quality",
+        "range": "C36:L71",
+        "sha256": "62e01ae74f76899f8088ae708b462a3d67221c80dd84a7b0263d71a489cb9fb3"
+      },
+      {
+        "file": "Quality-71.png",
+        "sheet": "Quality",
+        "range": "C71:L80",
+        "sha256": "5bc1d1e63afb9e561bc016a5642a0b0be9956dae4f175b9eaf3774ed396117d2"
+      },
+      {
+        "file": "Financials-1.png",
+        "sheet": "Financials",
+        "range": "C1:L36",
+        "sha256": "4be2630995140ac6836ebcf5a3622835db6db50d511c27793da09c2b2990432f"
+      },
+      {
+        "file": "Financials-36.png",
+        "sheet": "Financials",
+        "range": "C36:L71",
+        "sha256": "a38e79e3761ea7cff6c520882fb9f41b7769874b460ec00d3bfd5d79536c8550"
+      },
+      {
+        "file": "Financials-71.png",
+        "sheet": "Financials",
+        "range": "C71:L106",
+        "sha256": "e7ef81ee1d2298212de2b7eac693b1fe2a4cb1c7cb7f0841dfe1087a5a0b700e"
+      },
+      {
+        "file": "Financials-106.png",
+        "sheet": "Financials",
+        "range": "C106:L127",
+        "sha256": "e7cb59548cdf35d264df6300af95d20455e5af18b69464c64dc6d36ddcc512be"
+      },
+      {
+        "file": "Operations-1.png",
+        "sheet": "Operations",
+        "range": "C1:L42",
+        "sha256": "e34e32fe29d41543a7b688c6c45e11aa700436fa75c813c55446d695379b1b9e"
+      },
+      {
+        "file": "Sources-1.png",
+        "sheet": "Sources",
+        "range": "A1:L36",
+        "sha256": "48451e6c4239cc7d515089c2461d27d741130e82043947babf970b2ecbb8b604"
+      },
+      {
+        "file": "Sources-36.png",
+        "sheet": "Sources",
+        "range": "A36:L57",
+        "sha256": "114e692ab1a113a92cadeb9e0dccee4df39916e3f1f39122062651452c7b85f4"
+      }
+    ],
+    "focus-media": [
+      {
+        "file": "Cover-1.png",
+        "sheet": "Cover",
+        "range": "C1:M31",
+        "sha256": "4e2c992397eec163d33d5d7dac95f4631012eb31b1b1ec932f51c165b7df5b6b"
+      },
+      {
+        "file": "Valuation-1.png",
+        "sheet": "Valuation",
+        "range": "C1:J45",
+        "sha256": "e7078c72140f2d6d16c9ddcc5b79c6e182cc890f75d3c6828f5cc75d6dd55c28"
+      },
+      {
+        "file": "Assumptions-1.png",
+        "sheet": "Assumptions",
+        "range": "C1:J42",
+        "sha256": "893710d3cb7fcf4ca79bd415a5d4f89634ade03d84b95c03adebdee859d556d4"
+      },
+      {
+        "file": "Earnings-1.png",
+        "sheet": "Earnings",
+        "range": "C1:J36",
+        "sha256": "d9bd158f73bcef8c27e882f51229c65c52bd5a8555365048b2aa59ee53ef54f7"
+      },
+      {
+        "file": "Earnings-36.png",
+        "sheet": "Earnings",
+        "range": "C36:J68",
+        "sha256": "85b76a76dd5eec51899af50f62a5545524a9e7c37252f233df630844e9254637"
+      },
+      {
+        "file": "Cash-1.png",
+        "sheet": "Cash",
+        "range": "C1:J36",
+        "sha256": "4643a928fbe14b94385c9d8c681637b6fb7926a37ec4c6a5140256992c7744d6"
+      },
+      {
+        "file": "Cash-36.png",
+        "sheet": "Cash",
+        "range": "C36:J52",
+        "sha256": "67989ec61681d1e94c5bc75980c8c4dc8004d137570f351e69bffd74acd256f6"
+      },
+      {
+        "file": "Deal-1.png",
+        "sheet": "Deal",
+        "range": "C1:J39",
+        "sha256": "e35b7443f88394ef9438cbcf3401c874b87ab28ef5a47de062cd46232173096d"
+      },
+      {
+        "file": "Sources-Checks-1.png",
+        "sheet": "Sources Checks",
+        "range": "A1:J42",
+        "sha256": "efa4410a1947f2ddce6c859602c44802947593c298238425e5867d687c8625a1"
+      }
+    ],
+    "wanhua-chemical": [
+      {
+        "file": "Cover-1.png",
+        "sheet": "Cover",
+        "range": "A1:P41",
+        "sha256": "42d4d19f6c777ee910d972bbfb030f6fde55509242ffbc339f87bbced56e7c78"
+      },
+      {
+        "file": "Historical-1.png",
+        "sheet": "Historical",
+        "range": "A1:G36",
+        "sha256": "d73e80980f820959a63b9df102f540f6c0c100a58b8986ccd2eaa2ea649dad85"
+      },
+      {
+        "file": "Historical-36.png",
+        "sheet": "Historical",
+        "range": "A36:G56",
+        "sha256": "7a1d4826845113ba0ca2229f71a597dff6567ead0cad008b113ee26db8a361d0"
+      },
+      {
+        "file": "Segments-1.png",
+        "sheet": "Segments",
+        "range": "A1:G38",
+        "sha256": "082907334edefa8716a22213a66b453444bfe8a591d59e1d71b0792ebad70613"
+      },
+      {
+        "file": "Cash---Debt-1.png",
+        "sheet": "Cash & Debt",
+        "range": "A1:G36",
+        "sha256": "9a56625722e30f50fbae954503b112b48d6a11c64e9c6c4a3cd3ad7aaa06cd5d"
+      },
+      {
+        "file": "Cash---Debt-36.png",
+        "sheet": "Cash & Debt",
+        "range": "A36:G51",
+        "sha256": "a4ca763e79e858cefbc4925756127cca7780caa80063204fc1e719a21aa2bdb7"
+      },
+      {
+        "file": "Capex---Returns-1.png",
+        "sheet": "Capex & Returns",
+        "range": "A1:G31",
+        "sha256": "8574a3a2c59ae7b83fd691cfe33e897993b252a208c3126dc6b4deef04b8d2f5"
+      },
+      {
+        "file": "Valuation-1.png",
+        "sheet": "Valuation",
+        "range": "A1:I38",
+        "sha256": "1007aeceb930ba4b87d33231719131be99ad01374657efa16561232eae9adc2f"
+      },
+      {
+        "file": "Checks-1.png",
+        "sheet": "Checks",
+        "range": "A1:G15",
+        "sha256": "3eb68d39e184ad9af72243d18fcc4d7e6c5611cb3fb64ef30b4c655252dfd2f3"
+      },
+      {
+        "file": "Sources-Audit-1.png",
+        "sheet": "Sources Audit",
+        "range": "A1:G30",
+        "sha256": "84e62dfa0464261d358d63d433c0aa5e1540af0ae3c3cd1e69df9d32a3a8b669"
+      }
+    ],
+    "baosteel": [
+      {
+        "file": "Cover-1.png",
+        "sheet": "Cover",
+        "range": "A1:P40",
+        "sha256": "f37d0c5f6d8e0c8bf96f1481d84c9a617a32ce80cae0faa85cf434aaed462e3b"
+      },
+      {
+        "file": "Historical-1.png",
+        "sheet": "Historical",
+        "range": "A1:G36",
+        "sha256": "0dad1fa484c34093627258c53704e6ee1cd799356ecb528ceb0966d5661f8b92"
+      },
+      {
+        "file": "Historical-36.png",
+        "sheet": "Historical",
+        "range": "A36:G53",
+        "sha256": "15daebfece0054ebaba6e496e5c12f69826c35e4800479eeb6b84c822a02a60c"
+      },
+      {
+        "file": "Operations-1.png",
+        "sheet": "Operations",
+        "range": "A1:J35",
+        "sha256": "560e352f879b9ac35d7ab0e0916090344d72510feaae320ea7e2adbb14be9022"
+      },
+      {
+        "file": "Balance---Cash-1.png",
+        "sheet": "Balance & Cash",
+        "range": "A1:G36",
+        "sha256": "162871de85706c31787bdb9f7c66339cae8d193a7cb270ec00db761999ae3e26"
+      },
+      {
+        "file": "Assumptions-1.png",
+        "sheet": "Assumptions",
+        "range": "A1:G26",
+        "sha256": "7f9166fc0d6419062ba6791a85873c64ae321f5bc5d1c03d502783176ffdf57c"
+      },
+      {
+        "file": "Valuation-1.png",
+        "sheet": "Valuation",
+        "range": "A1:J35",
+        "sha256": "0bc65c9764f40c734691c9a8ba1e170d39aa476f66b550b9ea0f32706abc08ab"
+      },
+      {
+        "file": "Checks-1.png",
+        "sheet": "Checks",
+        "range": "A1:G19",
+        "sha256": "de866fa6a454825f77e80a849d8b11a75bef610a894f64edd5cda8c5af4ef616"
+      },
+      {
+        "file": "Sources-Audit-1.png",
+        "sheet": "Sources Audit",
+        "range": "A1:H28",
+        "sha256": "043b0ccc3e067af68acb2e6407902fb2f36a6f806a33b50ea7bbd30e93e49720"
+      }
+    ],
+    "songcheng-performance": [
+      {
+        "file": "Cover-1.png",
+        "sheet": "Cover",
+        "range": "A1:P31",
+        "sha256": "34cacbcb72a1ef94f710d05d521252dab64a0d449920edb1f035ff3bd532eb12"
+      },
+      {
+        "file": "Historical-1.png",
+        "sheet": "Historical",
+        "range": "A1:H36",
+        "sha256": "4e71c70803d225a654355a629148e4389775470cbb1fa3c24e0c75adb61f6d7f"
+      },
+      {
+        "file": "Historical-36.png",
+        "sheet": "Historical",
+        "range": "A36:H55",
+        "sha256": "f4acde5b1c1a94de4030555c4cfb3c99293448b3e09487ff6df66ea696d993c9"
+      },
+      {
+        "file": "Operating-Drivers-1.png",
+        "sheet": "Operating Drivers",
+        "range": "A1:H18",
+        "sha256": "32d232a71aeaafa678fa57c5898d1b7acc19e26a065e39163a7df1bc56bbf081"
+      },
+      {
+        "file": "Assumptions-1.png",
+        "sheet": "Assumptions",
+        "range": "A1:H33",
+        "sha256": "7197808f22963fa540fbaa9b58938b98a220d3762afd6a5e044a1380258246a8"
+      },
+      {
+        "file": "Valuation-1.png",
+        "sheet": "Valuation",
+        "range": "A1:I26",
+        "sha256": "1a6f94a8865f935e60b853c7f46972de4e258cf0b0f95053b72cf397924572ea"
+      },
+      {
+        "file": "Checks-1.png",
+        "sheet": "Checks",
+        "range": "A1:G15",
+        "sha256": "964e7503b5da5ab44de08614620d1a9cbe41c181970c326a826cf91311fd1190"
+      },
+      {
+        "file": "Sources-Audit-1.png",
+        "sheet": "Sources Audit",
+        "range": "A1:H28",
+        "sha256": "b85e6832602912d8088d4e1650fea99d1c77de5df81c76acfad323a27b5afbea"
+      }
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "name": "蜜雪集团",
+    "codes": "02097.HK",
+    "slug": "mixue",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:19.864897+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000249228&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "龙湖集团",
+    "codes": "00960.HK",
+    "slug": "longfor-group",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:20.171693+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=40632&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "恒隆地产",
+    "codes": "00101.HK",
+    "slug": "hang-lung-properties",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:21.463390+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=162&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "思格新能",
+    "codes": "06656.HK",
+    "slug": "sigenergy",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:22.078862+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000298729&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "达势股份",
+    "codes": "01405.HK",
+    "slug": "dpc-dash",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:22.987405+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000176932&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "威高股份",
+    "codes": "01066.HK",
+    "slug": "weigao-group",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "133KB",
+        "NEWS_ID": "12376847",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "5",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "翌日披露報表 - 股份購回",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "20/10/2026 17:43",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1020/2026102000706_c.pdf"
+      },
+      {
+        "FILE_INFO": "104KB",
+        "NEWS_ID": "12375691",
+        "SHORT_TEXT": "公告及通告 - [股息或分派（公告表格）]<br/>",
+        "TOTAL_COUNT": "5",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "更新截至二零二六年六月三十日止六個月之中期股息",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "16/10/2026 19:05",
+        "LONG_TEXT": "公告及通告 - [股息或分派（公告表格）]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1016/2026101601175_c.pdf"
+      },
+      {
+        "FILE_INFO": "171KB",
+        "NEWS_ID": "12375461",
+        "SHORT_TEXT": "公告及通告 - [股東特別大會的結果 &#x2f; 股息或分派]<br/>",
+        "TOTAL_COUNT": "5",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "於二零二六年十月十六日舉行之二零二六年第二次股東特別大會之投票表決結果及派付中期股息",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "16/10/2026 18:19",
+        "LONG_TEXT": "公告及通告 - [股東特別大會的結果 &#x2f; 股息或分派]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1016/2026101600939_c.pdf"
+      },
+      {
+        "FILE_INFO": "133KB",
+        "NEWS_ID": "12375295",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "5",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "翌日披露報表 - 股份購回",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "16/10/2026 17:39",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1016/2026101600773_c.pdf"
+      },
+      {
+        "FILE_INFO": "133KB",
+        "NEWS_ID": "12373812",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "5",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "威高股份",
+        "TITLE": "翌日披露報表 - 股份購回",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "15/10/2026 17:44",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "01066",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1015/2026101500692_c.pdf"
+      }
+    ],
+    "count": 5,
+    "retrieved_utc": "2026-10-21T00:14:23.423465+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=50340&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "福寿园",
+    "codes": "01448.HK",
+    "slug": "fu-shou-yuan",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "249KB",
+        "NEWS_ID": "12375959",
+        "SHORT_TEXT": "公告及通告 - [《收購守則》所指的要約公司刊發的公告]<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "福壽園",
+        "TITLE": "由高鉦証券有限公司代表龔海林\n提出無條件自願現金部分要約\n以收購福壽園國際集團有限公司\n（股份代號：1448）\n（於開曼群島註冊成立之有限公司）\n最多115,000,000股股份\n(1)於截止日期之接納程度；及\n(2)部分要約截止",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "16/10/2026 22:11",
+        "LONG_TEXT": "公告及通告 - [《收購守則》所指的要約公司刊發的公告]",
+        "STOCK_CODE": "01448",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1016/2026101601441_c.pdf"
+      }
+    ],
+    "count": 1,
+    "retrieved_utc": "2026-10-21T00:14:23.685508+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=98167&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "中海物业",
+    "codes": "02669.HK",
+    "slug": "china-overseas-property",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "462KB",
+        "NEWS_ID": "12375609",
+        "SHORT_TEXT": "公告及通告 - [關連交易]<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "中海物業",
+        "TITLE": "關連交易 - 關於重續貸款協議",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "16/10/2026 18:49",
+        "LONG_TEXT": "公告及通告 - [關連交易]",
+        "STOCK_CODE": "02669",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1016/2026101601093_c.pdf"
+      }
+    ],
+    "count": 1,
+    "retrieved_utc": "2026-10-21T00:14:24.391221+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=132703&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "保利物业",
+    "codes": "06049.HK",
+    "slug": "poly-property-services",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:25.468480+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000017524&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "海吉亚医疗",
+    "codes": "06078.HK",
+    "slug": "hygeia-healthcare",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "132KB",
+        "NEWS_ID": "12375601",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "海吉亞醫療",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "16/10/2026 18:46",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "06078",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1016/2026101601085_c.pdf"
+      },
+      {
+        "FILE_INFO": "132KB",
+        "NEWS_ID": "12374031",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "2",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "海吉亞醫療",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "15/10/2026 18:37",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "06078",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1015/2026101500911_c.pdf"
+      }
+    ],
+    "count": 2,
+    "retrieved_utc": "2026-10-21T00:14:25.740587+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1000043419&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "腾讯控股",
+    "codes": "0700.HK",
+    "slug": "tencent",
+    "status": "ok",
+    "items": [
+      {
+        "FILE_INFO": "126KB",
+        "NEWS_ID": "12373762",
+        "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+        "TOTAL_COUNT": "1",
+        "DOD_WEB_PATH": "",
+        "STOCK_NAME": "騰訊控股<br/>騰訊控股－Ｒ",
+        "TITLE": "翌日披露報表",
+        "FILE_TYPE": "PDF",
+        "DATE_TIME": "15/10/2026 17:29",
+        "LONG_TEXT": "翌日披露報表 - [股份購回]",
+        "STOCK_CODE": "00700<br/>80700",
+        "FILE_LINK": "/listedco/listconews/sehk/2026/1015/2026101500642_c.pdf"
+      }
+    ],
+    "count": 1,
+    "retrieved_utc": "2026-10-21T00:14:27.537973+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=7609&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "三生制药",
+    "codes": "01530.HK",
+    "slug": "3sbio",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:27.646019+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=125086&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "海底捞",
+    "codes": "06862.HK",
+    "slug": "haidilao",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:27.831196+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=199151&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  },
+  {
+    "name": "中国民航信息网络",
+    "codes": "00696.HK",
+    "slug": "travelsky",
+    "status": "ok",
+    "items": [],
+    "count": 0,
+    "retrieved_utc": "2026-10-21T00:14:29.127065+00:00",
+    "query_url": "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&stockId=1625&documentType=-2&fromDate=20261015&toDate=20261021&title=&searchType=1&t1code=-2&t2Gcode=-2&t2code=-2&rowRange=100&lang=ZH"
+  }
+]

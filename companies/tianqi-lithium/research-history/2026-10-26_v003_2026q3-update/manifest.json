@@ -1,0 +1,119 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-26_v003_2026q3-update",
+  "version_number": 3,
+  "company": "tianqi-lithium",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整三季报：利润、现金与口径核查",
+  "reason": "完整Q3替代预告，拆解利润环比及现金口径；仅CAS权益调整价值，EPS与倍数不变",
+  "created_at_utc": "2026-10-26T07:55:18.771196+00:00",
+  "reported_research_date": "2026-10-26",
+  "source_cutoff": "2026-10-26 15:28:37–15:28:54北京时间官方查询；行情15:31:15；原件UTC另列",
+  "price_date": "2026-10-26",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\tianqi-lithium",
+  "context_directory": "D:\\Research\\stock-research\\companies\\tianqi-lithium",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "0e240fed4c3b1db2b5d5c3ba43175fe69dff54ef8ce279d7d19c0818dd5ca32b",
+      "archive_sha256": "d8be479be79b3c6bf838350838ec864bc43a142b1e7b5c786d330e05a04b41c3",
+      "bytes": 14246
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "d3d4853f7470940088db6b420fa4c20456d235aa39ac7877f13c26142b6add8e",
+      "archive_sha256": "d3d4853f7470940088db6b420fa4c20456d235aa39ac7877f13c26142b6add8e",
+      "bytes": 38533
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "9205308c7b64cd6c5ab5a2e3bedb2f023667dca36530fb97547924fc3313e3bd",
+      "archive_sha256": "9205308c7b64cd6c5ab5a2e3bedb2f023667dca36530fb97547924fc3313e3bd",
+      "bytes": 4211
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "e7587c736f8e5e7a54a03f3b0240425d08778e1d4ade4a4dd7f311e0efbbdd9a",
+      "archive_sha256": "76ef5591c230002c3a757992da2748641aae8474e9c22d895919e4a8fbfef7b9",
+      "bytes": 8670
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "57ae3cd834b402056754a67b03b6e26e5591bc6039818ecea665fc63d49e0fac",
+      "archive_sha256": "3c9be2f1bd0b5dd1803c3cfa84f67e9069783111317aa1291d346150d06de4b5",
+      "bytes": 3374
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "fa1a856ddc8935f33b801e50b97fe61474f832fdb005427916db08655a75b879",
+      "archive_sha256": "22640838deeb9c9fe47344e9cbafd19a5c3aebf48ecc572644d3d0c1c31f62ae",
+      "bytes": 4848
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../outputs/q3-library-review-20261026/coverage.json",
+      "sha256": "273ba5f7ffdf9d492b294b9517a366bd2a1a66cfcf1c91eeee1dedd16ea66f35"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261026/model-validation.json",
+      "sha256": "c40a64771754289b15271264dfcd2c9acfe5900d9ec7fbc7cc211a3510659795"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261026/renders/Cover.png",
+      "sha256": "68becc410ae1de1e652261bc2d591709906d3d2a21d147dda47c1222fdb3c215"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261026/tencent-quote.txt",
+      "sha256": "98267b196a4010459d9ac05669c4754d19048ed9b2b9338ef112dfa33e4fa550"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-26-1225620881.pdf",
+      "sha256": "3fa692a8db91a180a502b14a1cdef3e47a3a772721f6de9944eecaad45b33a15"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-26-1225620883.pdf",
+      "sha256": "af2b86a3a38531605e9ec4a8593af66ee59ffdbcb54a068ec0eb070c2ffd77f4"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-26-12382352.pdf",
+      "sha256": "3c0500efddc9925ee0425c26aab107a2be38e251fbdc0812a291f700b9850463"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-26-12382357.pdf",
+      "sha256": "570c7cfc6cf7012ae767f20c29c366b6cd34b8deb04f9f1db479023be4364687"
+    },
+    {
+      "path": "../../source-documents/Q3-market-2026-10-20.txt",
+      "sha256": "39884edd387c5669efe929a1834520b1ec17b301cf213de4bef30410f3a26f73"
+    },
+    {
+      "path": "../../source-documents/Q3-market-2026-10-26.json",
+      "sha256": "97758ee2e836ebffce410431b1c1916df35ee6e582173cfcc2882e6047c9ac1a"
+    },
+    {
+      "path": "../../source-documents/Q301-2026-10-21-guidance.pdf",
+      "sha256": "3cdf805557b9354acad4d945d9f9bbb5cc8ef0bccae9684054082c6aee472e13"
+    },
+    {
+      "path": "../../source-documents/Q304-2026-10-08-monthly.pdf",
+      "sha256": "bee2e8229c732465684fe69197145bf07e02fc475a91ce3268afe57c22c28cc7"
+    },
+    {
+      "path": "../../source-documents/Q305-2026-08-28-h1-cas.pdf",
+      "sha256": "ef01ccab12723364f80444303df7a0b061222019513969ca496594e0915298f7"
+    },
+    {
+      "path": "../../source-documents/Q306-2026-04-28-q1.pdf",
+      "sha256": "564694f0e95dcef3472e4a0607e562a25401763d7d874cba91cb507e048391ab"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

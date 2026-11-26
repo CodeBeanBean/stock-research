@@ -1,0 +1,112 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-12_v001_2026h1-baseline",
+  "version_number": 1,
+  "company": "focus-media",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "更新前已交付研究基线",
+  "reason": "完整Q3更新前永久保存现有交付版本",
+  "created_at_utc": "2026-10-28T02:23:15.487832+00:00",
+  "reported_research_date": "2026-10-12",
+  "source_cutoff": "2026-10-12",
+  "price_date": "2026-10-09",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\focus-media",
+  "context_directory": "D:\\Research\\stock-research\\companies\\focus-media",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "b6951da15767da8a1a5530d09550c1309f162aed7f32a701d32558948a12181e",
+      "archive_sha256": "ed15330a5351b21bb7a50add2d1efbbc9a3d38f21cd60531b64ebc4e4fb80bc3",
+      "bytes": 22442
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "943759997bcebb95abda2597376cdf2f5f0064c850eca09e08fbe4b71e475380",
+      "archive_sha256": "943759997bcebb95abda2597376cdf2f5f0064c850eca09e08fbe4b71e475380",
+      "bytes": 29390
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "eab3ef0f9ecadcb30745c53743cb3f355e648d3749cf4dfde1fbce680a2cabfe",
+      "archive_sha256": "d31eb9dce5fa31ebd0d9121923946c427a2f027a8316c39453a8a06ae4b637d2",
+      "bytes": 1957
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "1351405205b1f6d64de3a1158042b7cfc3293330ad75793ac77b6ce4243a0c6f",
+      "archive_sha256": "6cab491e47abd2d87e1dbe3fd7a7fc0aa9cf291e3adf8de142bdc49eb1b1406e",
+      "bytes": 9026
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "dfbe27107cc0e9cba0d1e046a92699ec99d2791843bca72f685fb94890346689",
+      "archive_sha256": "dfbe27107cc0e9cba0d1e046a92699ec99d2791843bca72f685fb94890346689",
+      "bytes": 1319
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "ce14baefe1849677fc231b2f79e616924292f0c8a3506b03827e71eeff2e213e",
+      "archive_sha256": "788ac44324f70111ae0d24fea47fe4229c36bfb110c650aa49408c7a46ea2ed1",
+      "bytes": 1042
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2025-dividend.pdf",
+      "sha256": "42fc0ebe8ab4977bc2d5a578a1b993539dc31f3157125602e7e0b6063c656940"
+    },
+    {
+      "path": "../../source-documents/2025AR.pdf",
+      "sha256": "2c089c20fd280a3adbebee237ee1df7f13074d3fa57330127914c2082d8c6081"
+    },
+    {
+      "path": "../../source-documents/20260710-overseas-dilution.pdf",
+      "sha256": "8ea2c74911dddcf7c652fae376cd69729550763b4ec6c531d890873e01a966f2"
+    },
+    {
+      "path": "../../source-documents/20260819-IR.pdf",
+      "sha256": "fb1849b48b4fa2a2719eb3631d6b106e01dfda468623d0f5a82f0197522fd2e5"
+    },
+    {
+      "path": "../../source-documents/20260924-reorg-summary.pdf",
+      "sha256": "31ba15ade5a4151caa88f8e923141fd27c0051fa64e9615251f39c42ff10a06c"
+    },
+    {
+      "path": "../../source-documents/20261010-SAMR.html",
+      "sha256": "cf8b8b4ab4e53680ae44e81eec1930ae6888e13b2e88d14cde8bb8374abe5950"
+    },
+    {
+      "path": "../../source-documents/20261010-guarantee.pdf",
+      "sha256": "0e93ed1e77fb17773ee9895fdf9b0c55fa662d2db8e0a153f36deece77d9c743"
+    },
+    {
+      "path": "../../source-documents/20261012-antitrust.pdf",
+      "sha256": "252a5575499165f8a4cf8eea6fcb04679f7f933365ace17e0a1f4981c80910f9"
+    },
+    {
+      "path": "../../source-documents/2026H1-dividend.pdf",
+      "sha256": "147db4e2b162d74f46edaf911bce6631c51f1bb1cf36e7e1ba92fcd384621686"
+    },
+    {
+      "path": "../../source-documents/2026H1.pdf",
+      "sha256": "c4bcfa113ecf6b171cfb18f4a205a044cfaaa643869ff13a66dac724f1e93eb9"
+    },
+    {
+      "path": "../../source-documents/2026Q1.pdf",
+      "sha256": "d6a7e3fc11a06c4c72638075ae99160187e35dddd5b5bfd0d8bc646b6e4a5ecc"
+    },
+    {
+      "path": "../../source-documents/market-snapshot.json",
+      "sha256": "72ebb0cdafcf9e5f40e65901045440d9c60854826cb8f69548cd0380df2b7dc9"
+    },
+    {
+      "path": "../../source-documents/xinchao-audit.pdf",
+      "sha256": "622fdb79ac374d89624647e7d63b30d51ecc00d567a4c66b02a8daf521ef7541"
+    }
+  ],
+  "mutable_navigation_links": []
+}

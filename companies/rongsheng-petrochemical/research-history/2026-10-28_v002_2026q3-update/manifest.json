@@ -1,0 +1,180 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-28_v002_2026q3-update",
+  "version_number": 2,
+  "company": "rongsheng-petrochemical",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整三季报及估值更新",
+  "reason": "新完整Q3实际、现金质量、股本分红与正常化估值更新",
+  "created_at_utc": "2026-10-28T02:46:01.900980+00:00",
+  "reported_research_date": "2026-10-28",
+  "source_cutoff": "2026-10-28上午（全库10:18:17—10:18:33，专项补查至10:24:52，北京时间）",
+  "price_date": "2026-10-27",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\rongsheng-petrochemical",
+  "context_directory": "D:\\Research\\stock-research\\companies\\rongsheng-petrochemical",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "cccc70b5630288694bea7cb130473524e14cabb0a24921a955fc25151f5647f3",
+      "archive_sha256": "de82a8de62d8211cec054aa54b2593fdd45088240b19612777167b2534e1495e",
+      "bytes": 26052
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "ab12f514d78c950ac10d77f0765203129a854d6ce812fe98c333a750574d41bd",
+      "archive_sha256": "ab12f514d78c950ac10d77f0765203129a854d6ce812fe98c333a750574d41bd",
+      "bytes": 37827
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "20c0674b83ab8257af28652e024d36e5b9637461340b9e1cc3c090d5e20828b2",
+      "archive_sha256": "ef03fb58b4a1ad46ad405679d3e648258df76044998bfb84340e457d6dee31d9",
+      "bytes": 5107
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "ecc34586830b187f758e3dd2790dc4ac25d3e83eb68037e0ed214fb4cf2fbbd0",
+      "archive_sha256": "09c34e8e15a985edc147ce47cf958b2001bcf7707764ec3e33cc1143ba8f258a",
+      "bytes": 12715
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "dc3e8a78366141429fc95a68fa269862add44a2a3be13656927fb216f9ae42e1",
+      "archive_sha256": "e2092e4b7a2cd696025d59e58b4c75494f5dc71bfc09dc826d3e158fe6365a62",
+      "bytes": 3946
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "a99ea3133a0bb0192fb7769cf49c9bcd16d8039a377abcfaafc81bfc63cecdc3",
+      "archive_sha256": "4f25515d5a6a2fd1b1b9737cfe1bffb4f437edf5bb1541fe9825e4ddfba129e3",
+      "bytes": 5269
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/coverage.json",
+      "sha256": "68aa913f87fefcc906a34851bb97db91dec8507a4b945c69524d049f566f5fc6"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/extra-sources.json",
+      "sha256": "3b0974e0787a598ca1abfbf410b54c53fe687c28ce51d44dffbf77b9c961e34f"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/new-announcement-sources.json",
+      "sha256": "88e658db5c3491c39b494e798555d4c6c473774eca8af662e321584ada0009dd"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/rongsheng-petrochemical/model-validation.json",
+      "sha256": "2205c99bf99683c18b29283c7704ef08d1adab61e44e028e6473e6248f059976"
+    },
+    {
+      "path": "../../../../outputs/rongsheng-20261026/announcements.json",
+      "sha256": "27c2bfb0099b307de3072ac05c48daeb43eefb4ba46d9e99702c5973a98af7ec"
+    },
+    {
+      "path": "../../../../outputs/rongsheng-20261026/market-snapshot.json",
+      "sha256": "97f9843e3717a8791132f411f19011b00e69418ac1fa78b92d5ffe67edec0b00"
+    },
+    {
+      "path": "../../../../outputs/rongsheng-20261026/renders/Cover.png",
+      "sha256": "7ba6db2439e3f93da8f05deaa5afe94487b4130c2b65e92e5d3ce4a0a4d8ee58"
+    },
+    {
+      "path": "../../../../outputs/rongsheng-20261026/validation.json",
+      "sha256": "d5b533b7de3d2e5f64656e1fab8188f74d2fd0c4625c38d9524d1f9049829e72"
+    },
+    {
+      "path": "../../source-documents/2026-04-28-1225215329.pdf",
+      "sha256": "5ada5b8f99729ab921788dd3790aa0aa4063bd6bd4d900911f1f6bf936eff99c"
+    },
+    {
+      "path": "../../source-documents/2026-04-28-1225215333.pdf",
+      "sha256": "d815336fbe7a29a52878472ef018adbbb053971f60ceb89f61398dac2792fe18"
+    },
+    {
+      "path": "../../source-documents/2026-04-28-1225215336.pdf",
+      "sha256": "3bb7a499691ecad5f58e1c7628249da870ae82fe11387f157d5791a3648aa5eb"
+    },
+    {
+      "path": "../../source-documents/2026-04-28-1225215344.pdf",
+      "sha256": "de4d90e3c0c471ecfcedfd09446f90bc863254ead7abe834a3825f5c439b7864"
+    },
+    {
+      "path": "../../source-documents/2026-04-28-1225215345.pdf",
+      "sha256": "4eb63b26ee306de5464821e42a6dec07c1e3141df6272993b9cadc90fb8ab297"
+    },
+    {
+      "path": "../../source-documents/2026-04-28-1225215349.pdf",
+      "sha256": "30fb19b82380a11a4b731385cb8aeb447efaf814e13d2541cfd3708c48da0987"
+    },
+    {
+      "path": "../../source-documents/2026-05-23-1225325887.pdf",
+      "sha256": "3428c813a999ad12350c062bf947ecd039a8ede7659b2aba35996e30cd180bdf"
+    },
+    {
+      "path": "../../source-documents/2026-06-10-1225361445.pdf",
+      "sha256": "f86a51c7d6d95a495e6cfd26b2a2d3bb1d18c2dee54da5fc8f8b9a2072ea1c56"
+    },
+    {
+      "path": "../../source-documents/2026-07-10-1225417192.pdf",
+      "sha256": "e072dfeaac4c74d56e4e1796e521fd773d099c784c389ad2504b07f9c0dfb800"
+    },
+    {
+      "path": "../../source-documents/2026-07-17-1225428726.pdf",
+      "sha256": "75afc829cd36f68ba6f743b30e28732d42a6155d4c593479d28ce76945e4521f"
+    },
+    {
+      "path": "../../source-documents/2026-07-17-1225428729.pdf",
+      "sha256": "8099b505a0d3a91332d3f315e8717a32c43a3721c59ec3c23a8e5bd5c149cf9a"
+    },
+    {
+      "path": "../../source-documents/2026-08-14-1225471848.pdf",
+      "sha256": "173e14c698d1b7abb18c1c262d7ef1d684e85dfdc9099a49ec4607a7b0764a7f"
+    },
+    {
+      "path": "../../source-documents/2026-08-22-1225489510.pdf",
+      "sha256": "3ab41acc4876fa500244f83347a0eb095fcd4c00614b4b47da66c123316d1af0"
+    },
+    {
+      "path": "../../source-documents/2026-08-25-1225495698.pdf",
+      "sha256": "9a1c467bb2a3e065321607056a98930034b90474850a6fa0d03fbc5525ebff91"
+    },
+    {
+      "path": "../../source-documents/2026-08-25-1225495699.pdf",
+      "sha256": "07077d22c592c61fa5037ae4e65ba44087f14ee56114d2e77393e30e641e33c8"
+    },
+    {
+      "path": "../../source-documents/2026-10-15-1225605690.pdf",
+      "sha256": "b28cb94a500a27f1356dc423df5555d3716d19c53815e2ab249c580c96d26b7c"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225628777.pdf",
+      "sha256": "467815af1f551c7c72ee717ec8be265dc285237cef841e90376862c8b40b0eaf"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225628779.pdf",
+      "sha256": "d2d850e83f7eeeeff9911da537542b61c8a15dd0bff02ceb4395a0b67d0b6e28"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225628780.pdf",
+      "sha256": "e1aefcf502537abd32f8f2ca497039bc045a083f5dfe5b188d8c29bd5be6649e"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-market.json",
+      "sha256": "768540a6b1daffdd10f27fb5fe7f272e790208245a74fe32b234c3db1ca39c8d"
+    },
+    {
+      "path": "../2026-10-26_v001_2026h1-and-q3-preview/research-report.md",
+      "sha256": "09a2751bb8e83c79b49d0ab8b4c16fbad6667c9a97d759ae1be309b94c39b745"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md",
+    "../versions.md"
+  ]
+}

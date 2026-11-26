@@ -1,0 +1,23 @@
+{
+  "sales_unit": "亿元",
+  "area_unit": "万平方米",
+  "ytd_sales_prior": 557.5,
+  "ytd_sales_current": 255.7,
+  "ytd_change": -0.5413452914798207,
+  "oct_sales_prior": 50,
+  "oct_sales_current": 24.3,
+  "oct_yoy": -0.514,
+  "sep_sales": 23,
+  "oct_mom": 0.0565217391304349,
+  "oct_area": 28.9,
+  "oct_avg_selling_price": 8408.304498269898,
+  "recurring_prior": 221.6,
+  "recurring_current": 227,
+  "recurring_change": 0.024368231046931532,
+  "operation_prior": 117.4,
+  "operation_current": 121.7,
+  "operation_change": 0.03662691652470196,
+  "service_prior": 104.2,
+  "service_current": 105.3,
+  "service_change": 0.01055662188099804
+}

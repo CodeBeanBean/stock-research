@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "headline": "更新前已交付报告基线，原研究结论保留",
+  "security": "002027.SZ",
+  "currency": "CNY",
+  "price": 4.91,
+  "bear": 3.8556050291819743,
+  "base": 6.140176190953761,
+  "bull": 9.15706194430719,
+  "conclusion": "谨慎积极",
+  "method": "2027正常化归母P/E，交易完成假设",
+  "valuation_horizon": "2027/正常化，见原报告",
+  "key_points": [
+    "原分众利润44/52/60亿元，P/E14/18/22倍；新潮及协同为研究假设。",
+    "基线按现存原报告及模型回溯整理，不代表2026-10-28重估。"
+  ],
+  "key_assumptions": [
+    "原分众利润44/52/60亿元，P/E14/18/22倍；新潮及协同为研究假设。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "旧稿显示精度保留；本版模型为原始匹配字节，不借用新数据。",
+  "report_sha256": "ed15330a5351b21bb7a50add2d1efbbc9a3d38f21cd60531b64ebc4e4fb80bc3",
+  "prepared_at_utc": "2026-10-28T02:23:15.487832+00:00",
+  "price_date": "2026-10-09"
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-26_v001_2026q3-initial",
+  "version_number": 1,
+  "company": "zijin-mining",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "首次覆盖：完整三季报、金铜单位经济性与赤峰收购",
+  "reason": "首次覆盖完整Q3，建立保守摊薄正常化盈利估值、现金与资本配置分析",
+  "created_at_utc": "2026-10-26T08:26:04.138963+00:00",
+  "reported_research_date": "2026-10-26",
+  "source_cutoff": "2026-10-26 16:04:28北京时间官方查询；行情16:00:57，原件下载UTC另列",
+  "price_date": "2026-10-26",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\zijin-mining",
+  "context_directory": "D:\\Research\\stock-research\\companies\\zijin-mining",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "b2d6dbe4f8bfccbda48610d5638ee3478a55082a7e4b5bad2889a203e7b406a7",
+      "archive_sha256": "13c0d1ff41d72fd2e195b884aa603b36d9203462b19f23249b0f6b8c4c659c6b",
+      "bytes": 19915
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "cd24996a22048178da846f898cb6ea3d4bf57ed00866fff98b961e87efe6fad4",
+      "archive_sha256": "cd24996a22048178da846f898cb6ea3d4bf57ed00866fff98b961e87efe6fad4",
+      "bytes": 49792
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "ca138c543acbddbd03f6309dbc8d1ca23fdfe9d4a918a4fdff65f037fa7fc03b",
+      "archive_sha256": "f7df50af3b7ab592e54d2ee674453abfeb0030ed093033779556acf02d78d283",
+      "bytes": 2002
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "261e801d7c0d5ca5513fde0b31231abdfe3c7904b9bbcc4d30b689160a758338",
+      "archive_sha256": "fb0b8b2495610468b38a9274d7f7ad7780f83827694d0fd6799e30a9e5cda125",
+      "bytes": 10446
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "ebe2d78b7178c01fb2e11a6ee0ae4e28faf5ecf210423e67463b6842559096e6",
+      "archive_sha256": "ebe2d78b7178c01fb2e11a6ee0ae4e28faf5ecf210423e67463b6842559096e6",
+      "bytes": 928
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "0cff194a70de4bf498025b33b37f515524a71718b7f38a715e2c528e7f1870ee",
+      "archive_sha256": "4f71e2a799599b2e0799c8261094267d1680ab0c834dccd62bdd231e20f7d8bf",
+      "bytes": 4236
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../outputs/zijin-mining-20261026/case-results.json",
+      "sha256": "4da34b6d64f35da03f026137b2fa44b111ba3aac0787a484ca334321ba39dc9b"
+    },
+    {
+      "path": "../../../../outputs/zijin-mining-20261026/hkex-recent.json",
+      "sha256": "539b29d4497f320decb9a5d4cf4a48f78666948b21aed49e7317c38849530692"
+    },
+    {
+      "path": "../../../../outputs/zijin-mining-20261026/jrj-price-page.html",
+      "sha256": "2bf4ccaecaba1b21d48a0c97b54c2f7a18a0b9ce7e1182f9a068ce67e0e32412"
+    },
+    {
+      "path": "../../../../outputs/zijin-mining-20261026/model-validation.json",
+      "sha256": "050a198ca84b1bddd61f0a5b86f778f6f1826a5e5a324eceb98a45e40dd051cd"
+    },
+    {
+      "path": "../../../../outputs/zijin-mining-20261026/official-announcements.json",
+      "sha256": "183f5780cf6039bf46acc7192155314e59aaee21d41314f7cc2ee2424b67bc42"
+    },
+    {
+      "path": "../../../../outputs/zijin-mining-20261026/retrieval-cutoff.json",
+      "sha256": "e07f3ace93b58adf48dfa11ed4cf7dd1aa7ca15bc8cd111e360568f17c30e11e"
+    },
+    {
+      "path": "../../source-documents/1224972233.pdf",
+      "sha256": "7be31f3d28ca38696c41f236b8b600366dd1f07c7bf19380f5c46ce8cbf0ab0a"
+    },
+    {
+      "path": "../../source-documents/1225024230.pdf",
+      "sha256": "1c8270a616991c9fd489f0e1446b05a557c8cbdeb058e945e7421ab4933a7b9c"
+    },
+    {
+      "path": "../../source-documents/1225078771.pdf",
+      "sha256": "598740990cbe979adeea2a8b409abbba03c9bed98c370a9d11e06cc485ba39de"
+    },
+    {
+      "path": "../../source-documents/1225141507.pdf",
+      "sha256": "79b59ab2766b653874d9500cc01cd405eef42c39009a072574e7bef73ceafe9b"
+    },
+    {
+      "path": "../../source-documents/1225550242.pdf",
+      "sha256": "01819e1c7daad939d1779a8aa729f50f02151192e609cb28c2c405634a8f343d"
+    },
+    {
+      "path": "../../source-documents/1225550244.pdf",
+      "sha256": "b934ec8dde5757b3fbd757e6c8c6ae5bd13a09c65e5a7acbfa58430b538d75ad"
+    },
+    {
+      "path": "../../source-documents/1225585468.pdf",
+      "sha256": "acfd8745ecee1db2ad9a606ba5c35f0f378d55d5a4e4e951f576773ab0c9f6ec"
+    },
+    {
+      "path": "../../source-documents/1225612681.pdf",
+      "sha256": "06aab8333caaf9aafc5edff20078a128f22bb5e0f63e8182715f2210f0fd17c2"
+    },
+    {
+      "path": "../../source-documents/1225617035.pdf",
+      "sha256": "78cee7a515d3da4eb09710f045a18eff3e7b1e4cec0f61c3ee3ac8c3820f37ad"
+    },
+    {
+      "path": "../../source-documents/1225620996.pdf",
+      "sha256": "ba1ba80534ed7f59b3d75b355009cfb3927129e227077544160fe4facae84733"
+    },
+    {
+      "path": "../../source-documents/HK-Q3-2026.pdf",
+      "sha256": "1fdf6d29c9905385bdbdaf2d519a25ecd65691b79cda3c06b3ef4939945d9437"
+    },
+    {
+      "path": "../../source-documents/gold-international-9m.pdf",
+      "sha256": "310f39054f22ec99385facdb27e8405670bea3b0f09dbba29f61d40d1d0c23ba"
+    },
+    {
+      "path": "../../source-documents/market-20261026.txt",
+      "sha256": "9b6986f17d91b8c51e9cc8384d8ad5c552817d3fc4d96f815a79e9191b6e0205"
+    },
+    {
+      "path": "../../source-documents/share-20260930.pdf",
+      "sha256": "662de807d9c69b8e02165fdc6b6ad913c34be29c6a08fec464099ac93e797a83"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

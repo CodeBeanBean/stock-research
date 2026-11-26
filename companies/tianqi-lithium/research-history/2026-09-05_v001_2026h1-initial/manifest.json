@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-05_v001_2026h1-initial",
+  "version_number": 1,
+  "company": "tianqi-lithium",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "原始H1研究基线",
+  "reason": "更新前保护此前已交付原稿及匹配模型",
+  "created_at_utc": "2026-10-21T00:15:50.398382+00:00",
+  "reported_research_date": "2026-09-05",
+  "source_cutoff": "2026-09-05",
+  "price_date": "2026-09-04",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\tianqi-lithium",
+  "context_directory": "D:\\Research\\stock-research\\companies\\tianqi-lithium",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "7c7b0747c7afb63e87b360eb878a24b99cd29a315b708b329ed54bcbe55411ae",
+      "archive_sha256": "7c7b0747c7afb63e87b360eb878a24b99cd29a315b708b329ed54bcbe55411ae",
+      "bytes": 5873
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "d31658836a81d03046dea383932515ae24708ae9bb9d0d1c1ba9306487eff11b",
+      "archive_sha256": "d31658836a81d03046dea383932515ae24708ae9bb9d0d1c1ba9306487eff11b",
+      "bytes": 25003
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "26a9aa92e4b05cfc25cf7fd97ec1e660fd921918138bf879ec6a638137233e85",
+      "archive_sha256": "26a9aa92e4b05cfc25cf7fd97ec1e660fd921918138bf879ec6a638137233e85",
+      "bytes": 3057
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "576a9f33652d341ba27249361db60320619760e358bb6e23b6ff8dbc753017fa",
+      "archive_sha256": "576a9f33652d341ba27249361db60320619760e358bb6e23b6ff8dbc753017fa",
+      "bytes": 1740
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "accb069b97133bc7933275d4c470c7b9b140bac4da001676a7609e37b3f2cad3",
+      "archive_sha256": "accb069b97133bc7933275d4c470c7b9b140bac4da001676a7609e37b3f2cad3",
+      "bytes": 716
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "8a6a76bb51862fbddf0899bad3b686e400aae1591259be721bb587023d3b74f7",
+      "archive_sha256": "402e90fef20bcb04e1a433fefa7551a7afd87b83a87ad28972b0a053f5758c70",
+      "bytes": 1036
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

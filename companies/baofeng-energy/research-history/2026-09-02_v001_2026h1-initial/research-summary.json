@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "headline": "2026H1首次覆盖基线",
+  "conclusion": "谨慎积极",
+  "security": "600989.SH A股",
+  "currency": "CNY",
+  "price": 24.37,
+  "bear": 19.502217671666674,
+  "base": 29.546543605134488,
+  "bull": 41.405860672370615,
+  "method": "70%2026正常化扣非P/E+30%EV/EBITDA",
+  "valuation_horizon": "2026全年正常化情景",
+  "key_points": [
+    "按2026-09-02已交付报告及原模型追溯摘录；本次未重建历史事实。",
+    "H1收入301.98亿元、扣非92.10亿元，现金转换较强。",
+    "原模型未对持续性捐赠另设扣减；由后续版本说明修订。"
+  ],
+  "key_assumptions": [
+    "原Base扣非185亿元、PE12倍、EBITDA280亿元、EV/EBITDA8倍",
+    "原经济股数72.727628亿、净债务257.16656亿元"
+  ],
+  "preparation": "Retrospectively extracted from existing delivered report and matching workbook on 2026-10-22",
+  "report_sha256": "49772e259565d23c3154889da1e2159950fe27f1946d113f9a78ea5c56aa887e",
+  "prepared_at_utc": "2026-10-22T01:33:49.963241+00:00",
+  "price_date": "2026-09-01"
+}

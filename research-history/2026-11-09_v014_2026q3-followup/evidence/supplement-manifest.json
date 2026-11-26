@@ -1,0 +1,38 @@
+[
+  {
+    "file": "longfor-2025-october.pdf",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1107/2025110701500.pdf",
+    "sha256": "e8c1e2cd438d0551ea28387339cd82e0eab24f22db2aaa432caa3563bacbe941",
+    "retrieved_utc": "2026-11-09T01:27:19.042645+00:00"
+  },
+  {
+    "file": "longfor-2026-october-en.pdf",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1106/2026110601376.pdf",
+    "sha256": "9d1e3e67bc11df786f2e6d0034638910587d3e325ce83eb82ff33c5769688ebf",
+    "retrieved_utc": "2026-11-09T01:27:17.654121+00:00"
+  },
+  {
+    "file": "hk00960-price-history.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=hk00960,day,2026-11-01,2026-11-06,10,qfq",
+    "sha256": "dbb77cf2f15b26eab0d3f7fe444f2f8a33cd8b8b06b65ece56a26c1e5cb7d448",
+    "retrieved_utc": "2026-11-09T01:27:15.330539+00:00"
+  },
+  {
+    "file": "sz002714-price-history.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002714,day,2026-11-01,2026-11-06,10,qfq",
+    "sha256": "02e9871e815ec7dbde1f104870ebb8982fe294a5b13799bab121f717a84a7364",
+    "retrieved_utc": "2026-11-09T01:27:15.336944+00:00"
+  },
+  {
+    "file": "sz002460-price-history.json",
+    "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002460,day,2026-11-01,2026-11-06,10,qfq",
+    "sha256": "d6503fd2dd8bfd8f584319950e13e71eb0e7b491387e6be38fd90dc5c3c74c81",
+    "retrieved_utc": "2026-11-09T01:27:15.340206+00:00"
+  },
+  {
+    "file": "longfor-group-12370158.pdf",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1012/2026101200883.pdf",
+    "sha256": "657a57e2f524cd143f9f82a05c57d0c510a802285dbebb282ae7a91d6f95c81b",
+    "retrieved_utc": "2026-11-09T01:26:32.407129+00:00"
+  }
+]

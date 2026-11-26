@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-09-08_v001_2026h1-baseline",
+  "version_number": 1,
+  "company": "baosteel",
+  "directory_date_basis": "reported_research_date",
+  "kind": "baseline",
+  "label": "更新前已交付研究基线",
+  "reason": "完整Q3更新前永久保存现有交付版本",
+  "created_at_utc": "2026-10-28T02:23:35.347172+00:00",
+  "reported_research_date": "2026-09-08",
+  "source_cutoff": "2026-09-08",
+  "price_date": "2026-09-07",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\baosteel",
+  "context_directory": "D:\\Research\\stock-research\\companies\\baosteel",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "82e5578e6b3f032147fe570051dcf4710744189e6b6da35a8cb95d9bbf83406d",
+      "archive_sha256": "82e5578e6b3f032147fe570051dcf4710744189e6b6da35a8cb95d9bbf83406d",
+      "bytes": 7887
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "aa7570c3dcd54e249736451aab2579faff66f2d474ea583445efc63997800411",
+      "archive_sha256": "aa7570c3dcd54e249736451aab2579faff66f2d474ea583445efc63997800411",
+      "bytes": 29049
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "59e1c1269ced146b97d260980e51b862a1562e1d826b1fb48615ee6e60d6d33b",
+      "archive_sha256": "59e1c1269ced146b97d260980e51b862a1562e1d826b1fb48615ee6e60d6d33b",
+      "bytes": 4511
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "c661412094b86c7ae97426a54a0afb64a51accead6a4dd7b88e8d3d2dcce31bb",
+      "archive_sha256": "c661412094b86c7ae97426a54a0afb64a51accead6a4dd7b88e8d3d2dcce31bb",
+      "bytes": 2965
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "8af59b9bdbd9f34a71f03a29b34264df8daf3654de30f292e03a951860140ab5",
+      "archive_sha256": "8af59b9bdbd9f34a71f03a29b34264df8daf3654de30f292e03a951860140ab5",
+      "bytes": 918
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "6d22e9601205283a748559ac4e6b85ea285bc8f5e0755e1976fc4c61f16716d0",
+      "archive_sha256": "cacf7f390d44114efcb2935688a6c10fc36fb63aedabb0ffecf2eddbff70b218",
+      "bytes": 978
+    }
+  ],
+  "local_sources": [],
+  "mutable_navigation_links": []
+}

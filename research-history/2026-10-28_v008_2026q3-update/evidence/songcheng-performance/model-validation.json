@@ -1,0 +1,106 @@
+{
+  "cases": [
+    2.888013087748938,
+    4.6789765049836785,
+    7.194302537769701
+  ],
+  "upside": [
+    -0.4661713331332832,
+    -0.13512449076087274,
+    0.3298156262051204
+  ],
+  "tests": {
+    "profit": true,
+    "priceDoesNotChangeValue": true,
+    "cashFormula": true,
+    "q3_revenue": true,
+    "q3_cost": true,
+    "q3_gross": true,
+    "q3_parent": true,
+    "q3_core": true,
+    "q3_cfo": true,
+    "q3_capex": true,
+    "q3_fcf": true,
+    "roundtrip": true
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "sheets": [
+    "Cover",
+    "Historical",
+    "Operating Drivers",
+    "Assumptions",
+    "Valuation",
+    "Checks",
+    "Sources Audit"
+  ],
+  "ranges": [
+    {
+      "sheet": "Cover",
+      "range": "A1:P31",
+      "file": "Cover-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A1:H36",
+      "file": "Historical-1.png"
+    },
+    {
+      "sheet": "Historical",
+      "range": "A36:H55",
+      "file": "Historical-36.png"
+    },
+    {
+      "sheet": "Operating Drivers",
+      "range": "A1:H18",
+      "file": "Operating-Drivers-1.png"
+    },
+    {
+      "sheet": "Assumptions",
+      "range": "A1:H33",
+      "file": "Assumptions-1.png"
+    },
+    {
+      "sheet": "Valuation",
+      "range": "A1:I26",
+      "file": "Valuation-1.png"
+    },
+    {
+      "sheet": "Checks",
+      "range": "A1:G15",
+      "file": "Checks-1.png"
+    },
+    {
+      "sheet": "Sources Audit",
+      "range": "A1:H28",
+      "file": "Sources-Audit-1.png"
+    }
+  ],
+  "rows": {
+    "revenue": 29,
+    "cost": 30,
+    "gross": 31,
+    "gm": 32,
+    "parent": 33,
+    "core": 34,
+    "nonrec": 35,
+    "cfo": 36,
+    "capex": 37,
+    "fcf": 38,
+    "leases": 39,
+    "lease_cash": 40,
+    "taxes": 41,
+    "pretax": 42,
+    "income_tax": 43,
+    "net_profit": 44,
+    "nci": 45,
+    "refund": 46,
+    "assets": 47,
+    "liabilities": 48,
+    "equity": 49,
+    "cash": 50,
+    "cash_eq": 51,
+    "cip": 52
+  },
+  "scale": 1000000000,
+  "price": 5.41
+}

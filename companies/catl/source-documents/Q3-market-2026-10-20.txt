@@ -1,0 +1,6 @@
+2026-10-20已收盘A股259.08元。研究记录日2026-10-21。
+历史行情：https://cn.investing.com/equities/amperex-tech-a-historical-data
+交叉核对：https://quote.cfi.cn/quote.aspx?stockcode=300750
+H股411.80港元：https://cn.investing.com/equities/contemporary-amperex-tech-historical-data
+1 CNY=1.1752 HKD（2026-10-20历史收盘）：https://cn.investing.com/currencies/cny-hkd-historical-data
+Investing概览页曾显示258.40，未采用；使用固定日期历史收盘并由中财交叉核对259.08。

@@ -1,0 +1,60 @@
+[
+  {
+    "company": "伊利股份",
+    "slug": "yili",
+    "item": {
+      "code": "600887",
+      "title": "内蒙古伊利实业集团股份有限公司关于召开2026年第三季度业绩说明会的公告",
+      "date": "2026-10-23",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225615375.PDF",
+      "id": "1225615375"
+    }
+  },
+  {
+    "company": "兆易创新",
+    "slug": "gigadevice",
+    "item": {
+      "code": "603986",
+      "title": "H股公告-翌日披露报表",
+      "date": "2026-10-23",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225615862.PDF",
+      "id": "1225615862"
+    }
+  },
+  {
+    "company": "威高股份",
+    "slug": "weigao-group",
+    "item": {
+      "FILE_INFO": "133KB",
+      "NEWS_ID": "12379666",
+      "SHORT_TEXT": "翌日披露報表 - [股份購回]<br/>",
+      "TOTAL_COUNT": "2",
+      "DOD_WEB_PATH": "",
+      "STOCK_NAME": "威高股份",
+      "TITLE": "翌日披露報表 - 股份購回",
+      "FILE_TYPE": "PDF",
+      "DATE_TIME": "22/10/2026 17:08",
+      "LONG_TEXT": "翌日披露報表 - [股份購回]",
+      "STOCK_CODE": "01066",
+      "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102200666_c.pdf"
+    }
+  },
+  {
+    "company": "腾讯控股",
+    "slug": "tencent",
+    "item": {
+      "FILE_INFO": "2MB",
+      "NEWS_ID": "12379124",
+      "SHORT_TEXT": "債券及結構性產品 - [發行通函或定價補充文件 － 債務證券]<br/>",
+      "TOTAL_COUNT": "3",
+      "DOD_WEB_PATH": "",
+      "STOCK_NAME": "騰訊控股<br/>騰訊控股－Ｒ",
+      "TITLE": "根據騰訊控股有限公司最高限額為300億美元之全球中期票據計劃發行將於二零三六年到期的1,300,000,000美元6.10%優先票據及將於二零四六年到期的500,000,000美元6.75%優先票據及將於二零三六年到期的人民幣20,000,000,000元2.40%優先票據及將於二零五六年到期的人民幣6,000,000,000元3.00%優先票據刊發定價補充文件",
+      "FILE_TYPE": "PDF",
+      "DATE_TIME": "22/10/2026 12:03",
+      "LONG_TEXT": "債券及結構性產品 - [發行通函或定價補充文件 － 債務證券]",
+      "STOCK_CODE": "00700<br/>80700",
+      "FILE_LINK": "/listedco/listconews/sehk/2026/1022/2026102200203_c.pdf"
+    }
+  }
+]

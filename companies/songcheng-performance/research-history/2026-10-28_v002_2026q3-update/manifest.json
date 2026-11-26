@@ -1,0 +1,110 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-28_v002_2026q3-update",
+  "version_number": 2,
+  "company": "songcheng-performance",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "完整三季报及估值更新",
+  "reason": "新完整Q3实际、现金质量、股本分红与正常化估值更新",
+  "created_at_utc": "2026-10-28T02:46:05.668287+00:00",
+  "reported_research_date": "2026-10-28",
+  "source_cutoff": "2026-10-28上午（全库10:18:17—10:18:33，专项补查至10:24:52，北京时间）",
+  "price_date": "2026-10-27",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\songcheng-performance",
+  "context_directory": "D:\\Research\\stock-research\\companies\\songcheng-performance",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "f48be249ce4c1c36a7703503d62263ba8dccc71b43aa7a4d5978d326df60aa2e",
+      "archive_sha256": "99de9b68c01d757997ecf35a855e9733e73aec223f758a1b95f9bd9c1fa5f06e",
+      "bytes": 20435
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "873690efa3778fe44b3ee7710abd8d9a71a9fdebb45937353d1b951cc0fc61bb",
+      "archive_sha256": "873690efa3778fe44b3ee7710abd8d9a71a9fdebb45937353d1b951cc0fc61bb",
+      "bytes": 34179
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "c0ce4345c1d23dc3d76a782f2591524eb0699c411ff2c5efe782afc76edc9746",
+      "archive_sha256": "f04ab39b1547b0018a5c7b9c72dc1753ba5b4dbb3f08d901507aa4759e6752bf",
+      "bytes": 4906
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "2efbd66bf6f8b32b70bd453ea8357c23c58a5af2f7305547f0c06a097d4ccdf8",
+      "archive_sha256": "719f35232bed848d07799233e13ec5d694930b67f291e74310da2caa343d4254",
+      "bytes": 8545
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "922c9e2f9055e5f795a4ad975d79c3b2e9e0b0c2af8b66e6be5dbdaf360aba22",
+      "archive_sha256": "1fd923ef3ecbccd67d370eef7ee077e9f39a5bb35a766fe1f757b03737194697",
+      "bytes": 3987
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "f62d42a4d6bd46a37020724de9d1d53436eb984496c64feb3c47e73d0783cfc1",
+      "archive_sha256": "65b87ac99bc39d65678a8a46b399df5f6d2c7ddf08c46a3b58ca44fe8fa9669f",
+      "bytes": 4759
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/coverage.json",
+      "sha256": "68aa913f87fefcc906a34851bb97db91dec8507a4b945c69524d049f566f5fc6"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/extra-sources.json",
+      "sha256": "3b0974e0787a598ca1abfbf410b54c53fe687c28ce51d44dffbf77b9c961e34f"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/new-announcement-sources.json",
+      "sha256": "88e658db5c3491c39b494e798555d4c6c473774eca8af662e321584ada0009dd"
+    },
+    {
+      "path": "../../../../outputs/q3-library-review-20261028/songcheng-performance/model-validation.json",
+      "sha256": "267dee37c462c77ce4f350e37370c9cd66b4249cb6c40ed60dda3b6380ac2de0"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225610361.pdf",
+      "sha256": "d38cd33e1bcf975a898bbef006c6e5f98e42a68e6a98a20e320a814acf020f3d"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225622903.pdf",
+      "sha256": "9e476fe3f3d4e29ee5744eb1ff76629183b01a03705f850b39bb1979a7c24fa6"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225622905.pdf",
+      "sha256": "9d21c4b6e57accff392130245356dff3cd46aa39ac674dcaf6e8f5d60e09c344"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225622906.pdf",
+      "sha256": "f84d713cd97aa7e7d3b252122579bb47c8a0f0e014e1b4a00d7b4c25f34ace92"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225622907.pdf",
+      "sha256": "2b54ca03465525f09c37afb4ae169541ee7acdc33c75476b50edaf89e042ed93"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-1225622908.pdf",
+      "sha256": "10188cd394c26f36b01db7ade9b093c908781bcb30c1b41c35a517d714963b80"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-28-market.json",
+      "sha256": "c6463186f03fc85724507fa4818af39a113af05394f0560a01f5a46776eb6eb1"
+    },
+    {
+      "path": "../2026-08-24_v001_2026h1-baseline/research-report.md",
+      "sha256": "1bd96460ccfc4916b58ce81cf2843e97f47f35b858c93f0482b5c6e6bcbf4820"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

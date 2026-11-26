@@ -1,0 +1,123 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-11-09_v003_october-sales-followup",
+  "version_number": 3,
+  "company": "muyuan",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "10月销量、售价和销售收入均下降，保持中性偏谨慎及原恢复情景",
+  "reason": "新增10月经营事实，更新风险与后续验证，保留原估值输入",
+  "created_at_utc": "2026-11-09T01:29:33.842460+00:00",
+  "reported_research_date": "2026-11-09",
+  "source_cutoff": "2026-11-09T09:23:58.825578+08:00",
+  "price_date": "2026-10-29",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\muyuan",
+  "context_directory": "D:\\Research\\stock-research\\companies\\muyuan",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "1f22e85ce27625770369a1d37d684c0f68fc9fc2ef09ebc0e40eeaabbc9980ba",
+      "archive_sha256": "21482ca8cf6f854a6270a750750ec21d9b991adfc8e0abaff50feab9b84a6633",
+      "bytes": 21909
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "b07424611b8bc0ab86d50848a4df1b79b0304c7ead404770ff85ff829d7065aa",
+      "archive_sha256": "b07424611b8bc0ab86d50848a4df1b79b0304c7ead404770ff85ff829d7065aa",
+      "bytes": 33774
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "44f1c2838dda39d66c653aa36205a14b795d53f74b1c748ead56fac693baffe3",
+      "archive_sha256": "f24f6131e1d8463c3c7075cbee4f85cad1a97f0d8e7f6a19b6856d9a244ccd84",
+      "bytes": 9260
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "ef83727b14fbd212a1d13403bbe1cffa40036e1862f14ea3fa0493046f1af81f",
+      "archive_sha256": "e9f2735662e839a877651deddd379a4bd5786dedf678c82dc4fc2f7c55419c69",
+      "bytes": 7896
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "ada965a65bb6859351d1b856fd6f2b0a2a4780e4749c902d638a9503933dc2cf",
+      "archive_sha256": "55ee4f269ac9938402b6d0988d763a9b014bb7525af98e793d80b4368e79cb4a",
+      "bytes": 2498
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "c95631041dcb09aeb9d221028dc6ce72ca4c7b6bbbad1481b08a6f2881ec0326",
+      "archive_sha256": "fca1c679b9344f41f2bae91ba008143079a906cc4d69937cd94381f6a8aac740",
+      "bytes": 2708
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../source-documents/2024-annual-report-cn.pdf",
+      "sha256": "b26c4441b34feef43d1124e6372fb858c8455f6851b19f31504a10fdc6ba4de5"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report-en.pdf",
+      "sha256": "563cbee8250b273d7708935ea8361b3a3fe399e25b6415aea3b530ab3a6910d3"
+    },
+    {
+      "path": "../../source-documents/2026-07-sales-bulletin-en.pdf",
+      "sha256": "11bfd0a41a8867a58d50f908542b79f6fa05fee52f12a4301814ca0281232fc2"
+    },
+    {
+      "path": "../../source-documents/2026-11-06-october-sales.pdf",
+      "sha256": "ef0a1f7c5af13bc01df195dfbcdc59c78d52ac5c8571aa397aad8f3b22f95693"
+    },
+    {
+      "path": "../../source-documents/2026-11-09-operating-calculations.json",
+      "sha256": "3f8c5e20641bbcb61c63a9a86533c5483a1cafee3045f7567c753d10f853f4da"
+    },
+    {
+      "path": "../../source-documents/2026-11-09-sz002714-price-history.json",
+      "sha256": "02e9871e815ec7dbde1f104870ebb8982fe294a5b13799bab121f717a84a7364"
+    },
+    {
+      "path": "../../source-documents/2026-interim-report-en.pdf",
+      "sha256": "ee208b50c0d033a17f8421eabc4080e275f5b86fb106ceca72f278f6205c7608"
+    },
+    {
+      "path": "../../source-documents/2026H1-investor-relations-cn.pdf",
+      "sha256": "23f41b0ad5939e45adbe613acf4320f1705e6d2979dc4c68e9677a6f666196d0"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225551030.pdf",
+      "sha256": "3015eb99fd0e34f43256a17c41367e1132722cc40a1699ccb629cac3e5224ac5"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225600460.pdf",
+      "sha256": "b798cd5f6e9fbceb2d9148ebbf4ac9df78251857642fb336c46848a44200c6dc"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225639870.pdf",
+      "sha256": "ba05a17c10c6b5729ff89efe9c6f55843067c9809ff30c9922ee99e8d5bfc28b"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-1225639872.pdf",
+      "sha256": "465f1c7913ecfc201de88e8809ac59a52b8b7aa577377fb66a6c3c4a0d4b985c"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-12387779.pdf",
+      "sha256": "3e9aec55ea21dbd66868ca67f1a6aefe21e7a11044742327a71798c21ac69301"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-market.json",
+      "sha256": "157408a7a44b3a7fd4aba762f0c95d13b2b9412562855ac23d5df0b47e82be07"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-29-model-validation.json",
+      "sha256": "baa9db31c9797326c1224b7addee9f812e3553175f99a10d7f2893ec9f30d163"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md",
+    "../research-notes.md"
+  ]
+}

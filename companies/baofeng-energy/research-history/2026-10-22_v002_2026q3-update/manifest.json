@@ -1,0 +1,118 @@
+{
+  "schema_version": 2,
+  "run_id": "2026-10-22_v002_2026q3-update",
+  "version_number": 2,
+  "company": "baofeng-energy",
+  "directory_date_basis": "reported_research_date",
+  "kind": "research",
+  "label": "宝丰能源2026Q3及经营价差、持续捐赠与估值更新",
+  "reason": "完整Q3更新，拆分毛利和金融损益，持续捐赠正常化、更新净债务及全发行股本",
+  "created_at_utc": "2026-10-22T01:41:46.411322+00:00",
+  "reported_research_date": "2026-10-22",
+  "source_cutoff": "2026-10-22上午09:30左右",
+  "price_date": "2026-10-21",
+  "provenance": "Current delivered dossier",
+  "source_directory": "D:\\Research\\stock-research\\companies\\baofeng-energy",
+  "context_directory": "D:\\Research\\stock-research\\companies\\baofeng-energy",
+  "missing_companions": [],
+  "markdown_changes": "Local link targets rebased only; analytical text preserved",
+  "files": [
+    {
+      "name": "research-report.md",
+      "source_sha256": "bd3d15ac889a0b3e98ebfae964910b5a104d88761aba186c907a963f675684ec",
+      "archive_sha256": "e30df82879bd161c1a3fe458114b76a8442411e88221e6d5da4d6ec75574ee25",
+      "bytes": 13204
+    },
+    {
+      "name": "financial-model.xlsx",
+      "source_sha256": "b6657794501dd004bc7ec7205aac8d7f3e5a9613d11b9ced135b3ecbd78ed5c7",
+      "archive_sha256": "b6657794501dd004bc7ec7205aac8d7f3e5a9613d11b9ced135b3ecbd78ed5c7",
+      "bytes": 38414
+    },
+    {
+      "name": "company-profile.md",
+      "source_sha256": "e1175f111f5cec94faa850e1660e71e3d46f3132737b36da0cf770c75498598f",
+      "archive_sha256": "b4d2617d5cbfac07a3a36676934c33a2e958616779041c1f4a066218d2892fe3",
+      "bytes": 7903
+    },
+    {
+      "name": "source-index.md",
+      "source_sha256": "a66fdc12500c11a5a3f949f1d0233211041005635a0c075102b60fc569ae8474",
+      "archive_sha256": "873b92777fb6eddfef0f489b87a61c4c37c361c1748bffb37b8becdaa2811625",
+      "bytes": 6296
+    },
+    {
+      "name": "update-log.md",
+      "source_sha256": "ae3006f5c66366dc2fe80517d587d2e39fa74760113d2e8e34e19075c8069824",
+      "archive_sha256": "3ed2f3b428cb6b00679a72c2ba5bd5901b5ec536ec30fba3ed0309534c43d945",
+      "bytes": 2354
+    },
+    {
+      "name": "research-summary.json",
+      "source_sha256": "4fd3c1c7576486345352ad29aa4b94bb231212b6d2c6d3fa211f2b7643d9b2b6",
+      "archive_sha256": "4c1d2e99f40440b8d2ee8050a673162be8b15060ac20455ddae64c9bc77733c8",
+      "bytes": 3787
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "../../../../quarterly-disclosure-review.md",
+      "sha256": "b2c680a842c41286e8d80f243c6dfb9cb930bcb3d2f6519ad18d6c04fa4c9561"
+    },
+    {
+      "path": "../../source-documents/2024-annual-report.pdf",
+      "sha256": "993472f44ba1d0d1d1b068c216ca812b92656d3b7d7a800a98c4d2752071a724"
+    },
+    {
+      "path": "../../source-documents/2025-annual-report.pdf",
+      "sha256": "de1c54271e1e69ef4b131ea62ea6f879a36113e374a73400af794e18b76dc3af"
+    },
+    {
+      "path": "../../source-documents/2026-H1-operating-data.pdf",
+      "sha256": "bf4297a1396e29622d354d52f7cfacc6b1c6fdae62c4c9cdbbb2a62c35c876a5"
+    },
+    {
+      "path": "../../source-documents/2026-H1-report.pdf",
+      "sha256": "e4c2d398299a6856180134c580885f0848dcf2b15584ca263bc5d6f1506b682e"
+    },
+    {
+      "path": "../../source-documents/2026-Q1-report.pdf",
+      "sha256": "f8db0309ee8eac18e61c45b5b798defa704712ca2dc27b8605c489244df83fe8"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-08-26-dividend.pdf",
+      "sha256": "25e6d1d62fb7f5f22a7fa5289db7a1409a66f2a7dd934e198fd5e8dc0df1b21f"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-22-1225614691.pdf",
+      "sha256": "0b9f2a22fd63c91e232e16a5d01006e1ee75f4a93b6d9770999a00695993f592"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-22-1225614692.pdf",
+      "sha256": "c1321174a9a22d42629a7dc43c75235f4bc1fa0fc49aa1ad7a601880025f246c"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-22-1225614693.pdf",
+      "sha256": "643669dcbfed2540f7f27700ac32fbce05dea8494b0df55d54452a191b6e640d"
+    },
+    {
+      "path": "../../source-documents/Q3-2026-10-22-1225614694.pdf",
+      "sha256": "06e259768b6c98d90a8901c55f42c02610acfe9263008b8dd4e175eae7bbb1b0"
+    },
+    {
+      "path": "../../source-documents/Q3-market-2026-10-21.json",
+      "sha256": "0159f173b8e8fe6d29e5e4881344a0cd2b5a8b64d48656aaee4b65af82c75b57"
+    },
+    {
+      "path": "../../source-documents/market-price-2026-09-01.txt",
+      "sha256": "b4e9da9fa6f3c6f7062b4d93b36d9c9c3ba50f104c5a10a3bed361a7332a49ce"
+    },
+    {
+      "path": "../2026-09-02_v001_2026h1-initial/research-report.md",
+      "sha256": "49772e259565d23c3154889da1e2159950fe27f1946d113f9a78ea5c56aa887e"
+    }
+  ],
+  "mutable_navigation_links": [
+    "../index.md"
+  ]
+}

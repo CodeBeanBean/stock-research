@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "headline": "更新前已交付报告基线，原研究结论保留",
+  "security": "300144.SZ",
+  "currency": "CNY",
+  "price": 5.97,
+  "bear": 3.42,
+  "base": 5.36,
+  "bull": 7.74,
+  "conclusion": "中性偏谨慎",
+  "method": "70%正常化P/E+30%P/B",
+  "valuation_horizon": "2027/正常化，见原报告",
+  "key_points": [
+    "归母6/8/10亿元；PE14/18/22；PB1.4/1.8/2.2；股本26.08874798亿股。",
+    "基线按现存原报告及模型回溯整理，不代表2026-10-28重估。"
+  ],
+  "key_assumptions": [
+    "归母6/8/10亿元；PE14/18/22；PB1.4/1.8/2.2；股本26.08874798亿股。"
+  ],
+  "preparation": "retrospectively extracted",
+  "comparability_note": "旧稿显示精度保留；本版模型为原始匹配字节，不借用新数据。",
+  "report_sha256": "1bd96460ccfc4916b58ce81cf2843e97f47f35b858c93f0482b5c6e6bcbf4820",
+  "prepared_at_utc": "2026-10-28T02:23:45.325844+00:00",
+  "price_date": "2026-08-21"
+}
